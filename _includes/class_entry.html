@@ -1,0 +1,24 @@
+<div class="media">
+  <a class="pull-left" href="#">
+    <img class="media-object" width="64px" src="{{ entry.image }}">
+  </a>
+  <div class="media-body">
+    <h4 class="media-heading">
+      {% if entry.url %}
+      <a href="{{ entry.url }}">{{ entry.title }}</a>
+      {% else %}
+      {{ entry.title }}
+      {% endif %}
+      {% if entry.class %}
+      ({{ entry.class] }})
+      {% endif %}
+    </h4>
+    <p>
+      {{ entry.logistics] }}
+      {% if entry.prior %}<br/>{{ entry.prior }}{% endif %}
+    </p>
+    <p>
+      {{ entry.snippet }}
+    </p>
+  </div>
+</div>

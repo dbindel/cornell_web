@@ -1,0 +1,13 @@
+---
+title: Teaching
+layout: main
+---
+
+{% assign items = site.class_blurbs | sort: 'rank' %}
+{% for entry in items %}
+{%   include class_entry.html %}
+{% endfor %}
+
+<p>
+See <a href="/vita.html#teaching">here</a> for older courses.
+</p>

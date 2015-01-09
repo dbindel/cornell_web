@@ -1,0 +1,35 @@
+---
+title:  Research
+layout: main
+---
+
+<p>
+  I work in computational science and engineering, and my research mixes
+  software design, mathematical analysis, and application modeling.
+  This page is an introduction to some of my work -- I've left out older
+  projects, projects where there aren't any results yet, and projects
+  that can't readily be crammed into the listed categories.  
+  My CV gives a more complete list of talks and publications
+  (with hyperlinks).
+</p>
+
+<hr/>
+
+{% assign cutoff_date = '2010-01-01' %}
+{% assign sorted_blurbs = site.blurbs | sort: 'last_update' %}
+{% for entry in sorted_blurbs reversed %}
+{%   assign last_update = entry.last_update | date: '%Y-%m-%d' %}
+{%   if last_update >= cutoff_date %}
+{%     include blurb_entry.html %}
+{%   endif %}
+{% endfor %}
+
+<h2>Old projects</h2>
+
+{% assign sorted_blurbs = site.blurbs | sort: 'last_update' %}
+{% for entry in sorted_blurbs reversed %}
+{%   assign last_update = entry.last_update | date: '%Y-%m-%d' %}
+{%   if last_update < cutoff_date %}
+{%     include blurb_entry.html %}
+{%   endif %}
+{% endfor %}

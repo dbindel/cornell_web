@@ -1,0 +1,23 @@
+<div class="media">
+  <a class="pull-left" href="#">
+    <img class="media-object" width="64px" src="{{ entry.image }}">
+  </a>
+  <div class="media-body">
+    <h4 class="media-heading">
+      <a href="{{ entry.url }}">
+        {{ entry.title }}
+      </a>
+    </h4>
+    <p>
+      {{ entry.snippet] }}
+    </p>
+  </div>
+</div>
+{% if entry.latest %}
+<ul>
+  {% for ref in entry.latest %}
+  <li>{{ ref }}</li>
+  {% endfor %}
+</ul>
+{% endif %}
+<br/>

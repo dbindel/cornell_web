@@ -1,0 +1,60 @@
+---
+title: David Bindel
+layout: top
+---
+
+{% include dbindel_head.html %}
+
+<div class="row">
+
+  <!-- Col 1: News -->
+  <div class="span4">
+    <h2>News!</h2>
+
+    {% for entry in site.data.news limit:4 %}
+    {%   include news_entry.html %}
+    {% endfor %}
+
+    <br>
+    <p>
+      <a class="btn" href="/news.html">Older items &raquo;</a>
+    </p>
+  </div>
+
+  <!-- Col 2: Research -->
+  <div class="span4">
+    <h2>Research highlights</h2>
+
+    {% assign items = site.blurbs | sort: 'last_update' %}
+    {% assign counter = 0 %}
+    {% for entry in items reversed %}
+    {%   if counter < 4 %}
+    {%     include blurb_entry.html %}
+    {%   endif %}
+    {%   assign counter = counter | plus: 1 %}
+    {% endfor %}
+
+    <p>
+      <a class="btn" href="/research.html">More projects &raquo;</a>
+    </p>
+
+  </div>
+
+  <!-- Col 3: Teaching -->
+  <div class="span4">
+    <h2>Currently teaching</h2>
+
+    {% assign items = site.class_blurbs | sort: 'rank' %}
+    {% for entry in items %}
+    {%   if entry.display %}
+    {%     include class_entry.html %}
+    {%   endif %}
+    {% endfor %}
+    
+    <br>
+    <p>
+      <a class="btn" href="/teaching.html">More classes &raquo;</a>
+    </p>
+  </div>
+
+</div>
