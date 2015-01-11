@@ -1,7 +1,7 @@
 desc "Manage web site publication"
 
 # Settings
-dest = "/tmp/dsbpage"  # Destination
+dest = "/mnt/MyWeb"  # Destination
 
 # === Check hash version
 
@@ -40,6 +40,10 @@ task :build do
   end
 end
 
-task :deploy => [:build] do
+task :tidy do
+  `find _site -name \"*.html\" -exec tidy {} \;`
+end
+
+task :deploy => [:build, :tidy] do
   sh "rsync -avz _site/ #{dest}"
 end

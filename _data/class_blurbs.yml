@@ -3,7 +3,7 @@
   title: "Numerical Analysis: Linear and Nonlinear Problems"
   display: true
   image: cs07medium.jpg
-  url: /class/cs4220-s15/
+  #url: /class/cs4220-s15/
   logistics: |
     Spring 2015.  MWF 2:30-3:20 PM, Gates Hall G01.  
     See [enrollment notes][enroll] if you were unable to enroll in fall.
@@ -71,7 +71,7 @@
   image: chalkboard-04.png
   url:   http://www.math.cornell.edu/~scan
   logistics: |
-    Ongoing.  MWF, 1:25-2:15, Upson 315.
+    Ongoing.  M 1:25-2:15, Gates 406.
   snippet:
     The Scientific Computing and Numerics seminar series
     focuses on various methods in scientific computing,
