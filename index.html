@@ -8,7 +8,7 @@ layout: top
 <div class="row">
 
   <!-- Col 1: News -->
-  <div class="span4">
+  <div class="col-xs-12 cols-sm-12 col-md-4 col-lg-4">
     <h2>News!</h2>
 
     {% for entry in site.data.news limit:4 %}
@@ -22,7 +22,7 @@ layout: top
   </div>
 
   <!-- Col 2: Research -->
-  <div class="span4">
+  <div class="col-xs-12 cols-sm-12 col-md-4 col-lg-4">  
     <h2>Research highlights</h2>
 
     {% assign items = site.blurbs | sort: 'last_update' %}
@@ -41,7 +41,7 @@ layout: top
   </div>
 
   <!-- Col 3: Teaching -->
-  <div class="span4">
+  <div class="col-xs-12 cols-sm-12 col-md-4 col-lg-4">  
     <h2>Currently teaching</h2>
 
     {% assign items = site.class_blurbs | sort: 'rank' %}

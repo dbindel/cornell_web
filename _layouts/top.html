@@ -2,27 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
+    <title>{{ page.title }}</title>
 
-    <!-- Le styles -->
-    <link href="/bootstrap/css/bootstrap.css" rel="stylesheet">
-    <style type="text/css">
-      body {
-        padding-top: 60px;
-        padding-bottom: 40px;
-      }
-    </style>
-    <link href="/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/theme.css">
 
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="/bootstrap/js/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    
     <!-- mathjax config similar to math.stackexchange -->
     <script type="text/x-mathjax-config">
       MathJax.Hub.Config({
@@ -51,38 +46,39 @@
 
   </head>
 
-  <body>
+  <body role="document">
 
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-              {% if page.nav == "index" %}
-                <li class="active">
-              {% else %}
-                <li>
-              {% endif %}
-              <a class="brand" href="/index.html">David Bindel</a>
-              </li>
-              {% for link in site.data.navpages %}
-                {% if page.nav == link.link %}
-                  <li class="active">
-                {% else %}
-                  <li>
-                {% endif %}
-                <a href="/{{ link.link }}.html">
-                {{ link.name }}</a>
-                </li>
-              {% endfor %}
-              <li><a href="http://www.dbindel.net/">Blog</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/index.html">David Bindel</a>
         </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            {% for link in site.data.navpages %}
+            {% if page.nav == link.link %}
+            <li class="active">
+            {% else %}
+            <li>
+            {% endif %}
+            <a href="/{{ link.link }}.html">
+            {{ link.name }}</a>
+            </li>
+            {% endfor %}
+            <li><a href="http://www.dbindel.net/">Blog</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
       </div>
-    </div>
-
-    <div class="container">
+    </nav>
+    
+    <div class="container theme-showcase" role="main">
 
       {{ content }}
 
@@ -100,10 +96,8 @@
 
     </div> <!-- /container -->
 
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="/bootstrap/js/bootstrap.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
   </body>
 </html>
