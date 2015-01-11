@@ -44,7 +44,7 @@ layout: top
   <div class="col-xs-12 cols-sm-12 col-md-4 col-lg-4">  
     <h2>Currently teaching</h2>
 
-    {% assign items = site.class_blurbs | sort: 'rank' %}
+    {% assign items = site.data.class_blurbs %}
     {% for entry in items %}
     {%   if entry.display %}
     {%     include class_entry.html %}

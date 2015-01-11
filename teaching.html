@@ -3,7 +3,7 @@ title: Teaching
 layout: main
 ---
 
-{% assign items = site.class_blurbs | sort: 'rank' %}
+{% assign items = site.data.class_blurbs %}
 {% for entry in items %}
 {%   include class_entry.html %}
 {% endfor %}
