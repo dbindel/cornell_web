@@ -1,12 +1,13 @@
 ---
 title: Making grids smarter
 image: 320px-Power_Lines_in_Pacoima.jpg
-last_update: 2013-07-20
+last_update: 2015-01-06
 snippet:
   New algorithms for diagnosing line failures in a smart grid.
 latest:
-- <a href="#">Practical topology prediction using sparse PMUs</a>
-  (with Colin Ponce, submitted to IEEE TPS)
+- "<a href=\"http://arxiv.org/abs/1409.6644\">FLiER: Practical Topology
+  Error Correction Using Sparse PMUs</a>
+  (with Colin Ponce, submitted to IEEE TPS)"
 ---
 
 The power grid is changing, driven by many factors: the push to
