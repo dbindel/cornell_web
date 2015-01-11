@@ -1,86 +1,91 @@
 -
-  title: Applications of Parallel Computers 
-  class: CS 5220
-  kind:  classblurb
-  image: bluegene.jpg
-  url:   /class/cs5220-s14/
-  logistics: 
-      Spring 2014.  TR, 8:40-9:55, Philips 219.
-  prior:
-      See also 
-      <a href="http://www.cs.cornell.edu/~bindel/class/cs5220-f11">F11</a> 
-      and 
-      <a href="http://www.cs.cornell.edu/~bindel/class/cs5220-s10">S10</a>.
-  snippet:
-      Overview of high performance scientific computing.  Basics of
-      modern parallel machine design, parallel programming patterns,
-      and applications.  Programming projects will likely inspire
-      creative cursing, mostly due to the frustrations of parallel
-      profiling and debugging.
+  class: CS 4220/5223 / MATH 4260
+  title: "Numerical Analysis: Linear and Nonlinear Problems"
   display: true
--
-  title: Matrix Computations 
-  class: CS 6210
-  kind:  classblurb
-  image: GVL4.png
-  url:   /class/cs6210-f13/
-  logistics: 
-      Fall 2013.  MWF, 11:15-12:05, Upson 211.
-  prior:
-      See also
-      <a href="http://www.cs.cornell.edu/~bindel/class/cs6210-f12">F12</a>
-      and 
-      <a href="http://www.cs.cornell.edu/~bindel/cs6210-f09">F09</a>.
-  snippet:
-      Numerical linear algebra.  Basic theory, efficient
-      algorithms, and enough error analysis to avoid numerical
-      embarrassment (we hope)!  Direct and iterative methods for
-      linear systems, least squares, and eigenvalues.
--
-  title: Introduction to Scientific Computing
-  class: CS 3220
-  kind:  classblurb
   image: cs07medium.jpg
-  logistics: 
-      No longer offered;
-      CS <a href="http://courses.cornell.edu/preview_course_nopop.php?catoid=12&coid=90927">4210</a> /
-      <a href="http://courses.cornell.edu/preview_course_nopop.php?catoid=12&coid=90928">4220</a> 
-      are possible alternatives.
-  prior:
-      See also
-      <a href="http://www.cs.cornell.edu/~bindel/class/cs3220-s12">S12</a>
-      and <a
-      href="http://www.cs.cornell.edu/~bindel/class/cs3220-s11">S11</a>
-      offerings.
+  url: /class/cs4220-s15/
+  logistics: |
+    Spring 2015.  MWF 2:30-3:20 PM, Gates Hall G01.  
+    See [enrollment notes][enroll] if you were unable to enroll in fall.
+    
+    [enroll]: http://www.cs.cornell.edu/courseinfo/enrollment
   snippet:
-      Overview of scientific computing in MATLAB, from a user
-      perspective.  Error analysis basics, linear systems and least
-      squares, nonlinear equations, basic optimization, numerical
-      differentiation and quadrature, ODEs, and applications.
+    Fundamentals of numerical linear algebra (linear systems,
+    eigenvalues and SVDs), on which we'll build iterative methods
+    for nonlinear systems and multivariate optimization.
+    Understanding advantages, disadvantages, and practical limits of
+    numerical methods.  Programming required.
 -
-  title: SCAN Seminar 
+  class: CS 5220
+  title: Applications of Parallel Computers 
+  image: bluegene.jpg
+  logistics: |
+    Offered spring of even-number years (usually).  
+    See [S14][s14], [F11][f11], and [S10][s10].
+    
+    [s14]: http://www.cs.cornell.edu/~bindel/class/cs5220-f11      
+    [f11]: http://www.cs.cornell.edu/~bindel/class/cs5220-f11
+    [s10]: http://www.cs.cornell.edu/~bindel/class/cs5220-s10
+  snippet:
+    Overview of high performance scientific computing.  Basics of
+    modern parallel machine design, parallel programming patterns,
+    and applications.  Programming projects will likely inspire
+    creative cursing, mostly due to the frustrations of parallel
+    profiling and debugging.
+-
+  class: CS 6210
+  title: Matrix Computations 
+  image: GVL4.png
+  logistics: |
+    See [F13][f13], [F12][f12], and [F09][f09] offerings.
+
+    [f13]: http://www.cs.cornell.edu/~bindel/class/cs6210-f13
+    [f12]: http://www.cs.cornell.edu/~bindel/class/cs6210-f12
+    [f09]: http://www.cs.cornell.edu/~bindel/class/cs6210-f09    
+  snippet:
+    Numerical linear algebra.  Basic theory, efficient
+    algorithms, and enough error analysis to avoid numerical
+    embarrassment (we hope)!  Direct and iterative methods for
+    linear systems, least squares, and eigenvalues.
+-
+  class: CS 3220
+  title: Introduction to Scientific Computing
+  image: cs07medium.jpg
+  logistics: |
+    No longer offered; see [CS 4210][cs4210] and [CS 4220][cs4220].  
+    See [S12][s12] and [S11][s11] offerings.
+
+    [cs4210]: http://courses.cornell.edu/preview_course_nopop.php?catoid=12&coid=90927
+    [cs4220]: http://courses.cornell.edu/preview_course_nopop.php?catoid=12&coid=90928
+    [s12]: http://www.cs.cornell.edu/~bindel/class/cs3220-s12
+    [s11]: http://www.cs.cornell.edu/~bindel/class/cs3220-s11
+  snippet:
+    Overview of scientific computing in MATLAB, from a user
+    perspective.  Error analysis basics, linear systems and least
+    squares, nonlinear equations, basic optimization, numerical
+    differentiation and quadrature, ODEs, and applications.
+-
   class: CS/MATH 7290
-  kind:  classblurb
+  title: SCAN Seminar 
+  display: true
   image: chalkboard-04.png
   url:   http://www.math.cornell.edu/~scan
-  logistics: 
-      Ongoing.  MWF, 1:25-2:15, Upson 315.
+  logistics: |
+    Ongoing.  MWF, 1:25-2:15, Upson 315.
   snippet:
-      Numerical linear algebra.  Basic theory, efficient
-      algorithms, and enough error analysis to avoid numerical
-      embarrassment (we hope)!  Direct and iterative methods for
-      linear systems, least squares, and eigenvalues.
-  display: true
+    The Scientific Computing and Numerics seminar series
+    focuses on various methods in scientific computing,
+    the analysis of convergence properties and computational efficiency,
+    and their adaptation to specific applications.
 -
-  title: Projects 
   class: CS [45]999
-  kind:  classblurb
+  title: Projects 
+  display: true
   image: mortarboard-11.jpg
   url:   /meng.html
-  logistics: 
-      See my <a href="/meng.html">list of projects</a>!
+  logistics: |
+      See my [list of projects](/meng.html)!
   snippet:
       If nothing on the list appeals but you think you'd like to
       work with me on something, come knock on my door.
       I don't bite.
-  display: true

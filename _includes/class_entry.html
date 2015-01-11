@@ -10,15 +10,10 @@
       {{ entry.title }}
       {% endif %}
       {% if entry.class %}
-      ({{ entry.class] }})
+      ({{ entry.class }})
       {% endif %}
     </h4>
-    <p>
-      {{ entry.logistics] }}
-      {% if entry.prior %}<br/>{{ entry.prior }}{% endif %}
-    </p>
-    <p>
-      {{ entry.snippet }}
-    </p>
+    {{ entry.logistics | markdownify }}
+    {{ entry.snippet | markdownify }}
   </div>
 </div>
