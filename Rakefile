@@ -1,24 +1,45 @@
 desc "Manage web site publication"
 
+# Settings
+dest = "/tmp/dsbpage"  # Destination
+
+# === Check hash version
+
+def get_hash
+  File.file?(".rake-sha") ? File.open(".rake-sha", "r") { |f| f.read } : ""
+end
+
+def set_hash
+  head_sha = `git rev-parse HEAD`
+  File.open(".rake-sha", "w") { |f| f.write(head_sha) }
+  head_sha
+end
+
+def check_hash
+  sha0 = get_hash()
+  sha1 = set_hash()
+  sha0 == sha1
+end
+
+# ===
+
 task :serve do
   sh "jekyll serve"
 end
 
 task :clean do
   sh "rm -rf _site"
+  sh "rm -f .rake-sha"
 end
 
-task :check do
-  head_sha = `git rev-parse HEAD`
-  if File.file?(".rake-sha")
-    head_sha0 = File.open(".rake-sha", "r") { |f| f.read }
+task :build do
+  if check_hash()
+    puts("Already built")
   else
-    head_sha0 = ""
+    sh "jekyll build"
   end
-  File.open(".rake-sha", "w") { |f| f.write(head_sha) }
-  if head_sha == head_sha0
-    puts("Same hash")
-  else
-    puts("New hash")
-  end
+end
+
+task :deploy => [:build] do
+  sh "rsync -avz _site/ #{dest}"
 end

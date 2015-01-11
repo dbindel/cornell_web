@@ -1,8 +1,6 @@
 ---
 title: FEM for resonant MEMS
-kind:  blurb
-layout: blurb
-image: /pic/diskdie2.png
+image: diskdie2.png
 last_update: 2007-01-01
 snippet:
   Tools for simulating damping mechanisms in resonant microsystems.

@@ -1,8 +1,6 @@
 ---
 title: Scattering resonances
-kind:  blurb
-layout: blurb
-image: /pic/corral_top.jpg
+image: corral_top.jpg
 last_update: 2010-07-10
 snippet:
   Linear eigenproblems for standing waves;

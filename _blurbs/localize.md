@@ -1,8 +1,6 @@
 ---
 title: Nonlinear eigenvalue bounds
-kind:  blurb
-layout: blurb
-image: /pic/lambda.jpg
+image: lambda.jpg
 last_update: 2013-07-10
 snippet:
   Generalizing classic eigenvalue localization results

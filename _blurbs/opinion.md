@@ -1,8 +1,6 @@
 ---
 title: Opinions as game theory
-kind:  blurb
-layout: blurb
-image: /pic/metabolic.png
+image: metabolic.png
 last_update: 2012-07-01
 snippet:
   In the game of expressing our opinions, we all want to both follow

@@ -1,8 +1,6 @@
 ---
 title: Network tomography
-kind:  blurb
-layout: blurb
-image: /pic/network.png
+image: network.png
 last_update: 2009-12-01
 snippet:
   Inferring internal network state by measuring end-to-end paths.

@@ -1,8 +1,6 @@
 ---
 title: Continuing invariant subspaces
-kind:  blurb
-layout: blurb
-image: /pic/lambda.jpg
+image: lambda.jpg
 last_update: 2008-01-01
 snippet:
   If $A(s)$ is a parameter-dependent matrix, how do we compute

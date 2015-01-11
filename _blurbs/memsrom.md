@@ -1,8 +1,6 @@
 ---
 title: Model reduction for MEMS
-kind:  blurb
-layout: blurb
-image: /pic/bode2_final.png
+image: bode2_final.png
 last_update: 2007-09-01
 snippet:
   Simulating small devices using small models!

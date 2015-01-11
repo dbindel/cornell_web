@@ -1,8 +1,6 @@
 ---
 title: Making grids smarter
-kind:  blurb-to-be
-layout: blurb
-image: /pic/320px-Power_Lines_in_Pacoima.jpg
+image: 320px-Power_Lines_in_Pacoima.jpg
 last_update: 2013-07-20
 snippet:
   New algorithms for diagnosing line failures in a smart grid.

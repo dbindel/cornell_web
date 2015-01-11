@@ -1,8 +1,6 @@
 ---
 title: Declarative HPC
-kind:  blurb
-layout: blurb
-image: /pic/bluegene.jpg
+image: bluegene.jpg
 last_update: 2013-08-01
 snippet:
   Optimizing parallel code is hard -- so automate as much as possible.
