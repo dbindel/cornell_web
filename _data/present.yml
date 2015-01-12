@@ -1,0 +1,798 @@
+-
+  date: 2001-11
+  file: lapack/lapack-nov01.pdf
+  title: Simulating Microsystems
+  tags: [lapack, sugar, mems]
+  where: UC Berkeley LAPACK
+-
+  date: 2002-02
+  file: guest/guest-feb02.pdf
+  title: "SUGAR 3.0 and M&MEMS"
+  tags: [sugar, mems]
+  synopsis:
+    Slides for a short guest presentation -- no longer know where.
+    Describes the SUGAR web service.
+-
+  date: 2002-03
+  file: davis/davis-mar02.pdf
+  title: "Simulating MicroElectroMechanical Systems"
+  tags: [sugar, mems]
+  where: UC Davis
+  synopsis:
+    Presentation on SUGAR given at UC Davis.
+-
+  date: 2002-03
+  file: iab/iab-mar02.pdf
+  title: "Simulating MicroElectroMechanical Systems"
+  tags: [sugar, mems]
+  where: BSAC IAB meeting
+  synposis:
+    SUGAR tutorial given as part of the BSAC Industrial Advisory Board
+    meeting.
+-
+  date: 2002-04
+  file: msm/msm-apr02.pdf
+  title: "SUGAR: A MEMS Simulation Program"
+  tags: [sugar, mems]
+  where: MSM 2002
+  synposis:
+    Slides for a tutorial on SUGAR given at the 2002 Modeling and
+    Simulation of Microsystems conference.
+-
+  date: 2002-06
+  file: sun/sun-jun02.pdf
+  title: "SUGAR: A MEMS Simulation Program"
+  tags: [sugar, mems]
+  where: Sun Microsystems
+  synopsis:
+    Slides for a guest presentation at Sun Microsystems.
+-
+  date: 2002-10
+  file: lapack/lapack-oct02.pdf
+  title: "Refining Approximate Invariant Subspaces"
+  tags: [lapack, cis]
+  where: UC Berkeley LAPACK seminar
+  synposis:
+    An early CIS-related talk in the Berkeley LAPACK seminar.
+-
+  date: 2003-03
+  file: ptolemy/ptolemy-mar03.pdf
+  title: "SUGAR: Simulating MEMS"
+  tags: [sugar, mems]
+  where: UC Berkeley Ptolemy research group
+  synposis:
+    Guest presentation at the Ptolemy research group meeting.
+-
+  date: 2003-04
+  file: lapack/lapack-apr03.pdf
+  title: "Parameter-Dependent Eigencomputations and MEMS Applications"
+  tags: [lapack, cis, mems, rf-mems]
+  where: UC Berkeley LAPACK seminar
+  synposis:
+    CIS algorithm, Riemannian geometry, and examples from MEMS
+    resonator design and electrostatic pull-in analysis.
+-
+  date: 2003-06
+  file: matrix/matrix-jun03.pdf
+  title: "Linear Algebra for Network Loss Characterization"
+  tags: [lapack, tomography]
+  where: UC Berkeley LAPACK seminar
+  synposis:
+    An early talk on linear algebraic network tomography.
+-
+  date: 2003-07
+  file: siam/siam-jul03.pdf
+  where: SIAM Linear Algebra Meeting
+  title: Fast QR Iteration for Companion Matrices
+  tags: [companion]
+  synopsis:
+    Talk on finding roots of polynomials with fast QR.
+-
+  date: 2003-09
+  file: cheme/cheme-sep03.pdf
+  where: Reimer group meeting (UCB Chemical Engineering)
+  title: "Some Eigenvalue Computations: A Whirlwind Tour of Numerics"
+  synopsis:
+    A few slides on thinking about the sensitivity of eigenvalues
+    and roots of characteristic polynomials.
+-
+  date: 2003-09
+  file: lapack/lapack-sep09.pdf
+  where: UC Berkeley LAPACK seminar
+  title: A Fast Nonsymmetric Eigensolver for Structured Matrices
+  tags: [lapack, fast-qr]
+  synopsis:
+    Talk on finding roots of polynomials (and matrix polynomials) with fast QR.
+-
+  date: 2003-11
+  file: jim/jim-nov03.pdf
+  where: Meeting with Jim Demmel
+  tags: [mems, rf-mems, rom]
+  synopsis:
+    Two slides on checkerboard RF micromechanical resonators.
+-
+  date: 2004-03
+  file: bascd/bascd-mar04.pdf
+  where: Bay Area Scientific Computing Day
+  title: Simulating RF MEMS
+  tags: [sugar, mems, rf-mems, rom]
+  synopsis:
+    Overview of work on SUGAR, RF MEMS modeling, model reduction, and
+    mode tracking.
+-
+  date: 2004-03
+  file: lapack/lapack-mar04.pdf
+  where: UC Berkeley LAPACK Seminar
+  title: Linear Algebra for Network Loss Characterization
+  tags: [lapack, tomography]
+  synopsis:
+    Structure of network path matrices and structured factorization of same.
+-
+  date: 2004-04
+  file: imt/imt-apr04.pdf
+  title: Simulating RF MEMS
+  where: Talk for visit from Innovative Micro Technology
+  tags: [mems, rf-mems, rom]
+-
+  date: 2004-06
+  file: para/para-jun04.pdf
+  title: Reduced Order Models in Microsystems and RF MEMS
+  where: PARA 2004
+  tags: [mems, rf-mems, rom]
+-
+  date: 2004-07
+  file: qlab/qlab-jul04.pdf
+  title: QLab, PMLs, and resonator loss
+  where: UCB CS Prelim Exam
+  tags: [mems, rf-mems, pml, rom]
+-
+  date: 2004-07
+  file: siam/siam-jul04.pdf
+  title: Fast Hessenberg QR Iteration for Companion Matrices
+  where: SIAM Annual Meeting
+  tags: [fast-qr]
+-
+  date: 2004-11
+  file: nyu/nyu-nov04.pdf
+  title: "Computer-Aided Design of MEMS"
+  where: NYU Numerical Analysis Seminar
+  tags: [mems, rf-mems, pml, ted, rom]
+-
+  date: 2005-02
+  file: hiqlab/higlab-feb05.pdf
+  title: "HiQLab: Simulation of Resonant MEMS"
+  where: Tutorial talk at UC Berkeley
+  tags: [mems, rf-mems]
+-
+  date: 2005-03
+  file: citris/citris-mar05.pdf
+  title: "Tools for MEMS Simulation"
+  where: CITRIS Meeting
+  tags: [sugar, mems, rf-mems, pml]
+-
+  date: 2005-04
+  file: lapack/lapack-apr05.pdf
+  title: "Complex Symmetric Matrices"
+  where: UC Berkeley LAPACK Seminar
+  tags: [lapack, mems, rf-mems, pml]
+-
+  date: 2005-05
+  file: house/house-may05.pdf
+  title: "Continuation of Invariant Subspaces of Sparse Parameter-Dependent Matrices"
+  where: Householder Symposium
+  tags: [cis]
+-
+  date: 2005-07
+  file: siam/siam-jul05.pdf
+  title: Eigenproblems in Resonant MEMS Design
+  where: SIAM Annual Meeting
+  tags: [mems, rf-mems, pml, ted]
+-
+  date: 2005-07-usnccm
+  file: usnccm/usnccm-jul05.pdf
+  title: Elastic PMLs for Resonator Anchor Loss Simulation
+  where: US National Conference on Computational Mechanics
+  tags: [mems, rf-mems, pml]
+-
+  date: 2005-09
+  file: seminar/seminar-sep05.pdf
+  title: Simulating Losses in Resonant MEMS
+  where: UC Berkeley Applied Math Seminar
+  tags: [mems, rf-mems, pml]
+-
+  date: 2005-10
+  file: lapack/lapack-oct05.pdf
+  title: Inclusion Regions for Bifurcation Analysis
+  where: UC Berkeley LAPACK Seminar
+  tags: [cis, eigenbounds]
+-
+  date: 2006-01
+  file: sandia/sandia-jan06.pdf
+  title: Computer-Aided Design for Micro-Electro-Mechanical Systems
+  where: Sandia National Labs
+  tags: [job, mems, rf-mems, rom, pml]
+-
+  date: 2006-02
+  file: caltech
+  title: Computer-Aided Design for Micro-Electro-Mechanical Systems
+  where: Caltech CS Colloquium
+  tags: [job, mems, rf-mems, rom, pml]
+-
+  date: 2006-02
+  file: psu/psu-feb06.pdf
+  title: Computer-Aided Design for Micro-Electro-Mechanical Systems
+  where: Penn State University
+  tags: [job, mems, rf-mems, rom, pml]
+-
+  date: 2006-03
+  file: bascd/bascd-mar06.pdf
+  title: Computer-Aided Design for Micro-Electro-Mechanical Systems
+  where: Bay Area Scientific Computing Day
+  tags: [mems, rf-mems, rom, pml]
+-
+  date: 2006-03
+  file: davis/davis-mar06.pdf
+  title: Computer-Aided Design for Micro-Electro-Mechanical Systems
+  where: UC Davis CS Colloquium
+  tags: [job, mems, rf-mems, rom, pml]
+-
+  date: 2006-04
+  file: boulder/boulder-apr06.pdf
+  title: Computer-Aided Design for Micro-Electro-Mechanical Systems
+  where: UC Davis CS Colloquium
+  tags: [job, mems, rf-mems, rom, pml]
+-
+  date: 2006-04
+  file: lapack/lapack-apr06.pdf
+  title: Eigenvaues, Resonance Poles, and Damping in MEMS
+  where: UC Berkeley LAPACK Seminar
+  tags: [lapack, mems, rf-mems, pml, resonance]
+-
+  date: 2006-04
+  file: purdue/purdue-apr06.pdf
+  title: Computer-Aided Design for Micro-Electro-Mechanical Systems
+  where: Purdue CS
+  tags: [job, mems, rf-mems, rom, pml]
+-
+  date: 2006-05
+  file: abel/abel-may06.pdf
+  title: Modeling Resonant Microsystems
+  where: Abel Symposium
+  tags: [mems, rf-mems, rom, pml]
+-
+  date: 2006-05
+  file: berkeley/berkeley-may06.pdf
+  title: Computer-Aided Design for Micro-Electro-Mechanical Systems
+  where: Thesis talk, UC Berkeley CS
+  tags: [mems, rf-mems, rom, pml]  
+-
+  date: 2006-08
+  file: stanford/stanford-aug06.pdf
+  title: Spectral Inclusion Regions for Bifurcation Analysis
+  where: Stanford NA Seminar
+  tags: [eigenbounds]
+-
+  date: 2006-09
+  file: ci/ci-sep06.pdf
+  title: Simulating Microsystems
+  where: NYU Courant Instructor Day
+  tags: [mems, rf-mems, pml, resonance]  
+-
+  date: 2006-10
+  file: nyu/nyu-oct06.pdf
+  title: Spectral Inclusion Regions for Bifurcation Analysis
+  where: NYU NA Seminar
+  tags: [eigenbounds]
+-
+  date: 2007-02
+  file: siam-cse-a/siam-cse-feb07a.pdf
+  title: Model Reduction and Mode Computation for Damped Resonant MEMS
+  where: SIAM CSE
+  tags: [mems, rf-mems, pml, rom, ted]
+-
+  date: 2007-02
+  file: siam-cse-b/siam-cse-feb07b.pdf
+  title: Continuation of Sparse Eigendecompositions
+  where: SIAM CSE
+  tags: [cis]
+-
+  date: 2007-03
+  file: columbia/columbia-mar07.pdf
+  title: Computer-Aided Design for Micro-Electro-Mechanical Systems
+  where: Columbia Applied Math Colloquium
+  tags: [mems, rf-mems, rom, pml, ted]
+-
+  date: 2007-07
+  file: iciam/iciam-jul07.pdf
+  title:
+    Numerical and Semi-Analytical Structure-Preserving
+    Model Reduction for MEMS
+  where: ICIAM
+  tags: [mems, rf-mems, rom, pml, ted]
+-
+  date: 2007-07
+  file: usnccm/usnccm-jul07.pdf
+  title: Structure Preserving Model Reduction for Damped Resonant MEMS
+  where: USNCCM
+  tags: [mems, rf-mems, rom, pml, ted]
+-
+  date: 2007-09
+  file: enumath/enumath-sep09.pdf
+  title:
+    Numerical and Semi-Analytical Structure-Preserving
+    Model Reduction for MEMS
+  where: ICIAM
+  tags: [mems, rf-mems, rom, pml, ted]
+-
+  date: 2007-11
+  file: cornell/cornell-nov07.pdf
+  title: Computer-Aided Design for Micro-Electro-Mechanical Systems
+  where: Cornell CS Colloquium
+  tags: [job, mems, rf-mems, rom, pml]
+-
+  date: 2007-11
+  file: temple/temple-nov07.pdf
+  title: Computer-Aided Design for Micro-Electro-Mechanical Systems
+  where: Temple University NA Seminar
+  tags: [mems, rf-mems, rom, pml, ted]
+-
+  date: 2007-12
+  file: darpa/darpa-dec09.pdf
+  title:
+    Numerical and Semi-Analytical Structure-Preserving
+    Model Reduction for MEMS
+  where: DARPA MEMS/NEMS Workshop
+  tags: [mems, rf-mems, rom, pml, ted]
+-
+  date: 2008-01
+  file: rice/rice-jan08.pdf
+  title: Computer-Aided Design for Micro-Electro-Mechanical Systems
+  where: Rice University Applied Math Colloquium
+  tags: [mems, rf-mems, rom, pml, ted]
+-
+  date: 2008-02
+  file: mcgill/mcgill-feb08.pdf
+  title: Computer-Aided Design for Micro-Electro-Mechanical Systems
+  where: McGill NA Seminar
+  tags: [mems, rf-mems, rom, pml, ted]
+-
+  date: 2008-03
+  file: courant/courant-mar08.pdf
+  title: Damping Mechanisms in Resonant Microsystems
+  where: NYU Courant Materials Working Group
+  tags: [mems, rf-mems, rom, pml, ted]
+-
+  date: 2008-04
+  file: courant/courant-apr08.pdf
+  title: Finite Element Analysis of Human Bone Models
+  where: NYU Courant Biomath Lunch Seminar
+  tags: [bone]
+-
+  date: 2008-06
+  file: householder/householder-jun08.pdf
+  title: Error Bounds and Error Estimates for Nonlinear Eigenvalue Problems
+  where: Householder Symposium
+  tags: [eigenbounds, nep]
+-
+  date: 2008-06
+  file: householder-b/householder-jun08b.pdf
+  title: Computer-Aided Design for Micro-Electro-Mechanical Systems
+  where: Householder Symposium (Householder Award Talk)
+  tags: [mems, rf-mems, rom, pml, ted]
+-
+  date: 2008-10
+  file: banff/banff-oct08.pdf
+  title: Numerical Methods for Resonance Calculations
+  where: BIRS Resonance Workshop
+  tags: [mems, rf-mems, pml, nep, matscat, resonance]
+-
+  date: 2008-10
+  file: berkeley/berkeley-oct08.pdf
+  title: Bounds and Error Estimates for Nonlinear Eigenvalue Problems
+  where: Berkeley Applied Math Seminar
+  tags: [pml, nep, eigenbounds, matscat, resonance]
+-
+  date: 2008-11
+  file: mit/mit-nov08.pdf
+  title: Computer-Aided Design for Micro-Electro-Mechanical Systems
+  where: MIT Applied Math Colloquium
+  tags: [mems, rf-mems, rom, pml, ted]
+-
+  date: 2008-11
+  file: stanford/stanford-nov08.pdf
+  title: Computer-Aided Design for Micro-Electro-Mechanical Systems
+  where: Stanford LA/Opt Seminar
+  tags: [mems, rf-mems, rom, pml, ted]
+-
+  date: 2009-02
+  file: doe/doe-feb09.pdf
+  title: Resonance Computations
+  where: NYU DOE Site Visit
+  tags: [pml, nep, eigenbounds, matscat, resonance]
+-
+  date: 2009-03
+  file: courant/courant-mar09.pdf
+  title: Designing Linear Algebra for Multicore
+  where: NYU Manycore Reading Group
+  tags: [hpc]
+-
+  date: 2009-04
+  file: csplash/csplash-apr09.pdf
+  title: Keeping It (Approximately) Real
+  where: NYU cSplash (High School Math)
+  tags: [survey]
+-
+  date: 2009-07
+  file: msri/msri-jul09.pdf
+  title: Numerical Methods for Resonance Calculations
+  where: MSRI Workshop on Resonances
+  tags: [nep, eigenbounds, matscat, resonance]
+-
+  date: 2009-07
+  file: siam/siam-jul09.pdf
+  title: Bounds and Error Estimates for Resonance Problems
+  where: SIAM Annual Meeting
+  tags: [nep, eigenbounds, matscat, resonance, pml]
+-
+  date: 2009-09
+  file: brownbag/brownbag-sep09.pdf
+  title: Applications of Matrix Structure
+  where: Cornell CS Brownbag Seminar
+  tags: [tomography, mems, rsc, rf-mems]
+-
+  date: 2009-09
+  file: cornell-scan/scan-sep09.pdf
+  title: Numerical Analysis for Nonlinear Eigenvalue Problems
+  where: Cornell SCAN Seminar
+  tags: [pml, nep, eigenbounds, matscat, resonance]
+-
+  date: 2009-10
+  file: devices/devices-oct09.pdf
+  title: Computer-Aided Design for Micro-Electro-Mechanical Systems
+  where: Cornell Devices Seminar
+  tags: [mems, rf-mems, rom, pml, ted]
+-
+  date: 2009-10
+  file: nycam/nycam-oct09.pdf
+  title: Resonances and Nonlinear Eigenvalue Problems
+  where: NYCAM
+  tags: [nep, eigenbounds, matscat, resonance]
+-
+  date: 2009-11
+  file: sfu/sfu-nov09.pdf
+  title: Applications and Analysis of Nonlinear Eigenvalue Problems
+  where: Simon Fraser University NA Seminar
+  tags: [nep, eigenbounds, matscat, resonance, pml]
+-
+  date: 2010-03
+  file: cam-visit/visit-mar12.pdf
+  title: Computational Science and Engineering
+  where: Cornell CAM Visit Day
+  tags: [survey]
+-
+  date: 2010-03
+  file: cs-visit/visit-mar12.pdf
+  title: Scientific Computing Group
+  where: Cornell CS Visit Day
+  tags: [survey]
+-
+  date: 2010-04
+  file: bone/bone-apr10.pdf
+  title: Finite Element Software for Bone Deformation and Failure
+  where: BTHSCA1 Workshop, UCLA IPAM
+  tags: [bone]
+-
+  date: 2010-07
+  file: siam/siam-jul10.pdf
+  title: Structure-Preserving Model Reduction for MEMS Modeling
+  where: SIAM Annual Meeting
+  tags: [mems, rf-mems, rom, pml, ted]
+-
+  date: 2010-07
+  file: stewart/stewart-jul10.pdf
+  title: "Resonances: Interpretation, Computation, and Perturbation"
+  where: Workshop in honor of Pete Stewart at UT Austin
+  tags: [nep, eigenbounds, matscat, resonance]
+-
+  date: 2010-11
+  file: citi/citi-nov10.pdf
+  title: A CSE Sampler
+  where: Citigroup Visit to Cornell CS
+  tags: [survey]
+-
+  date: 2011-02
+  file: mae/mae-feb11.pdf
+  title: Computer-Aided Design for Micro-Electro-Mechanical Systems
+  where: Cornell MAE Colloquium
+  tags: [mems, rf-mems, rom, pml, ted]
+-
+  date: 2011-03
+  file: brownbag/brownbag-mar11.pdf
+  title: How to give a talk
+  where: Cornell Brownbag Seminar
+  tags: [survey]
+-
+  date: 2011-03
+  file: cam-visit/cam-mar11.pdf
+  title: A CSE Sampler
+  where: Cornell CAM Visit Day
+  tags: [survey]
+-
+  date: 2011-03
+  file: cs-visit/visit-mar11.pdf
+  title: Scientific Computing Group
+  where: Cornell CS Visit Day
+  tags: [survey]
+-
+  date: 2011-03
+  file: cse/cse-mar11.pdf
+  title: Structure-Preserving Model Reduction for MEMS
+  where: SIAM CSE Meeting
+  tags: [mems, rf-mems, rom, pml, ted, gyro]
+-
+  date: 2011-03
+  file: scan/scan-mar11.pdf
+  title: "Resonances: Interpretation, Computation, and Perturbation"
+  where: Cornell SCAN Seminar
+  tags: [nep, eigenbounds, matscat, resonance]
+-
+  date: 2011-04
+  file: nyu/nyu-apr11.pdf
+  title: Matrix Factorizations for Computer Network Tomography
+  where: NYU NA Seminar
+  tags: [tomography]
+-
+  date: 2011-04
+  file: nycam/nycam-apr11.pdf
+  title: Matrix Factorizations for Computer Network Tomography
+  where: NYCAM
+  tags: [tomography]
+-
+  date: 2011-05-dsrc
+  file: dsrc/dsrc-may11.pdf
+  title: Integrating Multiphysics and Multiscale Modeling Environment Together
+  where: DSRC Meeting, Alexandria
+  tags: [survey]
+-
+  date: 2011-07
+  file: householder/householder-jun11.pdf
+  title: Matrix Factorizations for Computer Network Tomography
+  where: Householder Symposium
+  tags: [tomography]
+-
+  date: 2011-07
+  file: iciam/iciam-jul11.pdf
+  title: Analyzing Resonances via Nonlinear Eigenvalues
+  where: ICIAM
+  tags: [nep, eigenbounds, matscat, resonance]
+-
+  date: 2011-09
+  file: scan/scan-sep11.pdf
+  title: Communities, Spectral Clustering, and Random Walks
+  where: Cornell SCAN Seminar
+  tags: [clustering, communities]
+-
+  date: 2011-10
+  file: scan/scan-oct10.pdf
+  title: "Efficient floating point: software and hardware"
+  where: Cornell SCAN Seminar
+  tags: [survey]
+-
+  date: 2011-11
+  file: brownbag/brownbag-nov11.pdf
+  title: Communities, Spectral Clustering, and Random Walks
+  where: Cornell Brownbag Seminar
+  tags: [clustering, communities]
+-
+  date: 2011-11
+  file: chicago/chicago-nov11.pdf
+  title: Communities, Spectral Clustering, and Random Walks
+  where: University of Chicago Scientific Computing Seminar
+  tags: [clustering, communities]
+-
+  date: 2012-03
+  file: cs-visit/visit-mar12.pdf
+  title: Scientific Computing Group
+  where: Cornell CS Visit Day
+  tags: [survey]
+-
+  date: 2012-03
+  file: darpa/darpa-mar12.pdf
+  title: Micro-Gyro Simulation and Modeling
+  where: DARPA Site Visit
+  tags: [mems, gyro]
+-
+  date: 2012-04
+  file: acsu/acsu-apr12.pdf
+  title: Why Eigenvalues?
+  where: Cornell ACSU Faculty Talk
+  tags: [survey]
+-
+  date: 2012-04
+  file: brownbag/brownbag-apr12.pdf
+  title: How To Give a Talk
+  where: Cornell Brownbag Seminar
+  tags: [survey]
+-
+  date: 2012-05
+  file: arpae/arpae-may12.pdf
+  title: From Network Tomography to Power Networks?
+  where: Cornell ARPAe Site Visit
+  tags: [tomography, grid]
+-
+  date: 2012-05
+  file: radiology/radiology-may12.pdf
+  title: A CSE Sampler
+  where: Cornell CS / Radiology Workshop
+  tags: [survey]
+-
+  date: 2012-07
+  file: darpa/darpa-jul07.pdf
+  title: "AxFEM: Micro-Gyro Simulation and Modeling"
+  where: DARPA MRIG Program Meeting
+  tags: [mems, gyro]
+-
+  date: 2012-07
+  file: mmds/mmds-jul07.pdf
+  title: Communities, Spectral Clustering, and Random Walks
+  where: MMDS
+  tags: [clustering, communities]
+-
+  date: 2012-09
+  file: fields/fields-sep12.pdf
+  title: Numerical Analysis of Resonances
+  where: Weyl at 100 Workshop (Fields Institute)
+  tags: [pml, nep, eigenbounds, matscat, resonance]
+-
+  date: 2012-10
+  file: nycam/nycam-oct12.pdf
+  title: From Networks to Numerical Linear Algebra
+  where: NYCAM
+  tags: [opinions]
+-
+  date: 2012-12
+  file: fist/fist-dec12.pdf
+  title: Computer Aided Design of Micro-Electro-Mechanical Systems
+  where: FIST Workshop at Shanghai Tech
+  tags: [mems, rf-mems, rom, pml, ted, gyro]  
+-
+  date: 2012-12
+  file: fudan/fudan-dec12.pdf
+  title: Computer Aided Design of Micro-Electro-Mechanical Systems
+  where:
+    SCMS Workshop on Recent Advances in Scientific Computing,
+    Fudan University
+  tags: [mems, rf-mems, rom, pml, ted, gyro]  
+-
+  date: 2013-01
+  file: cardiff/cardiff-jan13.pdf
+  title: Some perturbation theorems for nonlinear eigenvalue problems
+  where: Workshop on Dissipative Spectral Theory, Cardiff
+  tags: [nep, pml, eigenbounds, resonance, matscat]
+-
+  date: 2013-03
+  file: cs-visit/visit-mar13.pdf
+  title: Scientific Computing Group
+  where: Cornell CS Visit Day
+  tags: [survey]
+-
+  date: 2013-04
+  file: duke/duke-apr14.pdf
+  title: Computer Aided Design of Micro-Electro-Mechanical Systems
+  where: Civil Engineering Seminar at Duke
+  tags: [mems, rf-mems, rom, pml, ted, gyro]  
+-
+  date: 2013-04
+  file: materials/materials-apr13.pdf
+  title: "Baseline Techniques in My Group"
+  where: Cornell Materials by Design Group
+  tags: [survey]
+-
+  date: 2013-07
+  file: nd40/nd40-jul13.pdf
+  title:
+    An Efficient Solver for Sparse Linear Systems based on
+    Rank-Structured Cholesky Factorization
+  where: Workshop on Forty Years of Nested Dissection, University of Waterloo
+  tags: [rsc]
+-
+  date: 2013-10
+  file: tufts/tufts-oct13.pdf
+  title: Music of the Microspheres
+  where: Tufts/Schlumberger Scientific Computing Seminar
+  tags: [mems, gyro]
+-
+  date: 2013-11
+  file: brownbag/brownbag-nov13.pdf
+  title: A Tale of Two Eigenvalue Problems
+  where: Cornell Brownbag Seminar
+  tags: [mems, gyro, spechist]
+-
+  date: 2013-11
+  file: nycam/nycam-nov13.pdf
+  title: Spectral Densities and Social Networks
+  where: NYCAM
+  tags: [spechist]
+-
+  date: 2013-11
+  file: utrc/utrc-nov13.pdf
+  title: Music of the Microspheres
+  where: Seminar at UTRC
+  tags: [mems, gyro, survey]
+-
+  date: 2013-12
+  file: haym/haym-dec13.pdf
+  title: A Few of My Favorite Things
+  where: CIS Dean Research Chats
+  tags: [survey]
+-
+  date: 2014-01
+  file: umcp/umcp-jan14.pdf
+  title: Music of the Microspheres
+  where: UMCP NA Seminar
+  tags: [mems, gyro]
+-
+  date: 2014-02
+  file: brownbag/brownbag-feb14.pdf
+  title: How to give a talk
+  where: Cornell Brownbag Seminar
+  tags: [survey]
+-
+  date: 2014-02
+  file: cam-visit/cam-feb14.pdf
+  title: A Tale of Two Eigenvalue Problems
+  where: CAM Visit Day
+  tags: [survey]
+-
+  date: 2014-03-arpae
+  file: arpae/arpae-mar14.pdf
+  title: Grid Event Fingerprints and PMUs
+  where: Cornell ARPAe Site Visit
+  tags: [grid]
+-
+  date: 2014-04-manchester
+  file: manchester/manchester-apr14.pdf
+  title: Eigenvalue Localization and Applications
+  tags: [eigenbounds, nep]
+-
+  date: 2014-04
+  file: oxford/oxford-apr14.pdf
+  title: Music of the Microspheres
+  where: Oxford University NA Seminar
+  tags: [mems, gyro]
+-
+  date: 2014-05
+  file: nypa/nypa-may14.pdf
+  title: Application Directions
+  where: Meeting on Cloud Grid Efforts at NYPA
+  tags: [grid]
+-
+  date: 2014-06
+  file: householder/householder-jun14.pdf
+  title: Music of the Microspheres
+  where: Householder Symposium
+  tags: [mems, gyro]
+-
+  date: 2014-09
+  file: scan/scan-sep14.pdf
+  title: Radial Basis Function Interpolation with Bound Constraints
+  where: Cornell SCAN Seminar
+  tags: [rbf]
+-
+  date: 2014-09
+  file: gates/poster-flier.pdf
+  title: "FLiER: Practical Topology Error Correction using Sparse PMUs"
+  where: Cornell CS at 50, Gates Hall Open House Poster Session
+  tags: [grid]
+-
+  date: 2014-09
+  file: gates/poster-hrg.pdf
+  title: Music of the Microspheres
+  where: Cornell CS at 50, Gates Hall Open House Poster Session
+  tags: [mems, gyro]
+-
+  date: 2015-01
+  file: arpae/arpae-jan15.pdf
+  title: Grid Event Fingerprints and PMUs
+  where: Cornell ARPAe Site Visit
+  tags: [grid]

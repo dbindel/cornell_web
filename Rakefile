@@ -23,6 +23,18 @@ end
 
 # ===
 
+def update_present
+  require 'yaml'
+  talks = YAML.load_file("_data/present.yml")
+  sh "rm -rf _site/present"
+  sh "mkdir -p _site/present"
+  talks.each do |talk|
+    fname = "#{talk['date']}-#{talk['file']}"
+    fout = fname.sub('/', '_')
+    sh "ln -s #{Dir.home}/work/present/#{fname} _site/present/#{fout}"
+  end
+end
+
 task :serve do
   sh "jekyll serve"
 end
@@ -37,6 +49,7 @@ task :build do
     puts("Already built")
   else
     sh "jekyll build"
+    update_present()
   end
 end
 
