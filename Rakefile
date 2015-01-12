@@ -54,5 +54,5 @@ task :build do
 end
 
 task :deploy => [:build] do
-  sh "rsync -avz _site/ #{dest}"
+  sh "rsync -avzL _site/ #{dest}"
 end
