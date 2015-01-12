@@ -8,6 +8,7 @@ encoding: utf-8
 timezone: America/New_York
 
 exclude: ["Rakefile"]
+keep_files: ["present"]
 
 defaults:
   -
