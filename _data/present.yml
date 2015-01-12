@@ -97,7 +97,7 @@
     and roots of characteristic polynomials.
 -
   date: 2003-09
-  file: lapack/lapack-sep09.pdf
+  file: lapack/lapack-sep03.pdf
   where: UC Berkeley LAPACK seminar
   title: A Fast Nonsymmetric Eigensolver for Structured Matrices
   tags: [lapack, fast-qr]
@@ -159,7 +159,7 @@
   tags: [mems, rf-mems, pml, ted, rom]
 -
   date: 2005-02
-  file: hiqlab/higlab-feb05.pdf
+  file: hiqlab/hiqlab-feb05.pdf
   title: "HiQLab: Simulation of Resonant MEMS"
   where: Tutorial talk at UC Berkeley
   tags: [mems, rf-mems]
@@ -188,7 +188,7 @@
   where: SIAM Annual Meeting
   tags: [mems, rf-mems, pml, ted]
 -
-  date: 2005-07-usnccm
+  date: 2005-07
   file: usnccm/usnccm-jul05.pdf
   title: Elastic PMLs for Resonator Anchor Loss Simulation
   where: US National Conference on Computational Mechanics
@@ -317,7 +317,7 @@
   tags: [mems, rf-mems, rom, pml, ted]
 -
   date: 2007-09
-  file: enumath/enumath-sep09.pdf
+  file: enumath/enumath-sep07.pdf
   title:
     Numerical and Semi-Analytical Structure-Preserving
     Model Reduction for MEMS
@@ -337,7 +337,7 @@
   tags: [mems, rf-mems, rom, pml, ted]
 -
   date: 2007-12
-  file: darpa/darpa-dec09.pdf
+  file: darpa/darpa-dec07.pdf
   title:
     Numerical and Semi-Analytical Structure-Preserving
     Model Reduction for MEMS
@@ -423,7 +423,7 @@
   tags: [survey]
 -
   date: 2009-07
-  file: msri/msri-jul09.pdf
+  file: msri/msri-jul08.pdf
   title: Numerical Methods for Resonance Calculations
   where: MSRI Workshop on Resonances
   tags: [nep, eigenbounds, matscat, resonance]
@@ -471,7 +471,7 @@
   tags: [survey]
 -
   date: 2010-03
-  file: cs-visit/visit-mar12.pdf
+  file: cs-visit/visit-mar10.pdf
   title: Scientific Computing Group
   where: Cornell CS Visit Day
   tags: [survey]
@@ -537,7 +537,7 @@
   tags: [nep, eigenbounds, matscat, resonance]
 -
   date: 2011-04
-  file: nyu/nyu-apr11.pdf
+  file: courant/courant-apr11.pdf
   title: Matrix Factorizations for Computer Network Tomography
   where: NYU NA Seminar
   tags: [tomography]
@@ -548,7 +548,7 @@
   where: NYCAM
   tags: [tomography]
 -
-  date: 2011-05-dsrc
+  date: 2011-05
   file: dsrc/dsrc-may11.pdf
   title: Integrating Multiphysics and Multiscale Modeling Environment Together
   where: DSRC Meeting, Alexandria
@@ -573,7 +573,7 @@
   tags: [clustering, communities]
 -
   date: 2011-10
-  file: scan/scan-oct10.pdf
+  file: scan/scan-oct11.pdf
   title: "Efficient floating point: software and hardware"
   where: Cornell SCAN Seminar
   tags: [survey]
@@ -627,13 +627,13 @@
   tags: [survey]
 -
   date: 2012-07
-  file: darpa/darpa-jul07.pdf
+  file: darpa/darpa-jul12.pdf
   title: "AxFEM: Micro-Gyro Simulation and Modeling"
   where: DARPA MRIG Program Meeting
   tags: [mems, gyro]
 -
   date: 2012-07
-  file: mmds/mmds-jul07.pdf
+  file: mmds/mmds-jul12.pdf
   title: Communities, Spectral Clustering, and Random Walks
   where: MMDS
   tags: [clustering, communities]
@@ -677,7 +677,7 @@
   tags: [survey]
 -
   date: 2013-04
-  file: duke/duke-apr14.pdf
+  file: duke/duke-apr13.pdf
   title: Computer Aided Design of Micro-Electro-Mechanical Systems
   where: Civil Engineering Seminar at Duke
   tags: [mems, rf-mems, rom, pml, ted, gyro]  
@@ -744,13 +744,13 @@
   where: CAM Visit Day
   tags: [survey]
 -
-  date: 2014-03-arpae
+  date: 2014-03
   file: arpae/arpae-mar14.pdf
   title: Grid Event Fingerprints and PMUs
   where: Cornell ARPAe Site Visit
   tags: [grid]
 -
-  date: 2014-04-manchester
+  date: 2014-04
   file: manchester/manchester-apr14.pdf
   title: Eigenvalue Localization and Applications
   tags: [eigenbounds, nep]
@@ -762,7 +762,7 @@
   tags: [mems, gyro]
 -
   date: 2014-05
-  file: nypa/nypa-may14.pdf
+  file: nypa/nypa-may-14.pdf
   title: Application Directions
   where: Meeting on Cloud Grid Efforts at NYPA
   tags: [grid]
