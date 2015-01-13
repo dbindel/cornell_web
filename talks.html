@@ -13,15 +13,6 @@ js: [filtering.js]
 </ul>
 </div>
 
-<!--
-<div id="filters">
-  <span class="label label-primary"><a href="#" id="filter-all">all</a></span>
-  {% for tag in site.data.tags %}
-  <span class="label label-default"><a href="#" id="filter-{{ tag }}">{{ tag }}</a></span>
-  {% endfor %}
-</div>
--->
-
 {% assign pdate = "0000" %}
 {% for entry in site.data.present reversed %}
 {%   if entry.title %}
