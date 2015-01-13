@@ -6,6 +6,8 @@
   name: Research
 - link: teaching
   name: Teaching
+- link: talks
+  name: Talks
 - link: students
   name: Students
 - link: software
