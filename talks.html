@@ -1,30 +1,45 @@
 ---
 title: Talks
 layout: main
+js: [filtering.js]
 ---
+
+<div id="filters">
+<ul class="nav nav-tabs">
+  <li role="presentation" class="active"><a href="#" id="filter-all">all</a></li>
+  {% for tag in site.data.tags %}
+  <li role="presentation"><a href="#" id="filter-{{ tag }}">{{ tag }}</a></li>
+  {% endfor %}
+</ul>
+</div>
+
+<!--
+<div id="filters">
+  <span class="label label-primary"><a href="#" id="filter-all">all</a></span>
+  {% for tag in site.data.tags %}
+  <span class="label label-default"><a href="#" id="filter-{{ tag }}">{{ tag }}</a></span>
+  {% endfor %}
+</div>
+-->
 
 {% assign pdate = "0000" %}
 {% for entry in site.data.present reversed %}
 {%   if entry.title %}
-{%     assign d = entry.date | split: '-' %}
-{%     assign f = entry.file | split: '/' %}
-{%     if d[0] != pdate %}
-{%       assign pdate = d[0] %}
-{%       assign pmonth = 0 %}
-<h3>{{ d[0] }}</h3>
+{%     if entry.year != pdate %}
+{%       assign pdate = entry.year %}
+<div class="talk filter-all {% for tag in site.data.year_tags[entry.year] %} filter-{{ tag }}{% endfor %}">
+<h3>{{ entry.year }}</h3>
+</div>
 {%     endif %}
-{%     assign mnum = d[1] | times: 1 %}
-{%     assign mname = site.data.months.abbr[mnum] %}
-{%     assign tags = entry.tags %}
-<div class="{% for tag in tags %} tag-{{ tag }}{% endfor %}">
+<div class="talk filter-all {% for tag in entry.tags %} filter-{{ tag }}{% endfor %}">
   <div class="col-md-1">
-    {% if mnum != pmonth %}<h4><b>{{ mname }}</b></h4>{% endif %}
+    <h4><b>{{ entry.month_abbrev }}</b></h4>
   </div>
   <div class="col-md-11 well well-sm">
-    <h4><a href="present/{{entry.date}}-{{f[0]}}_{{f[1]}}">{{ entry.title }}</a></h4>
+    <h4><a href="present/{{entry.uid}}">{{ entry.title }}</a></h4>
     <p>
       {{ entry.where }}<br>
-      {% for tag in tags %} <span class="label label-primary">{{ tag }}</span>{% endfor %}
+      {% for tag in entry.tags %} <span class="label label-primary">{{ tag }}</span>{% endfor %}
     </p>
   </div>
 </div>
