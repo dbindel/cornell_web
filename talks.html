@@ -1,0 +1,33 @@
+---
+title: Talks
+layout: main
+---
+
+{% assign pdate = "0000" %}
+{% for entry in site.data.present reversed %}
+{%   if entry.title %}
+{%     assign d = entry.date | split: '-' %}
+{%     assign f = entry.file | split: '/' %}
+{%     if d[0] != pdate %}
+{%       assign pdate = d[0] %}
+{%       assign pmonth = 0 %}
+<h3>{{ d[0] }}</h3>
+{%     endif %}
+{%     assign mnum = d[1] | times: 1 %}
+{%     assign mname = site.data.months.abbr[mnum] %}
+{%     assign tags = entry.tags %}
+<div class="{% for tag in tags %} tag-{{ tag }}{% endfor %}">
+  <div class="col-md-1">
+    {% if mnum != pmonth %}<h4><b>{{ mname }}</b></h4>{% endif %}
+  </div>
+  <div class="col-md-11 well well-sm">
+    <h4><a href="present/{{entry.date}}-{{f[0]}}_{{f[1]}}">{{ entry.title }}</a></h4>
+    <p>
+      {{ entry.where }}<br>
+      {% for tag in tags %} <span class="label label-primary">{{ tag }}</span>{% endfor %}
+    </p>
+  </div>
+</div>
+{%     assign pmonth = mnum %}
+{%   endif %}
+{% endfor %}
