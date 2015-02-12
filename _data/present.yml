@@ -877,3 +877,9 @@
   title: Grid Event Fingerprints and PMUs
   where: Cornell ARPAe Site Visit
   tags: [grid]
+-
+  date: 2015-02
+  file: arpae/poster-flier.pdf
+  title: "FLiER: Practical Topology Error Correction Using Sparse PMUs"
+  where: ARPAe Innovation Summit, National Harbor, MD
+  tags: [grid]
