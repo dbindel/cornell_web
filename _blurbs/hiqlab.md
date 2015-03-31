@@ -22,7 +22,7 @@ changes due to processing variation) affect the device behavior.
 
 ### Links
 
-* ["Computer-Aided Design of MEMS."](present/stanford-nov08.pdf)
+* ["Computer-Aided Design of MEMS."]({{ site.baseurl }}/present/stanford-nov08.pdf)
   ICME Colloquium, Stanford University, November 2008.
 * David S. Bindel.
   [Structured and parameter-dependent eigensolvers for simulation-based
@@ -37,6 +37,6 @@ changes due to processing variation) affect the device behavior.
   damping in high frequency resonators][c6].  In _Proceedings of IEEE
   SENSORS 2005_, Irvine, CA, November 2005.
 
-  [d1]: http://www.eecs.berkeley.edu/Pubs/TechRpts/2006/EECS-2006-108.html
-  [4]: http://dx.doi.org/10.1002/nme.1394
-  [c6]: http://dx.doi.org/10.1109/ICSENS.2005.1597708
+[d1]: http://www.eecs.berkeley.edu/Pubs/TechRpts/2006/EECS-2006-108.html
+[4]: http://dx.doi.org/10.1002/nme.1394
+[c6]: http://dx.doi.org/10.1109/ICSENS.2005.1597708

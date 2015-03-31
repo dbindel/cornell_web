@@ -27,7 +27,7 @@ alternatives.
   for simulation-based design of resonant MEMS][d1].  Technical Report
   EECS-2006-108, UC Berkeley Computer Science Division, August 2006.
 * ["Numerical and Semi-Analytical Structure Preserving Model Reduction
-  for MEMS."](/present/enumath-sep07.pdf) ENUMATH 2007, September 2007.
+  for MEMS."]({{ site.baseurl }}/present/enumath-sep07.pdf) ENUMATH 2007, September 2007.
 * David S. Bindel, Zhaojun Bai, and James W. Demmel.  [Model reduction
   for RF MEMS simulation][c10].  In _Proceedings of PARA 04_, Lecture
   Notes in Computer Science.  Springer, June 2004.

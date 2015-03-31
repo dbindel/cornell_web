@@ -9,7 +9,7 @@ latest:
 - <a href="http://arxiv.org/abs/1303.4668">Localization results for
   nonlinear eigenvalue problems</a> (with Amanda Hood, submitted to
   SIMAX)
-- <a href="~bindel/present/siam-jul13.pdf">Nonlinear Gershgorin</a> talk at SIAM AN 13
+- <a href="{{ site.baseurl }}/present/siam-jul13.pdf">Nonlinear Gershgorin</a> talk at SIAM AN 13
 ---
 
  Let $T : \Omega \rightarrow \mathbb{C}^{n \times n}$ be a matrix-valued

@@ -5,7 +5,7 @@ last_update: 2013-07-20
 snippet:
   Moving toward pain-free fast direct sparse solvers for 3D PDEs.
 latest:
-- <a href="~bindel/present/nd40-jul13.pdf">Slides</a> from a workshop at Waterloo
+- <a href="{{ site.baseurl }}/present/nd40-jul13.pdf">Slides</a> from a workshop at Waterloo
   <a href="https://cs.uwaterloo.ca/conferences/nd40/index.shtml">Celebrating 
   40 Years of Nested Dissection</a> (with Jeff Chadwick).
 ---

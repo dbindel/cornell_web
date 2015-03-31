@@ -33,7 +33,8 @@ failed to compute a critical eigenvalue.
    [Modal Parameter Tracking for Shape Changing Objects][c1].
    In _Proceedings of DAFx 2007_, Bordeaux, France, September 2007.
 *  ["Continuation of Invariant Subspaces of Sparse Parameter-Dependent
-   Matrices."](/present/house-may05.pdf)  Householder meeting, May 2005.
+   Matrices."][hh]  Householder meeting, May 2005.
 
-  [1]: http://dx.doi.org/10.1137/060654219
-  [c1]: http://cnmat.berkeley.edu/publication/modal_parameter_tracking_shape_changing_geometric_objects
+[1]: http://dx.doi.org/10.1137/060654219
+[c1]: http://cnmat.berkeley.edu/publication/modal_parameter_tracking_shape_changing_geometric_objects
+[hh]: {{ site.baseurl }}/present/house-may05.pdf
