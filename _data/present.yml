@@ -883,3 +883,43 @@
   title: "FLiER: Practical Topology Error Correction Using Sparse PMUs"
   where: ARPAe Innovation Summit, National Harbor, MD
   tags: [grid]
+-
+  date: 2015-03
+  file: cs-visit/cs-visit-mar15.pdf
+  title: Music of the Microspheres
+  where: Cornell CS Visit Day
+  tags: [gyro, mems]
+-
+  date: 2015-03
+  file: scan/scan-mar15.pdf
+  title: Model Reduction for Edse-Weighted Personalized Page Rank
+  where: Cornell SCAN Seminar
+  tags: [pagerank]
+  type: seminar
+-
+  date: 2015-03
+  file: siam-cse/siam-cse-mar15.pdf
+  title: RBF Response Surfaces with Inequality Constraints
+  where: SIAM CSE
+  tags: [rbf]
+  type: minisymposium
+-
+  date: 2015-04
+  file: contest/contest-apr7.pdf
+  title: Computing pi: A Light Lunchtime Entertainment
+  where: Cornell University High School Programming Competition
+  tags: [survey]
+-
+  date: 2015-08
+  file: kdd-poster/poster-kdd-pr.pdf
+  title: "Edge-Weighted Personalized PageRank: Breaking a Decade-Old Performance Barrier"
+  where: KDD 2015 (poster session)
+  tags: [pagerank]
+  type: poster
+-
+  date: 2015-08
+  file: kdd-talk/kdd-aug15.pdf
+  title: "Edge-Weighted Personalized PageRank: Breaking a Decade-Old Performance Barrier"
+  tags: [pagerank]
+  where: KDD 2015
+  
