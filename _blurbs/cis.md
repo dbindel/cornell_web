@@ -1,7 +1,7 @@
 ---
 title: Continuing invariant subspaces
 image: lambda.jpg
-last_update: 2008-01-01
+last_update: 2014-01-01
 snippet:
   If $A(s)$ is a parameter-dependent matrix, how do we compute
   an invariant subspace basis $V(s)$?
@@ -26,6 +26,9 @@ failed to compute a critical eigenvalue.
 
 ### Links
 
+*  David Bindel, Mark J. Friedman, Willy Govaerts, J. Hughes, Yuri A. Kuznetsov.
+   [Numerical computation of bifurcations in large equilibrium systems in MATLAB][2].
+   _J. Computational Applied Mathematics_, 261: 232-248, 2014.
 *  David S. Bindel, James W. Demmel, and Mark Friedman.
    [Continuation of invariant subspaces in large bifurcation problems][1].
    _SIAM Journal on Scientific Computing_, 30(2): 637--656, 2008.
@@ -38,3 +41,4 @@ failed to compute a critical eigenvalue.
 [1]: http://dx.doi.org/10.1137/060654219
 [c1]: http://cnmat.berkeley.edu/publication/modal_parameter_tracking_shape_changing_geometric_objects
 [hh]: {{ site.baseurl }}/present/house-may05.pdf
+[2]: http://dx.doi.org/10.1016/j.cam.2013.10.034
