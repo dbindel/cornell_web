@@ -7,7 +7,9 @@ snippet:
 latest:
 - Xie, Bindel, Demers, and Gehrke.  <a
   href="http://dl.acm.org/citation.cfm?doid=2783258.2783278">Edge
-  Weighted Personalized PageRank</a> in KDD 2015.
+  Weighted Personalized PageRank</a> in KDD 2015 (Best Student
+  Paper!).
+- 
 - <a
   href="http://www.cs.cornell.edu/~bindel/present/2015-08-kdd-talk_kdd-aug15.pdf">Edge
   Weighted-Personalized PageRank</a> talk at KDD 2015.
