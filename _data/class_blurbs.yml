@@ -86,7 +86,7 @@
   image: mortarboard-11.jpg
   url:   meng.html
   logistics: |
-      See my [list of projects](~bindel/meng.html)!
+      See my [list of projects](/meng.html)!
   snippet:
       If nothing on the list appeals but you think you'd like to
       work with me on something, come knock on my door.
