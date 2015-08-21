@@ -7,7 +7,7 @@ layout: top
 
 <div class="row">
 
-  <div class="col-xs-12 cols-sm-12 col-md-6 col-lg-6">  
+  <div class="col-xs-12 cols-sm-12 col-md-6 col-lg-6">
     <h2>Research highlights</h2>
 
     {% assign items = site.blurbs | sort: 'last_update' %}
@@ -22,9 +22,10 @@ layout: top
     <p>
       <a class="btn" href="research.html">More projects &raquo;</a>
     </p>
+
   </div>
 
-  <div class="col-xs-12 cols-sm-12 col-md-6 col-lg-6">  
+  <div class="col-xs-12 cols-sm-12 col-md-6 col-lg-6">
     <h2>Currently teaching</h2>
 
     {% assign items = site.data.class_blurbs %}
@@ -33,11 +34,25 @@ layout: top
     {%     include class_entry.html %}
     {%   endif %}
     {% endfor %}
-    
+
     <br>
     <p>
       <a class="btn" href="teaching.html">More classes &raquo;</a>
     </p>
+
+    <h2>Upcoming travels</h2>
+
+    {% assign items = site.data.travel | sort: 'date' %}
+    {% assign today = site.time | date: "%s" %}
+    {% for entry in items %}
+    {%   assign entry_date = entry.date | date: "%s" %}
+    {%   if today < entry_date %}
+    <p class="handingindent">
+      <strong>{{ entry.date }}:</strong>
+      <a href="{{entry.url}}">{{ entry.text }}</a>
+    </p>
+    {%   endif %}
+    {% endfor %}
   </div>
 
 </div>
