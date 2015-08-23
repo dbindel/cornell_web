@@ -14,12 +14,13 @@ js: [filtering.js]
 {%     if year != pdate %}
 {%       if pdate != "0000" %}</div>{% endif %}
 {%       assign pdate = year %}
+{%       assign pmonth = "" %}
 <div class="filtering">
 <h3>{{ year }}</h3>
 {%     endif %}
 <div class="talk filter-all {% for tag in entry.tags %} filter-{{ tag }}{% endfor %}">
   <div class="col-md-1">
-    <h4><b>{{ entry.month_abbrev }}</b></h4>
+    {% if entry.month_abbrev != pmonth %}<h4><b>{{ entry.month_abbrev }}</b></h4>{% endif %}
   </div>
   <div class="col-md-11 well well-sm">
     <h4><a href="present/{{entry.uid}}">{{ entry.title }}</a></h4>
@@ -29,7 +30,7 @@ js: [filtering.js]
     </p>
   </div>
 </div>
-{%     assign pmonth = mnum %}
+{%     assign pmonth = entry.month_abbrev %}
 {%   endif %}
 {% endfor %}
 </div>
