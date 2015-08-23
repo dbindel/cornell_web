@@ -5,12 +5,6 @@ js: [filtering.js]
 ---
 
 <div id="filters">
-<ul class="nav nav-tabs">
-  <li role="presentation" class="active"><a href="#" id="filter-all">all</a></li>
-  {% for tag in site.data.tags %}
-  <li role="presentation"><a href="#" id="filter-{{ tag }}">{{ tag }}</a></li>
-  {% endfor %}
-</ul>
 </div>
 
 {% assign pdate = "0000" %}
