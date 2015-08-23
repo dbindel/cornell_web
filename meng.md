@@ -6,6 +6,8 @@ layout: main
 If you are interested in these projects, email me and we'll talk about
 it.  If you have a project idea of your own, we can talk about that, too.
 
+*COMING SOON:* These are still to be updated for the F15 semester!
+
 ## The CMS experiment
 
 The [Compact Muon Solenoid (CMS)][cms] experiment is a large particle
