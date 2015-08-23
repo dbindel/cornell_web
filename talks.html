@@ -4,17 +4,18 @@ layout: main
 js: [filtering.js]
 ---
 
-<div id="filters">
-</div>
+<div id="filters"></div>
 
 {% assign pdate = "0000" %}
 {% for entry in site.data.present reversed %}
 {%   if entry.title %}
-{%     if entry.year != pdate %}
-{%       assign pdate = entry.year %}
-<div class="talk filter-all {% for tag in site.data.year_tags[entry.year] %} filter-{{ tag }}{% endfor %}">
-<h3>{{ entry.year }}</h3>
-</div>
+{%     assign fdate = entry.date | append: "-01" %}
+{%     assign year = fdate | date: "%Y" %}
+{%     if year != pdate %}
+{%       if pdate != "0000" %}</div>{% endif %}
+{%       assign pdate = year %}
+<div class="filtering">
+<h3>{{ year }}</h3>
 {%     endif %}
 <div class="talk filter-all {% for tag in entry.tags %} filter-{{ tag }}{% endfor %}">
   <div class="col-md-1">
@@ -31,3 +32,4 @@ js: [filtering.js]
 {%     assign pmonth = mnum %}
 {%   endif %}
 {% endfor %}
+</div>

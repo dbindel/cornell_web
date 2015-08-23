@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    // Get list of filter classes (except all)
+    // Get global list of filter classes (except all)
     // c.f. http://bit.ly/1KdZKFR
     var classes = {};
     $(".filter-all").each(function() {
@@ -36,6 +36,22 @@ $(document).ready(function() {
     // Insert filter markup
     $("#filters").each(function(i,obj) { $(this).replaceWith(html); });
 
+    // Filter divs based on filter classes of children
+    $(".filtering").each(function(i,obj) {
+        console.log("Adding filters for " + $(this) + "\n");
+        var local_classes = {};
+        $(this).children(".filter-all").each(function() {
+            $($(this).attr('class').split(' ')).each(function() {
+                if (/^filter[-]/.test(this)) {
+                    local_classes[this] = this;
+                }
+            });
+        });
+        for (var c in local_classes) {
+            $(this).addClass(c);
+        }
+    });
+    
     // Implement client-side filtering
     $("body").on("click", "#filters a", function(e) {
         console.log("Handler called\n");
