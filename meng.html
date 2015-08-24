@@ -1,0 +1,25 @@
+---
+title: Projects
+layout: main
+js: [filtering.js]
+---
+
+<p>
+  I have more ideas than time, and am happy to share!  If you are
+  interested in these projects, email me and we'll talk about it.  If
+  you have a project idea of your own, we can talk about that, too.
+</p>
+
+<div id="filters"></div>
+
+{% for entry in site.data.meng %}
+<div class="filter-all {% for tag in entry.tags %} filter-{{ tag }}{% endfor %}">
+<hr/>
+<h3>{{ entry.title }}</h3>
+<p>
+{% for tag in entry.tags %} <span class="label label-primary">{{ tag }}</span>{% endfor %}
+</p>
+
+{{ entry.blurb | markdownify }}
+</div>
+{% endfor %}
