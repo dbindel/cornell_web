@@ -88,7 +88,7 @@
 -
   title: Network Classification via Spectral Features
   tags: [networks, eigen]
-  blurbs: |
+  blurb: |
     What distinguishes a citation network from a road network from a
     social network?  There are many potentially distinguishing
     features, such as degree distributions and triangle counts, but
@@ -156,7 +156,7 @@
 -
   title: Fast DNN+LR Projections
   tags: [eigen]
-  blurbs: |
+  blurb: |
     For a topic mining application (joint work with David Mimno),
     I am looking for a way to quickly project sparse matrices to the
     closest (low rank) doubly non-negative matrix -- that is, a matrix
