@@ -186,6 +186,44 @@
     You should have a course in numerical computing and some
     mathematical maturirity to take on this project.    
 -
+  title: Resonances in Quantum Graphs
+  tags: [physics, eigen]
+  blurb: |
+    A quantum graph is a graph with differential equations on the
+    edges and compatibility conditions at the nodes.  I am interested
+    in the case of infinite quantum graphs, where a local irregular
+    region (a scatterer) is surrounded by a regular lattice extending
+    off to infinity.  I want to build a tool that will compute the
+    spectral properties of such an object -- bound states and
+    resonance poles -- given a description of the far-field lattice
+    structure and the local irregular region.
+
+    You should have a course in differential equations and a course
+    in linear algebra to tackle this project, and ideally a course in
+    analysis and a course in numerics.  But if you don't have these
+    courses and think the project sounds fun anyhow, do come talk to me!
+-
+  title: Evans Functions and Nonlinear Eigenvalue Problems
+  tags: [physics, eigen]
+  blurb: |
+    The Evans function is a Wronskian-type construction that plays a
+    role similar to the characteristic polynomial in the
+    unbounded-domain spectral problems that arise in the analysis of
+    1D solitary wave stability.  This construction has been used
+    computationally to good effect for some problems; however, some
+    preliminary results (and analogy to more conventional eigenvalue
+    problems) suggests that this should be less numerically stable
+    than an alternate method based on a nonlinear eigenvalue computation.
+    I have coded variants of this before, and now have some nice theory
+    to back up my favored algorithm.  But I would love to have help in
+    doing a systematic comparison between my favored algorithm and methods
+    based on the Evans function.  Ideally, I would also love to have
+    a numerical error analysis of both methods, too.
+    
+    You should have a course in differential equations and a course
+    in linear algebra to tackle this project, and ideally a course in
+    analysis and a course in numerics.
+-
   title: Model Reduction of Buckling Lattices
   tags: [physics]
   blurb: |
