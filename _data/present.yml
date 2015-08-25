@@ -892,7 +892,7 @@
 -
   date: 2015-03
   file: scan/scan-mar15.pdf
-  title: Model Reduction for Edse-Weighted Personalized Page Rank
+  title: Model Reduction for Edge-Weighted Personalized Page Rank
   where: Cornell SCAN Seminar
   tags: [pagerank]
   type: seminar
