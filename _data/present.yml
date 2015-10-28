@@ -922,4 +922,25 @@
   title: "Edge-Weighted Personalized PageRank: Breaking a Decade-Old Performance Barrier"
   tags: [pagerank]
   where: KDD 2015
-  
+-
+  date: 2015-10
+  file: berkeley/berkeley-oct15.pdf
+  title: "Model Reduction for Edge-Weighted Personalized PageRank"
+  tags: [pagerank]
+  where: Berkeley Matrix Computations Seminar
+  type: seminar
+-
+  date: 2015-10
+  file: stanford/stanford-oct15.pdf
+  title: "Model Reduction for Edge-Weighted Personalized PageRank"
+  tags: [pagerank]
+  where: Stanford LA/Opt Seminar
+  type: seminar
+-
+  date: 2015-10
+  file: siam-prize/siam-prize-oct15.pdf
+  title: "Localizing Nonlinear Eigenvalue Problems: Theory and Applications"
+  tags: [nep]
+  where: SIAM LA 2015 (Prize Lecture)
+  type: invited
+
