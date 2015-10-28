@@ -940,7 +940,7 @@
   date: 2015-10
   file: siam-prize/siam-prize-oct15.pdf
   title: "Localizing Nonlinear Eigenvalue Problems: Theory and Applications"
-  tags: [nep]
+  tags: [nep, eigenbounds]
   where: SIAM LA 2015 (Prize Lecture)
   type: invited
 
