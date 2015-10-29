@@ -943,4 +943,10 @@
   tags: [nep, eigenbounds]
   where: SIAM LA 2015 (Prize Lecture)
   type: invited
-
+-
+  date: 2015-10
+  file: siam/siam-oct15.pdf
+  title: "An Efficient Solver for Sparse Linear Systems based on Rank-Structured Cholesky Factorization"
+  tags: [rsc]
+  where: SIAM LA 2015
+  type: minisymposium
