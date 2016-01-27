@@ -2,12 +2,16 @@
   class: CS 4220/5223 / MATH 4260
   title: "Numerical Analysis: Linear and Nonlinear Problems"
   image: cs07medium.jpg
-  url: class/cs4220-s15/
+  url: class/cs4220-s16/
+  display: true
   logistics: |
-    Spring 2015.  MWF 2:30-3:20 PM, Gates Hall G01.  
+    Spring 2016.  MWF 2:30-3:20 PM, Gates Hall G01.  
     See [enrollment notes][enroll] if you were unable to enroll in fall.
     
+    I also offered the [S15][s15] version.
+
     [enroll]: http://www.cs.cornell.edu/courseinfo/enrollment
+    [s15]: http://www.cs.cornell.edu/~bindel/class/cs4220-s15
   snippet:
     Fundamentals of numerical linear algebra (linear systems,
     eigenvalues and SVDs), on which we'll build iterative methods
@@ -19,7 +23,6 @@
   title: Applications of Parallel Computers 
   image: bluegene.jpg
   url:   http://cornell-cs5220-f15.github.io/
-  display: true
   logistics: |
     Offered spring of even-number years (usually).  
     See [F15][f15], [S14][s14], [F11][f11], and [S10][s10].
