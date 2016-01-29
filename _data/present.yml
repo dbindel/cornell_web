@@ -950,3 +950,16 @@
   tags: [rsc]
   where: SIAM LA 2015
   type: minisymposium
+-
+  date: 2015-12
+  file: dagstuhl/dagstuhl-dec15.pdf
+  title: "Grumbles of a Numerical Analyst"
+  tags: [survey]
+  where: Dagstuhl Seminar on Approximate and Probabilistic Computing
+-
+  date: 2016-01
+  file: cam/cam-jan16.pdf
+  title: "Nonlinear Eigenvalue Problems: Theory and Applications"
+  tags: [nep, eigenbounds]
+  where: Cornell Applied Math Colloquium
+  type: colloquium
