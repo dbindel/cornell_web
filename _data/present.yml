@@ -963,4 +963,11 @@
   tags: [nep, eigenbounds]
   where: Cornell Applied Math Colloquium
   type: colloquium
+-
+  date: 2016-02
+  file: scan/scan-feb16.pdf
+  title: "Understanding graphs through spectral densities"
+  tags: spechist
+  where: Cornell SCAN Seminar
+  type: seminar
 
