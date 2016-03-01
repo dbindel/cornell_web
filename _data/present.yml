@@ -970,4 +970,11 @@
   tags: [spechist]
   where: Cornell SCAN Seminar
   type: seminar
+-
+  date: 2016-03
+  file: arizona/arizona-mar16.pdf
+  title: "Nonlinear Eigenvalue Problems: Theory and Applications"
+  tags: [nep, eigenbounds]
+  where: University of Arizona Math Colloquium
+  type: colloquium
 
