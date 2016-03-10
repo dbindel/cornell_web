@@ -951,6 +951,12 @@
   where: SIAM LA 2015
   type: minisymposium
 -
+  date: 2015-11
+  file: brownbag/brownbag-nov15.pdf
+  title: How to give a talk
+  where: Cornell Brownbag Seminar
+  tags: [survey]
+-
   date: 2015-12
   file: dagstuhl/dagstuhl-dec15.pdf
   title: "Grumbles of a Numerical Analyst"
