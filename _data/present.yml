@@ -983,4 +983,17 @@
   tags: [nep, eigenbounds]
   where: University of Arizona Math Colloquium
   type: colloquium
-
+-
+  date: 2016-03
+  file: sanya/sanya-mar16.pdf
+  title: "An Efficient Solver for Sparse Linear Systems based on Rank-Structured Cholesky Factorization"
+  tags: [rsc]
+  where: TSIMF Workshop on Structured Matrix Computations with Applications
+  type: invited
+-
+  date: 2016-03
+  file: hkbu/hkbu-mar16.pdf
+  title: "Model Reduction for Edge-Weighted Personalized PageRank"
+  tags: [pagerank]
+  where: Hong Kong Baptist University
+  type: seminar
