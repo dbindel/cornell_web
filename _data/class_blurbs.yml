@@ -25,9 +25,10 @@
   url:   http://cornell-cs5220-f15.github.io/
   logistics: |
     Offered spring of even-number years (usually).  
-    See [F15][f15], [S14][s14], [F11][f11], and [S10][s10].
+    See F15 ([github][f15], [CU][f15cu]), [S14][s14], [F11][f11], and [S10][s10].
     
     [f15]: http://cornell-cs5220-f15.github.io/
+    [f15cu]: http://www.cs.cornell.edu/~bindel/class/cs5220-f15
     [s14]: http://www.cs.cornell.edu/~bindel/class/cs5220-s14
     [f11]: http://www.cs.cornell.edu/~bindel/class/cs5220-f11
     [s10]: http://www.cs.cornell.edu/~bindel/class/cs5220-s10
