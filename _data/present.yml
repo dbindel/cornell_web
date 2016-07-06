@@ -997,4 +997,16 @@
   tags: [pagerank]
   where: Hong Kong Baptist University
   type: seminar
-
+-
+  date: 2016-04
+  file: purdue/purdue-apr16.pdf
+  title: "Model Reduction for Edge-Weighted Personalized PageRank"
+  tags: [pagerank]
+  where: Purdue Computational and Applied Mathematics Seminar
+  type: seminar
+-
+  date: 2016-07
+  file: compsust/compsust-jul16.pdf
+  title: "Fast Fingerprints for Power System Events"
+  tags: [grid]
+  where: CompSustNet 2016 Workshop, Cornell University
