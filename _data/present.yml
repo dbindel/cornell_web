@@ -1022,4 +1022,10 @@
   title: "Celebrating Charlie"
   tags: [survey]
   where: SIAM Annual Meeting, Boston
-
+-
+  date: 2016-08
+  file: lbnl-aug16/lbnl-aug16.pdf
+  title: "Fast Fingerprints for Power System Events"
+  tags: [grid]
+  where: Lawrence Berkeley Lab
+  type: seminar
