@@ -35,4 +35,28 @@
   date: 2016-07-11
   text: SIAM Annual Meeting (AN16)
   url: http://www.siam.org/meetings/an16/
-
+-
+  date: 2016-08-01
+  text: Google Cloud Platform Faculty Institute
+-
+  date: 2016-08-04
+  text: Seminar at LBNL
+-
+  date: 2016-10-19
+  text: Seminar at Argonne
+-
+  date: 2017-02-27
+  text: SIAM Computational Science and Engineering (CSE17)
+  url: https://www.siam.org/meetings/cse17/
+-
+  date: 2017-06-18
+  text: Householder Symposium XX
+  url: http://www.math.vt.edu/HHXX/
+-
+  date: 2017-07-10
+  text: Foundations of Computational Math
+  url: http://www.ub.edu/focm2017/index.html
+-
+  date: 2018-05-04
+  text: SIAM Applied Linear Algebra (ALA18)
+  url: http://www.math.hkbu.edu.hk/siam-ala18/
