@@ -41,9 +41,10 @@
   class: CS 6210
   title: Matrix Computations 
   image: GVL4.png
-  url:   http://www.cs.cornell.edu/~bindel/class/cs6210-f16/
+  url:   class/cs6210-f16/
   display: true
   logistics: |
+    Fall 2016.  MWF 11:15-12:05 PM, Hollister Hall 310.  
     See also [F13][f13], [F12][f12], and [F09][f09] offerings.
 
     [f13]: http://www.cs.cornell.edu/~bindel/class/cs6210-f13
