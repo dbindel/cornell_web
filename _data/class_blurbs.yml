@@ -3,7 +3,6 @@
   title: "Numerical Analysis: Linear and Nonlinear Problems"
   image: cs07medium.jpg
   url: class/cs4220-s16/
-  display: true
   logistics: |
     Spring 2016.  MWF 2:30-3:20 PM, Gates Hall G01.  
     See [enrollment notes][enroll] if you were unable to enroll in fall.
@@ -42,8 +41,10 @@
   class: CS 6210
   title: Matrix Computations 
   image: GVL4.png
+  url:   http://www.cs.cornell.edu/~bindel/class/cs6210-f16/
+  display: true
   logistics: |
-    See [F13][f13], [F12][f12], and [F09][f09] offerings.
+    See also [F13][f13], [F12][f12], and [F09][f09] offerings.
 
     [f13]: http://www.cs.cornell.edu/~bindel/class/cs6210-f13
     [f12]: http://www.cs.cornell.edu/~bindel/class/cs6210-f12
