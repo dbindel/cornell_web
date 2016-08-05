@@ -1,6 +1,7 @@
 -
   title: CMS Experiment
   tags: [physics, web]
+  display: true
   blurb: |
     The [Compact Muon Solenoid (CMS)][cms] experiment is a large particle
     physics detector built on the Large Hadron Collidor at CERN.  At this
@@ -11,12 +12,13 @@
     to these projects.  If so, please contact Valentin Kuznetsov or Peter
     Wittich for further details -- but you can likely talk me into being
     your CS field representative.
-    
+
     [cms]: http://cms.web.cern.ch/
     [cmswiki]: https://wiki.classe.cornell.edu/CMS/CMSDataMining
 -
   title: Notebook Widgets for Simulation Steering and Monitoring
   tags: [tools, web]
+  display: true
   blurb: |
     Python has a long history as a system for steering large-scale
     physical simulations, and remains useful for this purpose today.
@@ -66,13 +68,13 @@
     what conditions can we efficiently characterize the distribution of
     the PageRank vector in such a graph?  I have some methods that may
     help make this efficient, but would love help working out the details.
-    
+
     To work on this course, you should have a good grounding in
     probability and at least the standard linear algebra course.
 -
   title: Optimizing social networks
   tags: [networks]
-  blurb: |    
+  blurb: |
     In a [recent paper](paper/focs11-opinions-full.pdf), Jon
     Kleinberg, Sigal Oren, and I studied social cost in a simple model
     of opinion formation in a social network.  As part of this
@@ -88,6 +90,7 @@
 -
   title: Network Classification via Spectral Features
   tags: [networks, eigen]
+  display: true
   blurb: |
     What distinguishes a citation network from a road network from a
     social network?  There are many potentially distinguishing
@@ -101,11 +104,11 @@
 
     To work on this project, you should have an undergrad course in
     linear algebra.  A course in scientific computing or machine
-    learning might also help, but is probably not strictly necessary.    
+    learning might also help, but is probably not strictly necessary.
 -
   title: Etch-a-sketch 3D
   tags: [physics, web]
-  blurb: |    
+  blurb: |
     Learn to build 3D visualizations using
     [XTK](https://github.com/xtk/X#readme),
     built on HTML5, SVG, and WebGL, and help me attach those simulations
@@ -150,12 +153,13 @@
     least in principle.  I would like to make a package for symbolic
     rounding error analysis, along with a set of demonstrations
     suitable for a first course in scientific computing.
-    
+
     To work on this project, you should have at least an introductory
     course in numerical analysis.
 -
   title: Fast DNN+LR Projections
   tags: [eigen]
+  display: true
   blurb: |
     For a topic mining application (joint work with David Mimno),
     I am looking for a way to quickly project sparse matrices to the
@@ -167,10 +171,11 @@
 
     For this project, you should probably have a good linear algebra
     class and prior exposure to gradient-based optimization methods.
-    And you'll need to remember your multivariate calculus.    
+    And you'll need to remember your multivariate calculus.
 -
   title: Preconditioning Radial Basis Functions with Clustered Centers
   tags: [rbf]
+  display: true
   blurb: |
     Radial basis function interpolation is a standard method of
     interpolating data in more than one space dimension.  It has many
@@ -184,10 +189,11 @@
     and would like help implementing it.
 
     You should have a course in numerical computing and some
-    mathematical maturirity to take on this project.    
+    mathematical maturirity to take on this project.
 -
   title: Resonances in Quantum Graphs
   tags: [physics, eigen]
+  display: true
   blurb: |
     A quantum graph is a graph with differential equations on the
     edges and compatibility conditions at the nodes.  I am interested
@@ -205,6 +211,7 @@
 -
   title: Evans Functions and Nonlinear Eigenvalue Problems
   tags: [physics, eigen]
+  display: true
   blurb: |
     The Evans function is a Wronskian-type construction that plays a
     role similar to the characteristic polynomial in the
@@ -219,13 +226,14 @@
     doing a systematic comparison between my favored algorithm and methods
     based on the Evans function.  Ideally, I would also love to have
     a numerical error analysis of both methods, too.
-    
+
     You should have a course in differential equations and a course
     in linear algebra to tackle this project, and ideally a course in
     analysis and a course in numerics.
 -
   title: Model Reduction of Buckling Lattices
   tags: [physics]
+  display: true
   blurb: |
     Three-dimensional printing lets us make elaborately
     microstructured materials, but our understanding of how to model
@@ -243,10 +251,11 @@
 
     You should have a course in numerical computing to tackle this
     project.  Prior exposure to finite element analysis or structural
-    analysis will also be helpful.    
+    analysis will also be helpful.
 -
   title: Response Surfaces for Structure Prediction
   tags: [physics, rbf]
+  display: true
   blurb: |
     [GASP](https://github.com/henniggroup/gasp) is a Genetic Algorithm
     for Structure and Phase Prediction that "predicts the structure

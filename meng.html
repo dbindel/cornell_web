@@ -12,7 +12,7 @@ js: [filtering.js]
 
 <div id="filters"></div>
 
-{% for entry in site.data.meng %}
+{% for entry in site.data.meng %}{% if entry.display %}
 <div class="filter-all {% for tag in entry.tags %} filter-{{ tag }}{% endfor %}">
 <hr/>
 <h3>{{ entry.title }}</h3>
@@ -22,4 +22,4 @@ js: [filtering.js]
 
 {{ entry.blurb | markdownify }}
 </div>
-{% endfor %}
+{% endif %}{% endfor %}
