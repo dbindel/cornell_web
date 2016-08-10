@@ -1,0 +1,249 @@
+phd:
+  -
+    first: David
+    last: Eriksson
+    field: Applied Math
+    topic: Surrogate optimization methods
+    reln: "Co-advised (secondary advisor: Christine Shoemaker)"
+  -
+    first: Kun
+    last: Dong
+    field: Applied Math
+  -
+    first: Eric
+    last: Lee
+    field: Computer Science
+    topic: Analysis of power grids
+  -
+    first: Moontae
+    last: Lee
+    field: Computer Science
+    reln: "Co-advised (primary advisor: David Mimno)"
+    topic: Spectral methods for topic models
+  -
+    first: Amanda
+    last: Hood
+    field: Applied Math
+    topic: Nonlinear eigenvalue problems
+  -
+    first: Colin
+    last: Ponce
+    field: Computer Science
+    grad: 2016
+    thesis:
+      title: Network-Structured Error Flattening for Power Grids and Other Real-World Network-Structured
+      url: https://ecommons.cornell.edu/handle/1813/44287
+  -
+    first: Erdal
+    last: Yilmaz
+    field: Applied and Engineering Physics
+    reln: Research advisor (formally advised by Richard Lovelace)
+    grad: 2016
+    thesis:
+      title: Design, Analysis and Simulation of Microscale Solid-Wave Gyroscopes
+      url: https://ecommons.cornell.edu/handle/1813/44307
+
+masters:
+  -
+    first: Batu
+    last: Inal
+    when: 2016
+    proj: Super Seminar Scraper
+    url: https://github.com/jl-git/talkstream
+  -
+    first: Sania
+    last: Nagpal
+    when: 2016
+    proj: Fast Trial Spaces for Parameterized PageRank Problems
+  -
+    first: Suarabh
+    last: Netravalkar
+    when: 2016
+    proj: Fast Trial Spaces for Parameterize PageRank Problems
+  -
+    first: Shitong
+    last: Jia
+    when: 2015
+    proj: Etch-a-Sketch 3D
+  -
+    first: Jing
+    last: Jing
+    when: 2015
+    proj: Super Seminar Scraper
+  -
+    first: Jiankun
+    last: Lu
+    when: 2015
+    proj: Super Seminar Scraper
+    url: https://github.com/jl-git/talkstream
+  -
+    first: Xiangyu
+    last: Zhang
+    when: 2015
+    proj: "Edge-Weighted Parameterized PageRank: A Demo"
+  -
+    first: Markus
+    last: Salasoo
+    when: 2015
+    proj: "Edge-Weighted Parameterized PageRank: A Demo"
+  -
+    first: Ziyang
+    last: Tang
+    when: 2015
+    proj: "Optimizing Price of Anarchy in a Model of Opinion Formation"
+  -
+    first: Jia
+    last: Zhang
+    when: 2015
+    proj: "Spectral Histograms on Networks"
+  -
+    first: Chen
+    last: Ting-Hao
+    when: 2013
+    proj: "MEMS Simulation as a Service"
+  -
+    first: Syed
+    last: Hassan
+    when: 2013
+    proj: "MEMS Simulation as a Service"
+  -
+    first: Kim
+    last: Young Jae
+    when: 2013
+    proj: "Teaching Support Vector Machines to Predict Profitable Stock Offers"
+  -
+    first: Jungmin
+    last: Yun
+    when: 2013
+    proj: Python Implementation of a Stochastic RBF Optimization Method
+  -
+    first: Jesseon
+    last: Chang
+    when: 2013
+    proj: Python Implementation of a Stochastic RBF Optimization Method
+  -
+    first: Chen-Yi
+    last: Chen
+    when: 2012
+    proj: A Flexible Interface to FEAP
+  -
+    first: Peter
+    last: Hunt
+    when: 2010
+    proj: Process Replication for HPC Applications
+  -
+    first: Silvio
+    last: Tarca
+    when: 2010
+    proj: Performance Optimization of Symmetric Factorization Algorithms
+
+ugrad:
+  -
+    first: Nathaniel
+    last: Rogalskyj
+    when: 2016
+    proj: "Identifying Network Changes from Ringdown Analysis"
+  -
+    first: Anna
+    last: Yesypenko
+    when: 2016
+    proj: Graph Analysis via Density of States
+  -
+    first: Moteleolu
+    last: Onabajo
+    when: 2016
+    proj: Graph Analysis via Density of States
+  -
+    first: Jianqiu
+    last: Wang
+    when: 2016
+    proj: Graph Analysis via Density of States
+  -
+    first: Humam
+    last: Alwassel
+    when: 2015
+    proj: "Automated Floating Point Error Analysis"
+    url: https://github.com/HumamAlwassel/FPEAnalysis
+  -
+    first: Patrick
+    last: Chen
+    when: 2015-16
+    proj: "Super Seminar Scraper"
+    url: https://github.com/pchen15/superscraper
+  -
+    first: Jooyoung
+    last: Park
+    when: 2015
+    proj: "Maximum Entropy Method Implementation in MATLAB"
+  -
+    first: Sheroze
+    last: Sherifdeen
+    when: 2015-16
+    proj: "MatScat for Python"
+    url: https://github.com/sheroze1123/MatScatPy
+  -
+    first: Nimit
+    last: Sohoni
+    when: 2015
+    proj: "Review of the FEAST Eigensolver"
+  -
+    first: Leon
+    last: Davis
+    when: 2015
+    proj: "Diagonal Completion for Low-Rank Matrices"
+  -
+    first: Greg
+    last: Rosenthal
+    when: 2015
+    proj: "PageRank with Random Edge Weights"
+  -
+    first: Eric
+    last: Ma
+    when: 2015
+    proj: "Graph Analysis via Spectral Histograms"
+  -
+    first: Brandon
+    last: Hartz
+    when: 2014
+    proj: "Fast PageRank on Parameter-Dependent Graphs"
+  -
+    first: Marshall
+    last: Jiang
+    when: 2014-15
+    proj: "Randomly Projected GMRES"
+  -
+    first: Kyu-Young
+    last: Kim
+    when: 2011-12
+    proj: "Evaluating Overlapping Community Detection via Matrix Factorizations"
+  -
+    first: Jiexun
+    last: Xu
+    when: 2008
+    proj: "Fast Factorizations for Network Tomography"
+  -
+    first: Iva
+    last: Vukicevic
+    when: 2008
+    proj: "Error Bounds and Estimates for a Discrete Sine-Gordon Equation"
+  -
+    first: Daniel
+    last: Parry
+    when: 2008
+    proj: "Bounds on Biased and Unbiased Random Walks"
+    url: https://www.rose-hulman.edu/mathjournal/archives/2009/vol10-n1/paper11/v10n1-11pd.pdf
+  -
+    first: Anwis
+    last: Davis
+    when: 2002
+    proj: "M&MEMS Web Service"
+  -
+    first: Ernest
+    last: Zhu
+    when: 2001
+    proj: "M&MEMS Web Service"
+  -
+    first: Wayne
+    last: Kao
+    when: 2001
+    proj: "M&MEMS Web Service"
