@@ -36,6 +36,73 @@
     To work on this project, it would probably be helpful to have
     some exposure to Python and Javascript.
 -
+  title: Jupyter Notebooks for Finite Element Analysis
+  tags: [tools, web]
+  display: true
+  blurb: |
+    [FEAPpv][feappv] is an educational version of the research finite
+    element code FEAP.  Some time ago, I built a
+    [MATLAB interface][matfeap] to FEAP, and a previous MEng student
+    also developed a Python translation of this interface.  For this
+    project, I would like to create a [Jupyter notebook][jupyter]
+    interface to FEAP and install it in a [Docker][docker] container
+    that can be run either locally or in the cloud.
+
+    To work on this project, it would be helpful to know something
+    about Python and a little about socket programming.  Familiarity
+    with finite element simulation or Fortran code is not a requirement
+    for the project.
+
+    [feappv]: http://www.ce.berkeley.edu/projects/feap/feappv/
+    [matfeap]: http://www.cs.cornell.edu/~bindel/sw/matfeap/
+    [jupyter]: http://jupyter.org/
+    [docker]: https://www.docker.com/
+-
+  title: Optimization with Pre-Emptible VMs
+  tags: [tools]
+  display: true
+  blurb: |
+    The [Google Cloud Platform][gcp] offers
+    [pre-emptible machine instances][preemptible] that can are
+    much less expensive than ordinary machine instances, but
+    may be interrupted at any time.  I would like help extending
+    the [POAP][poap] framework to support using these pre-emptible
+    instances for optimization with expensive function evaluations.
+
+    To work on this project, you would need to know Python.  Some
+    background in systems at the level of CS 4410 would also be
+    highly useful.
+
+    [gcp]: https://cloud.google.com/
+    [preemptible]: https://cloud.google.com/compute/docs/instances/preemptible
+    [poap]: https://pypi.python.org/pypi/POAP
+-
+  title: Resource-Coupled Evolutionary Games
+  tags: [eigen, games]
+  display: true
+  blurb: |
+    In [CS 4220][cs4220] in Spring 2016, I gave a [project][proj3]
+    involving a toy model in evolutionary game theory where different
+    types of species interact only through competition for a shared
+    resource.  The species in the model differ in both how efficiently
+    they use resources and in how quickly they can obtain those
+    resources.  Rather remarkably, equilibrium solutions for this type
+    of model can be written in terms of a *nonlinear eigenvalue problem*,
+    which makes them much easier to analyze than more general models.
+    Even the simple model we used in class shows some
+    interesting behavior; and since the class ended, we have been
+    thinking of several different variations on the model.  Come help
+    me explore these further!
+
+    To work on this project, it would be helpful to have some
+    mathematical maturity.  Prior exposure to dynamical systems
+    (or a good differential equations course), numerical methods,
+    and complex analysis would all be useful, though none are strictly
+    needed.
+
+    [cs4220]: http://www.cs.cornell.edu/~bindel/class/cs4220-s16/
+    [proj3]: http://www.cs.cornell.edu/~bindel/class/cs4220-s16/hw/proj3.pdf
+-
   title: Super Seminar Scraper
   tags: [tools, web]
   blurb: |
