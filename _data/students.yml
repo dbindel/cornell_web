@@ -131,6 +131,11 @@ masters:
     when: 2012
     proj: A Flexible Interface to FEAP
   -
+    first: Scott
+    last: Purdy
+    when: 2010
+    proj: Process Replication for HPC Applications
+  -
     first: Peter
     last: Hunt
     when: 2010
