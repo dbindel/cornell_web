@@ -5,10 +5,13 @@ phd:
     field: Applied Math
     topic: Surrogate optimization methods
     reln: "Co-advised (secondary advisor: Christine Shoemaker)"
+    url: https://people.cam.cornell.edu/~dme65/
   -
     first: Kun
     last: Dong
     field: Applied Math
+    topic: Spectral graph analysis
+    url: http://www.cam.cornell.edu/people/graduate-students.cfm?grad=1559&year=2016
   -
     first: Eric
     last: Lee
@@ -20,6 +23,7 @@ phd:
     field: Computer Science
     reln: "Co-advised (primary advisor: David Mimno)"
     topic: Spectral methods for topic models
+    url: http://www.cs.cornell.edu/~moontae/
   -
     first: Amanda
     last: Hood
@@ -29,19 +33,19 @@ phd:
     first: Colin
     last: Ponce
     field: Computer Science
-    grad: 2016
     thesis:
       title: Network-Structured Error Flattening for Power Grids and Other Real-World Network-Structured
       url: https://ecommons.cornell.edu/handle/1813/44287
+      year: 2016
   -
     first: Erdal
     last: Yilmaz
     field: Applied and Engineering Physics
     reln: Research advisor (formally advised by Richard Lovelace)
-    grad: 2016
     thesis:
       title: Design, Analysis and Simulation of Microscale Solid-Wave Gyroscopes
       url: https://ecommons.cornell.edu/handle/1813/44307
+      year: 2016
 
 masters:
   -
@@ -226,6 +230,7 @@ ugrad:
     last: Vukicevic
     when: 2008
     proj: "Error Bounds and Estimates for a Discrete Sine-Gordon Equation"
+    url: http://www.cims.nyu.edu/vigrenew/ug_research/Iva%20Vukicevic%20SURE%20Report.pdf
   -
     first: Daniel
     last: Parry
@@ -247,3 +252,267 @@ ugrad:
     last: Kao
     when: 2001
     proj: "M&MEMS Web Service"
+
+committees:
+  -
+    last: Booher
+    first: Nicholas
+    field: Computational Biology
+  -
+    last: Cheng
+    first: Yuan
+    field: Civil Engineering
+  -
+    last: Clawson
+    first: Zachary
+    field: Applied Math
+  -
+    last: Dong
+    first: Kun
+    field: Applied Math
+  -
+    last: Eriksson
+    first: David
+    field: Applied Math
+  -
+    last: Gilles
+    first: Marc
+    field: Applied Math
+  -
+    last: Guo
+    first: Jiayi
+    field: Operations Research
+  -
+    last: Hin
+    first: Matthew
+    field: Applied Math
+  -
+    last: Honrao
+    first: Shreyas
+    field: Material Science
+  -
+    last: Hood
+    first: Amanda
+    field: Applied Math
+  -
+    last: Joshi
+    first: Chaitali
+    field: Physics
+  -
+    last: Lee
+    first: Moontae
+    field: Computer Science
+  -
+    last: Meyer
+    first: Michael
+    field: Computational Biology
+  -
+    last: Nicholson
+    first: William
+    field: Statistics
+  -
+    last: Revard
+    first: Benjamin
+    field: Material Science
+  -
+    last: Rojas
+    first: Enrique
+    field: Atmospheric Science
+  -
+    last: Saroukhani
+    first: Sepehr
+    field: Civil Engineering
+  -
+    last: Savva
+    first: Nicholas
+    field: Computer Science
+  -
+    last: Shen
+    first: Zhengdi
+    field: Applied Math
+  -
+    last: Toscano
+    first: Saul
+    field: Operations Research
+  -
+    last: Wang
+    first: Sheng
+    field: Mechanical Engineering
+
+past_committees:
+  -
+    last: Wilson
+    first: Kyle
+    field: Applied Math
+    thesis:
+      title: Robustly Modeling The World From Photos
+      url: https://ecommons.cornell.edu/handle/1813/44330
+      year: 2016
+  -
+    last: Toupo
+    first: Danielle
+    field: Applied Math
+    thesis:
+      title: Nonlinear Dynamics Of Cycles In Evolutionary Games
+      url: https://ecommons.cornell.edu/handle/1813/44296
+      year: 2016
+  -
+    last: Ponce
+    first: Colin
+    field: Computer Science
+    thesis:
+      title: Network-Structured Error Flattening For Power Grids And Other Real-World Networks
+      url: https://ecommons.cornell.edu/handle/1813/44287
+      year: 2016
+  -
+    last: Yilmaz
+    first: Erdal
+    field: Applied and Engineering Physics
+    thesis:
+      title: Design, Analysis And Simulation Of Microscale Solid-Wave Gyroscopes
+      url: https://ecommons.cornell.edu/handle/1813/44307
+      year: 2016
+  -
+    last: Chen
+    first: Shuo
+    field: Computer Science
+    thesis:
+      title: Representation Learning For Sequence And Comparison Data
+      url: https://ecommons.cornell.edu/handle/1813/43697
+      year: 2016
+  -
+    last: Diaz
+    first: Manuel
+    field: Civil Engineering
+    thesis:
+      title: A Modified Error In Constitutive Equation Approach For Viscoelasticity Imaging With Interior Data
+      url: https://ecommons.cornell.edu/handle/1813/39382
+      year: 2015
+  -
+    last: Sukheswalla
+    first: Parvez
+    field: Mechanical Engineering
+    thesis:
+      title: Computational Investigation Of The Dynamics Of Inertial Particles In Homogeneous Turbulent Shear Flow
+      url: https://ecommons.cornell.edu/handle/1813/40699
+      year: 2015
+  -
+    last: Park
+    first: Hyung Joo
+    field: Applied Math
+    thesis:
+      title: Topics In Structure Determination Of Submicron Sized Objects
+      url: https://ecommons.cornell.edu/handle/1813/40931
+      year: 2015
+  -
+    last: Xie
+    first: Wenlei
+    field: Computer Science
+    thesis:
+      title: Iterative Graph Computation In The Big Data Era
+      url: https://ecommons.cornell.edu/handle/1813/41169
+      year: 2015
+  -
+    last: Zou
+    first: Tao
+    field: Computer Science
+    thesis:
+      title: Optimizing Response Time For Distributed Applications In Public Clouds
+      url: https://ecommons.cornell.edu/handle/1813/39473
+      year: 2015
+  -
+    last: Rayadhurgam
+    first: Santoshkalyan
+    field: Chemical Engineering
+    thesis:
+      title: Computational Study Of Charge Conducting Spacer Molecules In Leadchalcogenide Quantum Dots
+      url: https://ecommons.cornell.edu/handle/1813/40713
+      year: 2015
+  -
+    last: Adimulam
+    first: Shashank
+    field: Electrical Engineering
+    thesis:
+      title: Hardware Model Of A Mixed Radix Fast Fourier Transform For LTE 3Gpp
+      url: https://ecommons.cornell.edu/handle/1813/41016
+      year: 2015
+  -
+    last: Fegely
+    first: Laura
+    field: Electrical Engineering
+    thesis:
+      title: "Goblits To OMG: 3D Fabrication Techniques For An Opto-Mechanical Gyroscope"
+      url: https://ecommons.cornell.edu/handle/1813/36113
+      year: 2014
+  -
+    last: Warner
+    first: James
+    field: Civil Engineering
+    thesis:
+      title: Advances In Uncertainty Quantification And Inverse Problems In Computational Mechanics
+      url: https://ecommons.cornell.edu/handle/1813/37169
+      year: 2014
+  -
+    last: Chacon
+    first: Adam
+    field: Applied Math
+    thesis:
+      title: "Eikonal Equations: New Two-Scale Algorithms And Error Analysis"
+      url: https://ecommons.cornell.edu/handle/1813/36002
+      year: 2014
+  -
+    last: Sabelli
+    first: Anthony
+    field: Applied Math
+    thesis:
+      title: Novel Methods For Source Localization And Material Identification
+      url: https://ecommons.cornell.edu/handle/1813/33808
+      year: 2013
+  -
+    last: Bilionis
+    first: Ilias
+    field: Applied Math
+    thesis:
+      title: Bayesian Methods For Uncertainty Quantification
+      url: https://ecommons.cornell.edu/handle/1813/34013
+      year: 2013
+  -
+    last: Wang
+    first: Guozhang
+    field: Computer Science
+    thesis:
+      title: Automatic Scaling Iterative Computations
+      url: https://ecommons.cornell.edu/handle/1813/34246
+      year: 2013
+  -
+    last: Chadwick
+    first: Jeffrey
+    field: Computer Science
+    thesis:
+      title: Sound Synthesis For Physics-Based Computer Animation
+      url: https://ecommons.cornell.edu/handle/1813/34272
+      year: 2013
+  -
+    last: Rowinski
+    first: David
+    field: Mechanical Engineering
+    thesis:
+      title: Calculations Of Turbulent Reacting Flows Using PDF Methods
+      url: https://ecommons.cornell.edu/handle/1813/33840
+      year: 2013
+  -
+    last: Kaushik
+    first: Ananth
+    field: Chemical Engineering
+    thesis:
+      title: "A Computational Study Of The Molecular And Electronic Structure Of Self-Assembled Nanocrystal Superlattices"
+      url: https://ecommons.cornell.edu/handle/1813/33916
+      year: 2013
+  -
+    last: Peterson
+    first: Ryan
+    field: Computer Science
+    thesis:
+      title: Efficient Content Distribution With Managed Swarms
+      url: https://ecommons.cornell.edu/handle/1813/29173
+      year: 2012
