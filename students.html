@@ -9,11 +9,12 @@ layout: main
 {% for student in site.data.students.phd %}{% capture name %}{{ student.first }} {{ student.last }}{% endcapture %}
 <tr>
   <td>
-    {% if student.url %}<a href="{{ student.url }}">{{ name }}</a>{% else %}{{ name }}{% endif %}
-    <br/>{{ student.field }}
+    {% if student.url %}<a href="{{ student.url }}">{{ name }}</a>{% else %}{{ name }}{% endif %}<br/>
+    {{ student.field }}{% if student.thesis %}<br/>
+    Ph.D., {{ student.thesis.year }}{% endif %}
   </td>
   <td>
-    {% if student.thesis %}<a href="{{ student.thesis.url }}">{{ student.thesis.title }}</a> ({{ student.thesis.year }}){% else %}{{ student.topic }}{% endif %}
+    {% if student.thesis %}<a href="{{ student.thesis.url }}">{{ student.thesis.title }}</a>{% else %}{{ student.topic }}{% endif %}
     {% if student.reln %}<br/>{{ student.reln }}{% endif %}
   </td>
 </tr>
@@ -25,9 +26,14 @@ layout: main
 <table class="table table-striped">
 {% for student in site.data.students.masters %}{% capture name %}{{ student.first }} {{ student.last }}{% endcapture %}
 <tr>
-  <td>{{ name }}</a></td>
   <td>
-    {% if student.url %}<a href="{{ student.url }}">{{ student.proj }}</a>{% else %}{{ student.proj }}{% endif %} ({{ student.when }})
+    {{ name }}</a><br/>
+    {{ student.field }}<br/>
+    {{ site.data.students.degrees[student.degree] }},
+    {{ student.grad }}
+  </td>
+  <td>
+    {% if student.url %}<a href="{{ student.url }}">{{ student.proj.title }}</a>{% else %}{{ student.proj.title }}{% endif %}
   </td>
 </tr>
 {% endfor %}
@@ -61,11 +67,12 @@ layout: main
 {% for student in site.data.students.past_committees %}{% capture name %}{{ student.first }} {{ student.last }}{% endcapture %}
 <tr>
   <td>
-    {% if student.url %}<a href="{{ student.url }}">{{ name }}</a>{% else %}{{ name }}{% endif %}
-    <br/>{{ student.field }}
+    {% if student.url %}<a href="{{ student.url }}">{{ name }}</a>{% else %}{{ name }}{% endif %}<br/>
+    {{ student.field }}<br/>
+    {{ site.data.students.degrees[student.degree] }}, {{ student.thesis.year }}
   </td>
   <td>
-    {% if student.thesis %}<a href="{{ student.thesis.url }}">{{ student.thesis.title }}</a> ({{ student.thesis.year }}){% else %}{{ student.topic }}{% endif %}
+    {% if student.thesis %}<a href="{{ student.thesis.url }}">{{ student.thesis.title }}</a>{% else %}{{ student.topic }}{% endif %}
     {% if student.reln %}<br/>{{ student.reln }}{% endif %}
   </td>
 </tr>

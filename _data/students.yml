@@ -1,3 +1,8 @@
+degrees:
+  phd: "Ph.D."
+  meng: "M.Eng."
+  ms: "M.S."
+
 phd:
   -
     first: David
@@ -40,7 +45,7 @@ phd:
   -
     first: Erdal
     last: Yilmaz
-    field: Applied and Engineering Physics
+    field: Applied Physics
     reln: Research advisor (formally advised by Richard Lovelace)
     thesis:
       title: Design, Analysis and Simulation of Microscale Solid-Wave Gyroscopes
@@ -49,102 +54,187 @@ phd:
 
 masters:
   -
+    degree: meng
     first: Batu
     last: Inal
-    when: 2016
-    proj: Super Seminar Scraper
-    url: https://github.com/jl-git/talkstream
+    field: Computer Science
+    grad: 2016
+    proj:
+      title: Super Seminar Scraper
+      url: https://github.com/jl-git/talkstream
+      when: 2016
   -
+    degree: meng
     first: Sania
     last: Nagpal
-    when: 2016
-    proj: Fast Trial Spaces for Parameterized PageRank Problems
+    field: Computer Science
+    grad: 2016
+    proj:
+      title: Fast Trial Spaces for Parameterized PageRank Problems
+      when: 2016
   -
+    degree: meng
     first: Suarabh
     last: Netravalkar
-    when: 2016
-    proj: Fast Trial Spaces for Parameterize PageRank Problems
+    field: Computer Science
+    grad: 2016
+    proj:
+      title: Fast Trial Spaces for Parameterize PageRank Problems
+      when: 2016
   -
+    degree: meng
     first: Shitong
     last: Jia
-    when: 2015
-    proj: Etch-a-Sketch 3D
+    grad: 2016
+    field: Computer Science
+    proj:
+      title: Etch-a-Sketch 3D
+      when: 2015
   -
+    degree: meng
     first: Jing
     last: Jing
-    when: 2015
-    proj: Super Seminar Scraper
+    grad: 2016
+    field: Computer Science
+    proj:
+      title: Super Seminar Scraper
+      when: 2015
   -
+    degree: meng
     first: Jiankun
     last: Lu
-    when: 2015
-    proj: Super Seminar Scraper
-    url: https://github.com/jl-git/talkstream
+    grad: 2016
+    field: Computer Science
+    proj:
+      title: Super Seminar Scraper
+      url: https://github.com/jl-git/talkstream
+      when: 2015
   -
+    degree: meng
     first: Xiangyu
     last: Zhang
-    when: 2015
-    proj: "Edge-Weighted Parameterized PageRank: A Demo"
+    field: Computer Science
+    grad: 2016
+    proj:
+      title: "Edge-Weighted Parameterized PageRank: A Demo"
+      when: 2015
   -
+    degree: meng
     first: Markus
     last: Salasoo
-    when: 2015
-    proj: "Edge-Weighted Parameterized PageRank: A Demo"
+    field: Computer Science
+    grad: 2016
+    proj:
+      title: "Edge-Weighted Parameterized PageRank: A Demo"
+      when: 2015
   -
+    degree: meng
     first: Ziyang
     last: Tang
-    when: 2015
-    proj: "Optimizing Price of Anarchy in a Model of Opinion Formation"
+    field: Computer Science
+    grad: 2016
+    proj:
+      title: "Optimizing Price of Anarchy in a Model of Opinion Formation"
+      when: 2015
   -
+    degree: meng
     first: Jia
     last: Zhang
-    when: 2015
-    proj: "Spectral Histograms on Networks"
+    field: Computer Science
+    grad: 2016
+    proj:
+      title: "Spectral Histograms on Networks"
+      when: 2015
   -
+    degree: meng
+    first: Xiaoan
+    last: Yan
+    field: Computer Science
+    grad: 2015
+    proj:
+      title: "Edge-Weighted Parameterized PageRank: A Demo"
+      when: 2014
+  -
+    degree: meng
     first: Chen
     last: Ting-Hao
-    when: 2013
-    proj: "MEMS Simulation as a Service"
+    field: Electrical Engineering
+    grad: 2013
+    proj:
+      title: "MEMS Simulation as a Service"
+      when: 2012
   -
+    degree: meng
     first: Syed
     last: Hassan
-    when: 2013
-    proj: "MEMS Simulation as a Service"
+    field: Computer Science
+    grad: 2013
+    proj:
+      title: "MEMS Simulation as a Service"
+      when: 2013
   -
+    degree: meng
     first: Kim
     last: Young Jae
-    when: 2013
-    proj: "Teaching Support Vector Machines to Predict Profitable Stock Offers"
+    field: Computer Science
+    grad: 2013
+    proj:
+      title: "Teaching Support Vector Machines to Predict Profitable Stock Offers"
+      when: 2013
   -
+    degree: meng
     first: Jungmin
     last: Yun
-    when: 2013
-    proj: Python Implementation of a Stochastic RBF Optimization Method
+    field: Computer Science
+    grad: 2012
+    proj:
+      title: Python Implementation of a Stochastic RBF Optimization Method
+      when: 2012
   -
+    degree: meng
     first: Jesseon
     last: Chang
-    when: 2013
-    proj: Python Implementation of a Stochastic RBF Optimization Method
+    field: Computer Science
+    grad: 2012
+    proj:
+      title: Python Implementation of a Stochastic RBF Optimization Method
+      when: 2012
   -
+    degree: meng
     first: Chen-Yi
     last: Chen
-    when: 2012
-    proj: A Flexible Interface to FEAP
+    field: Computer Science
+    grad: 2012
+    proj:
+      title: A Flexible Interface to FEAP
+      when: 2012
   -
+    degree: meng
     first: Scott
     last: Purdy
-    when: 2010
-    proj: Process Replication for HPC Applications
+    field: Computer Science
+    grad: 2010
+    proj:
+      title: Process Replication for HPC Applications
+      when: 2010
   -
+    degree: meng
     first: Peter
     last: Hunt
-    when: 2010
-    proj: Process Replication for HPC Applications
+    field: Computer Science
+    grad: 2010
+    proj:
+      title: Process Replication for HPC Applications
+      when: 2010
   -
+    degree: ms
     first: Silvio
     last: Tarca
-    when: 2010
-    proj: Performance Optimization of Symmetric Factorization Algorithms
+    field: Scientific Computing (NYU)
+    grad: 2010
+    proj:
+      title: Performance Optimization of Symmetric Factorization Algorithms
+      when: 2010
 
 ugrad:
   -
@@ -260,92 +350,114 @@ ugrad:
 
 committees:
   -
+    degree: phd
     last: Booher
     first: Nicholas
     field: Computational Biology
   -
+    degree: phd
     last: Cheng
     first: Yuan
     field: Civil Engineering
   -
+    degree: phd
     last: Clawson
     first: Zachary
     field: Applied Math
   -
+    degree: phd
     last: Dong
     first: Kun
     field: Applied Math
   -
+    degree: phd
     last: Eriksson
     first: David
     field: Applied Math
   -
+    degree: phd
     last: Gilles
     first: Marc
     field: Applied Math
   -
+    degree: phd
     last: Guo
     first: Jiayi
     field: Operations Research
   -
+    degree: phd
     last: Hin
     first: Matthew
     field: Applied Math
   -
+    degree: phd
     last: Honrao
     first: Shreyas
     field: Material Science
   -
+    degree: phd
     last: Hood
     first: Amanda
     field: Applied Math
   -
+    degree: phd
     last: Joshi
     first: Chaitali
     field: Physics
   -
+    degree: phd
     last: Lee
     first: Moontae
     field: Computer Science
   -
+    degree: phd
     last: Meyer
     first: Michael
     field: Computational Biology
   -
+    degree: phd
     last: Nicholson
     first: William
     field: Statistics
   -
+    degree: phd
     last: Revard
     first: Benjamin
     field: Material Science
   -
+    degree: phd
     last: Rojas
     first: Enrique
     field: Atmospheric Science
   -
+    degree: phd
     last: Saroukhani
     first: Sepehr
     field: Civil Engineering
   -
+    degree: ms
     last: Savva
     first: Nicholas
     field: Computer Science
   -
+    degree: phd
     last: Shen
     first: Zhengdi
     field: Applied Math
   -
+    degree: phd
     last: Toscano
     first: Saul
     field: Operations Research
   -
+    degree: phd
     last: Wang
     first: Sheng
     field: Mechanical Engineering
 
 past_committees:
   -
+    degree: phd
     last: Wilson
     first: Kyle
     field: Applied Math
@@ -354,6 +466,7 @@ past_committees:
       url: https://ecommons.cornell.edu/handle/1813/44330
       year: 2016
   -
+    degree: phd
     last: Toupo
     first: Danielle
     field: Applied Math
@@ -362,6 +475,7 @@ past_committees:
       url: https://ecommons.cornell.edu/handle/1813/44296
       year: 2016
   -
+    degree: phd
     last: Ponce
     first: Colin
     field: Computer Science
@@ -370,6 +484,7 @@ past_committees:
       url: https://ecommons.cornell.edu/handle/1813/44287
       year: 2016
   -
+    degree: phd
     last: Yilmaz
     first: Erdal
     field: Applied and Engineering Physics
@@ -378,6 +493,7 @@ past_committees:
       url: https://ecommons.cornell.edu/handle/1813/44307
       year: 2016
   -
+    degree: phd
     last: Chen
     first: Shuo
     field: Computer Science
@@ -386,6 +502,7 @@ past_committees:
       url: https://ecommons.cornell.edu/handle/1813/43697
       year: 2016
   -
+    degree: phd
     last: Diaz
     first: Manuel
     field: Civil Engineering
@@ -394,6 +511,7 @@ past_committees:
       url: https://ecommons.cornell.edu/handle/1813/39382
       year: 2015
   -
+    degree: phd
     last: Sukheswalla
     first: Parvez
     field: Mechanical Engineering
@@ -402,6 +520,7 @@ past_committees:
       url: https://ecommons.cornell.edu/handle/1813/40699
       year: 2015
   -
+    degree: phd
     last: Park
     first: Hyung Joo
     field: Applied Math
@@ -410,6 +529,7 @@ past_committees:
       url: https://ecommons.cornell.edu/handle/1813/40931
       year: 2015
   -
+    degree: phd
     last: Xie
     first: Wenlei
     field: Computer Science
@@ -418,6 +538,7 @@ past_committees:
       url: https://ecommons.cornell.edu/handle/1813/41169
       year: 2015
   -
+    degree: phd
     last: Zou
     first: Tao
     field: Computer Science
@@ -426,6 +547,7 @@ past_committees:
       url: https://ecommons.cornell.edu/handle/1813/39473
       year: 2015
   -
+    degree: ms
     last: Rayadhurgam
     first: Santoshkalyan
     field: Chemical Engineering
@@ -434,6 +556,7 @@ past_committees:
       url: https://ecommons.cornell.edu/handle/1813/40713
       year: 2015
   -
+    degree: ms
     last: Adimulam
     first: Shashank
     field: Electrical Engineering
@@ -442,6 +565,7 @@ past_committees:
       url: https://ecommons.cornell.edu/handle/1813/41016
       year: 2015
   -
+    degree: phd
     last: Fegely
     first: Laura
     field: Electrical Engineering
@@ -450,6 +574,7 @@ past_committees:
       url: https://ecommons.cornell.edu/handle/1813/36113
       year: 2014
   -
+    degree: phd
     last: Warner
     first: James
     field: Civil Engineering
@@ -458,6 +583,7 @@ past_committees:
       url: https://ecommons.cornell.edu/handle/1813/37169
       year: 2014
   -
+    degree: phd
     last: Chacon
     first: Adam
     field: Applied Math
@@ -466,6 +592,7 @@ past_committees:
       url: https://ecommons.cornell.edu/handle/1813/36002
       year: 2014
   -
+    degree: phd
     last: Sabelli
     first: Anthony
     field: Applied Math
@@ -474,6 +601,7 @@ past_committees:
       url: https://ecommons.cornell.edu/handle/1813/33808
       year: 2013
   -
+    degree: phd
     last: Bilionis
     first: Ilias
     field: Applied Math
@@ -482,6 +610,7 @@ past_committees:
       url: https://ecommons.cornell.edu/handle/1813/34013
       year: 2013
   -
+    degree: phd
     last: Wang
     first: Guozhang
     field: Computer Science
@@ -490,6 +619,7 @@ past_committees:
       url: https://ecommons.cornell.edu/handle/1813/34246
       year: 2013
   -
+    degree: phd
     last: Chadwick
     first: Jeffrey
     field: Computer Science
@@ -498,6 +628,7 @@ past_committees:
       url: https://ecommons.cornell.edu/handle/1813/34272
       year: 2013
   -
+    degree: phd
     last: Rowinski
     first: David
     field: Mechanical Engineering
@@ -506,6 +637,7 @@ past_committees:
       url: https://ecommons.cornell.edu/handle/1813/33840
       year: 2013
   -
+    degree: phd
     last: Kaushik
     first: Ananth
     field: Chemical Engineering
@@ -514,6 +646,7 @@ past_committees:
       url: https://ecommons.cornell.edu/handle/1813/33916
       year: 2013
   -
+    degree: phd
     last: Peterson
     first: Ryan
     field: Computer Science
