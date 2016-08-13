@@ -1,0 +1,343 @@
+awards:
+  -
+    name: Middleware Best Student Paper
+    paper: 2015-middleware
+    year: 2015
+  -
+    name: KDD Best Student Paper
+    paper: 2015-kdd
+    year: 2015
+  -
+    name: SIGEST Featured Paper
+    paper: 2015-sirev
+    desc: Featured paper in SIAM Review from specialist journals on a rotating basis
+    year: 2015
+  -
+    name: SIAG/LA Prize
+    paper: 2013-simax
+    desc: Awarded once every three years for the best applied linear algebra journal paper.
+    year: 2015
+  -
+    name: Douglas Whitney Award
+    desc: Awarded annually to a Cornell Engineering faculty for teaching excellence.
+    year: 2014
+  -
+    name: Sloan Research Fellowship
+    year: 2010
+  -
+    name: Alston S. Householder Award
+    paper: 2006-dissertation
+    desc: Awarded once every three years for best thesis in numerical linear algebra.
+    year: 2008
+  -
+    name: NSF Graduate Student Fellowship
+    year: 1999
+
+activity:
+  -
+    when: 2018
+    what: SIAM Applied Linear Algebra Conference
+    url: http://www.math.hkbu.edu.hk/siam-ala18/
+    role: Scientific committee co-chair
+    type: [external]
+  -
+    when: 2016
+    until: 2017
+    what: CS Faculty Recruiting Committee
+    role: Committee member
+    type: [cornell, cs, local]
+  -
+    when: 2016
+    what: SIAM Annual Meeting
+    url: http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=23486
+    role: Minisymposium organizer
+    type: [external]
+  -
+    when: 2016
+    what: IEEE International Parallel and Distributed Processing Symposium
+    url: http://www.ipdps.org/ipdps2016/2016_program_committee.html
+    role: Program committee member
+    type: [external]
+  -
+    when: 2015
+    until: 2016
+    what: CS Graduate Admissions
+    role: Committee member
+    type: [cornell, cs, local]
+  -
+    when: 2015
+    what: Applied Math Curriculum Review Committee
+    role: Committee member
+    type: [cornell, cs, local]
+  -
+    when: 2015
+    what: IEEE International Parallel and Distributed Processing Symposium
+    url: http://www.ipdps.org/ipdps2015/2015_program_committee.html
+    role: Program committee member
+    type: [external]
+  -
+    when: 2015
+    what: Workshop on Development of Modern Methods for Linear Algebra
+    url: http://www.dbindel.net/dmml
+    role: Organizing committee member
+    type: [external]
+  -
+    when: 2015
+    until: present
+    what: Householder Symposium on Numerical Linear Algebra
+    url: http://www.math.vt.edu/HHXX/
+    role: Scientific committee member
+    type: [external]
+  -
+    when: 2014
+    what: BigRed Hacks
+    url: https://www.bigredhacks.com/
+    role: Judge
+    type: [cornell, local]
+  -
+    when: 2013
+    until: 2014
+    what: Applied Math Graduate Admissions
+    role: Committee member
+    type: [cornell, cam, local]
+  -
+    when: 2014
+    what: Supercomputing
+    url: http://sc14.supercomputing.org/
+    role: Poster commitee member
+    type: [external]
+  -
+    when: 2013
+    what: Fourth New York Conference on Applied Mathematics
+    url: https://www.math.cornell.edu/~scan/NYCAM/
+    role: Local organizer
+    type: [external]
+  -
+    when: 2013
+    what: Supercomputing
+    url: http://sc13.supercomputing.org/content/committees.html
+    role: Technical program committee member
+    type: [external]
+  -
+    when: 2012
+    what: NSF CDS&E Panel
+    role: Panel member
+    type: [external]
+  -
+    when: 2012
+    until: 2015
+    what: SIAM Activity Group on Linear Algebra
+    url: http://siags.siam.org/siagla
+    role: Secretary
+    type: [external]
+  -
+    when: 2012
+    what: Third New York Conference on Applied Mathematics
+    url: http://homepages.rpi.edu/~lif/NYCAM/index.html
+    role: Organizing committee member
+    type: [external]
+  -
+    when: 2011
+    until: 2012
+    what: Applied Math Graduate Admissions
+    role: Committee member
+    type: [cornell, cam, local]
+  -
+    when: 2011
+    what: Second New York Conference on Applied Mathematics
+    url: http://gibbs.math.buffalo.edu/nycam/
+    role: Organizing committee member
+    type: [external]
+  -
+    when: 2011
+    until: 2014
+    what: Cornell Faculty Advisory Board on Information Technology
+    url: http://theuniversityfaculty.cornell.edu/faculty-senate/faculty-advisory-board-on-information-technologies-fabit/
+    role: Committee member
+    type: [cornell, local]
+  -
+    when: 2010
+    until: 2011
+    what: CS Graduate Admissions
+    role: Committee member
+    type: [cornell, cs, local]
+  -
+    when: 2010
+    until: 2011
+    what: Applied Math Graduate Admissions
+    role: Committee member
+    type: [cornell, cam, local]
+  -
+    when: 2010
+    until: present
+    what: Numerical Linear Algebra with Applications
+    url: http://onlinelibrary.wiley.com/journal/10.1002/%28ISSN%291099-1506
+    role: Editor
+    type: [external]
+  -
+    when: 2009
+    until: 2010
+    what: CS Graduate Admissions
+    role: Committee member
+    type: [cornell, cs, local]
+  -
+    when: 2009
+    until: 2010
+    what: Applied Math Graduate Admissions
+    role: Committee member
+    type: [cornell, cam, local]
+  -
+    when: 2008
+    until: present
+    what: Electronic Transactions on Numerical Analysis
+    url: http://etna.mcs.kent.edu/
+    role: Managing editor
+    type: [external]
+  -
+    when: 2009
+    until: present
+    what: Cornell Scientific Computing and Numeric Seminar
+    url: http://www.cse.cornell.edu/scan/
+    role: Organizer
+    type: [cornell, local]
+  -
+    when: 2007
+    until: 2009
+    what: NYU Numerical Analysis / Scientific Computing Seminar
+    role: Organizer
+    type: [nyu, local]
+  -
+    when: 2007
+    what: SIAM Computational Science and Engineering Meeting
+    url: http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=6042
+    role: Minisymposium organizer
+    type: [external]
+  -
+    when: 2002
+    until: 2004
+    what: IEEE 754R Standard Revision Committee
+    url: http://grouper.ieee.org/groups/754/
+    role: Secretary
+    type: [external]
+
+courses:
+  cs6210:
+    id: CS 6210
+    desc: Matrix Computations
+  cs4220:
+    id: CS 4220
+    desc: "Numerical Analysis: Linear and Nonlinear Problems"
+  cs5220:
+    id: CS 5220
+    desc: Applications of Parallel Computers
+  cs3220:
+    id: CS 3220
+    desc: Introduction to Scientific Computing
+  nyu-sc:
+    id: NYU G22.2112
+    desc: Scientific Computing
+  nyu-hpc:
+    id: NYU G22.2945
+    desc: High Performance Scientific Computing
+  nyu-calc:
+    id: NYU V63.0222
+    desc: Honors Calculus II
+  nyu-prob:
+    id: NYU V63.0233
+    desc: Theory of Probability
+  nyu-qr:
+    id: NYU V55.0101
+    desc: "Quantitative Reasoning: Mathematical Patterns in Nature"
+  cs267:
+    id: Berkeley CS 267
+    desc: Applications of Parallel Computers
+  cs164:
+    id: Berkeley CS 164
+    desc: Compilers and Programming Languages
+
+teaching:
+  -
+    semester: F16
+    course: cs6210
+    url: http://www.cs.cornell.edu/~bindel/class/cs6210-f16/
+  -
+    semester: S16
+    course: cs4220
+    url: http://www.cs.cornell.edu/~bindel/class/cs4220-s16/
+  -
+    semester: F15
+    course: cs5220
+    url: http://www.cs.cornell.edu/~bindel/class/cs5220-f15/
+  -
+    semester: S15
+    course: cs4220
+    url: http://www.cs.cornell.edu/~bindel/class/cs4220-s15/
+  -
+    semester: F14
+    note: Parental relief (Quinn)
+  -
+    semester: S14
+    course: cs5220
+    url: http://www.cs.cornell.edu/~bindel/class/cs5220-s14/
+  -
+    semester: F13
+    course: cs6210
+    url: http://www.cs.cornell.edu/~bindel/class/cs6210-f13/
+  -
+    semester: S13
+    note: Junior faculty relief
+  -
+    semester: F12
+    course: cs6210
+    url: http://www.cs.cornell.edu/~bindel/class/cs6210-f12/
+  -
+    semester: S12
+    course: cs3220
+    url: http://www.cs.cornell.edu/~bindel/class/cs3220-s12/
+  -
+    semester: F11
+    course: cs5220
+    url: http://www.cs.cornell.edu/~bindel/class/cs5220-f11/
+  -
+    semester: S11
+    course: cs3220
+    url: http://www.cs.cornell.edu/~bindel/class/cs3220-s11/
+  -
+    semester: F10
+    note: Parental relief (Giulia)
+  -
+    semester: S10
+    course: cs5220
+    url: http://www.cs.cornell.edu/~bindel/class/cs5220-s10/
+  -
+    semester: F09
+    course: cs6210
+    url: http://www.cs.cornell.edu/~bindel/class/cs6210-f09/
+  -
+    semester: S09
+    course: nyu-sc
+    url: http://www.cs.nyu.edu/courses/spring09/G22.2112-001/index.html
+  -
+    semester: F08
+    course: nyu-hpc
+    url: http://www.cs.nyu.edu/courses/fall08/G22.2945-001/index.html)
+  -
+    semester: S08
+    course: nyu-calc
+  -
+    semester: F07
+    course: nyu-prob
+  -
+    semester: S07
+    course: nyu-calc
+  -
+    semester: F06
+    course: nyu-qr
+  -
+    semester: F05
+    course: cs164
+    ta: Richard Fateman
+  -
+    semester: F01
+    course: cs267
+    ta: Kathy Yelick

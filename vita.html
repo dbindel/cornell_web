@@ -1,0 +1,258 @@
+---
+title: CV
+layout: main
+bibdiv: well-sm
+---
+
+<div class="page-header">
+<ul class="nav nav-pills">
+<li><a href="#prof">Experience and Education</a></li>
+<li><a href="#awards">Awards</a></li>
+<li><a href="#pubs">Publications</a></li>
+<li><a href="#talks">Talks</a></li>
+<!-- <li><a href="#software">Software</a></li> -->
+<li><a href="#teaching">Teaching</a></li>
+<li><a href="#activities">Activities</a></li>
+<li><a href="#students">Students</a></li>
+</ul>
+</div>
+
+<h2 id="prof">Experience and Education</h2>
+
+<table class="table">
+  <tr>
+    <td>2009-present</td>
+    <td>Assistant Professor of Computer Science</td>
+    <td>Cornell University</td>
+  </tr>
+  <tr>
+    <td>2006-2009</td>
+    <td>Courant Instructor of Mathematics</td>
+    <td>New York University</td>
+  </tr>
+  <tr>
+    <td>1999-2006</td>
+    <td>Ph.D. in Computer Science</td>
+    <td>University of California, Berkeley</td>
+  </tr>
+  <tr>
+    <td>1995-1999</td>
+    <td>B.S. in Math and Computer Science</td>
+    <td>University of Maryland, College Park</td>
+  </tr>
+</table>
+
+<h2 id="awards">Awards</h2>
+
+<table class="table">
+{% for award in site.data.vita.awards %}
+<tr>
+<td>{{ award.year }}</td>
+<td>
+  <em>{{ award.name }}</em>
+  {% if award.desc %}<br/>{{ award.desc }}{% endif %}
+</td>
+</tr>
+{% endfor %}
+</table>
+
+<h2 id="pubs">Publications</h2>
+
+<h3>Journal papers</h3>
+
+{% bibliography --query @article %}
+
+<h3>Conference papers</h3>
+
+{% bibliography --query @inproceedings %}
+
+<h3>Reports</h3>
+
+{% bibliography --query @*[status=unrefereed] %}
+
+<h2 id="talks">External Talks</h2>
+
+<h3>Colloquium and Seminar Talks</h3>
+
+<ol>
+{% for talk in site.data.present reversed %}
+{% if talk.type contains "seminar" or talk.type contains "colloquium" %}{% if talk.type contains "external" %}
+<li>
+  <div class="well">
+    <a href="present/{{talk.uid}}">{{ talk.title }}</a>
+    <br/>{{ talk.year }} {{ talk.month_abbrev }} &bull; {{ talk.where }}
+    {% if talk.type contains "colloquium" %}<br/><span class="label label-info">colloquium</span>{% endif %}
+  </div>
+</li>
+{% endif %}{% endif %}
+{% endfor %}
+</ol>
+
+<h3>Workshop and Conference Talks</h3>
+
+<ol>
+{% for talk in site.data.present reversed %}
+{% if talk.type contains "external" %}
+{% if talk.type contains "seminar" or
+      talk.type contains "colloquium" %}{% else %}
+<li>
+  <div class="well">
+    <a href="present/{{talk.uid}}">{{ talk.title }}</a>
+    <br/>{{ talk.year }} {{ talk.month_abbrev }} &bull; {{ talk.where }}
+    <br/>{% for type in talk.type %}{% if type != "external" and type != "meeting" %} <span class="label label-info">{{ type }}</span>{% endif %}{% endfor %}
+  </div>
+</li>
+{% endif %}
+{% endif %}
+{% endfor %}
+</ol>
+
+<h2 id="teaching">Teaching</h2>
+
+<table class="table">
+  {% for c in site.data.vita.teaching %}
+  {% if c.course %}{% assign d = site.data.vita.courses[c.course] %}
+  <tr>
+    <td>{{ c.semester }}:</td>
+    <td>{{ d.id }}</td>
+    <td>{% if c.url %}<a href="{{ c.url }}">{{ d.desc }}</a>{% else %}{{ d.desc }}{% endif %}</td>
+  </tr>
+  {% endif %}
+  {% endfor %}
+</table>
+
+<h2 id="activities">Activities</h2>
+
+<h3>External Activities</h3>
+
+<table class="table">
+  {% for c in site.data.vita.activity %}
+  {% if c.type contains "external" %}
+  <tr>
+    <td>{{ c.when }}{% if c.until %}-{{ c.until }}{% endif %}</td>
+    <td>{{ c.role }}</td>
+    <td>{% if c.url %}<a href="{{ c.url }}">{{ c.what }}</a>{% else %}{{ c.what }}{% endif %}</td>
+  </tr>
+  {% endif %}
+  {% endfor %}
+</table>
+
+<h3>Local Activities</h3>
+
+<table class="table">
+  {% for c in site.data.vita.activity %}
+  {% if c.type contains "cornell" %}
+  <tr>
+    <td>{{ c.when }}{% if c.until %}-{{ c.until }}{% endif %}</td>
+    <td>{{ c.role }}</td>
+    <td>{% if c.url %}<a href="{{ c.url }}">{{ c.what }}</a>{% else %}{{ c.what }}{% endif %}</td>
+  </tr>
+  {% endif %}
+  {% endfor %}
+</table>
+
+<h2 id="students">Students</h2>
+
+<h3>PhD students</h3>
+
+<table class="table">
+{% for student in site.data.students.phd %}{% capture name %}{{ student.first }} {{ student.last }}{% endcapture %}
+<tr>
+  <td>
+    {% if student.url %}<a href="{{ student.url }}">{{ name }}</a>{% else %}{{ name }}{% endif %}<br/>
+    {{ student.field }}{% if student.thesis %}<br/>
+    Ph.D., {{ student.thesis.year }}{% endif %}
+  </td>
+  <td>
+    {% if student.thesis %}<a href="{{ student.thesis.url }}">{{ student.thesis.title }}</a>{% else %}{{ student.topic }}{% endif %}
+    {% if student.reln %}<br/>{{ student.reln }}{% endif %}
+  </td>
+</tr>
+{% endfor %}
+</table>
+
+<h3>Masters students</h3>
+
+<table class="table">
+{% for student in site.data.students.masters %}{% capture name %}{{ student.first }} {{ student.last }}{% endcapture %}
+<tr>
+  <td>
+    {{ name }}</a><br/>
+    {{ student.field }}<br/>
+    {{ site.data.students.degrees[student.degree] }},
+    {{ student.grad }}
+  </td>
+  <td>
+    {% if student.url %}<a href="{{ student.url }}">{{ student.proj.title }}</a>{% else %}{{ student.proj.title }}{% endif %}
+  </td>
+</tr>
+{% endfor %}
+</table>
+
+<h3>Undergraduate students</h3>
+
+<table class="table">
+{% for student in site.data.students.ugrad %}{% capture name %}{{ student.first }} {{ student.last }}{% endcapture %}
+<tr>
+  <td>{{ name }}</a></td>
+  <td>
+    {% if student.url %}<a href="{{ student.url }}">{{ student.proj }}</a>{% else %}{{ student.proj }}{% endif %} ({{ student.when }})
+  </td>
+</tr>
+{% endfor %}
+</table>
+
+<h3>Thesis committees</h3>
+
+<h4>Current</h4>
+<ol>
+{% for student in site.data.students.committees %}{% capture name %}{{ student.first }} {{ student.last }}{% endcapture %}
+  <li>{{ name }} ({{ student.field }})</li>
+{% endfor %}
+</ol>
+
+<h4>Graduated</h4>
+
+<table class="table">
+{% for student in site.data.students.past_committees %}{% capture name %}{{ student.first }} {{ student.last }}{% endcapture %}
+<tr>
+  <td>
+    {% if student.url %}<a href="{{ student.url }}">{{ name }}</a>{% else %}{{ name }}{% endif %}<br/>
+    {{ student.field }}<br/>
+    {{ site.data.students.degrees[student.degree] }}, {{ student.thesis.year }}
+  </td>
+  <td>
+    {% if student.thesis %}<a href="{{ student.thesis.url }}">{{ student.thesis.title }}</a>{% else %}{{ student.topic }}{% endif %}
+    {% if student.reln %}<br/>{{ student.reln }}{% endif %}
+  </td>
+</tr>
+{% endfor %}
+</table>
+
+<!--
+<h2 id="software">Software</h2>
+
+*  [MWwrap](cims/mwrap) --
+   Generates wrappers to call C/C++ and Fortran
+   codes from MATLAB.
+*  [Matexpr](cims/matexpr) --
+   Compiles MATLAB-like expressions embedded in C/C++ code
+*  [Matscat](cims/matscat) --
+   Computes resonances and scattering for 1D
+   Schroedinger operators
+*  BoneFEA --
+   A commercial code for fast simulation of failure in human bone.
+*  [HiQLab](cims/hiqlab) --
+   A finite element simulator for computing losses in resonant
+   microsystems.
+*  [MATFEAP](cims/matfeap)/[FEAPMEX](cims/feapmex) --
+   MATLAB interfaces to the FEAP finite element analysis code.
+*  [SUGAR](http://mems.sourceforge.net/) --
+   A lumped-element modeling system for MEMS based on modified nodal
+   analysis.  I also worked on M&MEMS, a web-based interface to the
+   SUGAR simulator.
+*  [CLAPACK 3.0](http://www.netlib.org/clapack/) --
+   C translation of of the LAPACK library for dense numerical
+   linear algebra.
+
+-->
