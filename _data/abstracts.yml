@@ -713,6 +713,20 @@
     algorithm into `Cl_matcont` to extend its functionality to large scale
     bifurcation computations via subspace reduction
 
+2005-compan:
+  tags: []
+  abstract: |
+    We consider the set of matrices which differ from symmetric, skew
+    symmetric, or unitary by only a low rank modification. This class of
+    matrices includes companion matrices, arrow matrices, and matrices
+    corresponding to mechanical oscillators with localized damping. We
+    show that Hessenberg and Schur forms for such matrices have
+    semi-separable structure, and we use this fact to construct a
+    backward stable eigensolver for such matrices which requires $O(n)$
+    space and runs in $O(n^2)$ time. We evaluate the performance and
+    accuracy of our approach for several test problems, including the
+    computation of all the roots of a polynomial or a matrix polynomial.
+
 2005-mems:
   tags: [mems]
   abstract: |
