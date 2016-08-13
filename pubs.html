@@ -8,20 +8,29 @@ layout: main
   <!-- Nav tabs -->
   <ul class="nav nav-tabs" role="tablist">
     <li role="presentation" class="active"><a href="#all" aria-controls="all" role="tab" data-toggle="tab">All</a></li>
+    <li role="presentation"><a href="#ref" aria-controls="all" role="tab" data-toggle="tab">All Refereed</a></li>
     <li role="presentation"><a href="#journal" aria-controls="journal" role="tab" data-toggle="tab">Journal</a></li>
-    <li role="presentation"><a href="#conf" aria-controls="conf" role="tab" data-toggle="tab">Conference</a></li>
+    <li role="presentation"><a href="#conf" aria-controls="conf" role="tab" data-toggle="tab">Conference (Refereed)</a></li>
+    <li role="presentation"><a href="#tr" aria-controls="all" role="tab" data-toggle="tab">Reports</a></li>
   </ul>
   <hr/>
+
   <!-- Tab panes -->
   <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="all">
       {% bibliography %}
+    </div>
+    <div role="tabpanel" class="tab-pane" id="ref">
+      {% bibliography --query @*[status!=unrefereed] %}
     </div>
     <div role="tabpanel" class="tab-pane" id="journal">
       {% bibliography --query @article %}
     </div>
     <div role="tabpanel" class="tab-pane" id="conf">
       {% bibliography --query @inproceedings %}
+    </div>
+    <div role="tabpanel" class="tab-pane" id="tr">
+      {% bibliography --query @*[status=unrefereed] %}
     </div>
   </div>
 

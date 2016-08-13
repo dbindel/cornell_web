@@ -4,6 +4,7 @@ bibcss: btn btn-default btn-xs
 
 <div class="well">
   {{ reference }}
+  {% if entry.submit %}{{ entry.submit }}{% endif %}
   {% if entry.note %}<br/><b>{{ entry.note }}</b>{% endif %}
   <div id="{{key}}-materials">
     <ul class="list-inline">

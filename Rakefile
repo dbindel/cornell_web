@@ -44,6 +44,10 @@ task :clean do
   sh "rm -f .rake-sha"
 end
 
+task :papersync do
+  sh "rsync -avz -e 'ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null' --progress /Users/dbindel/work/web/home/papers/* bindel:/work/web/papers/"
+end
+
 task :build do
   if check_hash()
     puts("Already built")
