@@ -9,6 +9,7 @@ timezone: America/New_York
 
 exclude: ["Rakefile"]
 keep_files: ["present"]
+gems: ["jekyll/scholar", "csl/styles"]
 
 defaults:
   -
@@ -16,9 +17,14 @@ defaults:
       path: "blurbs"
     values:
       layout: "blurb"
-      
+
 collections:
   blurbs:
     output: true
-    
+
 markdown: kramdown
+
+scholar:
+  style: assets/bibliography/ieee-with-url.csl
+  bibliography_template: bib
+  bibliography_list_tag: ul
