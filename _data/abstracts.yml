@@ -48,6 +48,23 @@
     local spectral communities perform better than those from the
     celebrated Heat Kernel diffusion and the PageRank diffusion.
 
+2016-flier-tr:
+  tags: []
+  abstract: |
+    In this paper, we present a Fingerprint Linear Estimation Routine
+    (FLiER) to identify topology changes in power networks using
+    readings from sparsely-deployed phasor measurement units (PMUs).
+    When a power line, load, or generator trips in a network, or when a
+    substation is reconfigured, the event leaves a unique "voltage
+    fingerprint" of bus voltage changes that we can identify using only
+    the portion of the network directly observed by the PMUs. The naive
+    brute-force approach to identify a failed line from such voltage
+    fingerprints, though simple and accurate, is slow. We derive an
+    approximate algorithm based on a local linearization and a novel
+    filtering approach that is faster and only slightly less accurate.
+    We present experimental results using the IEEE 57-bus, IEEE 118-bus,
+    and Polish 1999-2000 winter peak networks.
+
 2016-sensors:
   tags: [mems]
   abstract: |
@@ -200,6 +217,22 @@
     links can we add to the underlying network to reduce the cost at
     equilibrium?
 
+2015-rsc:
+  tags: []
+  abstract: |
+    Direct factorization methods for the solution of large, sparse
+    linear systems that arise from PDE discretizations are robust, but
+    typically show poor time and memory scalability for large systems.
+    In this paper, we describe an efficient sparse, rank-structured
+    Cholesky algorithm for solution of the positive definite linear
+    system Ax=b when A comes from a discretized partial-differential
+    equation. Our approach combines the efficient memory access patterns
+    of conventional supernodal Cholesky algorithms with the memory
+    efficiency of rank-structured direct solvers. For several test
+    problems arising from PDE discretizations, our method takes less
+    memory than standard sparse Cholesky solvers and less wall-clock
+    time than standard preconditioned iterations.
+
 2015-www:
   tags: []
   abstract: |
@@ -254,6 +287,20 @@
     examples of bifurcation analysis in large sparse problems.
 
 2013-simax:
+  tags: []
+  abstract: |
+    Let $T : \Omega \rightarrow {\Bbb C}^{n \times n}$ be a matrix-valued
+    function that is analytic on some simply-connected domain $\Omega
+    \subset {\Bbb C}$.  A point $\lambda \in \Omega$ is an eigenvalue if the
+    matrix $T(\lambda)$ is singular.  In this paper, we describe new
+    localization results for nonlinear eigenvalue problems that
+    generalize Gershgorin's theorem, pseudospectral inclusion theorems,
+    and the Bauer-Fike theorem.  We use our results to analyze three
+    nonlinear eigenvalue problems: an example from delay differential
+    equations, a problem due to Hadeler, and a quantum resonance
+    computation.
+
+2013-nep:
   tags: []
   abstract: |
     Let $T : \Omega \rightarrow {\Bbb C}^{n \times n}$ be a matrix-valued
@@ -361,6 +408,22 @@
     natural network design problem in this setting, where adding links to
     the underlying network can reduce the cost of disagreement at
     equilibrium.
+
+2009-topology:
+  tags: []
+  abstract: |
+    A topology optimization problem in microelectromechanical resonator
+    design is addressed in this paper. The design goal is to control the
+    first several eigen-frequencies of a microelectromechanical
+    resonator using topology optimization in order to improve the
+    resonator’s quality of resonance. The design variable is the
+    distribution of mass in a constrained domain which we model via (1)
+    the Simple Isotropic Material with Penalization Model and (2) the
+    Peak Function Model. The overall optimization problem is solved
+    using the Method of Moving Asymptotes and a Genetic Algorithm
+    combined with a local gradient method. A numerical example is
+    presented to highlight the features of the methods in more detail.
+    The advantages and disadvantages of each method are discussed.
 
 2009-tons:
   tags: []
@@ -515,6 +578,17 @@
     existing statistical inference approaches and provide smooth tradeoff
     between diagnosis accuracy and granularity.
 
+2006-cis:
+  tags: [mems]
+  abstract: |
+    We summarize an algorithm for computing a smooth orthonormal basis for
+    an invariant subspace of a parameter-dependent matrix, and describe
+    how to extend it for numerical bifurcation analysis. We adapt the
+    continued subspace to track behavior relevant to bifurcations, and use
+    projection methods to deal with large problems. To test our ideas, we
+    have integrated our code into MATCONT, a program for numerical
+    continuation and bifurcation analysis.
+
 2005-sensors:
   tags: [mems]
   abstract: |
@@ -536,6 +610,34 @@
     and postprocessing capabilities.
 
 2005-ijnme:
+  tags: [mems]
+  abstract: |
+    Electromechanical resonators and filters, such as quartz, ceramic, and
+    surface-acoustic wave devices, are important signal-processing
+    elements in communication systems. Over the past decade, there has
+    been substantial progress in developing new types of miniaturized
+    electromechanical resonators using microfabrication processes. For
+    these micro-resonators to be viable they must have high and
+    predictable quality factors ($Q$). Depending on scale and geometry, the
+    energy losses that lower $Q$ may come from material damping,
+    thermoelastic damping, air damping, or radiation of elastic waves from
+    an anchor. Of these factors, anchor losses are the least understood
+    because such losses are due to a complex radiation phenomena in a
+    semi-infinite elastic half-space. Here, we describe how anchor losses
+    can be accurately computed using an absorbing boundary based on a
+    *perfectly matched layer* (PML) which absorbs incoming waves over a wide
+    frequency range for any non-zero angle of incidence. We exploit the
+    interpretation of the PML as a complex-valued change of coordinates
+    to illustrate how one can come to a simpler finite element
+    implementation than was given in its original presentations. We also
+    examine the convergence and accuracy of the method, and give
+    guidelines for how to choose the parameters effectively. As an example
+    application, we compute the anchor loss in a micro disk resonator and
+    compare it to experimental data. Our analysis illustrates a surprising
+    mode-mixing phenomenon which can substantially affect the quality of
+    resonance.
+
+2005-pml-tr:
   tags: [mems]
   abstract: |
     Electromechanical resonators and filters, such as quartz, ceramic, and
@@ -655,6 +757,28 @@
     addition, our technique is tolerant to topology measurement
     inaccuracies, and is adaptive to topology changes.
 
+2003-tomography-tr:
+  tags: []
+  abstract: |
+    Overlay network monitoring enables distributed Internet applications
+    to detect and recover from path outages and periods of degraded
+    performance within seconds. For an overlay network with $n$ end hosts,
+    existing systems either require $O(n^2)$ measurements, and thus lack
+    scalability, or can only estimate the latency but not congestion or
+    failures. Unlike other network tomography systems, we characterize
+    end-to-end losses (this extends to any additive metrics, including
+    latency) rather than individual link losses. We find a minimal basis
+    set of $k$ linearly independent paths that can fully describe all the
+    $O(n^2)$ paths. We selectively monitor and measure the loss rates of
+    these paths, then apply them to estimate the loss rates of all other
+    paths. By extensively studying synthetic and real topologies, we find
+    that for reasonably large n (e.g., 100), $k$ is only in the range of
+    $O(n \log n)$. This is explained by the moderately hierarchical nature of
+    Internet routine.Our scheme only assumes the knowledge of underlying
+    IP topology, and any link can become lossy or return to normal. In
+    addition, our technique is tolerant to topology measurement
+    inaccuracies, and is adaptive to topology changes.
+
 2002-toms:
   tags: []
   abstract: |
@@ -731,6 +855,38 @@
     as 3D beam and gap elements, thermal expansion, linearly and
     rotationally accelerating frames, and userde #ned models.
 
+2001-givens:
+  tags: []
+  abstract: |
+    We consider the efficient and accurate computation of Givens
+    rotations. When $f$ and $g$ are positive real numbers, this simply amounts
+    to computing the values of $c = f/\sqrt{f^2 + g^2}$,
+    $s = g/\sqrt{f^2 + g^2}$, and $r = \sqrt{f^2 + g^2}$.
+    This apparently trivial computation merits closer consideration
+    for the following three reasons. First, while the definitions of $c$, $s$
+    and $r$ seem obvious in the case of two nonnegative arguments $f$ and $g$,
+    there is enough freedom of choice when one or more of $f$ and $g$ are
+    negative, zero or complex that LAPACK auxiliary routines SLARTG,
+    CLARTG, SLARGV and CLARGV can compute rather different values of $c$, $s$
+    and $r$ for mathematically identical values of $f$ and $g$. To eliminate
+    this unnecessary ambiguity, the BLAS Technical Forum chose a single
+    consistent definition of Givens rotations that we will justify here.
+    Second, computing accurate values of $c$, $s$ and $r$ as efficiently as
+    possible and reliably despite over/underflow is surprisingly
+    complicated. For complex Givens rotations, the most efficient formulas
+    require only one real square root and one real divide (as well as
+    several much cheaper additions and multiplications), but a reliable
+    implementation using only working precision has a number of cases. On
+    a Sun Ultra-10, the new implementation is slightly faster than the
+    previous LAPACK implementation in the most common case, and 2.7 to 4.6
+    times faster than the corresponding vendor, reference or ATLAS
+    routines. It is also more reliable; all previous codes occasionally
+    suffer from large inaccuracies due to over/underflow. For real Givens
+    rotations, there are also improvements in speed and accuracy, though
+    not as striking. Third, the design process that led to this reliable
+    implementation is quite systematic, and could be applied to the design
+    of similarly reliable subroutines.
+
 2000-mems:
   tags: [mems]
   abstract: |
@@ -744,6 +900,19 @@
     that is solved by static, steady state, and transient solvers.
 
 2000-asplos:
+  tags: []
+  abstract: |
+    OceanStore is a utility infrastructure designed to span the globe and
+    provide continuous access to persistent information. Since this
+    infrastructure is comprised of untrusted servers, data is protected
+    through redundancy and cryptographic techniques. To improve
+    performance, data is allowed to be cached anywhere, anytime.
+    Additionally, monitoring of usage patterns allows adaptation to
+    regional outages and denial of service attacks; monitoring also
+    enhances performance through pro-active movement of data. A prototype
+    implementation is currently under development.
+
+2000-oceanstore-tr:
   tags: []
   abstract: |
     OceanStore is a utility infrastructure designed to span the globe and
