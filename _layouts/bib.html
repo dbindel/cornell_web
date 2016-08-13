@@ -33,11 +33,11 @@ bibcss: btn btn-default btn-xs
       {% endif %}
     </ul>
     <pre id="{{key}}-bibtex" class="collapse">{{entry.bibtex}}</pre>
-    {% if site.data.abstracts[key] %}
+    {% if site.data.abstracts[key] %}{% if site.data.abstracts[key].abstract %}
     <div id="{{key}}-abstract" class="collapse">
     <h4>Abstract:</h4>
-    <p>{{ site.data.abstracts[key] | markdownify }}</p>
+    <p>{{ site.data.abstracts[key].abstract | markdownify }}</p>
     </div>
-    {% endif %}
+    {% endif %}{% endif %}
   </div>
 </div>

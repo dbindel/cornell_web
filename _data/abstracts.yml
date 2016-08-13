@@ -1,635 +1,715 @@
-2016-rotations: |
-  Rotations averaging has become a key subproblem in global Structure
-  from Motion methods. Several solvers exist, but they do not have
-  guarantees of correctness. They can produce high-quality results,
-  but also sometimes fail. Our understanding of what makes rotations
-  averaging problems easy or hard is still very limited. To
-  investigate the difficulty of rotations averaging, we perform a
-  local convexity analysis under an $L_2$ cost function. Although a
-  previous result has shown that in general, this problem is locally
-  convex almost nowhere, we show how this negative conclusion can be
-  reversed by considering the gauge ambiguity.
+2016-rotations:
+  abstract: |
+    Rotations averaging has become a key subproblem in global Structure
+    from Motion methods. Several solvers exist, but they do not have
+    guarantees of correctness. They can produce high-quality results,
+    but also sometimes fail. Our understanding of what makes rotations
+    averaging problems easy or hard is still very limited. To
+    investigate the difficulty of rotations averaging, we perform a
+    local convexity analysis under an $L_2$ cost function. Although a
+    previous result has shown that in general, this problem is locally
+    convex almost nowhere, we show how this negative conclusion can be
+    reversed by considering the gauge ambiguity.
 
-  Our theoretical analysis reveals the factors that determine local
-  convexity---noise and graph structure---as well as how they
-  interact, which we describe by a particular Laplacian matrix. Our
-  results are useful for predicting the difficulty of problems, and we
-  demonstrate this on practical datasets. Our work forms the basis of
-  a deeper understanding of the key properties of rotations averaging
-  problems, and we discuss how it can inform the design of future
-  solvers for this important problem.
+    Our theoretical analysis reveals the factors that determine local
+    convexity---noise and graph structure---as well as how they
+    interact, which we describe by a particular Laplacian matrix. Our
+    results are useful for predicting the difficulty of problems, and we
+    demonstrate this on practical datasets. Our work forms the basis of
+    a deeper understanding of the key properties of rotations averaging
+    problems, and we discuss how it can inform the design of future
+    solvers for this important problem.
 
-2016-losp-kdd: |
-  We address a semi-supervised learning problem of identifying all
-  latent members of a local community from very few labeled seed members
-  in large networks. By a simple and efficient sampling method, we
-  conduct a comparatively small subgraph encompassing most of the latent
-  members such that the follow-up membership identification could focus
-  on an accurate local region instead of the whole network. Then we look
-  for a sparse vector, a relaxed indicator vector representing the
-  subordinative probability of the corresponding nodes, that lies in a
-  local spectral subspace defined by an order-$d$ Krylov subspace. The
-  subspace serves as a local proxy for the invariant subspace spanned by
-  leading eigenvectors of the Laplacian matrices. Based on Rayleigh
-  quotients, we relate the local membership identification task as a
-  local RatioCut or local normalized cut optimization problem, and
-  provide some theoretical justifications.
+2016-losp-kdd:
+  abstract: |
+    We address a semi-supervised learning problem of identifying all
+    latent members of a local community from very few labeled seed members
+    in large networks. By a simple and efficient sampling method, we
+    conduct a comparatively small subgraph encompassing most of the latent
+    members such that the follow-up membership identification could focus
+    on an accurate local region instead of the whole network. Then we look
+    for a sparse vector, a relaxed indicator vector representing the
+    subordinative probability of the corresponding nodes, that lies in a
+    local spectral subspace defined by an order-$d$ Krylov subspace. The
+    subspace serves as a local proxy for the invariant subspace spanned by
+    leading eigenvectors of the Laplacian matrices. Based on Rayleigh
+    quotients, we relate the local membership identification task as a
+    local RatioCut or local normalized cut optimization problem, and
+    provide some theoretical justifications.
 
-  We thoroughly explore different probability diffusion methods for the
-  subspace definition and evaluate our method on four groups with a
-  total of 28 representative LFR benchmark datasets, and eight public
-  available real-world networks with labeled ground truth communities
-  across multiple domains. Experimental results exhibit the
-  effectiveness and robustness of the proposed algorithm, and the
-  local spectral communities perform better than those from the
-  celebrated Heat Kernel diffusion and the PageRank diffusion.
+    We thoroughly explore different probability diffusion methods for the
+    subspace definition and evaluate our method on four groups with a
+    total of 28 representative LFR benchmark datasets, and eight public
+    available real-world networks with labeled ground truth communities
+    across multiple domains. Experimental results exhibit the
+    effectiveness and robustness of the proposed algorithm, and the
+    local spectral communities perform better than those from the
+    celebrated Heat Kernel diffusion and the PageRank diffusion.
 
-2016-sensors: |
-  We analyze the change of angular gain and vibration frequency of
-  solid-state wave gyroscopes as a result of geometry perturbations due
-  to thermal expansion. We analyze sensitivity of the device to thermal
-  expansion effects by an isoparametric finite element analysis method,
-  and we analyze the sensitivity to thermal changes in the material
-  properties assuming a linear dependence on temperature.  We quantify
-  these sensitivities for common device geometries, and use our analysis
-  as the basis for a local optimization problem that minimizes
-  temperature sensitivity as a function of device shape.
+2016-sensors:
+  abstract: |
+    We analyze the change of angular gain and vibration frequency of
+    solid-state wave gyroscopes as a result of geometry perturbations due
+    to thermal expansion. We analyze sensitivity of the device to thermal
+    expansion effects by an isoparametric finite element analysis method,
+    and we analyze the sensitivity to thermal changes in the material
+    properties assuming a linear dependence on temperature.  We quantify
+    these sensitivities for common device geometries, and use our analysis
+    as the basis for a local optimization problem that minimizes
+    temperature sensitivity as a function of device shape.
 
-2016-hh-workshop: |
-  We analyze the change of angular gain and vibration frequency of
-  solid-wave gyroscopes as a result of geometry perturbations due to
-  thermal expansion. We formulate a temperature sensitivity analysis
-  by assuming a linear dependence of material properties to temperature,
-  and quantify it for common device geometries.
+2016-hh-workshop:
+  abstract: |
+    We analyze the change of angular gain and vibration frequency of
+    solid-wave gyroscopes as a result of geometry perturbations due to
+    thermal expansion. We formulate a temperature sensitivity analysis
+    by assuming a linear dependence of material properties to temperature,
+    and quantify it for common device geometries.
 
-2015-sirev: |
-  Let $T : \Omega \rightarrow {\Bbb C}^{n\times n}$ be a matrix-valued
-  function that is analytic on some simply-connected domain $\Omega
-  \subset {\Bbb C}$.  A point $\lambda \in \Omega$ is an eigenvalue if
-  the matrix $T(\lambda)$ is singular.  In this paper, we describe new
-  localization results for nonlinear eigenvalue problems that generalize
-  Gershgorin's theorem, pseudospectral inclusion theorems, and the
-  Bauer-Fike theorem.  We use our results to analyze three nonlinear
-  eigenvalue problems: an example from delay differential equations, a
-  problem due to Hadeler, and a quantum resonance computation.
+2015-sirev:
+  abstract: |
+    Let $T : \Omega \rightarrow {\Bbb C}^{n\times n}$ be a matrix-valued
+    function that is analytic on some simply-connected domain $\Omega
+    \subset {\Bbb C}$.  A point $\lambda \in \Omega$ is an eigenvalue if
+    the matrix $T(\lambda)$ is singular.  In this paper, we describe new
+    localization results for nonlinear eigenvalue problems that generalize
+    Gershgorin's theorem, pseudospectral inclusion theorems, and the
+    Bauer-Fike theorem.  We use our results to analyze three nonlinear
+    eigenvalue problems: an example from delay differential equations, a
+    problem due to Hadeler, and a quantum resonance computation.
 
-2015-middleware: |
-  Configuring large distributed computations is a challenging task.
-  Efficiently executing distributed computations requires configuration
-  tuning based on careful examination of application and hardware
-  properties. Considering the large number of parameters and
-  impracticality of using trial and error in a production environment,
-  programmers tend to make these decisions based on their experience and
-  rules of thumb. Such configurations can lead to underutilized and
-  costly clusters, and missed deadlines.
+2015-middleware:
+  abstract: |
+    Configuring large distributed computations is a challenging task.
+    Efficiently executing distributed computations requires configuration
+    tuning based on careful examination of application and hardware
+    properties. Considering the large number of parameters and
+    impracticality of using trial and error in a production environment,
+    programmers tend to make these decisions based on their experience and
+    rules of thumb. Such configurations can lead to underutilized and
+    costly clusters, and missed deadlines.
 
-  In this paper, we present a new methodology for determining desired
-  hardware and software configuration parameters for distributed
-  computations. The key insight behind this methodology is to build a
-  response surface that captures how applications perform under
-  different hardware and software configuration. Such a model can be
-  built through iterated experiments using the real system, or, more
-  efficiently, using a simulator. The resulting model can then generate
-  recommendations for configuration parameters that are likely to yield
-  the desired results even if they have not been tried either in
-  simulation or in real-life. The process can be iterated to refine
-  previous predictions and achieve better results.
+    In this paper, we present a new methodology for determining desired
+    hardware and software configuration parameters for distributed
+    computations. The key insight behind this methodology is to build a
+    response surface that captures how applications perform under
+    different hardware and software configuration. Such a model can be
+    built through iterated experiments using the real system, or, more
+    efficiently, using a simulator. The resulting model can then generate
+    recommendations for configuration parameters that are likely to yield
+    the desired results even if they have not been tried either in
+    simulation or in real-life. The process can be iterated to refine
+    previous predictions and achieve better results.
 
-  We have implemented this methodology in a configuration recommendation
-  system for MapReduce 2.0 applications. Performance measurements show
-  that representative applications achieve up to $5 \times$ performance
-  improvement when they use the recommended configuration parameters
-  compared to the default ones.
+    We have implemented this methodology in a configuration recommendation
+    system for MapReduce 2.0 applications. Performance measurements show
+    that representative applications achieve up to $5 \times$ performance
+    improvement when they use the recommended configuration parameters
+    compared to the default ones.
 
-2015-nips: |
-  Spectral inference provides fast algorithms and provable optimality
-  for latent topic analysis. But for real data these algorithms require
-  additional ad-hoc heuristics, and even then often produce unusable
-  results. We explain this poor performance by casting the problem of
-  topic inference in the framework of Joint Stochastic Matrix
-  Factorization (JSMF) and showing that previous methods violate the
-  theoretical conditions necessary for a good solution to exist. We then
-  propose a novel rectification method that learns high quality topics
-  and their interactions even on small, noisy data. This method achieves
-  results comparable to probabilistic techniques in several domains
-  while maintaining scalability and provable optimality.
+2015-nips:
+  abstract: |
+    Spectral inference provides fast algorithms and provable optimality
+    for latent topic analysis. But for real data these algorithms require
+    additional ad-hoc heuristics, and even then often produce unusable
+    results. We explain this poor performance by casting the problem of
+    topic inference in the framework of Joint Stochastic Matrix
+    Factorization (JSMF) and showing that previous methods violate the
+    theoretical conditions necessary for a good solution to exist. We then
+    propose a novel rectification method that learns high quality topics
+    and their interactions even on small, noisy data. This method achieves
+    results comparable to probabilistic techniques in several domains
+    while maintaining scalability and provable optimality.
 
-2015-icdm: |
-  Based on the definition of local spectral subspace, we propose a novel
-  approach called LOSP for local overlapping community detection. Using
-  the power method for a few steps, LOSP finds an approximate invariant
-  subspace, which depicts the embedding of the local neighborhood
-  structure around the seeds of interest. LOSP then identifies the local
-  community expanded from the given seeds by seeking a sparse indicator
-  vector in the subspace where the seeds are in its support. We provide
-  a systematic investigation on LOSP, and thoroughly evaluate it on
-  large real world networks across multiple domains. With the prior
-  information of very few seed members, LOSP can detect the remaining
-  members of a target community with high accuracy. Experiments
-  demonstrate that LOSP outperforms the Heat Kernel and PageRank
-  diffusions. Using LOSP as a subroutine, we further address the problem
-  of multiple membership identification, which aims to find all the
-  communities a single vertex belongs to. High F1 scores are achieved in
-  detecting multiple local communities with respect to arbitrary single
-  seed for various large real world networks.
+2015-icdm:
+  abstract: |
+    Based on the definition of local spectral subspace, we propose a novel
+    approach called LOSP for local overlapping community detection. Using
+    the power method for a few steps, LOSP finds an approximate invariant
+    subspace, which depicts the embedding of the local neighborhood
+    structure around the seeds of interest. LOSP then identifies the local
+    community expanded from the given seeds by seeking a sparse indicator
+    vector in the subspace where the seeds are in its support. We provide
+    a systematic investigation on LOSP, and thoroughly evaluate it on
+    large real world networks across multiple domains. With the prior
+    information of very few seed members, LOSP can detect the remaining
+    members of a target community with high accuracy. Experiments
+    demonstrate that LOSP outperforms the Heat Kernel and PageRank
+    diffusions. Using LOSP as a subroutine, we further address the problem
+    of multiple membership identification, which aims to find all the
+    communities a single vertex belongs to. High F1 scores are achieved in
+    detecting multiple local communities with respect to arbitrary single
+    seed for various large real world networks.
 
-2015-edgeppr: |
-  Personalized PageRank is a standard tool for finding vertices in a
-  graph that are most relevant to a query or user. To personalize
-  PageRank, one adjusts node weights or edge weights that determine
-  teleport probabilities and transition probabilities in a random surfer
-  model. There are many fast methods to approximate PageRank when the
-  node weights are personalized; however, personalization based on edge
-  weights has been an open problem since the dawn of personalized
-  PageRank over a decade ago. In this paper, we describe the first fast
-  algorithm for computing PageRank on general graphs when the edge
-  weights are personalized. Our method, which is based on model
-  reduction, outperforms existing methods by nearly *five orders of
-  magnitude*. This huge performance gain over previous work allows us —
-  for the very first time — to solve learning-to-rank problems for edge
-  weight personalization *at interactive speeds*, a goal that had not
-  previously been achievable for this class of problems.
+2015-edgeppr:
+  abstract: |
+    Personalized PageRank is a standard tool for finding vertices in a
+    graph that are most relevant to a query or user. To personalize
+    PageRank, one adjusts node weights or edge weights that determine
+    teleport probabilities and transition probabilities in a random surfer
+    model. There are many fast methods to approximate PageRank when the
+    node weights are personalized; however, personalization based on edge
+    weights has been an open problem since the dawn of personalized
+    PageRank over a decade ago. In this paper, we describe the first fast
+    algorithm for computing PageRank on general graphs when the edge
+    weights are personalized. Our method, which is based on model
+    reduction, outperforms existing methods by nearly *five orders of
+    magnitude*. This huge performance gain over previous work allows us —
+    for the very first time — to solve learning-to-rank problems for edge
+    weight personalization *at interactive speeds*, a goal that had not
+    previously been achievable for this class of problems.
 
-2015-siam-ns: |
-  The kernel polynomial method (KPM) is a standard tool in condensed
-  matter physics to estimate the density of states for a quantum system.
-  We use the KPM to instead estimate the eigenvalue densities of the
-  normalized ad- jacency matrices of "natural" graphs. Because natural
-  graph spectra often include high-multiplicity eigenvalues
-  corresponding to certain motifs in the graph, we introduce a
-  pre-processing phase that counts just these special eigenvalues,
-  leaving the rest of the eigenvalue distribution to be estimated by the
-  standard KPM.
+2015-siam-ns:
+  abstract: |
+    The kernel polynomial method (KPM) is a standard tool in condensed
+    matter physics to estimate the density of states for a quantum system.
+    We use the KPM to instead estimate the eigenvalue densities of the
+    normalized ad- jacency matrices of "natural" graphs. Because natural
+    graph spectra often include high-multiplicity eigenvalues
+    corresponding to certain motifs in the graph, we introduce a
+    pre-processing phase that counts just these special eigenvalues,
+    leaving the rest of the eigenvalue distribution to be estimated by the
+    standard KPM.
 
-2015-geb: |
-  The question of how people form their opinion has fascinated
-  economists and sociologists for long time. In many of the models, a
-  group of people in a social network, each holding a numerical opinion,
-  arrive at a shared opinion through repeated averaging with their
-  neighbors in the network. Motivated by the observation that in reality
-  consensus is rarely reached, we study a related sociological model in
-  which individuals' intrinsic beliefs counterbalance the averaging
-  process and yield a diversity of opinions.
+2015-geb:
+  abstract: |
+    The question of how people form their opinion has fascinated
+    economists and sociologists for long time. In many of the models, a
+    group of people in a social network, each holding a numerical opinion,
+    arrive at a shared opinion through repeated averaging with their
+    neighbors in the network. Motivated by the observation that in reality
+    consensus is rarely reached, we study a related sociological model in
+    which individuals' intrinsic beliefs counterbalance the averaging
+    process and yield a diversity of opinions.
 
-  We interpret the repeated averaging process as best-response dynamics
-  in an underlying game with natural payoffs and its limit as an
-  equilibrium. This allows us to study the cost of disagreement by
-  comparing between the cost at equilibrium and the social optimum. We
-  also consider a natural network design problem in this setting: which
-  links can we add to the underlying network to reduce the cost at
-  equilibrium?
+    We interpret the repeated averaging process as best-response dynamics
+    in an underlying game with natural payoffs and its limit as an
+    equilibrium. This allows us to study the cost of disagreement by
+    comparing between the cost at equilibrium and the social optimum. We
+    also consider a natural network design problem in this setting: which
+    links can we add to the underlying network to reduce the cost at
+    equilibrium?
 
-2014-matcont: |
-  The Continuation of Invariant Subspaces (CIS) algorithm produces a
-  smoothly-varying basis for an invariant subspace R(s) of a
-  parameter-dependent matrix $A(s)$. We have incorporated the CIS
-  algorithm into `Cl_matcont`, a Matlab package for the study of
-  dynamical systems and their bifurcations. Using subspace reduction, we
-  extend the functionality of `Cl_matcont` to large-scale computations
-  of bifurcations of equilibria. In this paper, we describe the
-  algorithms and functionality of the resulting Matlab bifurcation
-  package `Cl_matcontL`. The novel features include: new CIS-based,
-  continuous, well-scaled test functions for codimension 1 and 2
-  bifurcations; detailed description of locators for large problems; and
-  examples of bifurcation analysis in large sparse problems.
+2015-www:
+  abstract: |
+    Large graphs arise in a number of contexts and understanding their
+    structure and extracting information from them is an important
+    research area. Early algorithms on mining communities have focused
+    on the global structure, and often run in time functional to the
+    size of the entire graph. Nowadays, as we often explore networks
+    with billions of vertices and find communities of size hundreds, it
+    is crucial to shift our attention from macroscopic structure to
+    microscopic structure when dealing with large networks. A growing
+    body of work has been adopting local expansion methods in order to
+    identify the community from a few exemplary seed members. %Very few
+    approaches can systematically demonstrate both high efficiency and
+    effectiveness that significantly stands out amongst the divergent
+    approaches in finding communities.
 
-2013-simax: |
-  Let $T : \Omega \rightarrow {\Bbb C}^{n \times n}$ be a matrix-valued
-  function that is analytic on some simply-connected domain $\Omega
-  \subset {\Bbb C}$.  A point $\lambda \in \Omega$ is an eigenvalue if the
-  matrix $T(\lambda)$ is singular.  In this paper, we describe new
-  localization results for nonlinear eigenvalue problems that
-  generalize Gershgorin's theorem, pseudospectral inclusion theorems,
-  and the Bauer-Fike theorem.  We use our results to analyze three
-  nonlinear eigenvalue problems: an example from delay differential
-  equations, a problem due to Hadeler, and a quantum resonance
-  computation.
+    In this paper, we propose a novel approach for finding overlapping
+    communities called LEMON (Local Expansion via Minimum One Norm).
+    Different from PageRank-like diffusion methods, LEMON finds the
+    community by seeking a sparse vector in the span of the local
+    spectra such that the seeds are in its support. We show that LEMON
+    can achieve the highest detection accuracy among state-of-the-art
+    proposals. The running time depends on the size of the community
+    rather than that of the entire graph. The algorithm is easy to
+    implement, and is highly parallelizable.
 
-2013-sensors: |
-  Solid-wave gyroscopes are symmetric resonators that sense rotation by
-  measuring how Coriolis forces perturb a degenerate mode pair. The
-  idealized dynamics of these devices are described by ODE models of two
-  identical oscillators coupled by a perturbation due to rotation. In
-  miniaturized solid-wave gyroscopes, geometric distortions due to
-  imperfect fabrication also perturb the dynamics, and this limits
-  sensing accuracy. In this work, we describe how geometric
-  imperfections affect the dynamics of solid-wave gyroscopes. We also
-  use selection rules both to find qualitative information about what
-  types of geometry perturbations most affect sensor performance and to
-  accelerate computations
+    Moreover, given that networks are not all similar in nature, a
+    comprehensive analysis on how the local expansion approach is suited
+    for uncovering communities in different networks is still lacking.
+    We thoroughly evaluate our approach using both synthetic and
+    real-world datasets across different domains, and analyze the
+    empirical variations when applying our method to inherently
+    different networks in practice. In addition, the heuristics on how
+    the quality and quantity of the seed set would affect the
+    performance are provided.
 
-2013-blockgrace: |
-  Scaling iterative graph processing applications to large graphs is an
-  important problem. Performance is critical, as data scientists need to
-  execute graph programs many times with varying parameters. The need
-  for a high-level, high-performance programming model has inspired much
-  research on graph programming frameworks. In this paper, we show that
-  the important class of computationally light graph applications –
-  applications that perform little computation per vertex – has severe
-  scalability problems across multiple cores as these applications hit
-  an early "memory wall" that limits their speedup. We propose a novel
-  block-oriented computation model, in which computation is iterated
-  locally over blocks of highly connected nodes, significantly improving
-  the amount of computation per cache miss. Following this model, we
-  describe the design and implementation of a block-aware graph
-  processing runtime that keeps the familiar vertex-centric programming
-  paradigm while reaping the benefits of block-oriented execution. Our
-  experiments show that block-oriented execution significantly improves
-  the performance of our framework for several graph applications.
+2014-matcont:
+  abstract: |
+    The Continuation of Invariant Subspaces (CIS) algorithm produces a
+    smoothly-varying basis for an invariant subspace R(s) of a
+    parameter-dependent matrix $A(s)$. We have incorporated the CIS
+    algorithm into `Cl_matcont`, a Matlab package for the study of
+    dynamical systems and their bifurcations. Using subspace reduction, we
+    extend the functionality of `Cl_matcont` to large-scale computations
+    of bifurcations of equilibria. In this paper, we describe the
+    algorithms and functionality of the resulting Matlab bifurcation
+    package `Cl_matcontL`. The novel features include: new CIS-based,
+    continuous, well-scaled test functions for codimension 1 and 2
+    bifurcations; detailed description of locators for large problems; and
+    examples of bifurcation analysis in large sparse problems.
 
-2012-mems-opt: |
-  A topology optimization problem in micromechanical resonator design is
-  addressed in this paper. The design goal is to control the first
-  several eigenfrequencies of a micromechanical resonator using topology
-  optimization. The design variable is the distribution of mass in a
-  constrained domain which we model via (1) the Simple Isotropic
-  Material with Penalization Model and (2) the Peak Function Model. The
-  overall optimization problem is solved using the Method of Moving
-  Asymptotes and a Genetic Algorithm combined with a local gradient
-  method. A numerical example is presented to highlight the features of
-  the methods in more detail. The advantages and disadvantages of each
-  method are discussed.
+2013-simax:
+  abstract: |
+    Let $T : \Omega \rightarrow {\Bbb C}^{n \times n}$ be a matrix-valued
+    function that is analytic on some simply-connected domain $\Omega
+    \subset {\Bbb C}$.  A point $\lambda \in \Omega$ is an eigenvalue if the
+    matrix $T(\lambda)$ is singular.  In this paper, we describe new
+    localization results for nonlinear eigenvalue problems that
+    generalize Gershgorin's theorem, pseudospectral inclusion theorems,
+    and the Bauer-Fike theorem.  We use our results to analyze three
+    nonlinear eigenvalue problems: an example from delay differential
+    equations, a problem due to Hadeler, and a quantum resonance
+    computation.
 
-2011-socc: |
-  Scientists are currently evaluating the cloud as a new platform. Many
-  important scientific applications, however, perform poorly in the
-  cloud. These applications proceed in highly parallel discrete
-  time-steps or "ticks," using logical synchronization barriers at tick
-  boundaries. We observe that network jitter in the cloud can severely
-  increase the time required for communication in these applications,
-  significantly increasing overall running time.
+2013-sensors:
+  abstract: |
+    Solid-wave gyroscopes are symmetric resonators that sense rotation by
+    measuring how Coriolis forces perturb a degenerate mode pair. The
+    idealized dynamics of these devices are described by ODE models of two
+    identical oscillators coupled by a perturbation due to rotation. In
+    miniaturized solid-wave gyroscopes, geometric distortions due to
+    imperfect fabrication also perturb the dynamics, and this limits
+    sensing accuracy. In this work, we describe how geometric
+    imperfections affect the dynamics of solid-wave gyroscopes. We also
+    use selection rules both to find qualitative information about what
+    types of geometry perturbations most affect sensor performance and to
+    accelerate computations
 
-  In this paper, we propose a general parallel framework to process
-  time-stepped applications in the cloud. Our framework exposes a
-  high-level, data-centric programming model which represents
-  application state as tables and dependencies between states as queries
-  over these tables. We design a jitter-tolerant runtime that uses these
-  data dependencies to absorb latency spikes by (1) carefully scheduling
-  computation and (2) replicating data and computation. Our data-driven
-  approach is transparent to the scientist and requires little
-  additional code. Our experiments show that our methods improve
-  performance up to a factor of three for several typical time-stepped
-  applications.
+2013-blockgrace:
+  abstract: |
+    Scaling iterative graph processing applications to large graphs is an
+    important problem. Performance is critical, as data scientists need to
+    execute graph programs many times with varying parameters. The need
+    for a high-level, high-performance programming model has inspired much
+    research on graph programming frameworks. In this paper, we show that
+    the important class of computationally light graph applications –
+    applications that perform little computation per vertex – has severe
+    scalability problems across multiple cores as these applications hit
+    an early "memory wall" that limits their speedup. We propose a novel
+    block-oriented computation model, in which computation is iterated
+    locally over blocks of highly connected nodes, significantly improving
+    the amount of computation per cache miss. Following this model, we
+    describe the design and implementation of a block-aware graph
+    processing runtime that keeps the familiar vertex-centric programming
+    paradigm while reaping the benefits of block-oriented execution. Our
+    experiments show that block-oriented execution significantly improves
+    the performance of our framework for several graph applications.
 
-2011-focs: |
-  A long-standing line of work in economic theory has studied models by
-  which a group of people in a social network, each holding a numerical
-  opinion, can arrive at a shared opinion through repeated averaging
-  with their neighbors in the network. Motivated by the observation that
-  consensus is rarely reached in real opinion dynamics, we study a
-  related sociological model in which individuals' intrinsic beliefs
-  counterbalance the averaging process and yield a diversity of
-  opinions. By interpreting the repeated averaging as best-response
-  dynamics in an underlying game with natural payoffs, and the limit of
-  the process as an equilibrium, we are able to study the cost of
-  disagreement in these models relative to a social optimum. We provide
-  a tight bound on the cost at equilibrium relative to the optimum, our
-  analysis draws a connection between these agreement models and
-  extremal problems for generalized eigenvalues. We also consider a
-  natural network design problem in this setting, where adding links to
-  the underlying network can reduce the cost of disagreement at
-  equilibrium.
+2012-mems-opt:
+  abstract: |
+    A topology optimization problem in micromechanical resonator design is
+    addressed in this paper. The design goal is to control the first
+    several eigenfrequencies of a micromechanical resonator using topology
+    optimization. The design variable is the distribution of mass in a
+    constrained domain which we model via (1) the Simple Isotropic
+    Material with Penalization Model and (2) the Peak Function Model. The
+    overall optimization problem is solved using the Method of Moving
+    Asymptotes and a Genetic Algorithm combined with a local gradient
+    method. A numerical example is presented to highlight the features of
+    the methods in more detail. The advantages and disadvantages of each
+    method are discussed.
 
-2009-tons: |
-  Internet fault diagnosis is extremely important for end-users, overlay
-  network service providers (like Akamai ), and even Internet service
-  providers (ISPs). However, because link-level properties cannot be
-  uniquely determined from end-to-end measurements, the accuracy of
-  existing statistical diagnosis approaches is subject to uncertainty
-  from statistical assumptions about the network. In this paper, we
-  propose a novel least-biased end-to-end network diagnosis (in short,
-  LEND) system for inferring link-level properties like loss rate. We
-  define a minimal identifiable link sequence (MILS) as a link sequence
-  of minimal length whose properties can be uniquely identified from
-  end-to-end measurements. We also design efficient algorithms to find
-  all the MILSs and infer their loss rates for diagnosis. Our LEND
-  system works for any network topology and for both directed and
-  undirected properties and incrementally adapts to network topology and
-  property changes. It gives highly accurate estimates of the loss rates
-  of MILSs, as indicated by both extensive simulations and Internet
-  experiments. Furthermore, we demonstrate that such diagnosis can be
-  achieved with fine granularity and in near real-time even for
-  reasonably large overlay networks. Finally, LEND can supplement
-  existing statistical inference approaches and provide smooth tradeoff
-  between diagnosis accuracy and granularity.
+2011-socc:
+  abstract: |
+    Scientists are currently evaluating the cloud as a new platform. Many
+    important scientific applications, however, perform poorly in the
+    cloud. These applications proceed in highly parallel discrete
+    time-steps or "ticks," using logical synchronization barriers at tick
+    boundaries. We observe that network jitter in the cloud can severely
+    increase the time required for communication in these applications,
+    significantly increasing overall running time.
 
-2008-cis: |
-  We summarize an algorithm for computing a smooth orthonormal basis for
-  an invariant subspace of a parameter-dependent matrix, and describe
-  how to extend it for numerical bifurcation analysis. We adapt the
-  continued subspace to track behavior relevant to bifurcations, and use
-  projection methods to deal with large problems. To test our ideas, we
-  have integrated our code into MATCONT, a program for numerical
-  continuation and bifurcation analysis.
+    In this paper, we propose a general parallel framework to process
+    time-stepped applications in the cloud. Our framework exposes a
+    high-level, data-centric programming model which represents
+    application state as tables and dependencies between states as queries
+    over these tables. We design a jitter-tolerant runtime that uses these
+    data dependencies to absorb latency spikes by (1) carefully scheduling
+    computation and (2) replicating data and computation. Our data-driven
+    approach is transparent to the scientist and requires little
+    additional code. Our experiments show that our methods improve
+    performance up to a factor of three for several typical time-stepped
+    applications.
 
-2007-tons: |
-  Overlay network monitoring enables distributed Internet applications
-  to detect and recover from path outages and periods of degraded
-  performance within seconds. For an overlay network with end hosts,
-  existing systems either require measurements, and thus lack
-  scalability, or can only estimate the latency but not congestion or
-  failures. Our earlier extended abstract [Y. Chen, D. Bindel, and R. H.
-  Katz, "Tomography-based overlay network monitoring," Proceedings of
-  the ACM SIGCOMM Internet Measurement Conference (IMC), 2003] briefly
-  proposes an algebraic approach that selectively monitors linearly
-  independent paths that can fully describe all the paths. The loss
-  rates and latency of these paths can be used to estimate the loss
-  rates and latency of all other paths. Our scheme only assumes
-  knowledge of the underlying IP topology, with links dynamically
-  varying between lossy and normal. In this paper, we improve,
-  implement, and extensively evaluate such a monitoring system. We
-  further make the following contributions: i) scalability analysis
-  indicating that for reasonably large n (e.g., 100), the growth of $k$
-  is bounded as $O(n \log n)$, ii) efficient adaptation algorithms for
-  topology changes, such as the addition or removal of end hosts and
-  routing changes, iii) measurement load balancing schemes, iv) topology
-  measurement error handling, and v) design and implementation of an
-  adaptive streaming media system as a representative application. Both
-  simulation and Internet experiments demonstrate we obtain highly
-  accurate path loss rate estimation while adapting to topology changes
-  within seconds and handling topology errors.
+2011-focs:
+  abstract: |
+    A long-standing line of work in economic theory has studied models by
+    which a group of people in a social network, each holding a numerical
+    opinion, can arrive at a shared opinion through repeated averaging
+    with their neighbors in the network. Motivated by the observation that
+    consensus is rarely reached in real opinion dynamics, we study a
+    related sociological model in which individuals' intrinsic beliefs
+    counterbalance the averaging process and yield a diversity of
+    opinions. By interpreting the repeated averaging as best-response
+    dynamics in an underlying game with natural payoffs, and the limit of
+    the process as an equilibrium, we are able to study the cost of
+    disagreement in these models relative to a social optimum. We provide
+    a tight bound on the cost at equilibrium relative to the optimum, our
+    analysis draws a connection between these agreement models and
+    extremal problems for generalized eigenvalues. We also consider a
+    natural network design problem in this setting, where adding links to
+    the underlying network can reduce the cost of disagreement at
+    equilibrium.
 
-2007-symmetry: |
-  Motivated by a recent numerical observation we show that in one
-  dimensional scattering a barrier separating the interaction region
-  from infinity implies approximate symmetry of bound and antibound
-  states. We also outline the numerical procedure used for an efficient
-  computation of one dimensional resonances.
+2009-tons:
+  abstract: |
+    Internet fault diagnosis is extremely important for end-users, overlay
+    network service providers (like Akamai ), and even Internet service
+    providers (ISPs). However, because link-level properties cannot be
+    uniquely determined from end-to-end measurements, the accuracy of
+    existing statistical diagnosis approaches is subject to uncertainty
+    from statistical assumptions about the network. In this paper, we
+    propose a novel least-biased end-to-end network diagnosis (in short,
+    LEND) system for inferring link-level properties like loss rate. We
+    define a minimal identifiable link sequence (MILS) as a link sequence
+    of minimal length whose properties can be uniquely identified from
+    end-to-end measurements. We also design efficient algorithms to find
+    all the MILSs and infer their loss rates for diagnosis. Our LEND
+    system works for any network topology and for both directed and
+    undirected properties and incrementally adapts to network topology and
+    property changes. It gives highly accurate estimates of the loss rates
+    of MILSs, as indicated by both extensive simulations and Internet
+    experiments. Furthermore, we demonstrate that such diagnosis can be
+    achieved with fine granularity and in near real-time even for
+    reasonably large overlay networks. Finally, LEND can supplement
+    existing statistical inference approaches and provide smooth tradeoff
+    between diagnosis accuracy and granularity.
 
-2007-sound: |
-  For interactive sound synthesis, we would like to change the shape of
-  a finite element model of an instrument and rapidly hear how the sound
-  changes. Using modal synthesis methods, we would need to compute a new
-  modal decomposition with each change in the geometry, making the
-  analysis too slow for interactive use. However, by using modes
-  computed for one geometry to estimate the frequencies for nearby
-  geometries, we can hear much more quickly how changing the instrument
-  shape changes the sound. In this paper, we describe how to estimate
-  resonant frequencies of an instrument by combining information about
-  the modes of two similar instruments. We also describe the balance
-  between computational speed and accuracy of the computed resonances.
+2008-cis:
+  abstract: |
+    We summarize an algorithm for computing a smooth orthonormal basis for
+    an invariant subspace of a parameter-dependent matrix, and describe
+    how to extend it for numerical bifurcation analysis. We adapt the
+    continued subspace to track behavior relevant to bifurcations, and use
+    projection methods to deal with large problems. To test our ideas, we
+    have integrated our code into MATCONT, a program for numerical
+    continuation and bifurcation analysis.
 
-2006-sound: |
-  In the last decade, many researchers have used modal synthesis for
-  sound generation. Using a modal decomposition, one can convert a large
-  system of coupled differential equations into simple, independent
-  differential equations in one variable. To synthesize sound from the
-  system, one solves these decoupled equations numerically, which is
-  much more efficient than solving the original coupled system. For
-  large systems, such as those obtained from finite-element analysis of
-  a musical instrument, the initial modal decomposition is
-  time-consuming. To design instruments from physical simulation, one
-  would like to be able to compute modes in real-time, so that the
-  geometry, and therefore spectrum, of an instrument can be changed
-  interactively. In this paper, we describe how to quickly compute modes
-  of instruments which have rotational symmetry in order to synthesize
-  sounds of new instruments quickly enough for interactive instrument
-  design.
+2007-tons:
+  abstract: |
+    Overlay network monitoring enables distributed Internet applications
+    to detect and recover from path outages and periods of degraded
+    performance within seconds. For an overlay network with end hosts,
+    existing systems either require measurements, and thus lack
+    scalability, or can only estimate the latency but not congestion or
+    failures. Our earlier extended abstract [Y. Chen, D. Bindel, and R. H.
+    Katz, "Tomography-based overlay network monitoring," Proceedings of
+    the ACM SIGCOMM Internet Measurement Conference (IMC), 2003] briefly
+    proposes an algebraic approach that selectively monitors linearly
+    independent paths that can fully describe all the paths. The loss
+    rates and latency of these paths can be used to estimate the loss
+    rates and latency of all other paths. Our scheme only assumes
+    knowledge of the underlying IP topology, with links dynamically
+    varying between lossy and normal. In this paper, we improve,
+    implement, and extensively evaluate such a monitoring system. We
+    further make the following contributions: i) scalability analysis
+    indicating that for reasonably large n (e.g., 100), the growth of $k$
+    is bounded as $O(n \log n)$, ii) efficient adaptation algorithms for
+    topology changes, such as the addition or removal of end hosts and
+    routing changes, iii) measurement load balancing schemes, iv) topology
+    measurement error handling, and v) design and implementation of an
+    adaptive streaming media system as a representative application. Both
+    simulation and Internet experiments demonstrate we obtain highly
+    accurate path loss rate estimation while adapting to topology changes
+    within seconds and handling topology errors.
 
-2006-para: |
-  New releases of the widely used LAPACK and ScaLAPACK numerical linear
-  algebra libraries are planned. Based on an on-going user survey
-  (<www.netlib.org/lapack-dev>) and research by many people, we are
-  proposing the following improvements: Faster algorithms, including
-  better numerical methods, memory hierarchy optimizations, parallelism,
-  and automatic performance tuning to accommodate new architectures;
-  More accurate algorithms, including better numerical methods, and use
-  of extra precision; Expanded functionality, including updating and
-  downdating, new eigenproblems, etc. and putting more of LAPACK into
-  ScaLAPACK; Improved ease of use, e.g., via friendlier interfaces in
-  multiple languages. To accomplish these goals we are also relying on
-  better software engineering techniques and contributions from
-  collaborators at many institutions.
+2007-symmetry:
+  abstract: |
+    Motivated by a recent numerical observation we show that in one
+    dimensional scattering a barrier separating the interaction region
+    from infinity implies approximate symmetry of bound and antibound
+    states. We also outline the numerical procedure used for an efficient
+    computation of one dimensional resonances.
 
-2006-sigcomm: |
-  Internet fault diagnosis is extremely important for end users, overlay
-  network service providers (like Akamai [1]) and even Internet service
-  providers (ISPs). However, because link-level properties cannot be
-  uniquely determined from end-to-end measurements, the accuracy of
-  existing statistical diagnosis approaches is subject to uncertainty
-  from statistical assumptions about the network. In this paper, we
-  propose a novel *Least-biased End-to-end Network Diagnosis* (in short,
-  LEND) system for inferring link-level properties like loss rate. We
-  define a *minimal identifiable link sequence* (MILS) as a link sequence
-  of minimal length whose properties can be uniquely identified from
-  end-to-end measurements. We also design efficient algorithms to find
-  all the MILSes and infer their loss rates for diagnosis. Our LEND
-  system works for any network topology and for both directed and
-  undirected properties, and incrementally adapts to network topology
-  and property changes. It gives highly accurate estimates of the loss
-  rates of MILSes, as indicated by both extensive simulations and
-  Internet experiments. Furthermore, we demonstrate that such diagnosis
-  can be achieved with fine granularity and in near real-time even for
-  reasonably large overlay networks. Finally, LEND can supplement
-  existing statistical inference approaches and provide smooth tradeoff
-  between diagnosis accuracy and granularity.
+2007-sound:
+  abstract: |
+    For interactive sound synthesis, we would like to change the shape of
+    a finite element model of an instrument and rapidly hear how the sound
+    changes. Using modal synthesis methods, we would need to compute a new
+    modal decomposition with each change in the geometry, making the
+    analysis too slow for interactive use. However, by using modes
+    computed for one geometry to estimate the frequencies for nearby
+    geometries, we can hear much more quickly how changing the instrument
+    shape changes the sound. In this paper, we describe how to estimate
+    resonant frequencies of an instrument by combining information about
+    the modes of two similar instruments. We also describe the balance
+    between computational speed and accuracy of the computed resonances.
 
-2005-sensors: |
-  This paper presents the development of HiQLab, a simulation tool to
-  compute the effect of damping in high frequency resonators. Existing
-  simulation tools allow designers to compute resonant frequencies but
-  few tools provide estimates of damping, which is crucial in evaluating
-  the performance of such devices. In the current code, two damping
-  mechanisms: thermoelastic damping and anchor loss, have been
-  implemented. Thermoelastic damping results from irreversible heat flow
-  due to mechanically-driven temperature gradients, while anchor loss
-  occurs when high-frequency mechanical waves radiate away from the
-  resonator and into the substrate. Our finite-element simulation tool
-  discretizes PDE models of both phenomena, and evaluates the quality
-  factor ($Q$), a measure of damping in the system, with specialized
-  eigencomputations and model reduction techniques. The core functions
-  of the tool are written in C++ for performance. Interfaces are in Lua
-  and MATLAB, which give users access to powerful visualization and pre-
-  and postprocessing capabilities.
+2006-sound:
+  abstract: |
+    In the last decade, many researchers have used modal synthesis for
+    sound generation. Using a modal decomposition, one can convert a large
+    system of coupled differential equations into simple, independent
+    differential equations in one variable. To synthesize sound from the
+    system, one solves these decoupled equations numerically, which is
+    much more efficient than solving the original coupled system. For
+    large systems, such as those obtained from finite-element analysis of
+    a musical instrument, the initial modal decomposition is
+    time-consuming. To design instruments from physical simulation, one
+    would like to be able to compute modes in real-time, so that the
+    geometry, and therefore spectrum, of an instrument can be changed
+    interactively. In this paper, we describe how to quickly compute modes
+    of instruments which have rotational symmetry in order to synthesize
+    sounds of new instruments quickly enough for interactive instrument
+    design.
 
-2005-ijnme: |
-  Electromechanical resonators and filters, such as quartz, ceramic, and
-  surface-acoustic wave devices, are important signal-processing
-  elements in communication systems. Over the past decade, there has
-  been substantial progress in developing new types of miniaturized
-  electromechanical resonators using microfabrication processes. For
-  these micro-resonators to be viable they must have high and
-  predictable quality factors ($Q$). Depending on scale and geometry, the
-  energy losses that lower $Q$ may come from material damping,
-  thermoelastic damping, air damping, or radiation of elastic waves from
-  an anchor. Of these factors, anchor losses are the least understood
-  because such losses are due to a complex radiation phenomena in a
-  semi-infinite elastic half-space. Here, we describe how anchor losses
-  can be accurately computed using an absorbing boundary based on a
-  *perfectly matched layer* (PML) which absorbs incoming waves over a wide
-  frequency range for any non-zero angle of incidence. We exploit the
-  interpretation of the PML as a complex-valued change of co-ordinates
-  to illustrate how one can come to a simpler finite element
-  implementation than was given in its original presentations. We also
-  examine the convergence and accuracy of the method, and give
-  guidelines for how to choose the parameters effectively. As an example
-  application, we compute the anchor loss in a micro disk resonator and
-  compare it to experimental data. Our analysis illustrates a surprising
-  mode-mixing phenomenon which can substantially affect the quality of
-  resonance.
+2006-sigmetrics:
 
-2005-iccs: |
-  The Continuation of Invariant Subspaces (CIS) algorithm produces a
-  smoothly varying basis for an invariant subspace $R(s)$ of a
-  parameter-dependent matrix $A(s)$. In the case when $A(s)$ is the
-  Jacobian matrix for a system that comes from a spatial discretization
-  of a partial differential equation, it will typically be large and
-  sparse. `Cl_matcont` is a user-friendly MATLAB package for the study
-  of dynamical systems and their bifurcations. We incorporate the CIS
-  algorithm into `Cl_matcont` to extend its functionality to large scale
-  bifurcation computations via subspace reduction
+2006-para:
+  abstract: |
+    New releases of the widely used LAPACK and ScaLAPACK numerical linear
+    algebra libraries are planned. Based on an on-going user survey
+    (<www.netlib.org/lapack-dev>) and research by many people, we are
+    proposing the following improvements: Faster algorithms, including
+    better numerical methods, memory hierarchy optimizations, parallelism,
+    and automatic performance tuning to accommodate new architectures;
+    More accurate algorithms, including better numerical methods, and use
+    of extra precision; Expanded functionality, including updating and
+    downdating, new eigenproblems, etc. and putting more of LAPACK into
+    ScaLAPACK; Improved ease of use, e.g., via friendlier interfaces in
+    multiple languages. To accomplish these goals we are also relying on
+    better software engineering techniques and contributions from
+    collaborators at many institutions.
 
-2005-mems: |
-  Surface-micromachined resonators and filters are attractive for many
-  RF applications. While existing simulation tools allow designers to
-  compute resonant frequencies, few tools provide estimates of the
-  damping in these devices. This paper reports on a new tool that allows
-  designers, for the first time, to compute anchor losses in
-  high-frequency resonators and account for sub-surface scatterers. By
-  exercising the tool on a family of radially driven disk resonators, we
-  show that the anchor loss mechanism for this class of devices involves
-  a parasitic mixed-mode bending action that pumps energy into the
-  substrate. Further, using the tool, we predict a large variation in
-  resonator quality depending upon film thickness. Our simulation shows
-  that the source of this variation is a complex radial-to-bending
-  motion interaction, which we visualize with a root-locus diagram. We
-  experimentally verify this predicted sensitivity using poly-SiGe disk
-  resonators having Q's ranging from 200 to 54,000.
+2006-sigcomm:
+  abstract: |
+    Internet fault diagnosis is extremely important for end users, overlay
+    network service providers (like Akamai [1]) and even Internet service
+    providers (ISPs). However, because link-level properties cannot be
+    uniquely determined from end-to-end measurements, the accuracy of
+    existing statistical diagnosis approaches is subject to uncertainty
+    from statistical assumptions about the network. In this paper, we
+    propose a novel *Least-biased End-to-end Network Diagnosis* (in short,
+    LEND) system for inferring link-level properties like loss rate. We
+    define a *minimal identifiable link sequence* (MILS) as a link sequence
+    of minimal length whose properties can be uniquely identified from
+    end-to-end measurements. We also design efficient algorithms to find
+    all the MILSes and infer their loss rates for diagnosis. Our LEND
+    system works for any network topology and for both directed and
+    undirected properties, and incrementally adapts to network topology
+    and property changes. It gives highly accurate estimates of the loss
+    rates of MILSes, as indicated by both extensive simulations and
+    Internet experiments. Furthermore, we demonstrate that such diagnosis
+    can be achieved with fine granularity and in near real-time even for
+    reasonably large overlay networks. Finally, LEND can supplement
+    existing statistical inference approaches and provide smooth tradeoff
+    between diagnosis accuracy and granularity.
 
-2004-sigcomm: |
-  Overlay network monitoring enables distributed Internet applications
-  to detect and recover from path outages and periods of degraded
-  performance within seconds. For an overlay network with $n$ end hosts,
-  existing systems either require $O(n^2)$ measurements, and thus lack
-  scalability, or can only estimate the latency but not congestion or
-  failures. Our earlier extended abstract briefly proposes an
-  algebraic approach that selectively monitors $k$ linearly independent
-  paths that can fully describe all the $O(n^2)$ paths. The loss rates and
-  latency of these $k$ paths can be used to estimate the loss rates and
-  latency of all other paths. Our scheme only assumes knowledge of the
-  underlying IP topology, with links dynamically varying between lossy
-  and normal.In this paper, we improve, implement and extensively
-  evaluate such a monitoring system. We further make the following
-  contributions: i) scalability analysis indicating that for reasonably
-  large n (e.g., 100), the growth of $k$ is bounded as $O(n \log n)$, ii)
-  efficient adaptation algorithms for topology changes, such as the
-  addition or removal of end hosts and routing changes, iii) measurement
-  load balancing schemes, and iv) topology measurement error handling.
-  Both simulation and Internet experiments demonstrate we obtain highly
-  accurate path loss rate estimation while adapting to topology changes
-  within seconds and handling topology errors.
+2005-sensors:
+  abstract: |
+    This paper presents the development of HiQLab, a simulation tool to
+    compute the effect of damping in high frequency resonators. Existing
+    simulation tools allow designers to compute resonant frequencies but
+    few tools provide estimates of damping, which is crucial in evaluating
+    the performance of such devices. In the current code, two damping
+    mechanisms: thermoelastic damping and anchor loss, have been
+    implemented. Thermoelastic damping results from irreversible heat flow
+    due to mechanically-driven temperature gradients, while anchor loss
+    occurs when high-frequency mechanical waves radiate away from the
+    resonator and into the substrate. Our finite-element simulation tool
+    discretizes PDE models of both phenomena, and evaluates the quality
+    factor ($Q$), a measure of damping in the system, with specialized
+    eigencomputations and model reduction techniques. The core functions
+    of the tool are written in C++ for performance. Interfaces are in Lua
+    and MATLAB, which give users access to powerful visualization and pre-
+    and postprocessing capabilities.
 
-2004-para: |
-  Radio-frequency (RF) MEMS resonators, integrated into CMOS chips, are
-  of great interest to engineers planning the next generation of
-  communication systems. Fast simulations are necessary in order to gain
-  insights into the behavior of these devices. In this paper, we discuss
-  two structure-preserving model-reduction techniques and apply them to
-  the frequency-domain analysis of two proposed MEMS resonator designs.
+2005-ijnme:
+  abstract: |
+    Electromechanical resonators and filters, such as quartz, ceramic, and
+    surface-acoustic wave devices, are important signal-processing
+    elements in communication systems. Over the past decade, there has
+    been substantial progress in developing new types of miniaturized
+    electromechanical resonators using microfabrication processes. For
+    these micro-resonators to be viable they must have high and
+    predictable quality factors ($Q$). Depending on scale and geometry, the
+    energy losses that lower $Q$ may come from material damping,
+    thermoelastic damping, air damping, or radiation of elastic waves from
+    an anchor. Of these factors, anchor losses are the least understood
+    because such losses are due to a complex radiation phenomena in a
+    semi-infinite elastic half-space. Here, we describe how anchor losses
+    can be accurately computed using an absorbing boundary based on a
+    *perfectly matched layer* (PML) which absorbs incoming waves over a wide
+    frequency range for any non-zero angle of incidence. We exploit the
+    interpretation of the PML as a complex-valued change of coordinates
+    to illustrate how one can come to a simpler finite element
+    implementation than was given in its original presentations. We also
+    examine the convergence and accuracy of the method, and give
+    guidelines for how to choose the parameters effectively. As an example
+    application, we compute the anchor loss in a micro disk resonator and
+    compare it to experimental data. Our analysis illustrates a surprising
+    mode-mixing phenomenon which can substantially affect the quality of
+    resonance.
 
-2003-imc: |
-  Overlay network monitoring enables distributed Internet applications
-  to detect and recover from path outages and periods of degraded
-  performance within seconds. For an overlay network with $n$ end hosts,
-  existing systems either require $O(n^2)$ measurements, and thus lack
-  scalability, or can only estimate the latency but not congestion or
-  failures. Unlike other network tomography systems, we characterize
-  end-to-end losses (this extends to any additive metrics, including
-  latency) rather than individual link losses. We find a minimal basis
-  set of $k$ linearly independent paths that can fully describe all the
-  $O(n^2)$ paths. We selectively monitor and measure the loss rates of
-  these paths, then apply them to estimate the loss rates of all other
-  paths. By extensively studying synthetic and real topologies, we find
-  that for reasonably large n (e.g., 100), $k$ is only in the range of
-  $O(n \log n)$. This is explained by the moderately hierarchical nature of
-  Internet routine.Our scheme only assumes the knowledge of underlying
-  IP topology, and any link can become lossy or return to normal. In
-  addition, our technique is tolerant to topology measurement
-  inaccuracies, and is adaptive to topology changes.
+2005-sigmetrics:
 
-2002-toms: |
-  We consider the efficient and accurate computation of Givens
-  rotations. When $f$ and $g$ are positive real numbers, this simply amounts
-  to computing the values of $c = f/\sqrt{f^2 + g^2}$,
-  $s = g/\sqrt{f^2 + g^2}$, and $r = \sqrt{f^2 + g^2}$.
-  This apparently trivial computation merits closer consideration
-  for the following three reasons. First, while the definitions of $c$, $s$
-  and $r$ seem obvious in the case of two nonnegative arguments $f$ and $g$,
-  there is enough freedom of choice when one or more of $f$ and $g$ are
-  negative, zero or complex that LAPACK auxiliary routines SLARTG,
-  CLARTG, SLARGV and CLARGV can compute rather different values of $c$, $s$
-  and $r$ for mathematically identical values of $f$ and $g$. To eliminate
-  this unnecessary ambiguity, the BLAS Technical Forum chose a single
-  consistent definition of Givens rotations that we will justify here.
-  Second, computing accurate values of $c$, $s$ and $r$ as efficiently as
-  possible and reliably despite over/underflow is surprisingly
-  complicated. For complex Givens rotations, the most efficient formulas
-  require only one real square root and one real divide (as well as
-  several much cheaper additions and multiplications), but a reliable
-  implementation using only working precision has a number of cases. On
-  a Sun Ultra-10, the new implementation is slightly faster than the
-  previous LAPACK implementation in the most common case, and 2.7 to 4.6
-  times faster than the corresponding vendor, reference or ATLAS
-  routines. It is also more reliable; all previous codes occasionally
-  suffer from large inaccuracies due to over/underflow. For real Givens
-  rotations, there are also improvements in speed and accuracy, though
-  not as striking. Third, the design process that led to this reliable
-  implementation is quite systematic, and could be applied to the design
-  of similarly reliable subroutines.
+2005-iccs:
+  abstract: |
+    The Continuation of Invariant Subspaces (CIS) algorithm produces a
+    smoothly varying basis for an invariant subspace $R(s)$ of a
+    parameter-dependent matrix $A(s)$. In the case when $A(s)$ is the
+    Jacobian matrix for a system that comes from a spatial discretization
+    of a partial differential equation, it will typically be large and
+    sparse. `Cl_matcont` is a user-friendly MATLAB package for the study
+    of dynamical systems and their bifurcations. We incorporate the CIS
+    algorithm into `Cl_matcont` to extend its functionality to large scale
+    bifurcation computations via subspace reduction
 
-2002-mems: |
-  In this paper, we report several advances in the Sugar 2.0 MEMS system
-  simulation package, including reduced-order modeling techniques,
-  simple hierarchical description of complex structures, synthesis
-  tools, a variety of models, and a web-based interface. Examples
-  include the modeling of a torsional micromirror with lateral actuators
-  compared to experiment, and the prototyping of a microrobot.
+2005-mems:
+  abstract: |
+    Surface-micromachined resonators and filters are attractive for many
+    RF applications. While existing simulation tools allow designers to
+    compute resonant frequencies, few tools provide estimates of the
+    damping in these devices. This paper reports on a new tool that allows
+    designers, for the first time, to compute anchor losses in
+    high-frequency resonators and account for sub-surface scatterers. By
+    exercising the tool on a family of radially driven disk resonators, we
+    show that the anchor loss mechanism for this class of devices involves
+    a parasitic mixed-mode bending action that pumps energy into the
+    substrate. Further, using the tool, we predict a large variation in
+    resonator quality depending upon film thickness. Our simulation shows
+    that the source of this variation is a complex radial-to-bending
+    motion interaction, which we visualize with a root-locus diagram. We
+    experimentally verify this predicted sensitivity using poly-SiGe disk
+    resonators having Q's ranging from 200 to 54,000.
 
-2001-icics: |
-  Network Denial of Service (DoS) attacks are increasing in frequency,
-  severity and sophistication, making it desirable to measure the
-  resilience of systems to DoS attacks. In this paper, we propose a
-  simulation-based methodology and apply it to attacks on object
-  location services such as DNS. Our results allow us to contrast the
-  DoS resilience of three distinct architectures for object location.
+2004-sigcomm:
+  abstract: |
+    Overlay network monitoring enables distributed Internet applications
+    to detect and recover from path outages and periods of degraded
+    performance within seconds. For an overlay network with $n$ end hosts,
+    existing systems either require $O(n^2)$ measurements, and thus lack
+    scalability, or can only estimate the latency but not congestion or
+    failures. Our earlier extended abstract briefly proposes an
+    algebraic approach that selectively monitors $k$ linearly independent
+    paths that can fully describe all the $O(n^2)$ paths. The loss rates and
+    latency of these $k$ paths can be used to estimate the loss rates and
+    latency of all other paths. Our scheme only assumes knowledge of the
+    underlying IP topology, with links dynamically varying between lossy
+    and normal.In this paper, we improve, implement and extensively
+    evaluate such a monitoring system. We further make the following
+    contributions: i) scalability analysis indicating that for reasonably
+    large n (e.g., 100), the growth of $k$ is bounded as $O(n \log n)$, ii)
+    efficient adaptation algorithms for topology changes, such as the
+    addition or removal of end hosts and routing changes, iii) measurement
+    load balancing schemes, and iv) topology measurement error handling.
+    Both simulation and Internet experiments demonstrate we obtain highly
+    accurate path loss rate estimation while adapting to topology changes
+    within seconds and handling topology errors.
 
-2001-sugar: |
-  Advancements in Sugar include 1) parameterizable netlists, 2)
-  nonlinear frequency response analysis, 3) subnets, 4) improved MNA, 5)
-  reduced order modeling, and 6) a more accurate nonlinear beam model.
-  Examples of these features include the simulation of a two-axis mirror
-  with over 10,000 degrees of freedom, the reduced order modeling
-  applied of an electrostatic gap actuator, the parameterized deflection
-  space of a thermal actuator and serpentine flexure, and the nonlinear
-  response of a fixed-fixed beam.
+2004-para:
+  abstract: |
+    Radio-frequency (RF) MEMS resonators, integrated into CMOS chips, are
+    of great interest to engineers planning the next generation of
+    communication systems. Fast simulations are necessary in order to gain
+    insights into the behavior of these devices. In this paper, we discuss
+    two structure-preserving model-reduction techniques and apply them to
+    the frequency-domain analysis of two proposed MEMS resonator designs.
 
-2001-msm: |
-  SUGAR is a nodal analysis package for 3D MEMS simulation that owes its
-  heritage and its name to the SPICE family of circuit simulation. SUGAR
-  has undergone the stage of proof-of-concept which showed that nodal
-  analysis was in fact just as accurate and much faster than #nite
-  element simulation on many MEMS problems. The upcoming major release
-  of SUGAR is version 2.0, which includes a number of new features, such
-  as 3D beam and gap elements, thermal expansion, linearly and
-  rotationally accelerating frames, and userde #ned models.
+2003-imc:
+  abstract: |
+    Overlay network monitoring enables distributed Internet applications
+    to detect and recover from path outages and periods of degraded
+    performance within seconds. For an overlay network with $n$ end hosts,
+    existing systems either require $O(n^2)$ measurements, and thus lack
+    scalability, or can only estimate the latency but not congestion or
+    failures. Unlike other network tomography systems, we characterize
+    end-to-end losses (this extends to any additive metrics, including
+    latency) rather than individual link losses. We find a minimal basis
+    set of $k$ linearly independent paths that can fully describe all the
+    $O(n^2)$ paths. We selectively monitor and measure the loss rates of
+    these paths, then apply them to estimate the loss rates of all other
+    paths. By extensively studying synthetic and real topologies, we find
+    that for reasonably large n (e.g., 100), $k$ is only in the range of
+    $O(n \log n)$. This is explained by the moderately hierarchical nature of
+    Internet routine.Our scheme only assumes the knowledge of underlying
+    IP topology, and any link can become lossy or return to normal. In
+    addition, our technique is tolerant to topology measurement
+    inaccuracies, and is adaptive to topology changes.
 
-2000-mems: |
-  The modeling, simulation, and experimental verification of several
-  MEMS devices are presented. Simulated results include 3D mode
-  analysis, residual stress effects, thermal expansion, nonlinear
-  deflections, time-varying electrostatic forces, process sensitivities,
-  induced currents, and the transient performance in accelerated
-  reference frames. To simulate the performance of these MEMS devices a
-  modified nodal analysis approach is used to formulate a system of ODEs
-  that is solved by static, steady state, and transient solvers.
+2002-toms:
+  abstract: |
+    We consider the efficient and accurate computation of Givens
+    rotations. When $f$ and $g$ are positive real numbers, this simply amounts
+    to computing the values of $c = f/\sqrt{f^2 + g^2}$,
+    $s = g/\sqrt{f^2 + g^2}$, and $r = \sqrt{f^2 + g^2}$.
+    This apparently trivial computation merits closer consideration
+    for the following three reasons. First, while the definitions of $c$, $s$
+    and $r$ seem obvious in the case of two nonnegative arguments $f$ and $g$,
+    there is enough freedom of choice when one or more of $f$ and $g$ are
+    negative, zero or complex that LAPACK auxiliary routines SLARTG,
+    CLARTG, SLARGV and CLARGV can compute rather different values of $c$, $s$
+    and $r$ for mathematically identical values of $f$ and $g$. To eliminate
+    this unnecessary ambiguity, the BLAS Technical Forum chose a single
+    consistent definition of Givens rotations that we will justify here.
+    Second, computing accurate values of $c$, $s$ and $r$ as efficiently as
+    possible and reliably despite over/underflow is surprisingly
+    complicated. For complex Givens rotations, the most efficient formulas
+    require only one real square root and one real divide (as well as
+    several much cheaper additions and multiplications), but a reliable
+    implementation using only working precision has a number of cases. On
+    a Sun Ultra-10, the new implementation is slightly faster than the
+    previous LAPACK implementation in the most common case, and 2.7 to 4.6
+    times faster than the corresponding vendor, reference or ATLAS
+    routines. It is also more reliable; all previous codes occasionally
+    suffer from large inaccuracies due to over/underflow. For real Givens
+    rotations, there are also improvements in speed and accuracy, though
+    not as striking. Third, the design process that led to this reliable
+    implementation is quite systematic, and could be applied to the design
+    of similarly reliable subroutines.
 
-2000-asplos: |
-  OceanStore is a utility infrastructure designed to span the globe and
-  provide continuous access to persistent information. Since this
-  infrastructure is comprised of untrusted servers, data is protected
-  through redundancy and cryptographic techniques. To improve
-  performance, data is allowed to be cached anywhere, anytime.
-  Additionally, monitoring of usage patterns allows adaptation to
-  regional outages and denial of service attacks; monitoring also
-  enhances performance through pro-active movement of data. A prototype
-  implementation is currently under development.
+2002-mems:
+  abstract: |
+    In this paper, we report several advances in the Sugar 2.0 MEMS system
+    simulation package, including reduced-order modeling techniques,
+    simple hierarchical description of complex structures, synthesis
+    tools, a variety of models, and a web-based interface. Examples
+    include the modeling of a torsional micromirror with lateral actuators
+    compared to experiment, and the prototyping of a microrobot.
+
+2001-icics:
+  abstract: |
+    Network Denial of Service (DoS) attacks are increasing in frequency,
+    severity and sophistication, making it desirable to measure the
+    resilience of systems to DoS attacks. In this paper, we propose a
+    simulation-based methodology and apply it to attacks on object
+    location services such as DNS. Our results allow us to contrast the
+    DoS resilience of three distinct architectures for object location.
+
+2001-sugar:
+  abstract: |
+    Advancements in Sugar include 1) parameterizable netlists, 2)
+    nonlinear frequency response analysis, 3) subnets, 4) improved MNA, 5)
+    reduced order modeling, and 6) a more accurate nonlinear beam model.
+    Examples of these features include the simulation of a two-axis mirror
+    with over 10,000 degrees of freedom, the reduced order modeling
+    applied of an electrostatic gap actuator, the parameterized deflection
+    space of a thermal actuator and serpentine flexure, and the nonlinear
+    response of a fixed-fixed beam.
+
+2001-msm:
+  abstract: |
+    SUGAR is a nodal analysis package for 3D MEMS simulation that owes its
+    heritage and its name to the SPICE family of circuit simulation. SUGAR
+    has undergone the stage of proof-of-concept which showed that nodal
+    analysis was in fact just as accurate and much faster than #nite
+    element simulation on many MEMS problems. The upcoming major release
+    of SUGAR is version 2.0, which includes a number of new features, such
+    as 3D beam and gap elements, thermal expansion, linearly and
+    rotationally accelerating frames, and userde #ned models.
+
+2000-mems:
+  abstract: |
+    The modeling, simulation, and experimental verification of several
+    MEMS devices are presented. Simulated results include 3D mode
+    analysis, residual stress effects, thermal expansion, nonlinear
+    deflections, time-varying electrostatic forces, process sensitivities,
+    induced currents, and the transient performance in accelerated
+    reference frames. To simulate the performance of these MEMS devices a
+    modified nodal analysis approach is used to formulate a system of ODEs
+    that is solved by static, steady state, and transient solvers.
+
+2000-asplos:
+  abstract: |
+    OceanStore is a utility infrastructure designed to span the globe and
+    provide continuous access to persistent information. Since this
+    infrastructure is comprised of untrusted servers, data is protected
+    through redundancy and cryptographic techniques. To improve
+    performance, data is allowed to be cached anywhere, anytime.
+    Additionally, monitoring of usage patterns allows adaptation to
+    regional outages and denial of service attacks; monitoring also
+    enhances performance through pro-active movement of data. A prototype
+    implementation is currently under development.
