@@ -27,6 +27,8 @@ js: [filtering.js]
     <p>
       {{ entry.where }}<br>
       {% for tag in entry.tags %} <span class="label label-primary">{{ tag }}</span>{% endfor %}
+      &bull;
+      {% for type in entry.type %} <span class="label label-info">{{ type }}</span>{% endfor %}
     </p>
   </div>
 </div>
