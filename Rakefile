@@ -45,7 +45,8 @@ task :clean do
 end
 
 task :papersync do
-  sh "rsync -avz -e 'ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null' --progress /Users/dbindel/work/web/home/papers/* bindel:/work/web/papers/"
+  sh "chmod a+r papers/*"
+  sh "rsync -avz -e 'ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null' --progress /Users/dbindel/work/web/home/papers/* bindel:work/web/home/papers/"
 end
 
 task :build do
