@@ -103,7 +103,8 @@
   file: cheme/cheme-sep03.pdf
   title: "Some Eigenvalue Computations: A Whirlwind Tour of Numerics"
   where: Reimer group meeting (UCB Chemical Engineering)
-  tags: [survey, local, invited]
+  tags: [survey]
+  type: [local]
   synopsis:
     A few slides on thinking about the sensitivity of eigenvalues
     and roots of characteristic polynomials.

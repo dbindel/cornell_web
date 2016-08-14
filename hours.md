@@ -10,6 +10,6 @@ these hours:
  - T 10-11
  - W 1:30-2:30
 
-You can also schedule appointments 
-using [MeetMe](http://www.meetme.so/DavidBindel)
-or by email.
+You can also schedule appointments using [MeetMe] or by email.
+
+[MeetMe]: (http://www.meetme.so/DavidBindel)
