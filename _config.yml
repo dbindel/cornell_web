@@ -27,3 +27,5 @@ markdown: kramdown
 scholar:
   style: assets/bibliography/ieee-with-url.csl
   bibliography_template: bib
+  bibliography_item_attributes: 
+    class: "filtering"

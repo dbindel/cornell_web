@@ -1,5 +1,5 @@
 2016-rotations:
-  tags: []
+  tags: [vision]
   abstract: |
     Rotations averaging has become a key subproblem in global Structure
     from Motion methods. Several solvers exist, but they do not have
@@ -22,7 +22,7 @@
     solvers for this important problem.
 
 2016-losp-kdd:
-  tags: []
+  tags: [networks, communities]
   abstract: |
     We address a semi-supervised learning problem of identifying all
     latent members of a local community from very few labeled seed members
@@ -49,7 +49,7 @@
     celebrated Heat Kernel diffusion and the PageRank diffusion.
 
 2016-flier-tr:
-  tags: []
+  tags: [power]
   abstract: |
     In this paper, we present a Fingerprint Linear Estimation Routine
     (FLiER) to identify topology changes in power networks using
@@ -88,7 +88,7 @@
     and quantify it for common device geometries.
 
 2015-sirev:
-  tags: []
+  tags: [nep]
   abstract: |
     Let $T : \Omega \rightarrow {\Bbb C}^{n\times n}$ be a matrix-valued
     function that is analytic on some simply-connected domain $\Omega
@@ -101,7 +101,7 @@
     problem due to Hadeler, and a quantum resonance computation.
 
 2015-middleware:
-  tags: []
+  tags: [systems]
   abstract: |
     Configuring large distributed computations is a challenging task.
     Efficiently executing distributed computations requires configuration
@@ -131,7 +131,7 @@
     compared to the default ones.
 
 2015-nips:
-  tags: []
+  tags: [topics]
   abstract: |
     Spectral inference provides fast algorithms and provable optimality
     for latent topic analysis. But for real data these algorithms require
@@ -146,7 +146,7 @@
     while maintaining scalability and provable optimality.
 
 2015-icdm:
-  tags: []
+  tags: [networks, communities]
   abstract: |
     Based on the definition of local spectral subspace, we propose a novel
     approach called LOSP for local overlapping community detection. Using
@@ -167,7 +167,7 @@
     seed for various large real world networks.
 
 2015-edgeppr:
-  tags: []
+  tags: [systems, networks]
   abstract: |
     Personalized PageRank is a standard tool for finding vertices in a
     graph that are most relevant to a query or user. To personalize
@@ -186,6 +186,7 @@
     previously been achievable for this class of problems.
 
 2015-siam-ns:
+  tags: [networks]
   abstract: |
     The kernel polynomial method (KPM) is a standard tool in condensed
     matter physics to estimate the density of states for a quantum system.
@@ -198,7 +199,7 @@
     standard KPM.
 
 2015-geb:
-  tags: []
+  tags: [networks]
   abstract: |
     The question of how people form their opinion has fascinated
     economists and sociologists for long time. In many of the models, a
@@ -218,7 +219,7 @@
     equilibrium?
 
 2015-rsc:
-  tags: []
+  tags: [la-sw]
   abstract: |
     Direct factorization methods for the solution of large, sparse
     linear systems that arise from PDE discretizations are robust, but
@@ -234,7 +235,7 @@
     time than standard preconditioned iterations.
 
 2015-www:
-  tags: []
+  tags: [networks, communities]
   abstract: |
     Large graphs arise in a number of contexts and understanding their
     structure and extracting information from them is an important
@@ -271,7 +272,7 @@
     performance are provided.
 
 2014-matcont:
-  tags: []
+  tags: [la-sw, cis]
   abstract: |
     The Continuation of Invariant Subspaces (CIS) algorithm produces a
     smoothly-varying basis for an invariant subspace R(s) of a
@@ -287,7 +288,7 @@
     examples of bifurcation analysis in large sparse problems.
 
 2013-simax:
-  tags: []
+  tags: [nep]
   abstract: |
     Let $T : \Omega \rightarrow {\Bbb C}^{n \times n}$ be a matrix-valued
     function that is analytic on some simply-connected domain $\Omega
@@ -301,7 +302,7 @@
     computation.
 
 2013-nep:
-  tags: []
+  tags: [nep]
   abstract: |
     Let $T : \Omega \rightarrow {\Bbb C}^{n \times n}$ be a matrix-valued
     function that is analytic on some simply-connected domain $\Omega
@@ -330,7 +331,7 @@
     accelerate computations
 
 2013-blockgrace:
-  tags: []
+  tags: [systems]
   abstract: |
     Scaling iterative graph processing applications to large graphs is an
     important problem. Performance is critical, as data scientists need to
@@ -366,7 +367,7 @@
     method are discussed.
 
 2011-socc:
-  tags: []
+  tags: [systems]
   abstract: |
     Scientists are currently evaluating the cloud as a new platform. Many
     important scientific applications, however, perform poorly in the
@@ -389,7 +390,7 @@
     applications.
 
 2011-focs:
-  tags: []
+  tags: [networks]
   abstract: |
     A long-standing line of work in economic theory has studied models by
     which a group of people in a social network, each holding a numerical
@@ -410,7 +411,7 @@
     equilibrium.
 
 2009-topology:
-  tags: []
+  tags: [mems]
   abstract: |
     A topology optimization problem in microelectromechanical resonator
     design is addressed in this paper. The design goal is to control the
@@ -426,7 +427,7 @@
     The advantages and disadvantages of each method are discussed.
 
 2009-tons:
-  tags: []
+  tags: [systems, tomography]
   abstract: |
     Internet fault diagnosis is extremely important for end-users, overlay
     network service providers (like Akamai ), and even Internet service
@@ -451,7 +452,7 @@
     between diagnosis accuracy and granularity.
 
 2008-cis:
-  tags: []
+  tags: [la-sw]
   abstract: |
     We summarize an algorithm for computing a smooth orthonormal basis for
     an invariant subspace of a parameter-dependent matrix, and describe
@@ -462,7 +463,7 @@
     continuation and bifurcation analysis.
 
 2007-tons:
-  tags: []
+  tags: [systems, tomography]
   abstract: |
     Overlay network monitoring enables distributed Internet applications
     to detect and recover from path outages and periods of degraded
@@ -500,7 +501,7 @@
     computation of one dimensional resonances.
 
 2007-sound:
-  tags: []
+  tags: [sound]
   abstract: |
     For interactive sound synthesis, we would like to change the shape of
     a finite element model of an instrument and rapidly hear how the sound
@@ -515,7 +516,7 @@
     between computational speed and accuracy of the computed resonances.
 
 2006-sound:
-  tags: []
+  tags: [sound]
   abstract: |
     In the last decade, many researchers have used modal synthesis for
     sound generation. Using a modal decomposition, one can convert a large
@@ -534,10 +535,10 @@
     design.
 
 2006-sigmetrics:
-  tags: []
+  tags: [systems, tomography]
 
 2006-dissertation:
-  tags: []
+  tags: [mems]
   abstract: |
     This dissertation is about computational tools to aid in the design
     of resonant Micro-Electro-Mechanical Systems (MEMS), tiny vibrating
@@ -569,7 +570,7 @@
     damping near certain critical values of geometric parameters.
 
 2006-para:
-  tags: []
+  tags: [la-sw]
   abstract: |
     New releases of the widely used LAPACK and ScaLAPACK numerical linear
     algebra libraries are planned. Based on an on-going user survey
@@ -586,7 +587,7 @@
     collaborators at many institutions.
 
 2006-sigcomm:
-  tags: []
+  tags: [systems, tomography]
   abstract: |
     Internet fault diagnosis is extremely important for end users, overlay
     network service providers (like Akamai [1]) and even Internet service
@@ -611,7 +612,7 @@
     between diagnosis accuracy and granularity.
 
 2006-cis:
-  tags: [mems]
+  tags: []
   abstract: |
     We summarize an algorithm for computing a smooth orthonormal basis for
     an invariant subspace of a parameter-dependent matrix, and describe
@@ -698,10 +699,10 @@
     resonance.
 
 2005-sigmetrics:
-  tags: []
+  tags: [systems]
 
 2005-iccs:
-  tags: []
+  tags: [la-sw, cis]
   abstract: |
     The Continuation of Invariant Subspaces (CIS) algorithm produces a
     smoothly varying basis for an invariant subspace $R(s)$ of a
@@ -714,7 +715,7 @@
     bifurcation computations via subspace reduction
 
 2005-compan:
-  tags: []
+  tags: [la-sw]
   abstract: |
     We consider the set of matrices which differ from symmetric, skew
     symmetric, or unitary by only a low rank modification. This class of
@@ -747,7 +748,7 @@
     resonators having $Q$'s ranging from 200 to 54,000.
 
 2004-sigcomm:
-  tags: []
+  tags: [systems, tomography]
   abstract: |
     Overlay network monitoring enables distributed Internet applications
     to detect and recover from path outages and periods of degraded
@@ -782,7 +783,7 @@
     the frequency-domain analysis of two proposed MEMS resonator designs.
 
 2003-imc:
-  tags: []
+  tags: [systems, tomography]
   abstract: |
     Overlay network monitoring enables distributed Internet applications
     to detect and recover from path outages and periods of degraded
@@ -804,7 +805,7 @@
     inaccuracies, and is adaptive to topology changes.
 
 2003-tomography-tr:
-  tags: []
+  tags: [systems, tomography]
   abstract: |
     Overlay network monitoring enables distributed Internet applications
     to detect and recover from path outages and periods of degraded
@@ -826,7 +827,7 @@
     inaccuracies, and is adaptive to topology changes.
 
 2002-toms:
-  tags: []
+  tags: [la-sw]
   abstract: |
     We consider the efficient and accurate computation of Givens
     rotations. When $f$ and $g$ are positive real numbers, this simply amounts
@@ -858,7 +859,7 @@
     of similarly reliable subroutines.
 
 2002-mems:
-  tags: [mems]
+  tags: [mems, sugar]
   abstract: |
     In this paper, we report several advances in the Sugar 2.0 MEMS system
     simulation package, including reduced-order modeling techniques,
@@ -868,7 +869,7 @@
     compared to experiment, and the prototyping of a microrobot.
 
 2001-icics:
-  tags: []
+  tags: [systems]
   abstract: |
     Network Denial of Service (DoS) attacks are increasing in frequency,
     severity and sophistication, making it desirable to measure the
@@ -878,7 +879,7 @@
     DoS resilience of three distinct architectures for object location.
 
 2001-sugar:
-  tags: [mems]
+  tags: [mems, sugar]
   abstract: |
     Advancements in Sugar include 1) parameterizable netlists, 2)
     nonlinear frequency response analysis, 3) subnets, 4) improved MNA, 5)
@@ -890,19 +891,19 @@
     response of a fixed-fixed beam.
 
 2001-msm:
-  tags: [mems]
+  tags: [mems, sugar]
   abstract: |
     SUGAR is a nodal analysis package for 3D MEMS simulation that owes its
     heritage and its name to the SPICE family of circuit simulation. SUGAR
     has undergone the stage of proof-of-concept which showed that nodal
-    analysis was in fact just as accurate and much faster than #nite
+    analysis was in fact just as accurate and much faster than finite
     element simulation on many MEMS problems. The upcoming major release
     of SUGAR is version 2.0, which includes a number of new features, such
     as 3D beam and gap elements, thermal expansion, linearly and
-    rotationally accelerating frames, and userde #ned models.
+    rotationally accelerating frames, and user-defined models.
 
 2001-givens:
-  tags: []
+  tags: [la-sw]
   abstract: |
     We consider the efficient and accurate computation of Givens
     rotations. When $f$ and $g$ are positive real numbers, this simply amounts
@@ -934,7 +935,7 @@
     of similarly reliable subroutines.
 
 2000-mems:
-  tags: [mems]
+  tags: [mems, sugar]
   abstract: |
     The modeling, simulation, and experimental verification of several
     MEMS devices are presented. Simulated results include 3D mode
@@ -946,7 +947,7 @@
     that is solved by static, steady state, and transient solvers.
 
 2000-asplos:
-  tags: []
+  tags: [systems]
   abstract: |
     OceanStore is a utility infrastructure designed to span the globe and
     provide continuous access to persistent information. Since this
@@ -959,7 +960,7 @@
     implementation is currently under development.
 
 2000-oceanstore-tr:
-  tags: []
+  tags: [systems]
   abstract: |
     OceanStore is a utility infrastructure designed to span the globe and
     provide continuous access to persistent information. Since this
