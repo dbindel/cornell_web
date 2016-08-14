@@ -29,9 +29,11 @@ def update_present
   sh "rm -rf _site/present"
   sh "mkdir -p _site/present"
   talks.each do |talk|
-    fname = "#{talk['date']}-#{talk['file']}"
-    fout = fname.sub('/', '_')
-    sh "ln -s #{Dir.home}/work/present/#{fname} _site/present/#{fout}"
+    file = talk['file']
+    path, slash, tail = talk['file'].partition('/')
+    head, dot, ext = talk['file'].partition('.')
+    url = "present/#{path}.#{ext}"
+    sh "ln -s #{Dir.home}/work/present/#{file} _site/#{url}"
   end
 end
 

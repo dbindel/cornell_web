@@ -27,7 +27,10 @@ module JekyllBindel
         talk['year'] = talk['file'][0,4]
         talk['month'] = talk['file'][5,6].to_i
         talk['month_abbrev'] = Date::ABBR_MONTHNAMES[talk['month']]
-        talk['uid'] = talk['file'].tr("/", "_")
+        path, slash, tail = talk['file'].partition('/')
+        head, dot, ext = talk['file'].partition('.')
+        talk['id'] = path
+        talk['url'] = "present/#{path}.#{ext}"
       end
     end
 

@@ -81,7 +81,7 @@ bibdiv: well-sm
 {% if talk.type contains "seminar" or talk.type contains "colloquium" %}{% if talk.type contains "external" %}
 <li>
   <div class="well">
-    <a href="present/{{talk.uid}}">{{ talk.title }}</a>
+    <a href="{{ talk.url }}">{{ talk.title }}</a>
     <br/>{{ talk.year }} {{ talk.month_abbrev }} &bull; {{ talk.where }}
     {% if talk.type contains "colloquium" %}<br/><span class="label label-info">colloquium</span>{% endif %}
   </div>
@@ -99,7 +99,7 @@ bibdiv: well-sm
       talk.type contains "colloquium" %}{% else %}
 <li>
   <div class="well">
-    <a href="present/{{talk.uid}}">{{ talk.title }}</a>
+    <a href="{{ talk.url }}">{{ talk.title }}</a>
     <br/>{{ talk.year }} {{ talk.month_abbrev }} &bull; {{ talk.where }}
     <br/>{% for type in talk.type %}{% if type != "external" and type != "meeting" %} <span class="label label-info">{{ type }}</span>{% endif %}{% endfor %}
   </div>

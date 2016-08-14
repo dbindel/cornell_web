@@ -31,7 +31,7 @@ js: [filtering.js]
     {% if entry.month_abbrev != pmonth %}<h4><b>{{ entry.month_abbrev }}</b></h4>{% endif %}
   </div>
   <div class="col-md-11 well well-sm">
-    <h4><a href="present/{{entry.uid}}">{{ entry.title }}</a></h4>
+    <h4><a href="{{ entry.url }}">{{ entry.title }}</a></h4>
     <p>
       {{ entry.where }}<br/>
       {% for tag in entry.tags %} <span class="label label-primary">{{ tag }}</span>{% endfor %}
