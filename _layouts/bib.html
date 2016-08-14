@@ -36,7 +36,7 @@
     {% if site.data.abstracts[key] %}{% if site.data.abstracts[key].abstract %}
     <div id="{{key}}-abstract" class="collapse">
     <h4>Abstract:</h4>
-    <p>{{ site.data.abstracts[key].abstract | markdownify }}</p>
+    {{ site.data.abstracts[key].abstract | markdownify }}
     </div>
     {% endif %}{% endif %}
   </div>
