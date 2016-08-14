@@ -12,10 +12,12 @@ bibdiv: well-sm
 <li><a href="#talks">Talks</a></li>
 <!-- <li><a href="#software">Software</a></li> -->
 <li><a href="#teaching">Teaching</a></li>
-<li><a href="#activities">Activities</a></li>
+<li><a href="#activities">Service</a></li>
 <li><a href="#students">Students</a></li>
 </ul>
 </div>
+
+<hr/>
 
 <h2 id="prof">Experience and Education</h2>
 
@@ -45,7 +47,7 @@ bibdiv: well-sm
 <h2 id="awards">Awards</h2>
 
 <table class="table">
-{% for award in site.data.vita.awards %}
+{% for award in site.data.awards %}
 <tr>
 <td>{{ award.year }}</td>
 <td>
@@ -121,12 +123,12 @@ bibdiv: well-sm
   {% endfor %}
 </table>
 
-<h2 id="activities">Activities</h2>
+<h2 id="activities">Service</h2>
 
 <h3>External Activities</h3>
 
 <table class="table">
-  {% for c in site.data.vita.activity %}
+  {% for c in site.data.service %}
   {% if c.type contains "external" %}
   <tr>
     <td>{{ c.when }}{% if c.until %}-{{ c.until }}{% endif %}</td>
@@ -140,7 +142,7 @@ bibdiv: well-sm
 <h3>Local Activities</h3>
 
 <table class="table">
-  {% for c in site.data.vita.activity %}
+  {% for c in site.data.service %}
   {% if c.type contains "cornell" %}
   <tr>
     <td>{{ c.when }}{% if c.until %}-{{ c.until }}{% endif %}</td>
@@ -148,6 +150,17 @@ bibdiv: well-sm
     <td>{% if c.url %}<a href="{{ c.url }}">{{ c.what }}</a>{% else %}{{ c.what }}{% endif %}</td>
   </tr>
   {% endif %}
+  {% endfor %}
+</table>
+
+<h3>Review Activity</h3>
+
+<table class="table">
+  {% for c in site.data.reviewing %}
+  <tr>
+    <td>{{ c.what }}</td>
+    <td>{% for year in c.when reversed %} {{ year }}{% endfor %}</td>
+  </tr>
   {% endfor %}
 </table>
 

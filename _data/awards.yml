@@ -1,0 +1,33 @@
+-
+  name: Middleware Best Student Paper
+  paper: 2015-middleware
+  year: 2015
+-
+  name: KDD Best Student Paper
+  paper: 2015-kdd
+  year: 2015
+-
+  name: SIGEST Featured Paper
+  paper: 2015-sirev
+  desc: Featured paper in SIAM Review from specialist journals on a rotating basis
+  year: 2015
+-
+  name: SIAG/LA Prize
+  paper: 2013-simax
+  desc: Awarded once every three years for the best applied linear algebra journal paper.
+  year: 2015
+-
+  name: Douglas Whitney Award
+  desc: Awarded annually to a Cornell Engineering faculty for teaching excellence.
+  year: 2014
+-
+  name: Sloan Research Fellowship
+  year: 2010
+-
+  name: Alston S. Householder Award
+  paper: 2006-dissertation
+  desc: Awarded once every three years for best thesis in numerical linear algebra.
+  year: 2008
+-
+  name: NSF Graduate Student Fellowship
+  year: 1999
