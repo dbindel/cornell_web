@@ -66,7 +66,7 @@
     and Polish 1999-2000 winter peak networks.
 
 2016-sensors:
-  tags: [mems]
+  tags: [mems, fea]
   abstract: |
     We analyze the change of angular gain and vibration frequency of
     solid-state wave gyroscopes as a result of geometry perturbations due
@@ -79,7 +79,7 @@
     temperature sensitivity as a function of device shape.
 
 2016-hh-workshop:
-  tags: [mems]
+  tags: [mems, fea]
   abstract: |
     We analyze the change of angular gain and vibration frequency of
     solid-wave gyroscopes as a result of geometry perturbations due to
@@ -101,7 +101,7 @@
     problem due to Hadeler, and a quantum resonance computation.
 
 2015-middleware:
-  tags: [systems]
+  tags: [systems, opt]
   abstract: |
     Configuring large distributed computations is a challenging task.
     Efficiently executing distributed computations requires configuration
@@ -316,7 +316,7 @@
     computation.
 
 2013-sensors:
-  tags: [mems]
+  tags: [mems, fea]
   abstract: |
     Solid-wave gyroscopes are symmetric resonators that sense rotation by
     measuring how Coriolis forces perturb a degenerate mode pair. The
@@ -352,7 +352,7 @@
     the performance of our framework for several graph applications.
 
 2012-mems-opt:
-  tags: [mems]
+  tags: [mems, opt]
   abstract: |
     A topology optimization problem in micromechanical resonator design is
     addressed in this paper. The design goal is to control the first
@@ -501,7 +501,7 @@
     computation of one dimensional resonances.
 
 2007-sound:
-  tags: [sound]
+  tags: [sound, fea]
   abstract: |
     For interactive sound synthesis, we would like to change the shape of
     a finite element model of an instrument and rapidly hear how the sound
@@ -516,7 +516,7 @@
     between computational speed and accuracy of the computed resonances.
 
 2006-sound:
-  tags: [sound]
+  tags: [sound, fea]
   abstract: |
     In the last decade, many researchers have used modal synthesis for
     sound generation. Using a modal decomposition, one can convert a large
@@ -538,7 +538,7 @@
   tags: [systems, tomography]
 
 2006-dissertation:
-  tags: [mems]
+  tags: [mems, la-sw, fea]
   abstract: |
     This dissertation is about computational tools to aid in the design
     of resonant Micro-Electro-Mechanical Systems (MEMS), tiny vibrating
@@ -612,7 +612,7 @@
     between diagnosis accuracy and granularity.
 
 2006-cis:
-  tags: []
+  tags: [la-sw]
   abstract: |
     We summarize an algorithm for computing a smooth orthonormal basis for
     an invariant subspace of a parameter-dependent matrix, and describe
@@ -623,7 +623,7 @@
     continuation and bifurcation analysis.
 
 2005-sensors:
-  tags: [mems]
+  tags: [mems, fea]
   abstract: |
     This paper presents the development of HiQLab, a simulation tool to
     compute the effect of damping in high frequency resonators. Existing
@@ -643,7 +643,7 @@
     and postprocessing capabilities.
 
 2005-ijnme:
-  tags: [mems]
+  tags: [mems, fea]
   abstract: |
     Electromechanical resonators and filters, such as quartz, ceramic, and
     surface-acoustic wave devices, are important signal-processing
@@ -671,7 +671,7 @@
     resonance.
 
 2005-pml-tr:
-  tags: [mems]
+  tags: [mems, fea]
   abstract: |
     Electromechanical resonators and filters, such as quartz, ceramic, and
     surface-acoustic wave devices, are important signal-processing
@@ -729,7 +729,7 @@
     computation of all the roots of a polynomial or a matrix polynomial.
 
 2005-mems:
-  tags: [mems]
+  tags: [mems, fea]
   abstract: |
     Surface-micromachined resonators and filters are attractive for many
     RF applications. While existing simulation tools allow designers to
@@ -773,7 +773,7 @@
     within seconds and handling topology errors.
 
 2004-para:
-  tags: [mems]
+  tags: [mems, fea]
   abstract: |
     Radio-frequency (RF) MEMS resonators, integrated into CMOS chips, are
     of great interest to engineers planning the next generation of
