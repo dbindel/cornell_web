@@ -1,0 +1,224 @@
+# Create an "offerings" list with all offered semesters
+# linked by name, i.e.
+#
+# cs5220:
+#   offerings:
+#     - semester: F16
+#       class/cs6210-f16
+#     - ...
+#
+# Also merge the
+#
+# We also want the list of classes for the CV, but that is
+# essentially just the current + previous fields.
+
+# Active courses deserve blurbs on the class page
+active:
+  - cs4220
+  - cs5220
+  - cs6210
+  - cs3220
+  - scan
+  - projects
+
+# Info for courses appearing on front page
+current:
+  -
+    semester: F16
+    course: cs6210
+    url: class/cs6210-f16/
+    logistics: |
+      Fall 2016.  MWF 11:15-12:05 PM, Hollister Hall 310.
+  -
+    course: scan
+    url: http://www.cse.cornell.edu/scan
+    logistics: |
+      Ongoing.  M 1:25-2:15, Gates 406.
+  -
+    course: projects
+    url: meng.html
+    logistics: |
+      See my [list of projects](http://www.cs.cornell.edu/~bindel/meng.html)!
+
+# F14: Parental relief (Quinn)
+# S13: Teaching relief for junior faculty
+# F10: Parental relief (Giulia)
+
+# Record of past courses
+previous:
+  -
+    semester: S16
+    course: cs4220
+    url: class/cs4220-s16/
+  -
+    semester: F15
+    course: cs5220
+    url: class/cs5220-f15/
+  -
+    semester: S15
+    course: cs4220
+    url: class/cs4220-s15/
+  -
+    semester: S14
+    course: cs5220
+    url: class/cs5220-s14/
+  -
+    semester: F13
+    course: cs6210
+    url: class/cs6210-f13/
+  -
+    semester: F12
+    course: cs6210
+    url: class/cs6210-f12/
+  -
+    semester: S12
+    course: cs3220
+    url: class/cs3220-s12/
+  -
+    semester: F11
+    course: cs5220
+    url: class/cs5220-f11/
+  -
+    semester: S11
+    course: cs3220
+    url: class/cs3220-s11/
+  -
+    semester: S10
+    course: cs5220
+    url: class/cs5220-s10/
+  -
+    semester: F09
+    course: cs6210
+    url: class/cs6210-f09/
+  -
+    semester: S09
+    course: nyu-sc
+    url: http://www.cs.nyu.edu/courses/spring09/G22.2112-001/index.html
+  -
+    semester: F08
+    course: nyu-hpc
+    url: http://www.cs.nyu.edu/courses/fall08/G22.2945-001/index.html
+  -
+    semester: S08
+    course: nyu-calc
+  -
+    semester: F07
+    course: nyu-prob
+  -
+    semester: S07
+    course: nyu-calc
+  -
+    semester: F06
+    course: nyu-qr
+  -
+    semester: F05
+    course: cs164
+    url: http://www-inst.eecs.berkeley.edu/~cs164/fa05/
+    ta: Richard Fateman
+  -
+    semester: F01
+    course: cs267
+    ta: Kathy Yelick
+
+# ================================================================
+# Cornell courses
+
+cs4220:
+  class: CS 4220/5223 / MATH 4260
+  title: "Numerical Analysis: Linear and Nonlinear Problems"
+  image: cs07medium.jpg
+  snippet: |
+    Fundamentals of numerical linear algebra (linear systems,
+    eigenvalues and SVDs), on which we'll build iterative methods
+    for nonlinear systems and multivariate optimization.
+    Understanding advantages, disadvantages, and practical limits of
+    numerical methods.  Programming required.
+
+cs5220:
+  class: CS 5220
+  title: Applications of Parallel Computers
+  image: bluegene.jpg
+  snippet: |
+    Overview of high performance scientific computing.  Basics of
+    modern parallel machine design, parallel programming patterns,
+    and applications.  Programming projects will likely inspire
+    creative cursing, mostly due to the frustrations of parallel
+    profiling and debugging.
+
+cs6210:
+  class: CS 6210
+  title: Matrix Computations
+  image: GVL4.png
+  snippet: |
+    Numerical linear algebra.  Basic theory, efficient
+    algorithms, and enough error analysis to avoid numerical
+    embarrassment (we hope)!  Direct and iterative methods for
+    linear systems, least squares, and eigenvalues.
+
+cs3220:
+  class: CS 3220
+  title: Introduction to Scientific Computing
+  image: cs07medium.jpg
+  snippet: |
+    No longer offered; see [CS 4210][cs4210] and [CS 4220][cs4220].
+
+    Overview of scientific computing in MATLAB, from a user
+    perspective.  Error analysis basics, linear systems and least
+    squares, nonlinear equations, basic optimization, numerical
+    differentiation and quadrature, ODEs, and applications.
+
+    [cs4210]: http://courses.cornell.edu/preview_course_nopop.php?catoid=12&coid=90927
+    [cs4220]: http://courses.cornell.edu/preview_course_nopop.php?catoid=12&coid=90928
+
+scan:
+  class: CS/MATH 7290
+  title: SCAN Seminar
+  image: chalkboard-04.png
+  snippet: |
+    The Scientific Computing and Numerics seminar series
+    focuses on various methods in scientific computing,
+    the analysis of convergence properties and computational efficiency,
+    and their adaptation to specific applications.
+
+projects:
+  class: CS [45]999
+  title: Projects
+  image: mortarboard-11.jpg
+  snippet: |
+    If nothing on the list appeals but you think you'd like to
+    work with me on something, come knock on my door.
+    I don't bite.
+
+# ================================================================
+# NYU courses
+
+nyu-sc:
+  class: NYU G22.2112
+  title: Scientific Computing
+
+nyu-hpc:
+  class: NYU G22.2945
+  title: High Performance Scientific Computing
+
+nyu-calc:
+  class: NYU V63.0222
+  title: Honors Calculus II
+
+nyu-prob:
+  class: NYU V63.0233
+  title: Theory of Probability
+
+nyu-qr:
+  class: NYU V55.0101
+  title: "Quantitative Reasoning: Mathematical Patterns in Nature"
+
+# ================================================================
+# Berkeley courses
+
+cs267:
+  class: Berkeley CS 267
+  title: Applications of Parallel Computers
+
+cs164:
+  class: Berkeley CS 164
+  title: Compilers and Programming Languages

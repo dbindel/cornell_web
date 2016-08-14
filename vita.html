@@ -112,14 +112,21 @@ bibdiv: well-sm
 <h2 id="teaching">Teaching</h2>
 
 <table class="table">
-  {% for c in site.data.vita.teaching %}
-  {% if c.course %}{% assign d = site.data.vita.courses[c.course] %}
+  {% for c in site.data.classes.current %}{% if c.semester %}
+  {% assign d=site.data.classes[c.course] %}
   <tr>
     <td>{{ c.semester }}:</td>
-    <td>{{ d.id }}</td>
-    <td>{% if c.url %}<a href="{{ c.url }}">{{ d.desc }}</a>{% else %}{{ d.desc }}{% endif %}</td>
+    <td>{{ d.class }}</td>
+    <td>{% if c.url %}<a href="{{ c.url }}">{{ d.title }}</a>{% else %}{{ d.title }}{% endif %}</td>
   </tr>
-  {% endif %}
+  {% endif %}{% endfor %}
+  {% for c in site.data.classes.previous %}
+  {% assign d=site.data.classes[c.course] %}
+  <tr>
+    <td>{{ c.semester }}:</td>
+    <td>{{ d.class }}</td>
+    <td>{% if c.url %}<a href="{{ c.url }}">{{ d.title }}</a>{% else %}{{ d.title }}{% endif %}{% if c.ta %} (TA for {{ c.ta }}){% endif %}</td>
+  </tr>
   {% endfor %}
 </table>
 

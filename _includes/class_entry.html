@@ -13,6 +13,9 @@
       ({{ entry.class }})
       {% endif %}
     </h4>
+    {% if entry.offered %}<ul class="list-inline">{% for csem in entry.offered %}
+      <li><a href="{{ csem.url }}">[{{ csem.semester }}]</a></li>
+    {% endfor %}</ul>{% endif %}
     {{ entry.logistics | markdownify }}
     {{ entry.snippet | markdownify }}
   </div>

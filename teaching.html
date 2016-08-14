@@ -3,8 +3,9 @@ title: Teaching
 layout: main
 ---
 
-{% assign items = site.data.class_blurbs %}
-{% for entry in items %}
+{% assign items = site.data.classes.active %}
+{% for c in items %}
+{%   assign entry=site.data.classes[c] %}
 {%   include class_entry.html %}
 {% endfor %}
 

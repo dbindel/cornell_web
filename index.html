@@ -28,11 +28,10 @@ layout: top
   <div class="col-xs-12 cols-sm-12 col-md-6 col-lg-6">
     <h2>Currently teaching</h2>
 
-    {% assign items = site.data.class_blurbs %}
-    {% for entry in items %}
-    {%   if entry.display %}
-    {%     include class_entry.html %}
-    {%   endif %}
+    {% assign items = site.data.classes.current %}
+    {% for c in items %}
+    {%   assign entry=site.data.classes[c.course] %}
+    {%   include class_entry.html %}
     {% endfor %}
 
     <br>
