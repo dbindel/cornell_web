@@ -45,7 +45,7 @@ layout: main
 <table class="table table-striped">
 {% for student in site.data.students.ugrad %}{% capture name %}{{ student.first }} {{ student.last }}{% endcapture %}
   <tr>
-    <td>{{ name }}</a></td>
+    <td>{{ name }}</td>
     <td>
       {% if student.url %}<a href="{{ student.url }}">{{ student.proj }}</a>{% else %}{{ student.proj }}{% endif %} ({{ student.when }})
     </td>
