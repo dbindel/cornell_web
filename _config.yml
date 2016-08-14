@@ -9,7 +9,7 @@ timezone: America/New_York
 
 exclude: ["Rakefile"]
 keep_files: ["present"]
-gems: ["jekyll/scholar", "csl/styles"]
+gems: ["jekyll/tidy", "jekyll/scholar", "csl/styles"]
 
 defaults:
   -
