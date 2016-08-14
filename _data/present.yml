@@ -781,13 +781,13 @@
   tags: [rbf]
   type: [seminar, local]
 -
-  file: 2014-09-gates/poster-flier.pdf
+  file: 2014-09-gates-flier/poster-flier.pdf
   title: "FLiER: Practical Topology Error Correction using Sparse PMUs"
   where: Cornell CS at 50, Gates Hall Open House Poster Session
   tags: [grid]
   type: [local, poster]
 -
-  file: 2014-09-gates/poster-hrg.pdf
+  file: 2014-09-gates-hrg/poster-hrg.pdf
   title: Music of the Microspheres
   where: Cornell CS at 50, Gates Hall Open House Poster Session
   tags: [gyro, mems]
