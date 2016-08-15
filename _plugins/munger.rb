@@ -23,6 +23,7 @@ module JekyllBindel
     def munge_talks(site)
       require 'date'
       talks = site.data['present']
+      lookup = {}
       talks.each do |talk|
         talk['year'] = talk['file'][0,4]
         talk['month'] = talk['file'][5,6].to_i
@@ -31,7 +32,9 @@ module JekyllBindel
         head, dot, ext = talk['file'].partition('.')
         talk['id'] = path
         talk['url'] = "present/#{path}.#{ext}"
+        lookup[path] = talk
       end
+      site.data['present_dict'] = lookup
     end
 
     def generate(site)
