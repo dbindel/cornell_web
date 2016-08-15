@@ -5,9 +5,29 @@ last_update: 2015-07-01
 snippet:
   Generalizing classic eigenvalue localization results
   (e.g. Gershgorin).
-latest:
-- paper: 2015-sirev
-- paper: 2013-simax
+papers:
+  - 2015-sirev
+  - 2013-simax
+talks:
+  - 2016-03-arizona
+  - 2016-01-cam
+  - 2015-10-siam-prize
+  - 2014-04-manchester
+  - 2013-01-cardiff
+  - 2012-09-fields
+  - 2011-07-iciam
+  - 2011-03-scan
+  - 2010-07-stewart
+  - 2009-11-sfu
+  - 2009-10-nycam
+  - 2009-09-cornell-scan
+  - 2009-07-siam
+  - 2009-07-msri
+  - 2008-10-berkeley
+  - 2008-06-householder
+  - 2006-10-nyu
+  - 2006-08-stanford
+  - 2005-10-lapack
 ---
 
  Let $T : \Omega \rightarrow \mathbb{C}^{n \times n}$ be a matrix-valued
@@ -19,13 +39,3 @@ analyze differential and difference equations.  We describe new
 localization results for nonlinear eigenvalues that generalize
 Gershgorin's theorem, pseudospectral inclusion theorems, the
 Bauer-Fike theorem, and others.
-
-## References
-
-- Localization Theorems for Nonlinear Eigenvalue Problems
-  ([arXiv][arxiv], [SIMAX][simax])
-- [Nonlinear Gershgorin talk][an13talk] at SIAM AN 13
-
-[arxiv]: http://arxiv.org/abs/1303.4668
-[simax]: http://epubs.siam.org/doi/abs/10.1137/130913651
-[an13talk]: http://www.cs.cornell.edu/~bindel/present/siam-jul13.pdf

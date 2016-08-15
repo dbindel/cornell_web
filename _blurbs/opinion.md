@@ -6,9 +6,11 @@ snippet: |
   In the game of expressing our opinions, we all want to both follow
   our beliefs and agree with our friends.  Analyzing Nash
   equilibria yields interesting insights.  Eigenvalues are involved!
-latest:
-- paper: 2015-geb
-- paper: 2011-focs
+papers:
+  - 2015-geb
+  - 2011-focs
+talks:
+  - 2012-10-nycam
 ---
 
 How do we form opinions?  In economics and sociology, the opinions

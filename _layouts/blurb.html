@@ -20,7 +20,40 @@ layout: top
         </div>
       </div>
     </div>
+
     <h3>Summary</h3>
     {{ content }}
+
+    {% if page.links %}
+    <h3>Links</h3>
+    <ul>
+      {% for link in page.links %}
+      <li>
+        <a href="{{ link.url }}">{{ link.text }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if page.papers %}
+    <h3>Papers</h3>
+    {% for link in page.papers %}{% refformat link %}{% endfor %}
+    {% endif %}
+
+    {% if page.talks %}
+    <h3>Talks</h3>
+    {% for talk in page.talks %}{% assign entry = site.data.present_dict[talk] %}
+    <div class="well well-sm">
+      <h4><a href="{{ entry.url }}">{{ entry.title }}</a></h4>
+      <p>
+        {{ entry.where }}<br/>
+        {% for tag in entry.tags %} <span class="label label-primary">{{ tag }}</span>{% endfor %}
+        &bull;
+        {% for type in entry.type %} <span class="label label-info">{{ type }}</span>{% endfor %}
+      </p>
+    </div>
+    {% endfor %}
+    {% endif %}
+
   </div>
 </div>

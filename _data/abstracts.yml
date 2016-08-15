@@ -452,7 +452,7 @@
     between diagnosis accuracy and granularity.
 
 2008-cis:
-  tags: [la-sw]
+  tags: [la-sw, cis]
   abstract: |
     We summarize an algorithm for computing a smooth orthonormal basis for
     an invariant subspace of a parameter-dependent matrix, and describe
@@ -538,7 +538,7 @@
   tags: [systems, tomography]
 
 2006-dissertation:
-  tags: [mems, la-sw, fea]
+  tags: [mems, la-sw, fea, cis]
   abstract: |
     This dissertation is about computational tools to aid in the design
     of resonant Micro-Electro-Mechanical Systems (MEMS), tiny vibrating
@@ -612,7 +612,7 @@
     between diagnosis accuracy and granularity.
 
 2006-cis:
-  tags: [la-sw]
+  tags: [la-sw, cis]
   abstract: |
     We summarize an algorithm for computing a smooth orthonormal basis for
     an invariant subspace of a parameter-dependent matrix, and describe

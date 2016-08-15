@@ -4,6 +4,48 @@ image: diskdie2.png
 last_update: 2007-01-01
 snippet: |
   Tools for simulating damping mechanisms in resonant microsystems.
+papers:
+  - 2006-dissertation
+  - 2005-sensors
+  - 2005-ijnme
+  - 2005-pml-tr
+  - 2005-mems
+  - 2004-para
+talks:
+  - 2013-04-duke
+  - 2012-12-fudan
+  - 2012-12-fist
+  - 2011-03-cse
+  - 2011-02-mae
+  - 2010-07-siam
+  - 2008-11-stanford
+  - 2008-11-mit
+  - 2008-06-householder-b
+  - 2008-03-courant
+  - 2008-02-mcgill
+  - 2008-01-rice
+  - 2007-11-temple
+  - 2007-11-cornell
+  - 2007-09-enumath
+  - 2007-07-iciam
+  - 2007-03-columbia
+  - 2007-02-siam-cse-a
+  - 2006-05-berkeley
+  - 2006-05-abel
+  - 2006-04-purdue
+  - 2006-04-lapack
+  - 2006-04-boulder
+  - 2006-03-davis
+  - 2006-03-bascd
+  - 2006-02-psu
+  - 2006-02-caltech
+  - 2006-01-sandia
+  - 2005-09-seminar
+  - 2005-07-usnccm
+  - 2005-07-siam
+  - 2005-04-lapack
+  - 2005-02-hiqlab
+  - 2004-11-nyu
 ---
 
 Micro-electro-mechanical systems (MEMS) are micron-scale machines used
@@ -19,24 +61,3 @@ damping.  Our work on resonant MEMS simulation has focused on
 providing designers with tools to understand damping in resonant
 devices, and to understand how changes to the design (or accidental
 changes due to processing variation) affect the device behavior.
-
-### Links
-
-* ["Computer-Aided Design of MEMS."]({{ site.baseurl }}/present/stanford-nov08.pdf)
-  ICME Colloquium, Stanford University, November 2008.
-* David S. Bindel.
-  [Structured and parameter-dependent eigensolvers for simulation-based
-   design of resonant MEMS][d1].
-  Technical Report EECS-2006-108, UC Berkeley Computer Science Division,
-  August 2006.
-* David S. Bindel and Sanjay Govindjee.  [Elastic PMLs for resonator
-  anchor loss simulations][4].  _International Journal for Numerical
-  Methods in Engineering_, 64(6):789--818, 2005.
-* Tsuyoshi Koyama, David S. Bindel, Wei He, Emmanuel Quevy, James
-  Demmel, Sanjay Govindjee, and Roger T. Howe.  [Simulation tools for
-  damping in high frequency resonators][c6].  In _Proceedings of IEEE
-  SENSORS 2005_, Irvine, CA, November 2005.
-
-[d1]: http://www.eecs.berkeley.edu/Pubs/TechRpts/2006/EECS-2006-108.html
-[4]: http://dx.doi.org/10.1002/nme.1394
-[c6]: http://dx.doi.org/10.1109/ICSENS.2005.1597708

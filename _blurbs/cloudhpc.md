@@ -4,9 +4,9 @@ image: bluegene.jpg
 last_update: 2013-08-01
 snippet: |
   Optimizing parallel code is hard -- so automate as much as possible.
-latest:
-- paper: 2014-vldb
-- paper: 2011-socc
+papers:
+  - 2013-blockgrace
+  - 2011-socc
 ---
 
 Engineering high-performance serial code is hard.  Squeezing

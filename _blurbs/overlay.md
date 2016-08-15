@@ -5,6 +5,19 @@ last_update: 2009-12-01
 snippet: |
   Inferring internal network state by measuring end-to-end paths.
   It's a CAT scan for the Internet!
+papers:
+  - 2009-tons
+  - 2007-tons
+  - 2006-sigcomm
+  - 2006-sigmetrics
+  - 2004-sigcomm
+  - 2003-imc
+  - 2003-tomography-tr
+talks:
+  - 2011-07-householder
+  - 2011-04-courant
+  - 2004-03-lapack
+  - 2003-06-matrix
 ---
 
 Consider a system consisting of a relatively small number of hosts in
@@ -25,24 +38,3 @@ Our current work involves building fast algorithms for factoring path
 matrices based on understanding the relation between the linear
 algebraic structure and the structure of the underlying network
 routing.
-
-### Links
-
-* Yao Zhao, Yan Chen, and David S. Bindel.  [Toward unbiased end-to-end
-  network diagnosis][1].  _ACM Transactions on Networking_, 17(6):
-  1724--1737, 2009.
-* Yan Chen, David S. Bindel, Hanhee Song, Brian Chavez, and Randy
-  H. Katz.  [Algebra-based scalable overlay network monitoring:
-  Algorithms, evaluation, and applications][2].  _ACM Transactions on
-  Networking_, 15(5): 1084--1097, 2007.  
-* Yao Zhao, Yan Chen, and David S. Bindel.  [Toward unbiased
-  end-to-end network diagnosis][c4].  In _Proceedings of SIGCOMM
-  2006_, pages 219--230, 2006.
-* Yan Chen, David S. Bindel, Hanhee Song, and Randy H. Katz.
-  [An algebraic approach to practical and scalable overlay network monitoring][c5].
-  In _Proceedings of SIGCOMM 2004_, pages 55--66, 2004.
-
-  [1]: http://dx.doi.org/10.1109/TNET.2009.2022158
-  [2]: http://dx.doi.org/10.1109/TNET.2007.896251
-  [c4]: http://dx.doi.org/10.1145/1151659.1159939
-  [c5]: http://dx.doi.org/10.1145/1030194.1015475

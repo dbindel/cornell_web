@@ -4,8 +4,12 @@ image: 320px-Power_Lines_in_Pacoima.jpg
 last_update: 2015-01-06
 snippet: |
   New algorithms for diagnosing line failures in a smart grid.
-latest:
-- paper: 2016-flier
+papers:
+ - 2016-flier-tr
+talks:
+ - 2016-08-lbnl
+ - 2016-07-compsust
+ - 2015-02-arpae
 ---
 
 The power grid is changing, driven by many factors: the push to

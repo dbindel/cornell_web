@@ -5,6 +5,31 @@ last_update: 2010-07-10
 snippet: |
   Linear eigenproblems for standing waves;
   nonlinear eigenproblems for almost-standing waves.
+links:
+  -
+    text: |
+      David Bindel and Maciej Zworski.  
+      Theory and Computation of Resonances in 1D Scattering
+    url: http://www.cs.cornell.edu/~bindel/cims/resonant1d
+papers:
+  - 2015-sirev
+  - 2013-simax
+  - 2007-symmetry
+talks:
+  - 2013-01-cardiff
+  - 2012-09-fields
+  - 2011-07-iciam
+  - 2011-03-scan
+  - 2010-07-stewart
+  - 2009-11-sfu
+  - 2009-10-nycam
+  - 2009-09-cornell-scan
+  - 2009-07-siam
+  - 2009-07-msri
+  - 2009-02-doe
+  - 2008-10-berkeley
+  - 2008-10-banff
+  - 2006-04-lapack
 ---
 
 Most work on numerical analysis of eigenvalue problem involves either
@@ -22,23 +47,3 @@ _nonlinear_ eigenvalue problems.  We work on fast algorithms to find
 solutions to such nonlinear eigenproblems and analysis to describe the
 error in what we compute -- and to tell us what solutions our
 computations might miss.
-
-### Links
-
-* David Bindel and Maciej Zworski.  [Theory and Computation of
-  Resonances in 1D
-  Scattering](http://www.cs.cornell.edu/~bindel/cims/resonant1d)
-  (introductory notes)
-* ["Resonances: Interpretation, Computation, and Perturbation."]({{ site.baseurl }}/present/stewart-jul10.pdf), Conference in honor of Pete Stewart on Numerical Linear Algebra:
-  Perturbation, Performance, and Portability, July 2010.
-* ["Bounds and Error Estimates for Nonlinear Eigenvalue
-  Problems."]({{ site.baseurl }}/present/berkeley-oct08.pdf) Applied Mathematics Seminar,
-  UC Berkeley, October 2008.
-* ["Numerical Methods for Resonance
-  Calculations."]({{ site.baseurl }}/present/banff-oct08.pdf) BIRS Workshop on
-  Mathematical Theory of Resonances, October 2008.
-* David S. Bindel and Maciej Zworski.  [Symmetry of bound and
-  antibound states in the semiclassical limit][3].  _Letters in Math
-  Physics_, 81(2):107--117, 2007.
-
-  [3]: http://dx.doi.org/10.1007/s11005-007-0178-7

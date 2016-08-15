@@ -8,11 +8,19 @@ snippet: |
   Success means
   <a href="http://muppet.wikia.com/wiki/Pigs_in_Space">MEMS IN
   SPACE</a>!
-latest:
-- paper: 2016-sensors
-- paper: 2016-hh-workshop
-- paper: 2013-sensors
-- talk: 2012-12-fist
+papers:
+  - 2016-sensors
+  - 2016-hh-workshop
+  - 2013-sensors
+talks:
+  - 2014-06-householder
+  - 2014-04-oxford
+  - 2014-01-umcp
+  - 2013-11-utrc
+  - 2013-10-tufts
+  - 2013-04-duke
+  - 2012-12-fudan
+  - 2012-12-fist
 ---
 
 Solid-wave hemispherical resonator gyroscopes (HRGs) have become the

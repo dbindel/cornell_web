@@ -5,6 +5,20 @@ last_update: 2014-01-01
 snippet: |
   If $A(s)$ is a parameter-dependent matrix, how do we compute
   an invariant subspace basis $V(s)$?
+papers:
+  - 2014-matcont
+  - 2008-cis
+  - 2007-sound
+  - 2006-dissertation
+  - 2006-sound
+  - 2006-cis
+  - 2005-iccs
+talks:
+  - 2007-02-siam-cse-b
+  - 2005-10-lapack
+  - 2005-05-house
+  - 2003-04-lapack
+  - 2002-10-lapack
 ---
 
 In many problems, we care about eigenvalues not just for a fixed
@@ -23,22 +37,3 @@ efficiently for the types of large, sparse problems that arise in PDE
 stability analyses.  We also care about deriving bounds that
 ensure that our algorithms do not miss a bifurcation event because we
 failed to compute a critical eigenvalue.
-
-### Links
-
-*  David Bindel, Mark J. Friedman, Willy Govaerts, J. Hughes, Yuri A. Kuznetsov.
-   [Numerical computation of bifurcations in large equilibrium systems in MATLAB][2].
-   _J. Computational Applied Mathematics_, 261: 232-248, 2014.
-*  David S. Bindel, James W. Demmel, and Mark Friedman.
-   [Continuation of invariant subspaces in large bifurcation problems][1].
-   _SIAM Journal on Scientific Computing_, 30(2): 637--656, 2008.
-*  Cynthia Bruyns-Maxwell and David S. Bindel,
-   [Modal Parameter Tracking for Shape Changing Objects][c1].
-   In _Proceedings of DAFx 2007_, Bordeaux, France, September 2007.
-*  ["Continuation of Invariant Subspaces of Sparse Parameter-Dependent
-   Matrices."][hh]  Householder meeting, May 2005.
-
-[1]: http://dx.doi.org/10.1137/060654219
-[c1]: http://cnmat.berkeley.edu/publication/modal_parameter_tracking_shape_changing_geometric_objects
-[hh]: {{ site.baseurl }}/present/house-may05.pdf
-[2]: http://dx.doi.org/10.1016/j.cam.2013.10.034

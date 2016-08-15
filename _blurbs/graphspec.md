@@ -4,10 +4,17 @@ image: metabolic.png
 last_update: 2015-08-12
 snippet: |
   Fast spectral tools for graph structure.
-latest:
-- paper: 2015-edgeppr
-- talk: 2015-08-kdd-talk
-- paper: 2015-www
+papers:
+  - 2015-edgeppr
+  - 2015-www
+talks:
+  - 2016-04-purdue
+  - 2016-03-hkbu
+  - 2015-10-stanford
+  - 2015-10-berkeley
+  - 2015-08-kdd-talk
+  - 2015-08-kdd-poster
+  - 2015-03-scan
 ---
 
 Linear algebra is a common theme in graph analysis, and spectral
