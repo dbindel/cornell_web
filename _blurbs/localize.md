@@ -1,7 +1,7 @@
 ---
 title: Nonlinear eigenvalue bounds
 image: lambda.jpg
-last_update: 2015-07-01
+last_update: 2016-03-01
 snippet:
   Generalizing classic eigenvalue localization results
   (e.g. Gershgorin).

@@ -20,13 +20,9 @@ layout: top
 
     <h2>Research highlights</h2>
 
-    {% assign items = site.blurbs | sort: 'last_update' %}
-    {% assign counter = 0 %}
-    {% for entry in items reversed %}
-    {%   if counter < 4 %}
-    {%     include blurb_entry.html %}
-    {%   endif %}
-    {%   assign counter = counter | plus: 1 %}
+    {% for item in site.data.projects.highlight %}
+    {%   assign entry = site.data.blurbs_dict[item] %}
+    {%   include blurb_entry.html %}
     {% endfor %}
 
     <p>

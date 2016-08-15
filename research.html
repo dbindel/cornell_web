@@ -8,28 +8,21 @@ layout: main
   software design, mathematical analysis, and application modeling.
   This page is an introduction to some of my work -- I've left out older
   projects, projects where there aren't any results yet, and projects
-  that can't readily be crammed into the listed categories.  
+  that can't readily be crammed into the listed categories.
   My CV gives a more complete list of talks and publications
   (with hyperlinks).
 </p>
 
 <hr/>
 
-{% assign cutoff_date = '2010-01-01' %}
-{% assign sorted_blurbs = site.blurbs | sort: 'last_update' %}
-{% for entry in sorted_blurbs reversed %}
-{%   assign last_update = entry.last_update | date: '%Y-%m-%d' %}
-{%   if last_update >= cutoff_date %}
-{%     include blurb_entry.html %}
-{%   endif %}
+{% for item in site.data.projects.current %}
+{%   assign entry = site.data.blurbs_dict[item] %}
+{%   include blurb_entry.html %}
 {% endfor %}
 
 <h2>Old projects</h2>
 
-{% assign sorted_blurbs = site.blurbs | sort: 'last_update' %}
-{% for entry in sorted_blurbs reversed %}
-{%   assign last_update = entry.last_update | date: '%Y-%m-%d' %}
-{%   if last_update < cutoff_date %}
-{%     include blurb_entry.html %}
-{%   endif %}
+{% for item in site.data.projects.old %}
+{%   assign entry = site.data.blurbs_dict[item] %}
+{%   include blurb_entry.html %}
 {% endfor %}

@@ -1,7 +1,7 @@
 ---
 title: Scattering resonances
 image: corral_top.jpg
-last_update: 2010-07-10
+last_update: 2015-12-01
 snippet: |
   Linear eigenproblems for standing waves;
   nonlinear eigenproblems for almost-standing waves.

@@ -1,7 +1,7 @@
 ---
 title: Rank-structured PDE solvers
 image: nested_1_level_matrix.png
-last_update: 2015-07-21
+last_update: 2016-03-01
 snippet: |
   Moving toward pain-free fast direct sparse solvers for 3D PDEs.
 papers:

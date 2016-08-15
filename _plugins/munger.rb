@@ -37,9 +37,20 @@ module JekyllBindel
       site.data['present_dict'] = lookup
     end
 
+    def munge_blurbs(site)
+      blurbs = site.collections['blurbs']
+      lookup = {}
+      blurbs.docs.each do |blurb|
+        head = blurb.cleaned_relative_path[1..-1]
+        lookup[head] = blurb
+      end
+      site.data['blurbs_dict'] = lookup
+    end
+
     def generate(site)
       munge_classes(site)
       munge_talks(site)
+      munge_blurbs(site)
     end
 
   end
