@@ -14,14 +14,13 @@ js: [filtering.js]
 
 <div id="filters"></div>
 
-{% assign pdate = "0000" %}
+{% assign pyear = "0000" %}
 {% for entry in site.data.present reversed %}
 {%   if entry.title %}
-{%     assign fdate = entry.date | append: "-01" %}
-{%     assign year = fdate | date: "%Y" %}
-{%     if year != pdate %}
-{%       if pdate != "0000" %}</div>{% endif %}
-{%       assign pdate = year %}
+{%     assign year = entry.year %}
+{%     if year != pyear %}
+{%       if pyear != "0000" %}</div>{% endif %}
+{%       assign pyear = year %}
 {%       assign pmonth = "" %}
 <div class="filtering">
 <h3>{{ year }}</h3>
