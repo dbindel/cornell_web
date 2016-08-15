@@ -5,6 +5,8 @@ last_update: 2015-08-12
 snippet: |
   Fast spectral tools for graph structure.
 papers:
+  - 2015-losp-kdd
+  - 2015-icdm
   - 2015-edgeppr
   - 2015-www
 talks:
