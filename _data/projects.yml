@@ -1,18 +1,18 @@
-highlight: [grid, fastnd, graphspec, localize]
+highlight: [grid, graphspec, localize, rbfopt]
 
 current:
   - grid
-  - fastnd
   - graphspec
   - rbfopt
   - localize
+
+old:
   - resonance
+  - fastnd
   - mrig
   - cis
   - cloudhpc
   - opinion
-
-old:
   - overlay
   - hiqlab
   - memsrom
