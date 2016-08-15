@@ -4,6 +4,7 @@ current:
   - grid
   - fastnd
   - graphspec
+  - rbfopt
   - localize
   - resonance
   - mrig
