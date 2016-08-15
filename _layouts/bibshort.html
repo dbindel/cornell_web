@@ -1,0 +1,40 @@
+---
+---
+
+{{ entry.title }} ({{ entry.year }}).
+{% if entry.note %}<br/><b>{{ entry.note }}</b>{% endif %}
+<div id="{{key}}-materials">
+  <ul class="list-inline">
+    {% if site.data.abstracts[key] %}
+    <li><a data-toggle="collapse" href="#{{key}}-abstract">Abstract</a></li>
+    {% endif %}
+    <li><a data-toggle="collapse" href="#{{key}}-bibtex">BibTeX</a></li>
+    {% if entry.link %}
+    <li><a href="{{entry.link}}">Download</a></li>
+    {% else %}
+    <li><a href="papers/{{ key }}.pdf">Download</a></li>
+    {% endif %}
+    {% if entry.doi %}
+    <li><a href="http://dx.doi.org/{{entry.doi}}">DOI</a></li>
+    {% endif %}
+    {% if entry.arxiv %}
+    <li><a href="http://arxiv.org/abs/{{ entry.arxiv }}">arXiv</a></li>
+    {% endif %}
+    {% if entry.code %}
+    <li><a href="{{ entry.code }}">Code</a></li>
+    {% endif %}
+    {% if entry.slides %}
+    <li><a href="{{ entry.slides }}">Slides</a></li>
+    {% endif %}
+    {% if entry.talk %}
+    <li><a href="{{ entry.talk }}">Video</a></li>
+    {% endif %}
+  </ul>
+  <pre id="{{key}}-bibtex" class="collapse">{{entry.bibtex}}</pre>
+  {% if site.data.abstracts[key] %}{% if site.data.abstracts[key].abstract %}
+  <div id="{{key}}-abstract" class="collapse">
+  <h4>Abstract:</h4>
+  {{ site.data.abstracts[key].abstract | markdownify }}
+  </div>
+  {% endif %}{% endif %}
+</div>

@@ -7,9 +7,8 @@ snippet: |
   our beliefs and agree with our friends.  Analyzing Nash
   equilibria yields interesting insights.  Eigenvalues are involved!
 latest:
-- <a href="http://ieee-focs.org/FOCS-2011-Papers/How%20Bad%20is%20Forming%20Your%20Own%20Opinion_qn_.pdf">How bad is choosing your own opinion?</a>
-  (with Sigal Oren and Jon Kleinberg, FOCS 2011)
-- <a href="http://arxiv.org/abs/1203.2973">ArXiV paper</a> (submitted to GEB)
+- paper: 2015-geb
+- paper: 2011-focs
 ---
 
 How do we form opinions?  In economics and sociology, the opinions

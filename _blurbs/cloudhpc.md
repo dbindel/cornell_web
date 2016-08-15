@@ -5,14 +5,8 @@ last_update: 2013-08-01
 snippet: |
   Optimizing parallel code is hard -- so automate as much as possible.
 latest:
-- <a href="http://www.vldb.org/pvldb/vol6/p2014-xie.pdf">Fast Iterative
-  Graph Computation with Block Updates</a> (with Wenlei Xie,
-  Guozhang Wang, Al Demers, and Johannes Gehrke, in Proceedings of VLDB,
-  Vol 6, No 14)
-- <a href="http://dx.doi.org/10.1145/2038916.2038936">Making
-  time-stepped applications tick in the cloud.</a> (with Tao Zou,
-  Guozhang Wang, Marcos Vaz Salles, Al Demers, Johannes Gehrke, and
-  Walker White, SOCC 2011)
+- paper: 2014-vldb
+- paper: 2011-socc
 ---
 
 Engineering high-performance serial code is hard.  Squeezing

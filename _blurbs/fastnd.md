@@ -5,12 +5,8 @@ last_update: 2015-07-21
 snippet: |
   Moving toward pain-free fast direct sparse solvers for 3D PDEs.
 latest:
-- <a href="http://arxiv.org/abs/1507.05593">An Efficient Solver for
-  Sparse Linear Systems Based on Rank-Structured Cholesky
-  Factorization</a> with Jeff Chadwick (arXiv:1507.05593)
-- <a href="http://www.cs.cornell.edu/~bindel/present/nd40-jul13.pdf">Slides</a> from a workshop at Waterloo
-  <a href="https://cs.uwaterloo.ca/conferences/nd40/index.shtml">Celebrating
-  40 Years of Nested Dissection</a> (with Jeff Chadwick).
+- paper: 2015-rsc
+- talk: 2013-07-nd40
 ---
 
 PDE models are a mainstay of computational science and engineering,

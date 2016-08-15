@@ -6,7 +6,8 @@ snippet:
   Generalizing classic eigenvalue localization results
   (e.g. Gershgorin).
 latest:
-- Bindel and Hood <a href="http://epubs.siam.org/doi/abs/10.1137/130913651">SIMAX 13</a> paper wins the 2015 SIAM LA paper prize
+- paper: 2015-sirev
+- paper: 2013-simax
 ---
 
  Let $T : \Omega \rightarrow \mathbb{C}^{n \times n}$ be a matrix-valued

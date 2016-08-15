@@ -5,15 +5,9 @@ last_update: 2015-08-12
 snippet: |
   Fast spectral tools for graph structure.
 latest:
-- Xie, Bindel, Demers, and Gehrke.  <a
-  href="http://dl.acm.org/citation.cfm?doid=2783258.2783278">Edge
-  Weighted Personalized PageRank</a> in KDD 2015 (Best Student
-  Paper!).
-- <a
-  href="http://www.cs.cornell.edu/~bindel/present/2015-08-kdd-talk_kdd-aug15.pdf">Edge
-  Weighted-Personalized PageRank</a> talk at KDD 2015.
-- Li, He, Bindel, and Hopcroft.  <a href="http://dl.acm.org/citation.cfm?doid=2736277.2741676">Uncovering the Small Community
-  Structure in Large Networks</a> in WWW 2015.
+- paper: 2015-edgeppr
+- talk: 2015-08-kdd-talk
+- paper: 2015-www
 ---
 
 Linear algebra is a common theme in graph analysis, and spectral

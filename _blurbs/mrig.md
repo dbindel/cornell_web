@@ -9,11 +9,10 @@ snippet: |
   <a href="http://muppet.wikia.com/wiki/Pigs_in_Space">MEMS IN
   SPACE</a>!
 latest:
-- <a href="#">Imperfections in Solid-Wave Gyroscope
-  Dynamics</a>
-  (with Erdal Yilmaz, IEEE SENSORS 2013, to appear)
-- Gyros in a <a href="http://www.cs.cornell.edu/~bindel/present/fist-dec12.pdf">CAD for MEMS</a> talk
-  at FIST 2012.
+- paper: 2016-sensors
+- paper: 2016-hh-workshop
+- paper: 2013-sensors
+- talk: 2012-12-fist
 ---
 
 Solid-wave hemispherical resonator gyroscopes (HRGs) have become the

@@ -20,12 +20,6 @@ layout: top
         </div>
       </div>
     </div>
-    {% if page.latest %}
-    <h3>Recent highlights</h3>
-    <ul>
-      {% for ref in page.latest %}<li>{{ ref }}</li>{% endfor %}
-    </ul>
-    {% endif %}
     <h3>Summary</h3>
     {{ content }}
   </div>

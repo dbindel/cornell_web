@@ -5,9 +5,7 @@ last_update: 2015-01-06
 snippet: |
   New algorithms for diagnosing line failures in a smart grid.
 latest:
-- "<a href=\"http://arxiv.org/abs/1409.6644\">FLiER: Practical Topology
-  Error Correction Using Sparse PMUs</a>
-  (with Colin Ponce, submitted to IEEE TPS)"
+- paper: 2016-flier
 ---
 
 The power grid is changing, driven by many factors: the push to
