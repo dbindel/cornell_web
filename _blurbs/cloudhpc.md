@@ -2,7 +2,7 @@
 title: Declarative HPC
 image: bluegene.jpg
 last_update: 2013-08-01
-snippet:
+snippet: |
   Optimizing parallel code is hard -- so automate as much as possible.
 latest:
 - <a href="http://www.vldb.org/pvldb/vol6/p2014-xie.pdf">Fast Iterative
@@ -12,7 +12,7 @@ latest:
 - <a href="http://dx.doi.org/10.1145/2038916.2038936">Making
   time-stepped applications tick in the cloud.</a> (with Tao Zou,
   Guozhang Wang, Marcos Vaz Salles, Al Demers, Johannes Gehrke, and
-  Walker White, SOCC 2011) 
+  Walker White, SOCC 2011)
 ---
 
 Engineering high-performance serial code is hard.  Squeezing

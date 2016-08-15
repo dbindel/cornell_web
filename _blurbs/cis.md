@@ -2,7 +2,7 @@
 title: Continuing invariant subspaces
 image: lambda.jpg
 last_update: 2014-01-01
-snippet:
+snippet: |
   If $A(s)$ is a parameter-dependent matrix, how do we compute
   an invariant subspace basis $V(s)$?
 ---

@@ -6,9 +6,7 @@ snippet:
   Generalizing classic eigenvalue localization results
   (e.g. Gershgorin).
 latest:
-- Bindel and Hood <a
-  href="http://epubs.siam.org/doi/abs/10.1137/130913651">SIMAX 13</a>
-  paper wins the 2015 SIAM LA paper prize
+- Bindel and Hood <a href="http://epubs.siam.org/doi/abs/10.1137/130913651">SIMAX 13</a> paper wins the 2015 SIAM LA paper prize
 ---
 
  Let $T : \Omega \rightarrow \mathbb{C}^{n \times n}$ be a matrix-valued
@@ -26,7 +24,7 @@ Bauer-Fike theorem, and others.
 - Localization Theorems for Nonlinear Eigenvalue Problems
   ([arXiv][arxiv], [SIMAX][simax])
 - [Nonlinear Gershgorin talk][an13talk] at SIAM AN 13
-  
+
 [arxiv]: http://arxiv.org/abs/1303.4668
 [simax]: http://epubs.siam.org/doi/abs/10.1137/130913651
 [an13talk]: http://www.cs.cornell.edu/~bindel/present/siam-jul13.pdf

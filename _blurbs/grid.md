@@ -2,7 +2,7 @@
 title: Making grids smarter
 image: 320px-Power_Lines_in_Pacoima.jpg
 last_update: 2015-01-06
-snippet:
+snippet: |
   New algorithms for diagnosing line failures in a smart grid.
 latest:
 - "<a href=\"http://arxiv.org/abs/1409.6644\">FLiER: Practical Topology

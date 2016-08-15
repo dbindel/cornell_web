@@ -2,7 +2,7 @@
 title: Network tomography
 image: network.png
 last_update: 2009-12-01
-snippet:
+snippet: |
   Inferring internal network state by measuring end-to-end paths.
   It's a CAT scan for the Internet!
 ---
@@ -29,7 +29,7 @@ routing.
 ### Links
 
 * Yao Zhao, Yan Chen, and David S. Bindel.  [Toward unbiased end-to-end
-  network diagnosis][1].  _ACM Transactions on Networking_, 17(6): 
+  network diagnosis][1].  _ACM Transactions on Networking_, 17(6):
   1724--1737, 2009.
 * Yan Chen, David S. Bindel, Hanhee Song, Brian Chavez, and Randy
   H. Katz.  [Algebra-based scalable overlay network monitoring:
@@ -46,4 +46,3 @@ routing.
   [2]: http://dx.doi.org/10.1109/TNET.2007.896251
   [c4]: http://dx.doi.org/10.1145/1151659.1159939
   [c5]: http://dx.doi.org/10.1145/1030194.1015475
-

@@ -2,7 +2,7 @@
 title: Spectral Clustering and Ranking
 image: metabolic.png
 last_update: 2015-08-12
-snippet:
+snippet: |
   Fast spectral tools for graph structure.
 latest:
 - Xie, Bindel, Demers, and Gehrke.  <a

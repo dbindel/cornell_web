@@ -14,9 +14,9 @@ gems: ["jekyll/tidy", "jekyll/scholar", "csl/styles"]
 defaults:
   -
     scope:
-      path: "blurbs"
+      type: "blurbs"
     values:
-      layout: "blurb"
+      layout: blurb
 
 collections:
   blurbs:
@@ -27,5 +27,5 @@ markdown: kramdown
 scholar:
   style: assets/bibliography/ieee-with-url.csl
   bibliography_template: bib
-  bibliography_item_attributes: 
+  bibliography_item_attributes:
     class: "filtering"
