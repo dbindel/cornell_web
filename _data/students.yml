@@ -40,7 +40,7 @@ phd:
     last: Ponce
     field: Computer Science
     thesis:
-      title: Network-Structured Error Flattening for Power Grids and Other Real-World Network-Structured
+      title: Network-Structured Error Flattening for Power Grids and Other Real-World Networks
       url: https://ecommons.cornell.edu/handle/1813/44287
       year: 2016
   -
@@ -337,17 +337,17 @@ ugrad:
     first: Anwis
     last: Davis
     when: 2002
-    proj: "M&MEMS Web Service"
+    proj: "MEMS Web Service"
   -
     first: Ernest
     last: Zhu
     when: 2001
-    proj: "M&MEMS Web Service"
+    proj: "MEMS Web Service"
   -
     first: Wayne
     last: Kao
     when: 2001
-    proj: "M&MEMS Web Service"
+    proj: "MEMS Web Service"
 
 committees:
   -

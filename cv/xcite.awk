@@ -1,5 +1,5 @@
 /cite/ { print "\\citation{" $2 "}" }
-END { 
+END {
   print "\\bibstyle{plain}"
   print "\\bibdata{references}"
 }

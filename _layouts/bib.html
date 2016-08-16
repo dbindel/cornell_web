@@ -4,7 +4,7 @@
 <div class="well">
   {{ reference }}
   {% if entry.submit %}{{ entry.submit }}{% endif %}
-  {% if entry.note %}<br/><b>{{ entry.note }}</b>{% endif %}
+  {% if entry.notable %}<br/><b>{{ entry.notable }}</b>{% endif %}
   <div id="{{key}}-materials">
     <ul class="list-inline">
       {% if site.data.abstracts[key] %}

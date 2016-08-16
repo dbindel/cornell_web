@@ -1,15 +1,14 @@
 BEGIN {
-  print("\\begin{ecompact}\n")
+  print("\\begin{enumerate}\n")
 }
 
 END {
-  print(bibitems["\\bibitem{" tag "}"])
-  print("\\end{ecompact}")
+  print("\\end{enumerate}")
 }
 
 /^citex/ {
   $1 = ""
-  print("{\bf " $0 "}")
+  print("\\\\ {\\bf " $0 "}")
   next
 }
 
@@ -24,13 +23,13 @@ END {
   item = ""
 }
 
-in_item {
-  item = item $0 "\n"
-}
-
 /^[ ]*$/ {
   if (item) {
     bibitems[item_tag] = item
   }
   in_item = 0
+}
+
+in_item {
+  item = item "\n" $0
 }

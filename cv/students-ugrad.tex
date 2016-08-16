@@ -1,0 +1,10 @@
+---
+---
+
+\begin{ecompact}
+{% for student in site.data.students.ugrad %}
+\item
+  {{ student.first }} {{ student.last }},
+  {{ student.proj }} ({{ student.when }})
+{% endfor %}
+\end{ecompact}

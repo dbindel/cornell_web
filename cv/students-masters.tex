@@ -1,0 +1,12 @@
+---
+---
+
+\begin{enumerate}
+{% for student in site.data.students.masters %}
+\item
+  {{ student.first }} {{ student.last }}
+  ({{ student.field }}
+  {{ site.data.students.degrees[student.degree] }}, {{ student.grad}}) \\
+  {% if student.degree == "ms" %}Thesis: {\em {{ student.proj.title }}}{% else %}Project: {{ student.proj.title }}{% endif %}
+{% endfor %}
+\end{enumerate}

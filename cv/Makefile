@@ -20,5 +20,10 @@ allrefs.bbl: allrefs.aux references.bib
 references.bib: ../../_bibliography/references.bib
 	tail -n +3 $< > $@
 
+.PHONY: clean distclean
+
 clean:
-	rm -f *.aux cv.log cv.out cv.pdf
+	rm -f *.aux cv.log cv.out allrefs.blg
+
+distclean: clean
+	rm -f cv.pdf

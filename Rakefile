@@ -51,6 +51,14 @@ task :papersync do
   sh "rsync -avz -e 'ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null' --progress /Users/dbindel/work/web/home/papers/* bindel:work/web/home/papers/"
 end
 
+task :cvbuild => [:build] do
+  sh "(cd _site/cv ; make ; make clean)"
+end
+
+task :rebuild do
+  sh "jekyll build"
+end
+
 task :build do
   if check_hash()
     puts("Already built")
@@ -60,6 +68,6 @@ task :build do
   end
 end
 
-task :deploy => [:build] do
+task :deploy => [:build, :cvbuild] do
   sh "rsync -avzL _site/ #{dest}"
 end
