@@ -1,4 +1,14 @@
-cv.pdf: cv.tex journal.tex conf.tex report.tex
+CV_FILES=\
+	cv.tex \
+	awards.tex \
+	journal.tex conf.tex report.tex \
+	teaching.tex \
+	service.tex \
+	member.tex \
+	students-phd.tex students-masters.tex students-ugrad.tex \
+	thesis-committee.tex
+
+cv.pdf: $(CV_FILES)
 	pdflatex cv.tex
 	pdflatex cv.tex
 

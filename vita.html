@@ -13,6 +13,7 @@ bibdiv: well-sm
 <!-- <li><a href="#software">Software</a></li> -->
 <li><a href="#teaching">Teaching</a></li>
 <li><a href="#activities">Service</a></li>
+<li><a href="#member">Societies</a></li>
 <li><a href="#students">Students</a></li>
 </ul>
 </div>
@@ -21,233 +22,36 @@ bibdiv: well-sm
 
 <h2 id="prof">Experience and Education</h2>
 
-<table class="table">
-  <tr>
-    <td>2009-present</td>
-    <td>Assistant Professor of Computer Science</td>
-    <td>Cornell University</td>
-  </tr>
-  <tr>
-    <td>2006-2009</td>
-    <td>Courant Instructor of Mathematics</td>
-    <td>New York University</td>
-  </tr>
-  <tr>
-    <td>1999-2006</td>
-    <td>Ph.D. in Computer Science</td>
-    <td>University of California, Berkeley</td>
-  </tr>
-  <tr>
-    <td>1995-1999</td>
-    <td>B.S. in Math and Computer Science</td>
-    <td>University of Maryland, College Park</td>
-  </tr>
-</table>
+{% include cv_prof.html %}
 
 <h2 id="awards">Awards</h2>
 
-<table class="table">
-{% for award in site.data.awards %}
-<tr>
-<td>{{ award.year }}</td>
-<td>
-  <em>{{ award.name }}</em>
-  {% if award.desc %}<br/>{{ award.desc }}{% endif %}
-</td>
-</tr>
-{% endfor %}
-</table>
+{% include cv_awards.html %}
 
 <h2 id="pubs">Publications</h2>
 
-<h3>Journal papers</h3>
-
-{% bibliography --query @article %}
-
-<h3>Conference papers</h3>
-
-{% bibliography --query @inproceedings %}
-
-<h3>Reports</h3>
-
-{% bibliography --query @*[status=unrefereed] %}
+{% include cv_pubs.html %}
 
 <h2 id="talks">External Talks</h2>
 
-<h3>Colloquium and Seminar Talks</h3>
-
-<ol>
-{% for talk in site.data.present reversed %}
-{% if talk.type contains "seminar" or talk.type contains "colloquium" %}{% if talk.type contains "external" %}
-<li>
-  <div class="well">
-    <a href="{{ talk.url }}">{{ talk.title }}</a>
-    <br/>{{ talk.year }} {{ talk.month_abbrev }} &bull; {{ talk.where }}
-    {% if talk.type contains "colloquium" %}<br/><span class="label label-info">colloquium</span>{% endif %}
-  </div>
-</li>
-{% endif %}{% endif %}
-{% endfor %}
-</ol>
-
-<h3>Workshop and Conference Talks</h3>
-
-<ol>
-{% for talk in site.data.present reversed %}
-{% if talk.type contains "external" %}
-{% if talk.type contains "seminar" or
-      talk.type contains "colloquium" %}{% else %}
-<li>
-  <div class="well">
-    <a href="{{ talk.url }}">{{ talk.title }}</a>
-    <br/>{{ talk.year }} {{ talk.month_abbrev }} &bull; {{ talk.where }}
-    <br/>{% for type in talk.type %}{% if type != "external" and type != "meeting" %} <span class="label label-info">{{ type }}</span>{% endif %}{% endfor %}
-  </div>
-</li>
-{% endif %}
-{% endif %}
-{% endfor %}
-</ol>
+{% include cv_talks.html %}
 
 <h2 id="teaching">Teaching</h2>
 
-<table class="table">
-  {% for c in site.data.classes.current %}{% if c.semester %}
-  {% assign d=site.data.classes[c.course] %}
-  <tr>
-    <td>{{ c.semester }}:</td>
-    <td>{{ d.class }}</td>
-    <td>{% if c.url %}<a href="{{ c.url }}">{{ d.title }}</a>{% else %}{{ d.title }}{% endif %}</td>
-  </tr>
-  {% endif %}{% endfor %}
-  {% for c in site.data.classes.previous %}
-  {% assign d=site.data.classes[c.course] %}
-  <tr>
-    <td>{{ c.semester }}:</td>
-    <td>{{ d.class }}</td>
-    <td>{% if c.url %}<a href="{{ c.url }}">{{ d.title }}</a>{% else %}{{ d.title }}{% endif %}{% if c.ta %} (TA for {{ c.ta }}){% endif %}</td>
-  </tr>
-  {% endfor %}
-</table>
+{% include cv_teaching.html %}
+
+<h2 id="member">Societies</h2>
+
+{% include cv_member.html %}
 
 <h2 id="activities">Service</h2>
 
-<h3>External Activities</h3>
-
-<table class="table">
-  {% for c in site.data.service %}
-  {% if c.type contains "external" %}
-  <tr>
-    <td>{{ c.when }}{% if c.until %}-{{ c.until }}{% endif %}</td>
-    <td>{{ c.role }}</td>
-    <td>{% if c.url %}<a href="{{ c.url }}">{{ c.what }}</a>{% else %}{{ c.what }}{% endif %}</td>
-  </tr>
-  {% endif %}
-  {% endfor %}
-</table>
-
-<h3>Local Activities</h3>
-
-<table class="table">
-  {% for c in site.data.service %}
-  {% if c.type contains "cornell" %}
-  <tr>
-    <td>{{ c.when }}{% if c.until %}-{{ c.until }}{% endif %}</td>
-    <td>{{ c.role }}</td>
-    <td>{% if c.url %}<a href="{{ c.url }}">{{ c.what }}</a>{% else %}{{ c.what }}{% endif %}</td>
-  </tr>
-  {% endif %}
-  {% endfor %}
-</table>
-
-<h3>Review Activity</h3>
-
-<table class="table">
-  {% for c in site.data.reviewing %}
-  <tr>
-    <td>{{ c.what }}</td>
-    <td>{% for year in c.when reversed %} {{ year }}{% endfor %}</td>
-  </tr>
-  {% endfor %}
-</table>
+{% include cv_activities.html %}
 
 <h2 id="students">Students</h2>
 
-<h3>PhD students</h3>
-
-<table class="table">
-{% for student in site.data.students.phd %}{% capture name %}{{ student.first }} {{ student.last }}{% endcapture %}
-<tr>
-  <td>
-    {% if student.url %}<a href="{{ student.url }}">{{ name }}</a>{% else %}{{ name }}{% endif %}<br/>
-    {{ student.field }}{% if student.thesis %}<br/>
-    Ph.D., {{ student.thesis.year }}{% endif %}
-  </td>
-  <td>
-    {% if student.thesis %}<a href="{{ student.thesis.url }}">{{ student.thesis.title }}</a>{% else %}{{ student.topic }}{% endif %}
-    {% if student.reln %}<br/>{{ student.reln }}{% endif %}
-  </td>
-</tr>
-{% endfor %}
-</table>
-
-<h3>Masters students</h3>
-
-<table class="table">
-{% for student in site.data.students.masters %}{% capture name %}{{ student.first }} {{ student.last }}{% endcapture %}
-<tr>
-  <td>
-    {{ name }}<br/>
-    {{ student.field }}<br/>
-    {{ site.data.students.degrees[student.degree] }},
-    {{ student.grad }}
-  </td>
-  <td>
-    {% if student.url %}<a href="{{ student.url }}">{{ student.proj.title }}</a>{% else %}{{ student.proj.title }}{% endif %}
-  </td>
-</tr>
-{% endfor %}
-</table>
-
-<h3>Undergraduate students</h3>
-
-<table class="table">
-{% for student in site.data.students.ugrad %}{% capture name %}{{ student.first }} {{ student.last }}{% endcapture %}
-<tr>
-  <td>{{ name }}</td>
-  <td>
-    {% if student.url %}<a href="{{ student.url }}">{{ student.proj }}</a>{% else %}{{ student.proj }}{% endif %} ({{ student.when }})
-  </td>
-</tr>
-{% endfor %}
-</table>
-
-<h3>Thesis committees</h3>
-
-<h4>Current</h4>
-<ol>
-{% for student in site.data.students.committees %}{% capture name %}{{ student.first }} {{ student.last }}{% endcapture %}
-  <li>{{ name }} ({{ student.field }})</li>
-{% endfor %}
-</ol>
-
-<h4>Graduated</h4>
-
-<table class="table">
-{% for student in site.data.students.past_committees %}{% capture name %}{{ student.first }} {{ student.last }}{% endcapture %}
-<tr>
-  <td>
-    {% if student.url %}<a href="{{ student.url }}">{{ name }}</a>{% else %}{{ name }}{% endif %}<br/>
-    {{ student.field }}<br/>
-    {{ site.data.students.degrees[student.degree] }}, {{ student.thesis.year }}
-  </td>
-  <td>
-    {% if student.thesis %}<a href="{{ student.thesis.url }}">{{ student.thesis.title }}</a>{% else %}{{ student.topic }}{% endif %}
-    {% if student.reln %}<br/>{{ student.reln }}{% endif %}
-  </td>
-</tr>
-{% endfor %}
-</table>
+{% include cv_students.html %}
+{% include cv_thesis.html %}
 
 <!--
 <h2 id="software">Software</h2>

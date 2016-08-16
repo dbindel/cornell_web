@@ -1,0 +1,9 @@
+<table class="table">
+  {% for m in site.data.member %}
+  <tr>
+    <td>{{ m.status }}</td>
+    <td>{{ m.name }}</td>
+    <td>({{ m.full }})</td>
+  </tr>
+  {% endfor %}
+</table>

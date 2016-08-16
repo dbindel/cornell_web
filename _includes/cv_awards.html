@@ -1,0 +1,11 @@
+<table class="table">
+{% for award in site.data.awards %}
+<tr>
+<td>{{ award.year }}</td>
+<td>
+  <em>{{ award.name }}</em>
+  {% if award.desc %}<br/>{{ award.desc }}{% endif %}
+</td>
+</tr>
+{% endfor %}
+</table>

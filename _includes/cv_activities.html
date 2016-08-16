@@ -1,0 +1,38 @@
+<h3>External Activities</h3>
+
+<table class="table">
+  {% for c in site.data.service %}
+  {% if c.type contains "external" %}
+  <tr>
+    <td>{{ c.when }}{% if c.until %}-{{ c.until }}{% endif %}</td>
+    <td>{{ c.role }}</td>
+    <td>{% if c.url %}<a href="{{ c.url }}">{{ c.what }}</a>{% else %}{{ c.what }}{% endif %}</td>
+  </tr>
+  {% endif %}
+  {% endfor %}
+</table>
+
+<h3>Local Activities</h3>
+
+<table class="table">
+  {% for c in site.data.service %}
+  {% if c.type contains "cornell" %}
+  <tr>
+    <td>{{ c.when }}{% if c.until %}-{{ c.until }}{% endif %}</td>
+    <td>{{ c.role }}</td>
+    <td>{% if c.url %}<a href="{{ c.url }}">{{ c.what }}</a>{% else %}{{ c.what }}{% endif %}</td>
+  </tr>
+  {% endif %}
+  {% endfor %}
+</table>
+
+<h3>Review Activity</h3>
+
+<table class="table">
+  {% for c in site.data.reviewing %}
+  <tr>
+    <td>{{ c.what }}</td>
+    <td>{% for year in c.when reversed %} {{ year }}{% endfor %}</td>
+  </tr>
+  {% endfor %}
+</table>

@@ -1,0 +1,26 @@
+<h3>Thesis committees</h3>
+
+<h4>Current</h4>
+<ol>
+{% for student in site.data.students.committees %}{% capture name %}{{ student.first }} {{ student.last }}{% endcapture %}
+  <li>{{ name }} ({{ student.field }})</li>
+{% endfor %}
+</ol>
+
+<h4>Graduated</h4>
+
+<table class="table">
+{% for student in site.data.students.past_committees %}{% capture name %}{{ student.first }} {{ student.last }}{% endcapture %}
+<tr>
+  <td>
+    {% if student.url %}<a href="{{ student.url }}">{{ name }}</a>{% else %}{{ name }}{% endif %}<br/>
+    {{ student.field }}<br/>
+    {{ site.data.students.degrees[student.degree] }}, {{ student.thesis.year }}
+  </td>
+  <td>
+    {% if student.thesis %}<a href="{{ student.thesis.url }}">{{ student.thesis.title }}</a>{% else %}{{ student.topic }}{% endif %}
+    {% if student.reln %}<br/>{{ student.reln }}{% endif %}
+  </td>
+</tr>
+{% endfor %}
+</table>

@@ -1,0 +1,18 @@
+<table class="table">
+  {% for c in site.data.classes.current %}{% if c.semester %}
+  {% assign d=site.data.classes[c.course] %}
+  <tr>
+    <td>{{ c.semester }}:</td>
+    <td>{{ d.class }}</td>
+    <td>{% if c.url %}<a href="{{ c.url }}">{{ d.title }}</a>{% else %}{{ d.title }}{% endif %}</td>
+  </tr>
+  {% endif %}{% endfor %}
+  {% for c in site.data.classes.previous %}
+  {% assign d=site.data.classes[c.course] %}
+  <tr>
+    <td>{{ c.semester }}:</td>
+    <td>{{ d.class }}</td>
+    <td>{% if c.url %}<a href="{{ c.url }}">{{ d.title }}</a>{% else %}{{ d.title }}{% endif %}{% if c.ta %} (TA for {{ c.ta }}){% endif %}</td>
+  </tr>
+  {% endfor %}
+</table>

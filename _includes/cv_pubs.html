@@ -1,0 +1,11 @@
+<h3>Journal papers</h3>
+
+{% bibliography --query @article %}
+
+<h3>Conference papers</h3>
+
+{% bibliography --query @inproceedings %}
+
+<h3>Reports</h3>
+
+{% bibliography --query @*[status=unrefereed] %}
