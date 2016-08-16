@@ -1,0 +1,10 @@
+---
+---
+
+\begin{icompact}
+  {% for c in site.data.service %}{% if c.type contains "external" %}
+  \item
+    {{ c.when }}{% if c.until %}-{{ c.until }}{% endif %}:
+    {{ c.role }},
+    {{ c.what }}.{% endif %}{% endfor %}
+\end{icompact}

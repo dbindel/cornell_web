@@ -1,0 +1,174 @@
+\documentclass{article}
+\usepackage{fullpage}
+\usepackage{graphicx}
+
+\usepackage[
+  letterpaper=true,
+  colorlinks=true,
+  linkcolor=black]{hyperref}
+
+  \newenvironment{tcompact}{
+    \begin{list}{}{
+      \parsep 0pt plus 1pt
+      \partopsep 0pt plus 1pt
+      \topsep 2pt plus 2pt minus 1pt
+      \itemsep 0pt plus 1pt
+      \parskip 0pt plus 2pt
+      \leftmargin 0.3in}
+         \raggedright}
+    {\normalsize\end{list}}
+
+\newenvironment{icompact}{
+  \begin{list}{$\bullet$}{
+    \parsep 0pt plus 1pt
+    \partopsep 0pt plus 1pt
+    \topsep 2pt plus 2pt minus 1pt
+    \itemsep 0pt plus 1pt
+    \parskip 0pt plus 2pt
+    \leftmargin 0.3in}
+       \raggedright}
+  {\normalsize\end{list}}
+
+\newcounter{ecompactctr}
+\newenvironment{ecompact}{
+  \begin{list}{\arabic{ecompactctr}. }{
+    \usecounter{ecompactctr}
+    \parsep 0pt plus 1pt
+    \partopsep 0pt plus 1pt
+    \topsep 2pt plus 2pt minus 1pt
+    \itemsep 0pt plus 1pt
+    \parskip 0pt plus 2pt
+    \leftmargin 0.3in}
+       \raggedright}
+  {\normalsize\end{list}}
+
+\renewcommand{\bibitem}[1]{\item }
+\newcommand{\comment}[1]{}
+
+\begin{document}
+
+\begin{center}
+  {\Large \bf David Samuel Bindel} \\
+  Assistant Professor of Computer Science
+\end{center}
+
+\begin{trivlist}
+\item
+Department of Computer Science
+  \hfill \href{mail:bindel@cs.cornell.edu}{\tt bindel@cs.cornell.edu} \\
+Cornell University
+  \hfill \url{www.cs.cornell.edu/~bindel} \\
+Ithaca, NY 14853
+  \hfill Office: 607-255-5395
+\end{trivlist}
+
+% ===============================================================
+
+% a. list of publications, divided into
+%      (i) refereed archival (typically journal), and
+%     (ii) refereed conference articles.
+%   List all authors in the order they appear on the publication.
+%   Identify those publications that were submitted to the department for%  review.
+
+\section*{a. Refereed publications}
+
+\subsection*{i. Refereed archival}
+
+\input{journal}
+
+\subsection*{ii. Refereed conference}
+
+\input{conf}
+
+% b. list of other publications and lectures presented externally.
+%    Indicate invited lectures, invited contributions, etc.
+
+\section*{b. Other publications and lectures}
+
+\subsection*{Colloquium and seminar talks}
+
+\input{seminar}
+
+\subsection*{Workshop and conference talks}
+
+\input{meeting}
+
+\subsection*{Reports}
+
+\input{report.tex}
+
+% c. list of courses taught each semester and number of students enrolled
+%    (****We will generate this info, so you may leave this out.)
+
+% d. graduate field activity.
+%   (i) list of graduate field memberships
+%
+%  (ii) list of graduate students supervised.
+%         Give degree (M.Eng, MS, PhD), year awarded, and if co-supervised,%  name the co-advisor
+%             and indicate the primary advisor.
+%         For Ph.D. and M.S. students include thesis title.
+%
+% (iii) list of current graduate students and if co-supervised, indicate the % primary
+%         advisor and list co-advisors
+
+\section*{d. Graduate field activity}
+
+\subsection*{i. Graduate field memberships}
+
+\input{gradfield}
+
+\subsection*{ii. Graduate students supervised}
+
+\subsubsection*{Ph.D.~students}
+
+\input{students-phd-done}
+
+\subsubsection*{Masters students}
+
+\input{students-masters}
+
+\subsection*{iii. Current graduate students}
+
+\input{students-phd-now}
+
+% e. summary of external funding, indicating approximate portion to candidate % if co-PI
+%    (****We will generate this info, so you may leave this out.)
+
+% f. list of prestigious honors and awards
+
+\section*{f. Honors and awards}
+
+\input{awards}
+
+% g. membership in and service to professional organizations
+
+\section*{g. Professional service}
+
+\subsection*{Professional society membership}
+
+\input{member}
+
+\subsection*{Professional service activities}
+
+\input{service-external}
+
+\subsection*{Review activity}
+
+\input{service-review}
+
+% h. university leadership, service, committee assignments,
+%      administrative appointments within the department, college, or
+%      university. Include participation and leadership of diversity
+%      initiatives, outreach, cross-campus activities, mentoring, etc.
+
+\subsection*{h. University service}
+
+\subsubsection*{University service activities}
+
+\input{service-cornell}
+
+\subsubsection*{Undergraduate research mentorship}
+
+\input{students-ugrad-cornell}
+
+\end{document}

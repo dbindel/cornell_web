@@ -1,0 +1,12 @@
+---
+---
+
+\begin{enumerate}
+{% for student in site.data.students.phd %}{% if student.thesis %}{% else %}
+\item
+  {{ student.first }} {{ student.last }}
+  ({{ student.field }} Ph.D., in progress) \\
+  Topic: {{ student.topic }}{% if student.reln %} \\
+  {{ student.reln }}{% endif %}{% endif %}
+{% endfor %}
+\end{enumerate}

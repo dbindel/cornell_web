@@ -3,27 +3,12 @@
 
 \subsection*{External activities}
 
-\begin{icompact}
-  {% for c in site.data.service %}{% if c.type contains "external" %}
-  \item
-    {{ c.when }}{% if c.until %}-{{ c.until }}{% endif %}:
-    {{ c.role }},
-    {{ c.what }}.{% endif %}{% endfor %}
-\end{icompact}
+\input{service-external}
 
 \subsection*{Local activities}
 
-\begin{icompact}
-  {% for c in site.data.service %}{% if c.type contains "cornell" %}
-  \item
-    {{ c.when }}{% if c.until %}-{{ c.until }}{% endif %}:
-    {{ c.role }},
-    {{ c.what }}.{% endif %}{% endfor %}
-\end{icompact}
+\input{service-cornell}
 
 \subsection*{Review activity}
 
-\begin{icompact}
-  {% for c in site.data.reviewing %}
-  \item {{ c.what }} ({% for year in c.when reversed %}{{ year }}{% if forloop.last %}{% else %}, {% endif %}{% endfor %}){% endfor %}
-\end{icompact}
+\input{service-review}

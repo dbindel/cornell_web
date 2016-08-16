@@ -1,0 +1,7 @@
+---
+---
+
+\begin{icompact}
+  {% for c in site.data.reviewing %}
+  \item {{ c.what }} ({% for year in c.when reversed %}{{ year }}{% if forloop.last %}{% else %}, {% endif %}{% endfor %}){% endfor %}
+\end{icompact}

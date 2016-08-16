@@ -1,0 +1,10 @@
+---
+---
+
+\begin{ecompact}
+{% for student in site.data.students.ugrad %}{% if student.where == "cornell" %}
+\item
+  {{ student.first }} {{ student.last }},
+  {{ student.proj }} ({{ student.when }})
+{% endif %}{% endfor %}
+\end{ecompact}

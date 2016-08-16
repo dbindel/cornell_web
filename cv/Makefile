@@ -1,5 +1,4 @@
 CV_FILES=\
-	cv.tex \
 	awards.tex \
 	journal.tex conf.tex report.tex \
 	teaching.tex \
@@ -8,9 +7,17 @@ CV_FILES=\
 	students-phd.tex students-masters.tex students-ugrad.tex \
 	thesis-committee.tex
 
-cv.pdf: $(CV_FILES)
+.PHONY: all clean distclean
+
+all: cv.pdf cornellcv.pdf
+
+cv.pdf: cv.tex $(CV_FILES)
 	pdflatex cv.tex
 	pdflatex cv.tex
+
+cornellcv.pdf: cornellcv.tex $(CV_FILES)
+	pdflatex cornellcv.tex 
+	pdflatex cornellcv.tex 
 
 journal.tex: allrefs.bbl journal.txt
 	awk -f ncite.awk allrefs.bbl journal.txt > journal.tex
@@ -29,8 +36,6 @@ allrefs.bbl: allrefs.aux references.bib
 
 references.bib: ../../_bibliography/references.bib
 	tail -n +3 $< > $@
-
-.PHONY: clean distclean
 
 clean:
 	rm -f *.aux cv.log cv.out allrefs.blg

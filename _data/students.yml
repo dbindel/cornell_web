@@ -242,111 +242,132 @@ ugrad:
     first: Nathaniel
     last: Rogalskyj
     when: 2016
+    where: cornell
     proj: "Identifying Network Changes from Ringdown Analysis"
   -
     first: Anna
     last: Yesypenko
     when: 2016
+    where: cornell
     proj: Graph Analysis via Density of States
   -
     first: Moteleolu
     last: Onabajo
     when: 2016
+    where: cornell
     proj: Graph Analysis via Density of States
   -
     first: Jianqiu
     last: Wang
     when: 2016
+    where: cornell
     proj: Graph Analysis via Density of States
   -
     first: Humam
     last: Alwassel
     when: 2015
+    where: cornell
     proj: "Automated Floating Point Error Analysis"
     url: https://github.com/HumamAlwassel/FPEAnalysis
   -
     first: Patrick
     last: Chen
     when: 2015-16
+    where: cornell
     proj: "Super Seminar Scraper"
     url: https://github.com/pchen15/superscraper
   -
     first: Jooyoung
     last: Park
     when: 2015
+    where: cornell
     proj: "Maximum Entropy Method Implementation in MATLAB"
   -
     first: Sheroze
     last: Sherifdeen
     when: 2015-16
+    where: cornell
     proj: "MatScat for Python"
     url: https://github.com/sheroze1123/MatScatPy
   -
     first: Nimit
     last: Sohoni
     when: 2015
+    where: cornell
     proj: "Review of the FEAST Eigensolver"
   -
     first: Leon
     last: Davis
     when: 2015
+    where: cornell
     proj: "Diagonal Completion for Low-Rank Matrices"
   -
     first: Greg
     last: Rosenthal
     when: 2015
+    where: cornell
     proj: "PageRank with Random Edge Weights"
   -
     first: Eric
     last: Ma
     when: 2015
+    where: cornell
     proj: "Graph Analysis via Spectral Histograms"
   -
     first: Brandon
     last: Hartz
     when: 2014
+    where: cornell
     proj: "Fast PageRank on Parameter-Dependent Graphs"
   -
     first: Marshall
     last: Jiang
     when: 2014-15
+    where: cornell
     proj: "Randomly Projected GMRES"
   -
     first: Kyu-Young
     last: Kim
     when: 2011-12
+    where: cornell
     proj: "Evaluating Overlapping Community Detection via Matrix Factorizations"
   -
     first: Jiexun
     last: Xu
     when: 2008
+    where: nyu
     proj: "Fast Factorizations for Network Tomography"
   -
     first: Iva
     last: Vukicevic
     when: 2008
+    where: nyu
     proj: "Error Bounds and Estimates for a Discrete Sine-Gordon Equation"
     url: http://www.cims.nyu.edu/vigrenew/ug_research/Iva%20Vukicevic%20SURE%20Report.pdf
   -
     first: Daniel
     last: Parry
     when: 2008
+    where: nyu
     proj: "Bounds on Biased and Unbiased Random Walks"
     url: https://www.rose-hulman.edu/mathjournal/archives/2009/vol10-n1/paper11/v10n1-11pd.pdf
   -
     first: Anwis
     last: Davis
     when: 2002
+    where: berkeley
     proj: "MEMS Web Service"
   -
     first: Ernest
     last: Zhu
     when: 2001
+    where: berkeley
     proj: "MEMS Web Service"
   -
     first: Wayne
     last: Kao
     when: 2001
+    where: berkeley
     proj: "MEMS Web Service"
 
 committees:

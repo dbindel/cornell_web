@@ -1,0 +1,8 @@
+---
+---
+
+\begin{icompact}
+  {% for f in site.data.gradfield %}
+  \item {% raw %}\href{{% endraw %}{{ f.url }}{% raw %}}{{% endraw %}{{ f.name }}}
+  {% endfor %}
+\end{icompact}
