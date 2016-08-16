@@ -8,6 +8,7 @@ phd:
     first: David
     last: Eriksson
     field: Applied Math
+    where: cornell
     topic: Surrogate optimization methods
     reln: "Co-advised (secondary advisor: Christine Shoemaker)"
     url: https://people.cam.cornell.edu/~dme65/
@@ -15,17 +16,20 @@ phd:
     first: Kun
     last: Dong
     field: Applied Math
+    where: cornell
     topic: Spectral graph analysis
     url: http://www.cam.cornell.edu/people/graduate-students.cfm?grad=1559&year=2016
   -
     first: Eric
     last: Lee
     field: Computer Science
+    where: cornell
     topic: Analysis of power grids
   -
     first: Moontae
     last: Lee
     field: Computer Science
+    where: cornell
     reln: "Co-advised (primary advisor: David Mimno)"
     topic: Spectral methods for topic models
     url: http://www.cs.cornell.edu/~moontae/
@@ -33,12 +37,14 @@ phd:
     first: Amanda
     last: Hood
     field: Applied Math
+    where: cornell
     topic: Nonlinear eigenvalue problems
     url: https://people.cam.cornell.edu/~ahood/research.html
   -
     first: Colin
     last: Ponce
     field: Computer Science
+    where: cornell
     thesis:
       title: Network-Structured Error Flattening for Power Grids and Other Real-World Networks
       url: https://ecommons.cornell.edu/handle/1813/44287
@@ -47,6 +53,7 @@ phd:
     first: Erdal
     last: Yilmaz
     field: Applied Physics
+    where: cornell
     reln: Research advisor (formally advised by Richard Lovelace)
     thesis:
       title: Design, Analysis and Simulation of Microscale Solid-Wave Gyroscopes
@@ -59,6 +66,7 @@ masters:
     first: Batu
     last: Inal
     field: Computer Science
+    where: cornell
     grad: 2016
     proj:
       title: Super Seminar Scraper
@@ -69,6 +77,7 @@ masters:
     first: Sania
     last: Nagpal
     field: Computer Science
+    where: cornell
     grad: 2016
     proj:
       title: Fast Trial Spaces for Parameterized PageRank Problems
@@ -78,6 +87,7 @@ masters:
     first: Suarabh
     last: Netravalkar
     field: Computer Science
+    where: cornell
     grad: 2016
     proj:
       title: Fast Trial Spaces for Parameterize PageRank Problems
@@ -88,6 +98,7 @@ masters:
     last: Jia
     grad: 2016
     field: Computer Science
+    where: cornell
     proj:
       title: Etch-a-Sketch 3D
       when: 2015
@@ -97,6 +108,7 @@ masters:
     last: Jing
     grad: 2016
     field: Computer Science
+    where: cornell
     proj:
       title: Super Seminar Scraper
       when: 2015
@@ -106,6 +118,7 @@ masters:
     last: Lu
     grad: 2016
     field: Computer Science
+    where: cornell
     proj:
       title: Super Seminar Scraper
       url: https://github.com/jl-git/talkstream
@@ -115,6 +128,7 @@ masters:
     first: Xiangyu
     last: Zhang
     field: Computer Science
+    where: cornell
     grad: 2016
     proj:
       title: "Edge-Weighted Parameterized PageRank: A Demo"
@@ -124,6 +138,7 @@ masters:
     first: Markus
     last: Salasoo
     field: Computer Science
+    where: cornell
     grad: 2016
     proj:
       title: "Edge-Weighted Parameterized PageRank: A Demo"
@@ -133,6 +148,7 @@ masters:
     first: Ziyang
     last: Tang
     field: Computer Science
+    where: cornell
     grad: 2016
     proj:
       title: "Optimizing Price of Anarchy in a Model of Opinion Formation"
@@ -142,6 +158,7 @@ masters:
     first: Jia
     last: Zhang
     field: Computer Science
+    where: cornell
     grad: 2016
     proj:
       title: "Spectral Histograms on Networks"
@@ -151,6 +168,7 @@ masters:
     first: Xiaoan
     last: Yan
     field: Computer Science
+    where: cornell
     grad: 2015
     proj:
       title: "Edge-Weighted Parameterized PageRank: A Demo"
@@ -160,6 +178,7 @@ masters:
     first: Chen
     last: Ting-Hao
     field: Electrical Engineering
+    where: cornell
     grad: 2013
     proj:
       title: "MEMS Simulation as a Service"
@@ -169,6 +188,7 @@ masters:
     first: Syed
     last: Hassan
     field: Computer Science
+    where: cornell
     grad: 2013
     proj:
       title: "MEMS Simulation as a Service"
@@ -178,6 +198,7 @@ masters:
     first: Kim
     last: Young Jae
     field: Computer Science
+    where: cornell
     grad: 2013
     proj:
       title: "Teaching Support Vector Machines to Predict Profitable Stock Offers"
@@ -187,6 +208,7 @@ masters:
     first: Jungmin
     last: Yun
     field: Computer Science
+    where: cornell
     grad: 2012
     proj:
       title: Python Implementation of a Stochastic RBF Optimization Method
@@ -196,6 +218,7 @@ masters:
     first: Jesseon
     last: Chang
     field: Computer Science
+    where: cornell
     grad: 2012
     proj:
       title: Python Implementation of a Stochastic RBF Optimization Method
@@ -205,6 +228,7 @@ masters:
     first: Chen-Yi
     last: Chen
     field: Computer Science
+    where: cornell
     grad: 2012
     proj:
       title: A Flexible Interface to FEAP
@@ -214,6 +238,7 @@ masters:
     first: Scott
     last: Purdy
     field: Computer Science
+    where: cornell
     grad: 2010
     proj:
       title: Process Replication for HPC Applications
@@ -223,6 +248,7 @@ masters:
     first: Peter
     last: Hunt
     field: Computer Science
+    where: cornell
     grad: 2010
     proj:
       title: Process Replication for HPC Applications
@@ -232,6 +258,7 @@ masters:
     first: Silvio
     last: Tarca
     field: Scientific Computing (NYU)
+    where: nyu
     grad: 2010
     proj:
       title: Performance Optimization of Symmetric Factorization Algorithms

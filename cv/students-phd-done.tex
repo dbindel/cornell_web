@@ -5,7 +5,7 @@
 {% for student in site.data.students.phd %}{% if student.thesis %}
 \item
   {{ student.first }} {{ student.last }}
-  ({{ student.field }} Ph.D., {{ student.thesis.year }} \\
+  ({{ student.field }} Ph.D., {{ student.thesis.year }}) \\
   Thesis: {\em {{ student.thesis.title}}}{% if student.reln %} \\
   {{ student.reln }}{% endif %}{% endif %}
 {% endfor %}
