@@ -55,17 +55,21 @@ task :cvbuild => [:build] do
   sh "(cd _site/cv ; make ; make clean)"
 end
 
+task :cvlook => [:cvbuild] do
+  sh "open _site/cv/cv.pdf"
+end
+
 task :rebuild do
   sh "jekyll build"
 end
 
 task :build do
-  if check_hash()
-    puts("Already built")
-  else
-    sh "jekyll build"
-    update_present()
-  end
+  #if check_hash()
+  #  puts("Already built")
+  #else
+  sh "jekyll build"
+  update_present()
+  #end
 end
 
 task :deploy => [:build, :cvbuild] do
