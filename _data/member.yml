@@ -2,15 +2,19 @@
   name: SIAM
   full: Society for Industrial and Applied Mathematics
   status: Member
+  url: http://www.siam.org/
 - 
   name: AMS
   full: American Mathematical Society
   status: Member
+  url: http://www.ams.org/
 - 
   name: ACM
   full: Association for Computing Machinery 
   status: Member
+  url: http://www.acm.org/
 - 
   name: IEEE
   full: Institute of Electrical and Electronics Engineers
   status: Member
+  url: http://www.ieee.org/

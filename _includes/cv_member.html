@@ -2,7 +2,7 @@
   {% for m in site.data.member %}
   <tr>
     <td>{{ m.status }}</td>
-    <td>{{ m.name }}</td>
+    <td>{% if m.url %}<a href="{{ m.url }}">{{ m.name }}</a>{% else %}{{ m.name }}{% endif %}</td>
     <td>({{ m.full }})</td>
   </tr>
   {% endfor %}
