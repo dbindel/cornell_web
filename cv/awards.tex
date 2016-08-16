@@ -1,0 +1,8 @@
+---
+---
+
+\begin{tabular}{ll}{% for award in site.data.awards %}
+{{ award.year }} &
+{\em {{ award.name }} }{% if award.desc %}\\
+& {{ award.desc }}{% endif %}{% if forloop.last %}{% else %}\\[1mm]{% endif %}{% endfor %}
+\end{tabular}

@@ -1,0 +1,9 @@
+---
+---
+
+\begin{ecompact}{% for talk in site.data.present reversed %}{% if talk.type contains "seminar" or talk.type contains "colloquium" %}{% if talk.type contains "external" %}
+\item
+  {{ talk.month_abbrev }} {{ talk.year }},
+  {% raw %}\href{{% endraw %}http://www.cs.cornell.edu/~bindel/{{ talk.url }}{% raw %}}{{% endraw %}{{ talk.title }}{% raw %}}{% endraw %},
+  {{ talk.where }}.{% endif %}{% endif %}{% endfor %}
+\end{ecompact}

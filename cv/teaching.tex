@@ -1,0 +1,13 @@
+---
+---
+
+\begin{tabular}{lll}
+  {% for c in site.data.classes.current %}{% if c.semester %}{% assign d=site.data.classes[c.course] %}
+  {{ c.semester }} &
+  {{ d.class }} &
+  {{ d.title }} \\{% endif %}{% endfor %}
+  {% for c in site.data.classes.previous %}{% assign d=site.data.classes[c.course] %}
+  {{ c.semester }} &
+  {{ d.class }} &
+  {{ d.title }}{% if c.ta %} (TA for {{ c.ta}}){% endif %}{% if forloop.last %}{% else %} \\ {% endif %}{% endfor %}
+\end{tabular}

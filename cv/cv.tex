@@ -1,0 +1,403 @@
+\documentclass{article}
+\usepackage{fullpage}
+\usepackage{graphicx}
+
+\usepackage[
+  letterpaper=true,
+  colorlinks=true,
+  linkcolor=black]{hyperref}
+
+\newenvironment{icompact}{
+  \begin{list}{$\bullet$}{
+    \parsep 0pt plus 1pt
+    \partopsep 0pt plus 1pt
+    \topsep 2pt plus 2pt minus 1pt
+    \itemsep 0pt plus 1pt
+    \parskip 0pt plus 2pt
+    \leftmargin 0.3in}
+       \raggedright}
+  {\normalsize\end{list}}
+
+\newcounter{ecompactctr}
+\newenvironment{ecompact}{
+  \begin{list}{\arabic{ecompactctr}. }{
+    \usecounter{ecompactctr}
+    \parsep 0pt plus 1pt
+    \partopsep 0pt plus 1pt
+    \topsep 2pt plus 2pt minus 1pt
+    \itemsep 0pt plus 1pt
+    \parskip 0pt plus 2pt
+    \leftmargin 0.3in}
+       \raggedright}
+  {\normalsize\end{list}}
+
+\renewcommand{\bibitem}[1]{\item }
+\newcommand{\comment}[1]{}
+
+\begin{document}
+
+\begin{center}
+  {\Large \bf David Samuel Bindel} \\
+  Assistant Professor of Computer Science
+\end{center}
+
+\begin{trivlist}
+\item
+Department of Computer Science
+  \hfill \href{mail:bindel@cs.cornell.edu}{\tt bindel@cs.cornell.edu} \\
+Cornell University
+  \hfill \url{www.cs.cornell.edu/~bindel} \\
+Ithaca, NY 14853
+  \hfill Office: 607-255-5395
+%%% Department of Mathematics                  \hfill Office: (212) 998-3155 \\
+%%% Courant Institute of Mathematical Sciences \hfill Fax: (212) 995-4121\\
+%%% New York University                        \hfill \href{mail:dbindel@cims.nyu.edu}{\texttt{dbindel@cims.nyu.edu}} \\
+%%% 251 Mercer Street                          \hfill \href{www.cims.nyu.edu/~dbindel}{\texttt{http://www.cims.nyu.edu/\string~dbindel}} \\
+%%% New York, NY 10012
+\end{trivlist}
+
+
+\section*{Education}
+
+\begin{tabular}{ll}
+May 1999 &
+  B.S. in Mathematics and in Computer Science,
+  University of Maryland, College Park \\
+December 2006 &
+  Ph.D. in Computer Science, University of California, Berkeley
+\\
+\\
+Advisors:
+ & James Demmel (Computer Science Division and Department of Mathematics) \\
+ & Sanjay Govindjee (Department of Civil Engineering) \\
+Dissertation title: &
+   {\em Structured and Parameter-Dependent Eigensolvers for
+        Simulation-Based Design of} \\
+&  {\em Resonant MEMS}
+\end{tabular}
+
+
+\section*{Professional Experience}
+
+\begin{tabular}{ll}
+  Summer 2009-present.
+    & Assistant Professor, Department of Computer Science,
+      Cornell University \\
+  Fall 2006-Summer 2009.
+    & Courant Instructor of Mathematics, New York University \\
+  Fall 1999-Summer 2006.
+    & Graduate Student Researcher, CS Division, UC Berkeley \\
+  Fall 2005 and Spring 2001.
+    & Graduate Student Instructor, CS Division, UC Berkeley
+\end{tabular}
+
+
+\section*{Research interests}
+
+% \begin{icompact}
+%   \item Numerical linear algebra, particularly eigenvalue problems
+%   \item Modeling microelectromechanical systems (MEMS)
+%   \item Computational mechanics and finite element analysis
+%   \item Numerical analysis of problems from computer networking and
+%     systems
+%   \item Social network analysis
+%   \item Numerical software engineering
+% \end{icompact}
+
+\section*{Awards}
+
+\input{awards}
+
+% ===============================================================
+
+\section*{Publications}
+
+\subsection*{Journal papers}
+
+\input{journal}
+
+\subsection*{Conference papers}
+
+\input{conf}
+
+\subsection*{Reports}
+
+\input{report}
+
+% ---------------------------------------------------------------
+
+\section*{External talks}
+
+\subsection*{Colloquium and seminar talks}
+
+\input{seminar}
+
+\subsection*{Workshop and conference talks}
+
+\input{meeting}
+
+% ---------------------------------------------------------------
+
+\section*{Teaching}
+
+\input{teaching}
+
+% ---------------------------------------------------------------
+
+\section*{PhD students}
+
+These students are all in progress:
+\begin{ecompact}
+\item
+  Eric Lee, Computer Science -- Demand response optimization and fault
+  analysis for power grids
+\item
+  Kun Dong, Applied Math -- Non-negative matrix factorizations for
+  topic modeling
+\item
+  Erdal Yilmaz, Applied and Engineering Physics -- MEMS gyroscope
+  simulations (graduating May 2016)
+\item
+  Amanda Hood, Applied Math -- Nonlinear eigenvalue problems for
+  resonances (graduating May 2016)
+\item
+  Colin Ponce, Computer Science -- Fault diagnosis in electrical networks
+  %Community detection in social networks
+  (graduating May 2016)
+\end{ecompact}
+
+\section*{Masters students}
+
+\begin{ecompact}
+\item Batu Inal (2016) -- {\em Super Seminar Scraper}
+\item Sania Nagpal (2016) --
+  {\em Fast trial spaces for parameterized PageRank problems}
+\item Suarabh Netravalkar (2016) --
+  {\em Fast trial spaces for parameterized PageRank problems}
+\item Shitong Jia (2015) -- {\em Etch-a-Sketch 3D}
+\item Jing Jing and Jiankun Lu (2015) -- {\em Super Seminar Scraper}
+\item Xiangyu Zhang (2015) -- {\em Edge-weighted parameterized PageRank: a demo}
+\item Ziyang Tang (2015) -- {\em Optimizing price of anarchy in a
+  model of opinion formation}
+\item Jia Zhang (2015) -- {\em Spectral histogram on networks}
+\item Xiangyu Zhang and Markus Salasoo (2015) -- {\em Edge-weighted parameterized PageRank: a demo}
+\item
+  Ting-Hao Chen and Syed Hassan (2013) -- {\em MEMS Simulation as a Service}
+\item
+  Yong Jae Kim (2013) -- {\em Teaching Support Vector Machines to
+    Predict Profitable Stock Offers}
+\item
+  Jungmin Yun and Jesseon Chang (2012) -- {\em Python implementation
+    of a stochastic RBF optimization method}
+\item
+  Chen-Yi (Charlie) Chen (2012) -- {\em A flexible interface to FEAP}
+\item
+  Peter Hunt and Scott Purdy (2010) -- {\em Process replication for
+    HPC applications}
+\item
+  Silvio Tarca (2010) -- {\em Performance optimization of symmetric
+    factorization algorithms}
+\end{ecompact}
+
+\section*{Undergraduate research students}
+
+\begin{ecompact}
+  \item Humam Alwassel (2015)
+  \item Patrick Chen (2015--2016)
+  \item Joo Young Park (2015)
+  \item Sheroze Sheriffdeen (2015--2016)
+  \item Nimit Sohoni (2015)
+  \item Leon Davis (2015)
+  \item Greg Rosenthal (2015)
+  \item Eric Ma (2015)
+  \item Brandon Hartz (2014)
+  \item Marshall Jiang (2014--2015)
+  \item Kyu-Young Kim (2011--2012)
+  \item Jiexun Xu (2008)
+  \item Iva Vukicevic (2008)
+  \item Daniel Parry (2008)
+  \item Anwis Das (2002)
+  \item Ernest Zhu (2001)
+  \item Wayne Kao (2001)
+\end{ecompact}
+
+% ---------------------------------------------------------------
+
+\section*{Released software packages}
+
+\begin{ecompact}
+\item {\bf RSC}
+  A rank-structured Cholesky factorization code derived from Cholmod.
+\item {\bf PySOT}
+  A Python package for parallel response-surface based
+  surrogate optimization methods.
+\item {\bf POAP}
+  Python Optimization Asynchronous Pluming.
+\item {\bf AxFEM}
+  A finite element simulator for computing properties of axisymmetric
+  resonant structures such as gyroscopes.
+\item {\bf MWwrap}
+  A wrapper generator for automating calls to C/C++ and Fortran
+  codes from MATLAB.
+\item {\bf Matexpr}
+  A source-to-source translator for compiling MATLAB-like
+  expressions within C/C++.
+\item {\bf BoneFEA}
+  A commercial code for fast simulation of failure in human bone.
+\item {\bf HiQLab}
+  A finite element simulator for computing losses in resonant
+  microsystems.
+\item {\bf MATFEAP/FEAPMEX}
+  MATLAB interfaces to the FEAP finite element analysis code.
+\item {\bf SUGAR}
+  A lumped-element modeling system for MEMS based on modified nodal
+  analysis.  I also worked on M\&MEMS, a web-based interface to the
+  SUGAR simulator.
+\item {\bf CLAPACK}
+  C translation of version 3.0 of the LAPACK library for dense numerical
+  linear algebra.
+\end{ecompact}
+
+% ---------------------------------------------------------------
+
+\section*{Referee activity}
+
+\begin{icompact}
+  \item {\em ACM Journal on Emerging Technologies in Computing Systems} (2014)
+  \item {\em ACM Transactions on Mathematical Software} (2013, 2014,
+    2015, 2016)
+  \item {\em American Mathematical Monthly} (2015)
+  \item {\em SIAM Journal on Matrix Analysis} (2005, 2006, 2007, 2008,
+    2009, 2012, 2014, 2015)
+  \item {\em SIAM Journal on Multiscale Modeling and Simulation} (2012)
+  \item {\em SIAM Journal on Scientific Computing} (2008, 2009, 2014, 2015)
+  \item {\em IEEE Sensors} (2014)
+  \item {\em IEEE Transactions on Dependable and Secure Computing} (2014)
+  \item {\em IEEE Journal of Microelectromechanical Systems} (2003,
+    2007, 2008, 2009, 2010, 2011)
+  \item {\em IEEE Transactions on Signal Processing} (2007)
+  \item {\em Applicable Analysis} (2007)
+  \item {\em Applied Mathematics and Computation} (2011)
+  \item {\em Communications in Pure and Applied Math} (2010)
+  \item {\em International Journal of Computer Mathematics} (2012)
+  \item {\em International Journal of Solids and Structures} (2015)
+  \item {\em Journal of Applied Mechanics} (2007)
+  \item {\em Journal of Applied Physics} (2007)
+  \item {\em Journal of Computational Physics} (2011, 2012, 2015, 2016)
+  \item {\em Journal of Micromechanics and Microengineering} (2007,
+    2008, 2009, 2011, 2014, 2015)
+  \item {\em Journal of Machine Learning Research} (2016)
+  \item {\em Journal of Physics A: Mathematical and Theoretical} (2007)
+  \item {\em Linear Algebra and its Applications} (2003, 2009, 2010,
+    2013, 2014, 2015)
+  \item {\em Mathematics of Computation} (2007)
+  \item {\em Multiscale Modeling and Simulation} (2013)
+  \item {\em Numerical Linear Algebra with Applications} (2010, 2011,
+    2012, 2013, 2014, 2015, 2016)
+  \item {\em Numerische Mathematik} (2009, 2011)
+  \item {\em Transactions of the Canadian Society for Mechanical
+    Engineering} (2009)
+  \item Technical program commitee, IPDPS 2016.
+  \item Technical program commitee, IPDPS 2015.
+  \item Technical program commitee, IPDPS 2014.
+  \item Posters committee, Supercomputing 2014.
+  \item Technical program committee, Supercomputing 2013.
+  \item DSL 2011: IFIP Working Conference on Domain-Specific Languages (2011)
+  \item PARA04 conference proceedings (2004)
+  \item IEEE ARITH conference (2004)
+  \item ACM International Conference on Supercomputing (2003)
+  \item ACM SIGGRAPH (2009, 2011)
+  \item Proposal referee for the Netherlands science foundation (NWO)
+  \item Proposal referee for DOE (2009, 2015)
+\end{icompact}
+
+% ---------------------------------------------------------------
+
+\section*{Professional activities}
+
+\begin{icompact}
+  \item Scientific Co-Chair, SIAM Applied Linear Algebra 2018.
+  \item Householder Symposium Committee, 2014--present.
+  \item Secretary, SIAM Activity Group on Linear Algebra, January
+    2013--January 2016.
+  \item Organizer, New York Conference on Applied Mathematics, 2011--2013.
+  \item Editor, {\em Numerical Linear Algebra with Applications},
+        2010 -- present.
+  \item Managing editor,
+        {\em Electronic Transactions on Numerical Analysis},
+        2008 -- present.
+  \item Organizer, Cornell scientific computing and numerics (SCAN) seminar,
+        2009 -- present.
+  \item Organizer, NYU numerical analysis and scientific computing seminar,
+        Fall 2007--Spring 2009.
+  \item Secretary, IEEE 754 standard revision committee,
+        January 2002 -- March 2004
+        (\verb+http://grouper.ieee.org/groups/754/+)
+  \item Member: American Mathematical Society,
+        Society for Industrial and Applied Mathematics,
+        and Association for Computing Machinery
+        %, and US Association for Computational Mechanics
+\end{icompact}
+
+% ---------------------------------------------------------------
+
+%%\section*{Academic references}
+
+%%\begin{icompact}
+%%\item
+%%  James Demmel, \\
+%%  Computer Science Division,
+%%  University of California, Berkeley \\
+%%  Berkeley, CA 94720. \\
+%%  Phone: (510) 643-5386.
+%%  E-mail: \texttt{demmel@eecs.berkeley.edu}.
+
+%%\item
+%%  Leslie Greengard, \\
+%%  Department of Mathematics,
+%%  Courant Institute of Mathematical Sciences,
+%%  New York University, \\
+%%  251 Mercer Street, \\
+%%  New York, NY 10012. \\
+%%  Phone: (212) 998-3306.
+%%  E-mail: \texttt{greengard@cims.nyu.edu}.
+
+%%\item
+%%  Panos Papadopoulos, \\
+%%  Department of Mechanical Engineering,
+%%  University of California, Berkeley \\
+%%  Berkeley, CA 94720. \\
+%%  Phone: (510) 642-3358.
+%%  E-mail: \texttt{panos@me.berkeley.edu}.
+
+%% \item
+%%   Sanjay Govindjee,
+%%   Structural Engineering, Mechanics and Materials,
+%%   Department of Civil Engineering,
+%%   University of California,
+%%   Berkeley, CA 94720. \\
+%%   Phone: (510) 642-6060.
+%%   E-mail: \texttt{sanjay@ce.berkeley.edu}.
+
+%% \item
+%%   Roger Howe,
+%%   Department of Electrical Engineering,
+%%   Integrated Circuits Laboratory,
+%%   114 Allen CIS Building,
+%%   Stanford University,
+%%   Stanford, CA 94305. \\
+%%   Phone: (650) 723-8030.
+%%   E-mail: \texttt{howe@ee.stanford.edu}.
+
+%% \item
+%%   Beresford Parlett,
+%%   Department of Mathematics,
+%%   University of California,
+%%   Berkeley, CA 94720. \\
+%%   Phone: (510) 642-6655.
+%%   E-mail: \texttt{parlett@math.berkeley.edu}.
+
+%%\end{icompact}
+
+
+\end{document}
