@@ -26,16 +26,19 @@ current:
   -
     semester: F16
     course: cs6210
+    where: cornell
     url: class/cs6210-f16/
     logistics: |
       Fall 2016.  MWF 11:15-12:05 PM, Hollister Hall 310.
   -
     course: scan
+    where: cornell
     url: http://www.cse.cornell.edu/scan
     logistics: |
       Ongoing.  M 1:25-2:15, Gates 406.
   -
     course: projects
+    where: cornell
     url: meng.html
     logistics: |
       See my [list of projects](http://www.cs.cornell.edu/~bindel/meng.html)!
@@ -49,75 +52,94 @@ previous:
   -
     semester: S16
     course: cs4220
+    where: cornell
     url: class/cs4220-s16/
   -
     semester: F15
     course: cs5220
+    where: cornell
     url: class/cs5220-f15/
   -
     semester: S15
     course: cs4220
+    where: cornell
     url: class/cs4220-s15/
   -
     semester: S14
     course: cs5220
+    where: cornell
     url: class/cs5220-s14/
   -
     semester: F13
     course: cs6210
+    where: cornell
     url: class/cs6210-f13/
   -
     semester: F12
     course: cs6210
+    where: cornell
     url: class/cs6210-f12/
   -
     semester: S12
     course: cs3220
+    where: cornell
     url: class/cs3220-s12/
   -
     semester: F11
     course: cs5220
+    where: cornell
     url: class/cs5220-f11/
   -
     semester: S11
     course: cs3220
+    where: cornell
     url: class/cs3220-s11/
   -
     semester: S10
     course: cs5220
+    where: cornell
     url: class/cs5220-s10/
   -
     semester: F09
     course: cs6210
+    where: cornell
     url: class/cs6210-f09/
   -
     semester: S09
     course: nyu-sc
+    where: nyu
     url: http://www.cs.nyu.edu/courses/spring09/G22.2112-001/index.html
   -
     semester: F08
     course: nyu-hpc
+    where: nyu
     url: http://www.cs.nyu.edu/courses/fall08/G22.2945-001/index.html
   -
     semester: S08
     course: nyu-calc
+    where: nyu
   -
     semester: F07
     course: nyu-prob
+    where: nyu
   -
     semester: S07
     course: nyu-calc
+    where: nyu
   -
     semester: F06
     course: nyu-qr
+    where: nyu
   -
     semester: F05
     course: cs164
+    where: berkeley
     url: http://www-inst.eecs.berkeley.edu/~cs164/fa05/
     ta: Richard Fateman
   -
     semester: F01
     course: cs267
+    where: berkeley
     ta: Kathy Yelick
 
 # ================================================================

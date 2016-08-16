@@ -1,0 +1,11 @@
+---
+---
+
+\begin{icompact}
+  {% for c in site.data.classes.current %}{% if c.semester %}{% if c.where =="cornell" %}{% assign d=site.data.classes[c.course] %}
+  \item {{ c.semester }} {{ d.title }}
+  ({{ d.class }}){% endif %}{% endif %}{% endfor %}
+  {% for c in site.data.classes.previous %}{% if c.where=="cornell" %}{% assign d=site.data.classes[c.course] %}
+  \item {{ c.semester }} {{ d.title }}
+  ({{ d.class }}){% if c.ta %}, TA for {{ c.ta}}{% endif %}{% endif %}{% endfor %}
+\end{icompact}
