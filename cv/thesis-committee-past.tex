@@ -1,0 +1,12 @@
+---
+---
+
+\begin{enumerate}
+{% for student in site.data.students.past_committees %}
+\item
+  {{ student.first }} {{ student.last }}
+  ({{ student.field }} {{ site.data.students.degrees[student.degree] }}, {% if student.thesis %}{{ student.thesis.year }}{% else %}in progress{% endif %}) \\
+  {% if student.thesis %}Thesis: {\em {{ student.thesis.title}}}{% else %}Topic: {{ student.topic }}{% endif %}{% if student.reln %} \\
+  {{ student.reln }}{% endif %}
+{% endfor %}
+\end{enumerate}

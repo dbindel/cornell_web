@@ -1,0 +1,9 @@
+---
+---
+
+\begin{ecompact}
+  {% for student in site.data.students.committees %}
+  \item {{ student.first }} {{ student.last }}
+    ({{ student.field}} {{ site.data.students.degrees[student.degree] }} student)
+  {% endfor %}
+\end{ecompact}
