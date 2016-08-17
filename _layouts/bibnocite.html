@@ -1,4 +1,4 @@
 ---
 ---
-cite {{ key }}
+{% if site.data.tenure.highlight contains key %}citeh{% else %}cite{% endif %} {{ key }}
 {% if entry.notable %}citex {{ entry.notable }}{% endif %}

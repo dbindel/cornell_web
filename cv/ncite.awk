@@ -12,7 +12,12 @@ END {
   next
 }
 
-/^cite/ {
+/^citeh/ {
+  print(bibitems["\\bibitem{" $2 "}"])
+  print("\\deptrev{Representative paper for tenure review.}")
+}
+
+/^cite / {
   print(bibitems["\\bibitem{" $2 "}"])
   next
 }
