@@ -6,7 +6,9 @@ layout: main
 {% assign items = site.data.classes.active %}
 {% for c in items %}
 {%   assign entry=site.data.classes[c] %}
+<div class="well">
 {%   include class_entry.html %}
+</div>
 {% endfor %}
 
 <p>
