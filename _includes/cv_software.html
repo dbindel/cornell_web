@@ -1,0 +1,15 @@
+<table class="table">
+{% for item in site.data.codes.packages %}
+{%   assign entry = site.data.blurbs_dict[item] %}
+<tr>
+  <td>
+    <a href="{{ site.baseurl }}{{ entry.url }}">
+      {{ entry.title }}
+    </a>
+  </td>
+  <td>
+    {{ entry.snippet }}
+  </td>
+</tr>
+{% endfor %}
+</table>

@@ -2,7 +2,7 @@
 title: Matexpr
 image: math-board.jpg
 snippet: |
-  A MATLAB-like mini-language for fast inner loops in C.
+  A MATLAB-like mini-language for fast inner loops in C
 menu:
   - text: BitBucket
     url: https://bitbucket.org/dbindel/matexpr/

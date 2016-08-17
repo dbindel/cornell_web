@@ -2,7 +2,7 @@
 title: HiQLab
 image: diskdie2.png
 snippet: |
-  Finite element analysis of damping in high-frequency MEMS.
+  Finite element analysis of damping in high-frequency MEMS
 menu:
   - text: Bitbucket
     url: https://bitbucket.org/dbindel/hiqlab

@@ -1,0 +1,8 @@
+---
+---
+
+\begin{icompact}
+  {% for item in site.data.codes.packages %}{%   assign entry = site.data.blurbs_dict[item] %}\item
+  {\em {{ entry.title}}}: {{ entry.snippet }}
+{% endfor %}
+\end{icompact}
