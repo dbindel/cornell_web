@@ -1,7 +1,6 @@
 ---
 title: Solid-wave MEMS gyroscopes
 image: gyro-standalone.png
-last_update: 2013-07-01
 snippet: |
   Building simulation tools to understand the challenges in
   miniaturizing the current gyro-of-choice for space applications.

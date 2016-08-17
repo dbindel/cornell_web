@@ -1,0 +1,29 @@
+---
+title: Software
+layout: main
+---
+
+<h2>Packages</h2>
+
+{% for code in site.data.codes.packages %}
+{% assign blurb=site.data.blurbs_dict[code.blurb] %}
+<div class="well media">
+  <a class="pull-left" href="#">
+    <img class="media-object" width="64" src="{{ site.baseurl }}pic/{{ blurb.image }}">
+  </a>
+  <div class="media-body">
+    <h4 class="media-heading">
+      <a href="{{ site.baseurl }}{{ blurb.url }}">
+        {{ code.name }}
+      </a>
+    </h4>
+    {% if code.short %}<h5>{{ code.short }}</h5>{% endif %}
+    {% if code.links %}<ul class="list-inline">{% for link in code.links %}
+      <li><a href="{{ link.url }}">{{ link.text}}</a></li>
+    {% endfor %}</ul>{% endif %}
+  </div>
+  {{ code.text | markdownify }}
+</div>
+{% endfor %}
+
+<h2>Utilities</h2>

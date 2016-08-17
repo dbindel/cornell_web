@@ -1,9 +1,11 @@
 ---
 title: FEM for resonant MEMS
 image: diskdie2.png
-last_update: 2007-01-01
 snippet: |
   Tools for simulating damping mechanisms in resonant microsystems.
+links:
+  - link: HiQLab on Bitbucket
+    url: https://bitbucket.org/dbindel/hiqlab
 papers:
   - 2006-dissertation
   - 2005-sensors

@@ -1,7 +1,6 @@
 ---
 title: Scattering resonances
 image: corral_top.jpg
-last_update: 2015-12-01
 snippet: |
   Linear eigenproblems for standing waves;
   nonlinear eigenproblems for almost-standing waves.
@@ -11,6 +10,12 @@ links:
       David Bindel and Maciej Zworski.  
       Theory and Computation of Resonances in 1D Scattering
     url: http://www.cs.cornell.edu/~bindel/cims/resonant1d
+  -
+    text: MatScat on GitHub
+    url: https://github.com/dbindel/matscat
+  -
+    text: MatScatPy (by Sheroze Sherrifdeen and Chaitali Joshi)
+    url: https://github.com/sheroze1123/MatScatPy
 papers:
   - 2015-sirev
   - 2013-simax

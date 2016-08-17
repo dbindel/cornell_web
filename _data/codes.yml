@@ -1,0 +1,169 @@
+packages:
+-
+  name: PySOT
+  short: Python Surrogate Optimization Toolbox
+  blurb: rbfopt
+  links:
+    - text: PyPI
+      url: https://pypi.python.org/pypi/pySOT
+    - text: GitHub
+      url: https://github.com/dme65/pySOT
+  text: |
+    PySOT is a toolbox of surrogate function methods for global
+    optimization in spaces of moderately high dimension (tens
+    of parameters).  Both continuous and integer variables are
+    allowed.  This code is under active development by David
+    Eriksson and myself.
+-
+  name: POAP
+  short: Python for Optimization with Asynchronous Plumbing
+  blurb: rbfopt
+  links:
+    - text: PyPI
+      url: https://pypi.python.org/pypi/POAP
+    - text: GitHub
+      url: https://github.com/dbindel/POAP/
+  text: |
+    POAP is an infrastructure package to support optimization
+    methods for expensive function interfaces.  Function evaluations
+    are carried out by workers (which may be local threads or remote
+    processes) at the behest of a controller, with communication by
+    TCP, MPI, or local message queues.  The controller exposes these
+    resources to strategies, which can be composed in various ways;
+    for example, composing a standard optimization strategy with a
+    retry strategy can make the optimizer robust to worker failures.
+    POAP is the underlying substrate for PySOT.
+-
+  name: RSC
+  short: Rank-structured Cholesky for fast PDE solves
+  blurb: fastnd
+  links:
+    - text: GitHub
+      url: https://github.com/jeffchadwick/rank_structured_cholesky
+  text: |
+    The Rank Structured Cholesky (RSC) solver was developed by
+    Jeff Chadwick (Ph.D. 2013) in joint work with me;
+    it is based on Tim Davis's [CHOLMOD][suite], a widely-used
+    standard sparse Cholesky solver.
+    Unlike CHOLMOD, the RSC solver
+    takes advantage of low-rank block structure that appears naturally
+    in many large linear systems that arise in elliptic PDE
+    discretizations, and so has good scaling properties in both
+    time and memory complexity.  Unlike some other solvers based on
+    similar ideas, the RSC solver also has good performance in
+    practice, as it is engineered from the ground up to make
+    good use of fast level-3 BLAS routines.
+
+    [suite]: http://faculty.cse.tamu.edu/davis/suitesparse.html
+-
+  name: MatScat
+  short: 1D scattering and resonance computation in MATLAB
+  blurb: resonance
+  links:
+    - text: GitHub
+      url: https://github.com/dbindel/matscat
+    -
+      text: MatScatPy
+      url: https://github.com/sheroze1123/MatScatPy
+  text: |
+    MatScat is a code to compute scattering solutions and resonances
+    for a Schrodinger equation with a compactly supported piecewise
+    smooth potential.  The results are validated by error estimates
+    based on a backward error analysis.  [MatScat] is the
+    basis for [MatScatPy], a Python translation written by Sheroze
+    Sherifdeen and Chaitali Joshi in a project in Fall 2015.
+
+    [MatScat]: https://github.com/dbindel/matscat
+    [MatScatPy]: https://github.com/sheroze1123/MatScatPy
+-
+  name: MWrap
+  short: A gateway language for mixing MATLAB and C
+  blurb: mwrap
+  links:
+    - text: GitHub
+      url: https://github.com/dbindel/mwrap
+  text: |
+    MWrap is a little language for mixing MATLAB and C in a natural way,
+    much as Cython allows one to mix Python and C.
+-
+  name: MATFEAP
+  short: MATLAB interfaces to the FEAP finite element code
+  blurb: feap
+  links:
+    - text: GitHub
+      url: https://github.com/dbindel/matfeap
+  text: |
+    MATFEAP is a MATLAB interface to the academic finite element
+    code [FEAP].  A successor to the earlier FEAPMEX interface,
+    it uses a socket connection to communicate via a lightweight
+    protocol with a FEAP server interface.
+
+    [FEAP]: http://www.ce.berkeley.edu/projects/feap/
+-
+  name: Matexpr
+  short: A C-embedded language for fast, small matrix computations
+  blurb: matexpr
+  links:
+    - text: BitBucket
+      url: https://bitbucket.org/dbindel/matexpr/
+    - text: Tarball
+      url: http://www.cs.cornell.edu/~bindel/sw/matexpr/matexpr-0.18.tar.gz
+    - text: Manual
+      url: http://www.cs.cornell.edu/~bindel/sw/matexpr/matexpr.pdf
+  text: |
+    matexpr is a source-to-source translator for embedding simple
+    MATLAB-like matrix expressions in C/C++. matexpr interprets special
+    comments in a source file and uses them to generate ordinary C code.
+-
+  name: HiQLab
+  short: Finite element analysis of damping in high-frequency MEMS
+  blurb: hiqlab
+  links:
+    - text: Bitbucket
+      url: https://bitbucket.org/dbindel/hiqlab/
+  text: |
+    HiQLab is a finite element code for analyzing  high-frequency
+    resonant MEMS, with specialized models and solvers for dealing with
+    loss mechanisms such as thermoelastic damping (TED) and anchor loss.
+    I developed it as part of my PhD thesis work at Berkeley.
+-
+  name: SUGAR
+  short: System-level simulator for MEMS
+  blurb: sugar
+  links:
+    - text: Home
+      url: https://mems.sourceforge.net/
+    - text: Sourceforge
+      url: https://sourceforge.net/projects/mems/
+  text: |
+    SUGAR is a system-level simulation tool for MEMS inspired by
+    the SPICE circuit simulation system.  SUGAR was originally
+    developed by Jason Clark and Ningning Zhou at UC Berkeley in
+    the late 1990s; I rewrote the system when I joined the project
+    in the early 2000s.  SUGAR is still available (and used!),
+    though no longer maintained.  Jason Clark developed a successor
+    to SUGAR, the commercial [SugarCube] package; our
+    work also inspired several other commercial tools.
+
+    [SugarCube]: http://www.sugarcube-cad.com/
+-
+  name: CLAPACK 3.0
+  short: C interfaces to the LAPACK linear algebra library
+  blurb: clapack
+  links:
+    - text: Netlib
+      url: http://www.netlib.org/clapack/
+  text: |
+    CLAPACK was developed in the early 1990s alongside LAPACK.
+    I was responsible for producing version 3.0 of the library,
+    and supported the library for several years.  CLAPACK has
+    largely been superceded by [LAPACKE], though the package
+    continues to be used on systems where a FORTRAN compiler is
+    unavailable.
+
+    [LAPACKE]: http://www.netlib.org/lapack/lapacke.html
+
+#   - Packages
+#     - Matexpr
+#       - Create blurb
+#       - Give a canonical home

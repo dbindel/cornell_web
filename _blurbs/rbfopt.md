@@ -1,7 +1,6 @@
 ---
 title: Parallel Surrogate Optimization
 image: rosenbrock.png
-last_update: 2016-08-15
 snippet: |
   Asynchronous parallel algorithms for finding minima fast by fitting
   functions to surrogate models.

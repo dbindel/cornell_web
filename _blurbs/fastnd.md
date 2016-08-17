@@ -1,9 +1,11 @@
 ---
 title: Rank-structured PDE solvers
 image: nested_1_level_matrix.png
-last_update: 2016-03-01
 snippet: |
   Moving toward pain-free fast direct sparse solvers for 3D PDEs.
+links:
+  - text: RSC code
+    url: https://github.com/jeffchadwick/rank_structured_cholesky
 papers:
   - 2015-rsc
 talks:

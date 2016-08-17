@@ -1,7 +1,6 @@
 ---
 title: Spectral Clustering and Ranking
 image: metabolic.png
-last_update: 2016-04-01
 snippet: |
   Fast spectral tools for graph structure.
 papers:

@@ -1,7 +1,6 @@
 ---
 title: Network tomography
 image: network.png
-last_update: 2011-07-01
 snippet: |
   Inferring internal network state by measuring end-to-end paths.
   It's a CAT scan for the Internet!

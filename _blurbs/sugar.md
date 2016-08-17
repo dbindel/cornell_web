@@ -1,7 +1,6 @@
 ---
 title: Nodal analysis for MEMS
 image: sugarlogo2.jpg
-last_update: 2006-01-01
 snippet: |
   SUGAR = SPICE for the MEMS world.
 links:
