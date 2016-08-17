@@ -17,12 +17,16 @@ layout: main
 
 {% for item in site.data.projects.current %}
 {%   assign entry = site.data.blurbs_dict[item] %}
+<div class="well">
 {%   include blurb_entry.html %}
+</div>
 {% endfor %}
 
 <h2>Older projects</h2>
 
 {% for item in site.data.projects.old %}
 {%   assign entry = site.data.blurbs_dict[item] %}
+<div class="well">
 {%   include blurb_entry.html %}
+</div>
 {% endfor %}

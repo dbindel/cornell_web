@@ -3,27 +3,34 @@ title: Software
 layout: main
 ---
 
-<h2>Packages</h2>
+<div>
 
-{% for code in site.data.codes.packages %}
-{% assign blurb=site.data.blurbs_dict[code.blurb] %}
-<div class="well media">
-  <a class="pull-left" href="#">
-    <img class="media-object" width="64" src="{{ site.baseurl }}pic/{{ blurb.image }}">
-  </a>
-  <div class="media-body">
-    <h4 class="media-heading">
-      <a href="{{ site.baseurl }}{{ blurb.url }}">
-        {{ code.name }}
-      </a>
-    </h4>
-    {% if code.short %}<h5>{{ code.short }}</h5>{% endif %}
-    {% if code.links %}<ul class="list-inline">{% for link in code.links %}
-      <li><a href="{{ link.url }}">{{ link.text}}</a></li>
-    {% endfor %}</ul>{% endif %}
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#packages" aria-controls="packages" role="tab" data-toggle="tab">Packages</a></li>
+    <li role="presentation"><a href="#utilities" aria-controls="utilities" role="tab" data-toggle="tab">Utilities</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="packages">
+      <hr/>
+      {% for item in site.data.codes.packages %}
+      {%   assign entry = site.data.blurbs_dict[item] %}
+      <div class="well">
+      {%   include blurb_entry.html %}
+      </div>
+      {% endfor %}
+    </div>
+    <div role="tabpanel" class="tab-pane" id="utilities">
+      <hr/>
+      {% for item in site.data.codes.utilities %}
+      {%   assign entry = site.data.blurbs_dict[item] %}
+      <div class="well">
+      {%   include blurb_entry.html %}
+      </div>
+      {% endfor %}
+    </div>
   </div>
-  {{ code.text | markdownify }}
-</div>
-{% endfor %}
 
-<h2>Utilities</h2>
+</div>

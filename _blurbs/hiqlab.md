@@ -1,10 +1,10 @@
 ---
-title: FEM for resonant MEMS
+title: HiQLab
 image: diskdie2.png
 snippet: |
-  Tools for simulating damping mechanisms in resonant microsystems.
-links:
-  - link: HiQLab on Bitbucket
+  Finite element analysis of damping in high-frequency MEMS.
+menu:
+  - text: Bitbucket
     url: https://bitbucket.org/dbindel/hiqlab
 papers:
   - 2006-dissertation
@@ -59,7 +59,10 @@ these types of devices.
 
 For many applications of resonant MEMS, it is important to minimize
 damping, but it is often unclear which mechanisms most strongly affect
-damping.  Our work on resonant MEMS simulation has focused on
-providing designers with tools to understand damping in resonant
-devices, and to understand how changes to the design (or accidental
-changes due to processing variation) affect the device behavior.
+damping.   HiQLab is a finite element code for analyzing  high-frequency
+resonant MEMS, with specialized models and solvers for dealing with loss
+mechanisms such as thermoelastic damping (TED) and anchor loss. I
+developed it as part of my PhD thesis work at Berkeley. With HiQLab, we
+provide designers with tools to understand damping in resonant devices,
+and to understand how changes to the design (or accidental changes due
+to processing variation) affect the device behavior.

@@ -17,6 +17,9 @@ layout: top
           <p>
             {{ page.snippet }}
           </p>
+          {% if page.menu %}<ul class="list-inline">{% for link in page.menu %}
+            <li><a href="{{ link.url }}">{{ link.text}}</a></li>
+          {% endfor %}</ul>{% endif %}
         </div>
       </div>
     </div>

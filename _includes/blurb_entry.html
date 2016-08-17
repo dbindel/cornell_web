@@ -11,5 +11,8 @@
     <p>
       {{ entry.snippet }}
     </p>
+    {% if entry.menu %}<ul class="list-inline">{% for link in entry.menu %}
+      <li><a href="{{ link.url }}">{{ link.text}}</a></li>
+    {% endfor %}</ul>{% endif %}
   </div>
 </div>

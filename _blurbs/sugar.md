@@ -1,11 +1,13 @@
 ---
-title: Nodal analysis for MEMS
+title: SUGAR
 image: sugarlogo2.jpg
 snippet: |
-  SUGAR = SPICE for the MEMS world.
-links:
-  - text: SUGAR group web site
+  System-level simulation software for MEMS
+menu:
+  - text: Home
     url: http://mems.sourceforge.net
+  - text: Sourceforge
+    url: https://sourceforge.net/projects/mems/
 papers:
   - 2002-mems
   - 2001-sugar
@@ -21,12 +23,15 @@ talks:
   - 2001-11-lapack
 ---
 
-[SUGAR](http://mems.sourceforge.net) is a simulation package for MEMS
-whose name and heritage come from the SPICE family of circuit
-simulators.  Like SPICE, SUGAR is a system-level simulation tool to
-allow designers to quickly test designs and run "what-if" experiments
-without the cost of a detailed simulation of device physics.  Though
-SUGAR is no longer being actively developed, one of our long-term
-goals is to add system-level modeling to HiQLab, so that we have a
-platform for integrating detailed device-level simulations into
-broader system-level simulations.
+SUGAR is a simulation package for MEMS whose name and heritage come from
+the SPICE family of circuit simulators.  Like SPICE, SUGAR is a
+system-level simulation tool to allow designers to quickly test designs
+and run "what-if" experiments without the cost of a detailed simulation
+of device physics. SUGAR was originally developed by Jason Clark and
+Ningning Zhou at UC Berkeley in the late 1990s; I rewrote the system
+when I joined the project in the early 2000s.  SUGAR is still available
+(and used!), though no longer maintained.  Jason Clark developed a
+successor to SUGAR, the commercial [SugarCube] package; our work also
+inspired several other commercial tools.
+
+[SugarCube]: http://www.sugarcube-cad.com/
