@@ -4,6 +4,7 @@ packages:
   - rsc
   - axfem
   - matscat
+  - bonefea
   - matfeap
   - mwrap
   - matexpr
