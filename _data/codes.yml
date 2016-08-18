@@ -2,6 +2,7 @@ packages:
   - pysot
   - poap
   - rsc
+  - axfem
   - matscat
   - matfeap
   - mwrap
