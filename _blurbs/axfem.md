@@ -1,6 +1,6 @@
 ---
 title: AxFEM
-image: lip_mode1.jpg
+image: lip_mode1.png
 snippet: Fast simulation of near-axisymmetric resonant MEMS
 menu:
   - text: BitBucket
