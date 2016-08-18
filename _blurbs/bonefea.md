@@ -11,7 +11,7 @@ talks:
 ---
 
 BoneFEA is a finite element code for simulation of human bone, written
-as the result of a consulting project for [ON Diagnostics][ond], written
+as the result of a consulting project for [ON Diagnostics][ond]
 together with [Panos Papadopolous][panos].  From finite element models
 derived from CT scan data, BoneFEA predicts how a patients' bones might
 fail under loading conditions.  BoneFEA serves as a replacement for the
