@@ -1,0 +1,75 @@
+---
+---
+\documentclass{article}
+\usepackage{fullpage}
+\usepackage{graphicx}
+
+\usepackage[
+  letterpaper=true,
+  colorlinks=true,
+  linkcolor=black]{hyperref}
+
+  \newenvironment{tcompact}{
+    \begin{list}{}{
+      \parsep 0pt plus 1pt
+      \partopsep 0pt plus 1pt
+      \topsep 2pt plus 2pt minus 1pt
+      \itemsep 0pt plus 1pt
+      \parskip 0pt plus 2pt
+      \leftmargin 0.3in}
+         \raggedright}
+    {\normalsize\end{list}}
+
+\newenvironment{icompact}{
+  \begin{list}{$\bullet$}{
+    \parsep 0pt plus 1pt
+    \partopsep 0pt plus 1pt
+    \topsep 2pt plus 2pt minus 1pt
+    \itemsep 0pt plus 1pt
+    \parskip 0pt plus 2pt
+    \leftmargin 0.3in}
+       \raggedright}
+  {\normalsize\end{list}}
+
+\newcounter{ecompactctr}
+\newenvironment{ecompact}{
+  \begin{list}{\arabic{ecompactctr}. }{
+    \usecounter{ecompactctr}
+    \parsep 0pt plus 1pt
+    \partopsep 0pt plus 1pt
+    \topsep 2pt plus 2pt minus 1pt
+    \itemsep 0pt plus 1pt
+    \parskip 0pt plus 2pt
+    \leftmargin 0.3in}
+       \raggedright}
+  {\normalsize\end{list}}
+
+\renewcommand{\bibitem}[1]{\item }
+\newcommand{\deptrev}[1]{}
+\newcommand{\comment}[1]{}
+
+\begin{document}
+
+\begin{center}
+  {\Large \bf David Samuel Bindel} \\
+  Assistant Professor of Computer Science \\
+  \url{http://www.cs.cornell.edu/~bindel/cv/selected.pdf}
+\end{center}
+
+\begin{trivlist}
+\item
+Department of Computer Science
+  \hfill \href{mail:bindel@cs.cornell.edu}{\tt bindel@cs.cornell.edu} \\
+Cornell University
+  \hfill \url{www.cs.cornell.edu/~bindel} \\
+Ithaca, NY 14853
+  \hfill Office: 607-255-5395
+\end{trivlist}
+
+% ===============================================================
+
+\section*{Selected papers}
+
+\input{pick5}
+
+\end{document}

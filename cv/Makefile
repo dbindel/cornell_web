@@ -1,6 +1,6 @@
 CV_FILES=\
 	awards.tex \
-	journal.tex conf.tex report.tex \
+	pick5.tex journal.tex conf.tex report.tex \
 	teaching.tex \
 	service.tex \
 	member.tex \
@@ -9,15 +9,19 @@ CV_FILES=\
 
 .PHONY: all clean distclean
 
-all: cv.pdf cornellcv.pdf
+all: cv.pdf cornellcv.pdf selected.pdf
 
 cv.pdf: cv.tex $(CV_FILES)
 	pdflatex cv.tex
 	pdflatex cv.tex
 
 cornellcv.pdf: cornellcv.tex $(CV_FILES)
-	pdflatex cornellcv.tex 
-	pdflatex cornellcv.tex 
+	pdflatex cornellcv.tex
+	pdflatex cornellcv.tex
+
+selected.pdf: selected.tex $(CV_FILES)
+	pdflatex selected.tex
+	pdflatex selected.tex
 
 journal.tex: allrefs.bbl journal.txt
 	awk -f ncite.awk allrefs.bbl journal.txt > journal.tex
@@ -28,7 +32,11 @@ conf.tex: allrefs.bbl conf.txt
 report.tex: allrefs.bbl report.txt
 	awk -f ncite.awk allrefs.bbl report.txt > report.tex
 
-allrefs.aux: journal.txt conf.txt report.txt
+
+pick5.tex: allrefs.bbl journal.txt
+	awk -f ncite.awk allrefs.bbl pick5.txt > pick5.tex
+
+allrefs.aux: journal.txt conf.txt report.txt pick5.txt
 	awk -f xcite.awk journal.txt conf.txt report.txt > allrefs.aux
 
 allrefs.bbl: allrefs.aux references.bib
