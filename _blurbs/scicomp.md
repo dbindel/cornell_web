@@ -30,9 +30,9 @@ levels, from the model formulation and parameters to the solution
 procedure to the use of floating point arithmetic.  To produce broadly
 applicable software tools and algorithms, it is therefore necessary to
 understand not only how much error might result from each specific
-approximate step, but how to *compose* approximation methods.  Reasoning
-is a creative exercise that involves identifying *structural features*
-of the "true" answer should be maintained in order to reason about a
+approximate step, but how to *compose* approximation methods.
+It is a creative exercise to find *structural features*
+of the "true" answer that should be maintained in order to reason about a
 composition of approximate building blocks. This is the goal of error
 analysis: not a tedious book-keeping exercise, but a fundamental part of
 the *science* of scientific computing.
