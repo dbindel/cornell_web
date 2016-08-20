@@ -7,6 +7,8 @@ snippet: |
 blurbs:
   - pysot
   - poap
+papers:
+  - 2015-middleware
 talks:
   - 2015-03-siam-cse
   - 2014-09-scan
