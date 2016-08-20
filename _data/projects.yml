@@ -5,6 +5,8 @@ current:
   - graphspec
   - rbfopt
   - localize
+  - rotavg
+  - jsmf
 
 old:
   - resonance
