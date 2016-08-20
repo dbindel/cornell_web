@@ -1,6 +1,7 @@
 packages:
   - pysot
   - poap
+  - graphdos
   - rsc
   - axfem
   - matscat

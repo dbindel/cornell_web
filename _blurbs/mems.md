@@ -3,13 +3,10 @@ title: MEMS simulation
 image: diskdie2.png
 snippet: |
   Computational tools for analyzing micro-electro-mechanical systems (MEMS)
-links:
-  - text: Micro-gyroscope simulations
-    url: http://www.cs.cornell.edu/~bindel/mrig.html
-  - text: Simulating damping in RF-MEMS
-    url: http://www.cs.cornell.edu/~bindel/hiqlab.html
-  - text: System-level MEMS simulation by modified nodal analysis RF-MEMS
-    url: http://www.cs.cornell.edu/~bindel/sugar.html
+blurbs:
+  - mrig
+  - hiqlab
+  - sugar
 ---
 
 Micro-electro-mechanical systems (MEMS) are micron-scale machines used

@@ -7,6 +7,8 @@ snippet: |
   Success means
   <a href="http://muppet.wikia.com/wiki/Pigs_in_Space">MEMS IN
   SPACE</a>!
+blurbs:
+  - axfem
 papers:
   - 2016-sensors
   - 2016-hh-workshop

@@ -3,15 +3,12 @@ title: Finite element analysis
 image: Mesh_fem.jpg
 snippet: |
   Solving the elliptic PDE models of continuum physics.
-links:
-  - text: FEAP extensions and interfaces
-    url: http://www.cs.cornell.edu/~bindel/blurbs/feap.html
-  - text: "AxFEM: Analyzing near-axisymmetric resonant MEMS"
-    url: http://www.cs.cornell.edu/~bindel/blurbs/axfem.html
-  - text: "HiQLab: Finite element analysis of damping in resonant MEMS"
-    url: http://www.cs.cornell.edu/~bindel/blurbs/hiqlab.html
-  - text: "BoneFEA: Finite element analysis of human bones"
-    url: http://www.cs.cornell.edu/~bindel/blurbs/bone.html
+blurbs:
+  - feap
+  - axfem
+  - hiqlab
+  - bonefea
+  - femat_sparse
 ---
 
 Finite element analysis is a method for solving partial differential

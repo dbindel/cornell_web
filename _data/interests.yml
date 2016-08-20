@@ -5,6 +5,7 @@
 - desc: High-performance computing
   blurb: cloudhpc
 - desc: Spectral network analysis methods
+  blurb: graphspec
 - desc: Optimization via surrogate models
   blurb: rbfopt
 - desc: Finite element analysis

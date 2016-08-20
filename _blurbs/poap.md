@@ -7,6 +7,8 @@ menu:
     url: https://pypi.python.org/pypi/POAP
   - text: GitHub
     url: https://github.com/dbindel/POAP/
+blurbs:
+  - pysot
 ---
 
 POAP is an infrastructure package to support optimization

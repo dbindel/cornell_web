@@ -246,7 +246,7 @@
     is crucial to shift our attention from macroscopic structure to
     microscopic structure when dealing with large networks. A growing
     body of work has been adopting local expansion methods in order to
-    identify the community from a few exemplary seed members. %Very few
+    identify the community from a few exemplary seed members. Very few
     approaches can systematically demonstrate both high efficiency and
     effectiveness that significantly stands out amongst the divergent
     approaches in finding communities.

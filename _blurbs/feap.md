@@ -6,10 +6,9 @@ snippet: |
 links:
   - text: FEAP
     url: http://www.ce.berkeley.edu/projects/feap/
-  - text: MATFEAP
-    url: http://www.cs.cornell.edu/~bindel/blurbs/matfeap.html
-  - text: FEAP I/O Extensions
-    url: http://www.cs.cornell.edu/~bindel/blurbs/feap_io.html
+blurbs:
+  - matfeap
+  - feap_io
 ---
 
 FEAP is an academic Finite Element Analysis Program developed by

@@ -38,6 +38,16 @@ layout: top
     </ul>
     {% endif %}
 
+    {% if page.blurbs %}
+    <h3>Related</h3>
+    {% for item in page.blurbs %}
+    {%   assign entry = site.data.blurbs_dict[item] %}
+    <div class="well">
+    {%   include blurb_entry.html %}
+    </div>
+    {% endfor %}
+    {% endif %}
+
     {% if page.papers %}
     <h3>Papers</h3>
     {% for link in page.papers %}{% refformat link %}{% endfor %}
@@ -47,7 +57,7 @@ layout: top
     <h3>Talks</h3>
     {% for talk in page.talks %}{% assign entry = site.data.present_dict[talk] %}
     <div class="well well-sm">
-      <h4><a href="{{ entry.url }}">{{ entry.title }}</a></h4>
+      <h4><a href="{{ site.baseurl }}/{{ entry.url }}">{{ entry.title }}</a></h4>
       <p>
         {{ entry.where }}<br/>
         {% for tag in entry.tags %} <span class="label label-primary">{{ tag }}</span>{% endfor %}

@@ -4,11 +4,9 @@ image: rosenbrock.png
 snippet: |
   Asynchronous parallel algorithms for finding minima fast by fitting
   functions to surrogate models.
-links:
-  - text: "POAP: Python Optimization Asynchronous Plumbing"
-    url: https://pypi.python.org/pypi/POAP
-  - text: "PySOT: Surrogate Optimization Toolbox"
-    url: https://pypi.python.org/pypi/pySOT
+blurbs:
+  - pysot
+  - poap
 talks:
   - 2015-03-siam-cse
   - 2014-09-scan

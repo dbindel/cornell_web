@@ -7,9 +7,8 @@ menu:
     url: https://pypi.python.org/pypi/pySOT
   - text: GitHub
     url: https://github.com/dme65/pySOT
-links:
-  - text: My page on response surface optimization research
-    url: http://www.cs.cornell.edu/~bindel/blurbs/rbfopt.html
+blurbs:
+  - poap
 ---
 
 PySOT is a toolbox of surrogate function methods for global
