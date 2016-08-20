@@ -1,8 +1,15 @@
-- Applied numerical linear algebra
-- Scientific computing
-- High-performance computing
-- Spectral network analysis methods
-- Optimization via surrogate models
-- Finite element analysis
-- Computational tools for electrical power grids
-- Simulation tools for micro-electro-mechanical systems (MEMS)
+- desc: Applied numerical linear algebra
+  blurb: applied-nla
+- desc: Scientific computing
+  blurb: scicomp
+- desc: High-performance computing
+  blurb: cloudhpc
+- desc: Spectral network analysis methods
+- desc: Optimization via surrogate models
+  blurb: rbfopt
+- desc: Finite element analysis
+  blurb: fea
+- desc: Computational tools for electrical power grids
+  blurb: grid
+- desc: Simulation tools for micro-electro-mechanical systems (MEMS)
+  blurb: mems

@@ -1,5 +1,5 @@
 <ul>
 {% for m in site.data.interests %}
-  <li>{{ m }}</li>
+  <li>{% if m.blurb %}<a href="{{ site.baseurl }}/blurbs/{{ m.blurb }}.html">{{ m.desc }}</a>{% else %}{{ m.desc }}{% endif %}</li>
 {% endfor %}
 </ul>
