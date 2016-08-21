@@ -17,7 +17,7 @@ talks:
 Spectral methods are frequently used to partition networks into
 large clusters that approximately minimize the number of edges
 between clusters or maximize quality measures such as modularity.
-However, these methods are useful for finding relatively small,
+However, these methods are less useful for finding relatively small,
 tight-knit communities.  In contrast, recent *diffusion* methods
 explore the neighborhood around a pre-defined set of "seed" nodes
 in a network in order to find small communities that are "good"
