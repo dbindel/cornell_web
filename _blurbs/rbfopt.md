@@ -1,5 +1,5 @@
 ---
-title: Parallel Surrogate Optimization
+title: Parallel surrogate optimization
 image: rosenbrock.png
 snippet: |
   Asynchronous parallel algorithms for finding minima fast by fitting

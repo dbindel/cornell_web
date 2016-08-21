@@ -29,7 +29,7 @@ talks:
   - 2005-10-lapack
 ---
 
- Let $T : \Omega \rightarrow \mathbb{C}^{n \times n}$ be a matrix-valued
+Let $T : \Omega \rightarrow \mathbb{C}^{n \times n}$ be a matrix-valued
 function that is analytic on some simply-connected domain $\Omega
 \subset \mathbb{C}$.  We call a point $\lambda \in \Omega$ an eigenvalue if
 the matrix $T(\lambda)$ is singular.  Nonlinear eigenvalue problems

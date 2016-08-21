@@ -15,7 +15,7 @@ talks:
 How do we form opinions?  In economics and sociology, the opinions
 held by individuals are often modeled as numerical values; people
 arrive at a shared opinion by repeatedly averaging their opinion with
-the opinions of neighgors in a social network.  But in real life,
+the opinions of neighbors in a social network.  But in real life,
 consensus is rarely reached.  Motivated by this observation, we study
 a related model in which individuals' intrinsic beliefs counterbalance
 the averaging process and yield a diversity of opinions.
