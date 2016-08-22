@@ -31,7 +31,7 @@ Broadly speaking, these methods use either
 All three approaches are used in spectral geometry an in applications to
 physics and engineering systems.  But distributional information is much
 less used in the study of complex networks.  Indeed, though [Weyl's
-law][weyl] or eigenvalue distributions was introduced to spectral
+law][weyl] for eigenvalue distributions was introduced to spectral
 geometry six decades prior to [Cheeger's inequality][cheeger], within
 spectral graph theory the latter is universally taught as part of
 spectral graph theory while the former is nearly unknown, though related

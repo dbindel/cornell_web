@@ -1,0 +1,513 @@
+\documentclass{amsart}
+
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[sort&compress]{natbib}
+\usepackage[
+  letterpaper=true,
+  colorlinks=true,
+  linkcolor=black]{hyperref}
+
+\usepackage{fancyhdr}
+
+\title{Research statement}
+\author{David Bindel}
+
+\newcommand{\bbC}{\mathbb{C}}
+\newcommand{\bbR}{\mathbb{R}}
+
+\begin{document}
+
+\maketitle
+\vspace{-5mm}
+\begin{center}
+\url{http://www.cs.cornell.edu/~bindel/}
+\end{center}
+\vspace{+5mm}
+
+%\section*{Introduction}
+
+In my research in scientific computing,
+I develop models, approximations, algorithms, and software that
+are fast and accurate because they use problem structure --- the
+``physics'' of the application, whether or not the problem is physical.
+%
+My work is collaborative and interdisciplinary: to ask sensible questions
+requires application expertise; to design and analyze solution
+algorithms requires mathematical expertise; and to write efficient
+codes requires software expertise.
+%
+I work with colleagues across many application areas, partly from
+broad intellectual curiosity, and partly to explore the mathematical
+structure these problems bring:
+%
+structure from the geometry of a physical problem,
+special algebraic properties like complex symmetry or
+low-rank structure, and
+analytic properties involving perturbations from some geometric or
+algebraic structure.
+
+Most of my work involves applications of linear algebra, and
+particularly spectral analysis methods.
+%
+Eigenvalue problems have many applications, largely because they among
+the few nonlinear equations for which we have global solution methods;
+and symmetric eigenvalue problems can be formulated as one of the few
+non-convex optimization problems for which we have good general-purpose
+methods.
+%
+%have used structured eigenvalue problems to design musical
+%instruments~\cite{2006-sound,2007-sound}, to design resonant
+%micro-mechanical systems~\cite{2013-sensors,2016-sensors,2005-ijnme}, to
+%analyze bifurcations in dynamical systems~\cite{2014-matcont,2008-cis},
+%and for a variety of other applications.
+%
+In Section~\ref{sec-nep}, I describe my work on the theory and
+applications of {\em nonlinear eigenvalue problems}.
+%
+In Section~\ref{sec-eigen-apps}, I describe spectral analysis applied to
+problems from different areas of computer science; and in
+Section~\ref{sec-sc-systems}, I describe my work specifically on systems
+and scientific computing. In Section~\ref{sec-engineering}, I describe
+an engineering application, the design of simulation tools for
+micro-machined resonant micro-gyroscopes. I conclude in
+Section~\ref{sec-directions} by discussing other directions
+that I am actively pursuing with students.
+
+% Pointer to systems stuff
+% Opt
+
+% LA + graph theory, geometry, complex and functional analysis,
+% group theory, continuum mechanics.
+
+\section{Nonlinear eigenvalue problems and applications}
+\label{sec-nep}
+
+\subsection*{Nonlinear eigenvalue problems}
+Given an analytic matrix-valued function
+$T : \Omega \subset \bbC \rightarrow \bbC^{n \times n}$,
+the nonlinear eigenvalue problem is to find an eigenvalue
+$\lambda \in \bbC$ such that $T(\lambda)$ is singular.
+The standard eigenvalue problem for a matrix $A$
+is a special case of the nonlinear eigenvalue problem where
+$T(z) = A-zI$.  Nonlinear eigenvalue problems often arise
+when transform methods are used to analyze differential and
+difference equations; for a survey of applications, we refer to~\cite{2015-sirev}.
+
+For the standard eigenvalue problem, there
+are many eigenvalue localization results that can be used for error
+analysis or to answer general qualitative questions, such as whether a
+given matrix might have any eigenvalues in the right half-plane.  There
+are multiple proofs for most of these results, but they all admit proofs
+based on analytic function theory.  These proofs do not explicitly take
+advantage of linearity of the function $A-\lambda I$ in $\lambda$, and
+consequently extend to nonlinear eigenvalue problems as well, with
+appropriate modifications.  Together with Amanda Hood, an applied math
+Ph.D. student, I developed a general framework for these types of
+eigenvalue problems and gave several examples~\cite{2013-simax}.  This
+work was awarded the SIAG/LA best paper award, and appeared as a SIGEST
+feature article in {\em SIAM Review}~\cite{2015-sirev}.
+
+In our ongoing work, we use nonlinear pseudospectra to bound the
+transient dynamics of linear delay-differential equations in the same
+way that one can use ordinary pseudospectra to bound the transient
+dynamics of ordinary linear differential equations.  We are also working
+to use our results to obtain rigorous bounds on resonance poles from
+multi-dimensional scattering problems.
+
+\subsection*{Applications to resonances}
+
+My interest in nonlinear eigenvalue problems grew from my work on
+modeling anchor loss in high-frequency micro-resonators; that is,
+damping due to radiation of waves from the resonating structure into a
+(effectively semi-infinite)
+substrate~\cite{2004-para,2005-mems,2005-ijnme,2005-sensors}.  This is a
+problem of computing {\em resonance poles}, which give information about
+the dynamics of trapped waves leaking from a bounded
+subdomain in the same way that eigenvalues give information about
+steady-state vibrations on finite domains. One method to
+compute resonances is to truncates the semi-infinite domain with a
+(possibly approximate) radiating boundary condition, which depends very
+nonlinearly on the frequency.
+
+From this starting point, I became more interested in resonance poles in
+general, which lead to a fruitful collaboration with Maciej Zworski at
+Berkeley involving exploring resonances in a simplified
+setting~\cite{2007-symmetry}.  As part of my collaboration with Zworski,
+I developed a code ({\tt MATSCAT}) to compute resonances for
+Schr{\"o}dinger problems in one space dimension with compactly-supported
+potentials in one space dimension.  For this problem, I was able to
+develop a fairly complete analysis for the discretized problem as well
+as a first-order backward error analysis to estimate the impact of
+discretization error.  This technique does not generalize to higher
+dimensions, nor the case of an inhomogeneous far-field behavior.  But
+my work with Amanda Hood on nonlinear eigenvalue problem design provides
+the basis for a more general error analysis.
+
+\subsection*{Applications to evolutionary game theory}
+
+Inspired by the thesis work of Danielle Toupo, a recent applied math
+Ph.D. graduate, I became intrigued by problems in
+evolutionary game theory where species interact through competition for
+a common resource.  Together with Steve Strogatz and Irena Papst,
+another applied math Ph.D.~student, I have begun to explore a
+special case involving systems of the form
+\[
+  \dot{x} = A(r) x, \quad  0 = g(\dot{r}, r, x)
+\]
+where $r(t) \in \bbR$ represents the amount of a shared resource at
+time $t$, $x(t) \in \bbR^n$ represents the population level for $n$
+different species or strategies, and $A(r) \in \bbR^{n \times n}$
+represents growth and mutation terms.  The equilibrium equation is
+the nonlinear eigenvalue problem $A(r) x = 0$.
+
+\section{Spectral analysis in Computer Science}
+\label{sec-eigen-apps}
+
+In this section, I describe applications of spectral analysis to
+different areas of computer science: data mining, computer vision,
+machine learning, game theory, and network analysis. In each case, my
+contributions center on finding and exploiting structure.
+
+% For each problem:
+% - Overview and how I got into it
+% - Key structural features + mathematical connections
+% - Main results so far
+% - Current / future directions (if any)
+
+\subsection*{Model reduction and PageRank}
+
+PageRank is a standard tool for finding important vertices in a graph,
+based on a ``random surfer'' model that converges to
+a stationary distribution vector $x$ satisfying
+\[
+  (I-\alpha P) x = (1-\alpha) x^*,
+\]
+where $P$ is a column-stochastic transition matrix representing a random
+walk on the graph, and the parameter $0 \leq \alpha < 1$  represents the
+probability of taking a step according to $P$ rather than
+``teleporting'' to a new node drawn from the reference distribution
+$x^*$.  PageRank can be {\em personalized} to find vertices
+most relevant to a query or user; in the most common form of
+personalization, we use a
+reference distribution $x^*(\omega)$ that depends on
+a personalization parameter vector $\omega$.  In joint work with Wenlei
+Xie, Johannes Gehrke, and Al Demers, we consider instead the problem
+with a personalized {\em transition matrix} $P(\omega)$;
+for example, if there are a few different types of edges,
+then $\omega$ might control how these edge types are weighted.
+
+Our paper~\cite{2015-edgeppr}, which won a best student paper award at KDD
+2015, describes the first fast algorithm for computing PageRank on
+general graphs when the edge weights are personalized. Our method is
+based on model reduction, a standard technique for physical simulations
+that I used in my previous work on
+MEMS~\cite{2001-msm,2004-para,2005-ijnme,2005-sensors}.  The
+key observation is that if the parameters vary over a compact domain and
+$P(\omega)$ has bounded derivatives, then by standard interpolation
+results, $x(\omega)$ is well approximated by an interpolant through a
+few sample points, and therefore must lie near a low-dimensional
+subspace.  Our method learns this subspace in an offline phase, and
+enforces a few equations in the online phase in
+order to reconstruct a good approximation to $x(\omega)$.  Our approach
+outperforms prior methods by nearly five orders of magnitude, a
+performance gain that enables new applications, such as
+solving learning-to-rank problems for edge weight personalization at
+interactive speeds.
+
+\subsection*{Eigenvalues and hardness of rotation averaging}
+
+One key subproblem in reconstructing three-dimensional models from
+photograph collections is {\em rotation averaging}: given estimates of
+the relative rotations $\tilde{R}_{ij}$ between the cameras for many
+pairs of images $(i,j)$, how can we assign camera rotations $R_i$ to
+each image $i$ in a way that is most consistent with the data?  We
+consider a least squares formulation
+\[
+  \min_{(R_i)_{i=1}^n} \sum_{(i,j)
+  \in \mathcal{E}} d(\tilde{R}_{ij}, R_i R_j^T)^2
+\]
+where $d$ measures the geodesic distance between two elements of
+the rotation group $SO(3)$.  While there exist good algorithms for
+rotation averaging, these methods sometimes fail.  In work with
+Noah Snavely and Kyle Wilson, an applied math Ph.D. student,
+we explored an approach to characterizing which rotation averaging
+problems are easy and which are hard.
+%
+I contributed the observation that while the objective is nowhere convex
+on $SO(3)^n$, it is constant over the orbits generated by action of
+$SO(3)$; and local convexity is indeed possible if one works on the
+quotient manifold $SO(3)^n/SO(3)$. From there, we were able together to
+relate local convexity in the neighborhood of a solution to the smallest
+eigenvalue of a normalized graph Laplacian with boundary conditions in
+which the weight of edge $(i,j)$ is determined by the magnitude of the
+residual errors $d(\tilde{R}_{ij}, R_i R_j^T)$.  This work will appear
+in ECCV 2016~\cite{2016-rotations}, and Kyle Wilson and I continue to
+collaborate on further extensions.
+
+% Connection to geometry
+
+\subsection*{Spectral topic modeling}
+
+Topic modeling is a statistical approach to understanding the
+structure of a document collection.  In most topic models,
+we express each document as a distribution over a few topics,
+and each topic as a distribution over words.
+Standard generative topic models, such as Latent Dirichlet Allocation,
+provide a high-quality decomposition, but are expensive to train.
+In contrast, recent spectral inference algorithms based on
+a separability assumption (the ``anchor
+word'' assumption) are both fast and provably optimal under certain
+assumptions on the generating process. We consider spectral methods
+based on a matrix of co-occurrence statistics that
+describe the probability with which terms appear together in a document.
+In particular, we define a generative model for the matrix of
+co-occurrence statistics, the {\em Joint Stochastic Matrix
+Factorization} (JSMF) model.  For a vocabulary of size $n$ and $k$
+topics, the JSMF model predicts that (in expectation) the
+co-occurrence matrix $C\in \bbR^{n \times n}$ admits the
+factorization
+\[
+  C \approx B A B^T
+\]
+where $B \in \bbR^{n \times k}$ is
+a column-stochastic matrix in which each column represents the word
+distributions for one topic, and $A \in \bbR^{k \times k}$ is a
+positive-definite jointly stochastic matrix whose $(i,j)$ entry
+represents the probability that topics $i$ and $j$ occur together.
+
+According to the JSMF model, the matrix of co-occurrence statistics $C$
+should be jointly stochastic (i.e.~the entries should be non-negative
+and should sum to one) and it should be symmetric positive definite with
+rank $k$.  Real data sets are often inconsistent with these assumptions.
+In~\cite{2015-nips}, we show how to enforce this structure in
+sample co-occurrence statistics by an alternating projection algorithm,
+and show that training on the resulting pre-processed data significantly
+improves the quality of inferred topics.
+
+\subsection*{Eigenvalues in algorithmic game theory}
+
+In economics and sociology, opinions held by individuals are often
+modeled as numerical values, and people arrive at a shared opinion by
+repeatedly averaging their opinion with the opinions of neighbors in a
+social network.  In a connected network, pure repeated averaging leads
+to an equilibrium with constant opinions; but in
+real life, consensus is rarely reached. In joint work with Jon
+Kleinberg and Sigal Oren (then a CS Ph.D.~student),
+we study a related model in which individuals’ intrinsic beliefs
+counterbalance the averaging process and yield a diversity of opinions~\cite{2011-focs,2015-geb}.
+By interpreting the repeated averaging as best-response dynamics in an
+underlying game with natural payoffs, and the limit of the process as an
+equilibrium, we are able to study the cost of disagreement in these
+models relative to a social optimum.
+
+My contribution to this work involves the insight that the costs
+for this game at both the Nash equilibrium and the social optimum are
+quadratic forms in the vector of intrinsic beliefs.
+Because minimizing a ratio of quadratic forms leads to an eigenvalue
+problem, one can reason about tight bounds on the price of anarchy ---
+the ratio between the cost at Nash equilbrium and the social optimum ---
+for all possible values of the intrinsic beliefs by bounding extremal
+eigenvalues of a generalized eigenvalue problem.
+Both matrices in this problem can be expressed in terms of a
+weighted graph Laplacian.  In the undirected case, the two matrices are
+simple polynomial functions of the Laplacian, and so the price of
+anarchy is bounded by the minimum of a rational function over the
+spectrum of the Laplacian (which is in turn bounded by the minimum of
+this function over the positive numbers).  The directed case is more subtle.
+
+We also consider a natural network design problem in this setting: which
+links can we add to the underlying network to reduce the cost of
+disagreement at equilibrium? In this part of the work, my contribution
+was to show that we can optimally add a small amount of edge {\em weight}
+by first-order sensitivity analysis of the cost function, even though
+optimally adding an edge is NP-hard.
+
+\subsection*{Local spectral methods for clustering}
+
+Spectral clustering methods partition networks into large
+clusters that approximately minimize the number of edges between
+clusters or maximize quality measures such as modularity. But these
+methods do not find small communities, unless we use them
+recursively.
+In contrast, diffusion methods explore the neighborhood around a
+pre-defined set of ``seed'' nodes in a network in order to find small
+communities that are good in some sense (using a measure like
+conductance).  Our work~\cite{2016-losp-kdd,2015-icdm,2015-www}
+interpolates between spectral methods and diffusion-based
+methods by searching for communities using unconverged eigenvector
+estimates based on a few steps from standard eigensolver iteration
+started from a vector supported on the seed set. These eigenvector-like
+objects reflect the shape of the intermediate dynamics of diffusion
+processes in a manner analogous to how the extremal eigenvectors of a
+transition matrix reflect the shape of the asymptotic dynamics of
+convergence to the equilibrium distribution.  Using minimal
+$\ell_1$-norm linear combinations of unconverged eigenvectors
+to approximate indicators for clusters, we are able to find
+clusters in real-world networks that are closer to the ground-truth
+labels than clusters from other standard methods such
+as heat kernel diffusion and PageRank diffusion.
+
+\section{Scientific computing for systems}
+\label{sec-sc-systems}
+
+My collaboration with systems researchers has involved two distinct
+themes. First, we work on frameworks that simplify the process of
+writing high performance code.  For example, in a collaboration with the
+Cornell database group, we extended the GRACE graph processing engine
+with blocking ideas common in the design of high-performance iterative
+methods~\cite{2013-blockgrace}.  By processing nodes that are ``close''
+in a graph together, we both reduce the cost per iteration (because of
+cache locality effects) and reduce the number of iterations required to
+obtain convergence.  In~\cite{2011-socc}, we designed a programming
+framework and runtime for parallel bulk-synchronous iterations on cloud
+platforms.  The message latency in these systems often has high
+variance, and our system finds work to do while waiting for high-latency
+messages; as a result, we speed up typical computations by a factor of
+three compared to a more conventional bulk synchronous implementation.
+More recently, I have written platform to support asynchronous parallel
+optimization codes ({\tt POAP}), which supports a surrogate-based global
+optimization library ({\tt PySOT}).
+
+The second theme in my systems collaboration is to build and analyze
+numerical models of systems.  For example, I recently collaborated with Gun Sirer, Robert Van Renesse, and CS Ph.D.~student Efe Gencer on
+work to use response surfaces to optimize software and hardware
+configurations for distributed computations~\cite{2015-middleware}.  Our
+approach yielded improvements of up to $5 \times$ compared to the
+default configurations, and our paper won a best paper prize at
+Middleware 2015.  Earlier, I collaborated with Yan Chen on several papers
+on using linear algebra to find link failures in computer networks based
+on end-to-end path
+measurements~\cite{2009-tons,2007-tons,2006-sigcomm,2006-sigmetrics,2004-sigcomm,2003-imc}.
+
+\section{Micro-electro-mechanical systems}
+\label{sec-engineering}
+
+I have worked extensively on computer-aided design (CAD) tools for
+Micro-Electro-Mechanical Systems (MEMS), micrometer-scale devices used
+in everything from digital projectors to car engines.  In the past, I
+worked on system-level simulation software for MEMS
+({\tt SUGAR})~\cite{2002-mems,2001-sugar,2001-msm,2000-mems}
+and on finite element simulations of damping in high-frequency
+MEMS resonators
+({\tt HiQLab})~\cite{2012-mems-opt,2005-sensors,2005-ijnme,2005-mems,2004-para}.
+More recently, I have collaborated with Sunil Bhave and
+Erdal Yilmaz, an applied physics Ph.D.~student, on micro-scale
+solid-wave gyroscopes.
+
+Solid-wave hemispherical resonator gyroscopes (HRGs) have become the
+gyroscope of choice for satellites and other spacecraft.  Like Foucault's
+pendulum, these devices measure total rotation through the transfer
+of energy between two geometrically degenerate modes of vibration.
+Prompted by questions from our collaborators about why different designs
+seemed to work better with degenerate mode pairs associated with
+different azimuthal wave numbers, we discovered how symmetry-breaking
+geometric perturbations associated with different micro-fabrication
+processing steps can break the degeneracy of some mode pairs and
+not others.
+In~\cite{2013-sensors}, we describe how to use
+{\em selection rules} based on the representation theory of
+finite groups to reason about the effect of different microfabrication
+artifacts on device performance; our approach is the
+same one used in chemistry and physics when reasoning about the
+effect of external fields on the electronic structure of
+symmetric atoms and molecules.  We also describe a finite
+element code ({\tt AxFEM}) that uses a ``2.5D'' formulation to
+produce fast, accurate analysis of the influence of symmetry-breaking
+perturbations to the geometry of the nominally axisymmetric
+device design.  In~\cite{2016-sensors,2016-hh-workshop}, we use
+the same methods to analyze the temperature sensitivity of these
+micro-gyros.
+
+\section{Further directions}
+\label{sec-directions}
+
+Beyond the work mentioned in the previous sections, there are
+several other earlier-stage projects that I am pursuing with my
+graduate students.
+
+\subsection*{Graph Density of States}
+
+% Make the spectral geometry connection
+
+Researchers from many disciplines study spectra to understand the
+structure and composition of mathematical objects and physical systems.
+For large systems, {\em complete} spectral information costs too much,
+whether it is gathered computationally or measured experimentally;
+hence, most spectral analysis methods use {\em partial} information
+about the eigenvalues or eigenvectors of some matrix or operator.
+These methods use a few (extreme) eigenvalues and
+associated eigenvectors; invariants that are simple functions of all the
+eigenvalues; or densities of eigenvalues (a.k.a.~the {\em density of states}),
+possibly weighted by local importance (the {\em local density of states}).
+
+All three approaches are used in spectral geometry an in applications to
+physics and engineering systems.  But distributional information is much
+less used in the study of complex networks, even though the local
+density of states at each node is strictly more informative than
+some standard centrality measures such as subgraph centrality.
+Together with Kun Dong, an applied math Ph.D.~student, and a team of
+undergraduate researchers, I am currently developing a MATLAB package
+({\tt GraphDoS}) to compute global and local densities of states.
+Our approach uses standard density estimation techniques used in
+computational material science, but also uses techniques that are
+specialized to network analysis~\cite{2015-siam-ns}.  Our ultimate
+goal is to be able to be able to quickly compute, visualize, and
+interpret graph densities of states in the same
+way that one interprets the density of states for a material system.
+
+\subsection*{Electrical power grids}
+
+% Observe connection to network tomography
+%\cite{2016-flier-tr}
+
+The power grid is changing, driven by many factors: the push to
+increased renewable energy sources, highly dynamic power markets, and
+deployment high-resolution measurements of transmission networks by
+syncrophasor measurement units (PMUs).  In work with Colin Ponce,
+my former CS Ph.D.~student, we consider the problem of fusing information
+from old and slow SCADA sensor systems, which provide complete
+observability and from which an estimate of system state is
+reconstructed every few minutes, with the much faster (but less
+complete) PMU information.  Our system, FLiER~\cite{2016-flier-tr},
+uses the difference between PMU measurements and the
+behavior predicted by state estimation from SCADA data to infer
+the likelihood of a variety of topology changes in the network,
+including line outages, substation reconfigurations, generator
+trips, and load trips.  Because the system state changes over
+time, the ``fingerprints'' of these different changes cannot be
+pre-computed; therefore, FLiER uses a novel filtering mechanism
+that rules out most possible events without
+the cost of even a partial simulation of the event.
+
+FLiER is formulated in terms of the quasi-static behavior of the
+power grid after a topology change, and filters out the potentially
+informative ringdown dynamics that can be seen in the PMU data.  In
+current work with my CS Ph.D.~student Eric Lee, we also match observed
+ringdown dynamics to the dynamic mode shapes predicted under different
+contingencies in order to improve the diagnostic accuracy of the FLiER
+approach.
+
+\subsection*{Surrogate optimization methods}
+
+Surrogate methods (also called response surface methods) fit a model
+function (the surrogate) to the objective function based on data
+sampling.  The surrogate model is then used to guide where the algorithm
+should sample next.  Together with Christine Shoemaker and David
+Erikssson, an applied math Ph.D.~student, I am pursuing new surrogate
+optimization methods that support asynchronous parallel execution.  This
+is of particular interest when it is possible to get potentially
+incomplete function information (e.g. upper or lower bounds) at much
+less expense than a full function evaluation. Our Python Surrogate
+Optimization Toolbox ({\tt PySOT}) implements several parallel surrogate
+optimization methods on a variety of computing platforms, using our
+package of Python Optimization Asynchronous Plumbing ({\tt POAP}) to
+handle the details of asking workers for function evaluations.
+
+\newpage
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}

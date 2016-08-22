@@ -7,9 +7,11 @@ CV_FILES=\
 	students-phd.tex students-masters.tex students-ugrad.tex \
 	thesis-committee.tex
 
+PDF=cv.pdf cornellcv.pdf selected.pdf research.pdf
+
 .PHONY: all clean distclean
 
-all: cv.pdf cornellcv.pdf selected.pdf
+all: $(PDF)
 
 cv.pdf: cv.tex $(CV_FILES)
 	pdflatex cv.tex
@@ -23,6 +25,12 @@ selected.pdf: selected.tex $(CV_FILES)
 	pdflatex selected.tex
 	pdflatex selected.tex
 
+research.pdf: research.tex references.bib
+	pdflatex research.tex
+	bibtex research
+	pdflatex research.tex
+	pdflatex research.tex
+
 journal.tex: allrefs.bbl journal.txt
 	awk -f ncite.awk allrefs.bbl journal.txt > journal.tex
 
@@ -31,7 +39,6 @@ conf.tex: allrefs.bbl conf.txt
 
 report.tex: allrefs.bbl report.txt
 	awk -f ncite.awk allrefs.bbl report.txt > report.tex
-
 
 pick5.tex: allrefs.bbl journal.txt
 	awk -f ncite.awk allrefs.bbl pick5.txt > pick5.tex
@@ -49,4 +56,4 @@ clean:
 	rm -f *.aux cv.log cv.out allrefs.blg
 
 distclean: clean
-	rm -f cv.pdf
+	rm -f $(PDF)
