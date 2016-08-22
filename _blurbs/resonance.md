@@ -1,5 +1,5 @@
 ---
-title: Scattering resonances
+title: Scattering and resonances
 image: corral_top.jpg
 snippet: |
   Linear eigenproblems for standing waves;
