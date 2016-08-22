@@ -1,4 +1,4 @@
-\documentclass{amsart}
+\documentclass[11pt]{amsart}
 
 \usepackage{fullpage}
 \usepackage{amsmath}
@@ -27,30 +27,29 @@
 \end{center}
 \vspace{+5mm}
 
-%\section*{Introduction}
-
-In my research in scientific computing,
+I work in scientific computing, and primarily numerical linear algebra.
+%
 I develop models, approximations, algorithms, and software that
 are fast and accurate because they use problem structure --- the
 ``physics'' of the application, whether or not the problem is physical.
 %
-My work is collaborative and interdisciplinary: to ask sensible questions
-requires application expertise; to design and analyze solution
-algorithms requires mathematical expertise; and to write efficient
-codes requires software expertise.
+My work is collaborative and interdisciplinary; I need
+application expertise to build models and ask sensible questions,
+mathematical expertise to design and analyze solvers,
+and software expertise to write efficient codes.
 %
-I work with colleagues across many application areas, partly from
-broad intellectual curiosity, and partly to explore the mathematical
-structure these problems bring:
+I work with colleagues across many application areas, from
+broad intellectual curiosity because they introduce me to new
+problems with new mathematical structure:
 %
-structure from the geometry of a physical problem,
+structure from the geometry of the physics,
 special algebraic properties like complex symmetry or
 low-rank structure, and
 analytic properties involving perturbations from some geometric or
 algebraic structure.
 
-Most of my work involves applications of linear algebra, and
-particularly spectral analysis methods.
+Much of my work involves eigenvalues, eigenvectors, and other
+ideas related to matrix spectra.
 %
 Eigenvalue problems have many applications, largely because they among
 the few nonlinear equations for which we have global solution methods;
@@ -74,29 +73,38 @@ that I am actively pursuing with students.
 \label{sec-nep}
 
 \subsection*{Nonlinear eigenvalue problems}
-Given an analytic matrix-valued function
+An analytic matrix-valued function
 $T : \Omega \subset \bbC \rightarrow \bbC^{n \times n}$,
-the nonlinear eigenvalue problem is to find an eigenvalue
-$\lambda \in \bbC$ such that $T(\lambda)$ is singular.
-The standard eigenvalue problem for a matrix $A$
-is a special case of the nonlinear eigenvalue problem where
-$T(z) = A-zI$.  Nonlinear eigenvalue problems often arise
+has an eigenvalue at $\lambda \in \Omega$ if $T(\lambda)$ is
+singular.  For $T(z) = A-zI$ or $T(z) = A-zB$, finding eigenvalues
+of $T$ corresponds to the standard eigenvalue problem for
+the matrix $A$ or the generalized eigenvalue problem for the
+pencil $(A,B)$.  When $T$ is nonlinear, we call the problem
+a nonlinear eigenvalue problem.
+Nonlinear eigenvalue problems often arise
 when transform methods are used to analyze differential and
-difference equations; for a survey of applications, we refer to~\cite{2015-sirev}.
+difference equations; for a survey of applications,
+we refer to~\cite{2015-sirev,Mehrmann:2005:NEP}.
 
-For the standard eigenvalue problem, we can use
-many eigenvalue localization results for error
-analysis or to answer general qualitative questions, such as whether a
-given matrix might have any eigenvalues in the right half-plane.  There
-are multiple proofs for most of these results, but they all admit proofs
-based on analytic function theory.  These proofs do not explicitly take
-advantage of linearity of the function $A-\lambda I$ in $\lambda$, and
-consequently extend to nonlinear eigenvalue problems as well, with
-appropriate modifications.  Together with Amanda Hood, an applied math
-Ph.D. student, I developed a general framework for these types of
-eigenvalue problems and gave several examples~\cite{2013-simax}.  This
-work was awarded the SIAG/LA best paper award, and appeared as a SIGEST
-feature article in {\em SIAM Review}~\cite{2015-sirev}.
+For the standard eigenvalue problem, {\em localization theorems} give
+regions in $\bbC$ that contain the spectrum of a matrix $A$.  These
+results let us analyze errors in numerical methods and answer general
+qualitative questions, such as whether a given matrix might have any
+eigenvalues in the right half-plane.  The standard example of such a
+result is Gershgorin's circle
+theorem~\cite{Varga:2004:GAC,Stewart:1990:MPT}, which says the spectrum
+of a matrix $A$ lies in a union of discs $G_i = \mathcal{B}(a_{ii},
+\rho_i)$, where $a_{ii}$ is the $i$th diagonal and the radii $\rho_i$
+are given by the sums of magnitudes of off-diagonal elements in row or
+column $i$.  Many such results admit proofs based on analytic function
+theory that do not explicitly take advantage of linearity of the
+function $A-\lambda I$ in $\lambda$; in our work, we show these proofs
+extend to nonlinear eigenvalue problems, with appropriate modifications.
+Together with Amanda Hood, an applied math Ph.D. student, I developed a
+general framework for these types of nonlinear eigenvalue localization
+results, and gave several examples of their application.  This work was
+awarded the SIAG/LA best paper award~\cite{2013-simax}, and appeared as
+a SIGEST feature article in {\em SIAM Review}~\cite{2015-sirev}.
 
 In our ongoing work, we use nonlinear pseudospectra to bound the
 transient dynamics of linear delay-differential equations in the same
@@ -111,14 +119,17 @@ My interest in nonlinear eigenvalue problems grew from my work on
 modeling anchor loss in high-frequency micro-resonators; that is,
 damping due to radiation of waves from the resonating structure into a
 (effectively semi-infinite)
-substrate~\cite{2004-para,2005-mems,2005-ijnme,2005-sensors}.  This is a
-problem of computing {\em resonance poles}, which give information about
+substrate~\cite{2004-para,2005-mems,2005-ijnme,2005-sensors}.
+This is the problem of computing
+{\em resonance poles}~\cite{Bindel:2006:ROD,Zworski:1999:RIP},
+which tell us about
 the dynamics of trapped waves leaking from a bounded
 subdomain in the same way that eigenvalues give information about
-steady-state vibrations on finite domains. One method to
-compute resonances is to truncates the semi-infinite domain with a
-(possibly approximate) radiating boundary condition, which depends very
-nonlinearly on the frequency.
+steady-state vibrations on finite domains.
+One method to compute resonances is to truncates the semi-infinite
+domain with a (possibly approximate) radiating boundary condition, which
+depends very nonlinearly on the frequency, leading to a nonlinear
+eigenvalue problem.
 
 From this starting point, I became more interested in resonance poles in
 general, which lead to a fruitful collaboration with Maciej Zworski at
@@ -159,16 +170,10 @@ different areas of computer science: data mining, computer vision,
 machine learning, game theory, and network analysis. In each case, my
 contributions center on finding and exploiting structure.
 
-% For each problem:
-% - Overview and how I got into it
-% - Key structural features + mathematical connections
-% - Main results so far
-% - Current / future directions (if any)
-
 \subsection*{Model reduction and PageRank}
 
 PageRank is a standard tool for finding important vertices in a graph,
-based on a ``random surfer'' model that converges to
+based on a ``random surfer'' discrete-time Markov model that converges to
 a stationary distribution vector $x$ satisfying
 \[
   (I-\alpha P) x = (1-\alpha) x^*,
@@ -220,17 +225,16 @@ consider a least squares formulation
 where $d$ measures the geodesic distance between two elements of
 the rotation group $SO(3)$.  While there exist good algorithms for
 rotation averaging, these methods sometimes fail.  In work with
-Noah Snavely and Kyle Wilson, an applied math Ph.D. student,
-we explored an approach to characterizing which rotation averaging
+Noah Snavely and Kyle Wilson, an applied math Ph.D. graduate,
+we explore an approach to characterizing which rotation averaging
 problems are easy and which are hard.
 %
-I contributed the observation that while the objective is nowhere convex
-on $SO(3)^n$, it is constant over the orbits generated by action of
-$SO(3)$; and local convexity is indeed possible if one works on the
-quotient manifold $SO(3)^n/SO(3)$. From there, we were able together to
-relate local convexity in the neighborhood of a solution to the smallest
-eigenvalue of a normalized graph Laplacian with boundary conditions in
-which the weight of edge $(i,j)$ is determined by the magnitude of the
+I observed that while the objective is nowhere convex on $SO(3)^n$, it
+is constant over the orbits generated by action of $SO(3)$, and local
+convexity is possible on the quotient manifold $SO(3)^n/SO(3)$. From
+there, we relate local convexity in the neighborhood of a solution to
+the smallest eigenvalue of a normalized graph Laplacian (with boundary
+conditions) with edge weights $(i,j)$ determined by the magnitude of the
 residual errors $d(\tilde{R}_{ij}, R_i R_j^T)$.  This work will appear
 in ECCV 2016~\cite{2016-rotations}, and Kyle Wilson and I continue to
 collaborate on further extensions.
@@ -239,16 +243,17 @@ collaborate on further extensions.
 
 \subsection*{Spectral topic modeling}
 
-Topic modeling is a statistical approach to understanding the
-structure of a document collection.  In most topic models,
-we express each document as a distribution over a few topics,
-and each topic as a distribution over words.
-Standard generative topic models, such as Latent Dirichlet Allocation,
-provide a high-quality decomposition, but are expensive to train.
-In contrast, recent spectral inference algorithms based on
-a separability assumption (the ``anchor
-word'' assumption) are both fast and provably optimal under certain
-assumptions on the generating process.
+Topic modeling is a statistical approach to understanding
+document collection in which we express each document as a distribution
+over a few topics, and each topic as a distribution over
+words~\cite{Blei:2012:Survey}. Standard
+generative topic models, such as
+Latent Dirichlet Allocation~\cite{Blei:2003:LDA}, provide a
+high-quality decomposition, but are expensive to train. In contrast,
+recent spectral inference algorithms based on a separability assumption
+(the ``anchor word'' assumption) are fast and have provable guarantees
+under the assumptions on the
+generating process~\cite{Arora:2012:AGM,Arora:2013:Practical}.
 
 We consider spectral methods
 based on a matrix of co-occurrence statistics that
@@ -283,14 +288,14 @@ improves the quality of inferred topics.
 In economics and sociology, opinions held by individuals are often
 modeled as numerical values, and people arrive at a shared opinion by
 repeatedly averaging their opinion with the opinions of neighbors in a
-social network.  In a connected network, pure repeated averaging leads
+social network~\cite{Degroot:1974:Opinions}.  In a connected network, pure repeated averaging leads
 to an equilibrium with constant opinions; but in
 real life, consensus is rarely reached. In joint work with Jon
-Kleinberg and Sigal Oren (then a CS Ph.D.~student),
-we study a related model in which individuals’ intrinsic beliefs
+Kleinberg and Sigal Oren (a CS Ph.D.~student at the time),
+we studied a related model in which individuals’ intrinsic beliefs
 counterbalance the averaging process and yield a diversity of opinions~\cite{2011-focs,2015-geb}.
 By interpreting the repeated averaging as best-response dynamics in an
-underlying game with natural payoffs, and the limit of the process as an
+underlying game, and the limit of the process as an
 equilibrium, we are able to study the cost of disagreement in these
 models relative to a social optimum.
 
@@ -298,7 +303,7 @@ My contribution to this work involves the insight that the costs
 for this game at both the Nash equilibrium and the social optimum are
 quadratic forms in the vector of intrinsic beliefs.
 Because minimizing a ratio of quadratic forms leads to an eigenvalue
-problem, one can reason about tight bounds on the price of anarchy ---
+problem, we can provide tight bounds on the price of anarchy ---
 the ratio between the cost at Nash equilbrium and the social optimum ---
 for all possible values of the intrinsic beliefs by bounding extremal
 eigenvalues of a generalized eigenvalue problem.
@@ -339,7 +344,8 @@ $\ell_1$-norm linear combinations of unconverged eigenvectors
 to approximate indicators for clusters, we are able to find
 clusters in real-world networks that are closer to the ground-truth
 labels than clusters from other standard methods such
-as heat kernel diffusion and PageRank diffusion.
+as heat kernel diffusion and PageRank
+diffusion~\cite{Andersen:2006:PR,Kloumann:2014:Community,Kloster:2014:Heat}.
 
 \section{Scientific computing for systems}
 \label{sec-sc-systems}
@@ -369,7 +375,8 @@ configurations for distributed computations~\cite{2015-middleware}.  Our
 approach yielded improvements of up to $5 \times$ compared to the
 default configurations, and our paper won a best paper prize at
 Middleware 2015.  Earlier, I collaborated with Yan Chen on several papers
-on using linear algebra to find link failures in computer networks based
+in {\em network tomography},
+using linear algebra to find problem links in computer networks based
 on end-to-end path
 measurements~\cite{2009-tons,2007-tons,2006-sigcomm,2006-sigmetrics,2004-sigcomm,2003-imc}.
 
@@ -420,8 +427,6 @@ several other earlier-stage projects that I am pursuing with my
 graduate students.
 
 \subsection*{Graph Density of States}
-
-% Make the spectral geometry connection
 
 Researchers from many disciplines study spectra to understand the
 structure and composition of mathematical objects and physical systems.
@@ -499,6 +504,6 @@ handle the details of asking workers for function evaluations.
 
 \newpage
 \bibliographystyle{plain}
-\bibliography{references}
+\bibliography{references,others}
 
 \end{document}
