@@ -3,6 +3,22 @@ degrees:
   meng: "M.Eng."
   ms: "M.S."
 
+not_yet:
+  -
+    degree: meng
+    first: Jiancheng
+    last: Zhu
+    field: Computer Science
+    where: cornell
+    proj:
+      title: Resource-Coupled Evolutionary Games
+  -
+    degree: ms
+    first: Stephen
+    last: McDowell
+    field: Computer Science
+    where: cornell
+
 phd:
   -
     first: David
