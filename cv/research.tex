@@ -58,12 +58,6 @@ and symmetric eigenvalue problems can be formulated as one of the few
 non-convex optimization problems for which we have good general-purpose
 methods.
 %
-%have used structured eigenvalue problems to design musical
-%instruments~\cite{2006-sound,2007-sound}, to design resonant
-%micro-mechanical systems~\cite{2013-sensors,2016-sensors,2005-ijnme}, to
-%analyze bifurcations in dynamical systems~\cite{2014-matcont,2008-cis},
-%and for a variety of other applications.
-%
 In Section~\ref{sec-nep}, I describe my work on the theory and
 applications of {\em nonlinear eigenvalue problems}.
 %
@@ -75,12 +69,6 @@ an engineering application, the design of simulation tools for
 micro-machined resonant micro-gyroscopes. I conclude in
 Section~\ref{sec-directions} by discussing other directions
 that I am actively pursuing with students.
-
-% Pointer to systems stuff
-% Opt
-
-% LA + graph theory, geometry, complex and functional analysis,
-% group theory, continuum mechanics.
 
 \section{Nonlinear eigenvalue problems and applications}
 \label{sec-nep}
@@ -96,8 +84,8 @@ $T(z) = A-zI$.  Nonlinear eigenvalue problems often arise
 when transform methods are used to analyze differential and
 difference equations; for a survey of applications, we refer to~\cite{2015-sirev}.
 
-For the standard eigenvalue problem, there
-are many eigenvalue localization results that can be used for error
+For the standard eigenvalue problem, we can use
+many eigenvalue localization results for error
 analysis or to answer general qualitative questions, such as whether a
 given matrix might have any eigenvalues in the right half-plane.  There
 are multiple proofs for most of these results, but they all admit proofs
@@ -260,10 +248,13 @@ provide a high-quality decomposition, but are expensive to train.
 In contrast, recent spectral inference algorithms based on
 a separability assumption (the ``anchor
 word'' assumption) are both fast and provably optimal under certain
-assumptions on the generating process. We consider spectral methods
+assumptions on the generating process.
+
+We consider spectral methods
 based on a matrix of co-occurrence statistics that
 describe the probability with which terms appear together in a document.
-In particular, we define a generative model for the matrix of
+In particular, in joint work with David Mimno and CS Ph.D.~student
+Moontae Lee, we define a generative model for the matrix of
 co-occurrence statistics, the {\em Joint Stochastic Matrix
 Factorization} (JSMF) model.  For a vocabulary of size $n$ and $k$
 topics, the JSMF model predicts that (in expectation) the
