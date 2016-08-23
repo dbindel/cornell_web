@@ -95,8 +95,8 @@ eigenvalues in the right half-plane.  The standard example of such a
 result is Gershgorin's circle
 theorem~\cite{Varga:2004:GAC,Stewart:1990:MPT}, which says the spectrum
 of a matrix $A$ lies in a union of discs $G_i = \mathcal{B}(a_{ii},
-\rho_i)$, where $a_{ii}$ is the $i$th diagonal and the radii $\rho_i$
-are given by the sums of magnitudes of off-diagonal elements in row or
+\rho_i)$, where $a_{ii}$ is the $i$th diagonal and the radius $\rho_i$
+is given by the sums of magnitudes of off-diagonal elements in row or
 column $i$.  Many such results admit proofs based on analytic function
 theory that do not directly use linearity of the
 function $A-\lambda I$; in our work, we show these proofs
@@ -133,13 +133,13 @@ usually depends very nonlinearly on the frequency, leading to a nonlinear
 eigenvalue problem.
 
 From this starting point, I became more interested in resonance poles in
-general, which lead to a fruitful collaboration with Maciej Zworski
+general, which led to a fruitful collaboration with Maciej Zworski
 involving exploring resonances in a simplified
 setting~\cite{2007-symmetry}.
-I developed a code ({\tt MATSCAT}) to compute resonances for
+I wrote a code ({\tt MATSCAT}) to compute resonances for
 Schr{\"o}dinger problems in one space dimension with compactly-supported
-potentials in one space dimension.  For this problem, I was able to
-develop a fairly complete analysis for the discretized problem as well
+potentials.  I also developed a fairly complete analysis for the
+discretized problem, as well
 as a first-order backward error analysis to estimate the impact of
 discretization error.  This technique does not generalize to higher
 dimensions, nor the case of an inhomogeneous far-field behavior.  But
@@ -308,16 +308,16 @@ My contribution to this work involves the insight that the costs
 for the game at both the Nash equilibrium and the social optimum are
 quadratic forms in the vector of intrinsic beliefs.
 Because minimizing a ratio of quadratic forms leads to an eigenvalue
-problem, we can provide tight bounds on the price of anarchy ---
+problem, we can bound the extreme al eigenvalues of a generalized
+eigenvalue problem to provide tight bounds on the price of anarchy ---
 the ratio between the cost at Nash equilbrium and the social optimum ---
-for all possible values of the intrinsic beliefs by bounding extremal
-eigenvalues of a generalized eigenvalue problem.
+for all possible values of the intrinsic beliefs.
 Both matrices in this problem can be expressed in terms of a
 weighted graph Laplacian.  In the undirected case, the two matrices are
 simple polynomial functions of the Laplacian, and so the price of
 anarchy is bounded by the minimum of a rational function over the
 spectrum of the Laplacian, which is in turn bounded by the minimum of
-this function over the positive numbers.  The directed case is more subtle.
+this function over the non-negative real numbers.  The directed case is more subtle.
 
 We also consider a natural design problem: which
 links can we add to the network to reduce the cost of
@@ -366,11 +366,10 @@ expose a ``think as a vertex'' programming model in which vertex
 quantities are repeatedly updated based on neighbor data in an
 unspecified order --- a point relaxation approach in the parlance
 of classical numerical iterations.  While this model does not easily
-accomodate block update iterations that affect groups of nodes
-simultaneously, we found that by scheduling groups of nearby nodes to
-be processed together, possibly repeatedly, we reduce both the cost
-per iteration (because of cache locality effects) and the
-number of iterations required to obtain convergence.
+accomodate block updates to groups of nodes,
+by scheduling repeated sweeps over tightly-connected node groups,
+we reduce both the cost per iteration (because of cache locality effects)
+and the number of iterations to convergence.
 
 In another collaboration with the Cornell database
 group~\cite{2011-socc}, we designed a programming framework and runtime
@@ -395,7 +394,7 @@ Efe Gencer on work to use response surfaces to optimize software and
 hardware configurations for distributed
 computations~\cite{2015-middleware}.  Our approach yielded improvements
 of up to $5 \times$ compared to the default configurations, and our
-paper won a best paper prize at Middleware 2015.  Earlier, I
+work won a student best paper prize at Middleware 2015.  Earlier, I
 collaborated with Yan Chen on several papers in {\em network
 tomography}, using linear algebra to find problem links in computer
 networks based on end-to-end path
@@ -471,12 +470,12 @@ some standard centrality measures such as subgraph centrality.
 Together with Kun Dong, an applied math Ph.D.~student, and a team of
 undergraduate researchers, I am currently developing a MATLAB package
 ({\tt GraphDoS}) to compute global and local densities of states.
-Our approach uses standard density estimation techniques used in
-computational material science, but also uses techniques that are
-specialized to network analysis~\cite{2015-siam-ns}.  Our ultimate
-goal is to be able to be able to quickly compute, visualize, and
-interpret graph densities of states in the same
-way that one interprets the density of states for a material system.
+Our approach uses standard density estimation techniques from
+computational material science~\cite{Lin:2016:Approximating,Weisse:2006:The-kernel},
+but specialized to network analysis~\cite{2015-siam-ns}.  Our
+goal is to quickly compute, visualize, and
+interpret graph densities of states just
+as one interprets the density of states for a material system.
 
 \subsection*{Electrical power grids}
 
