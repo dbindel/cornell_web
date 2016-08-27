@@ -6,6 +6,30 @@ degrees:
 not_yet:
   -
     degree: meng
+    first: Sanjana
+    last: Thirumalai
+    field: Computer Science
+    where: cornell
+    proj:
+      title: Resource-Coupled Evolutionary Games
+  -
+    degree: meng
+    first: Hao
+    last: Pang
+    field: Computer Science
+    where: cornell
+    proj:
+      title: Resource-Coupled Evolutionary Games
+  -
+    degree: meng
+    first: Joel
+    last: Lubitinsky
+    field: Computer Science
+    where: cornell
+    proj:
+      title: Resource-Coupled Evolutionary Games
+  -
+    degree: meng
     first: Jiancheng
     last: Zhu
     field: Computer Science
@@ -13,11 +37,13 @@ not_yet:
     proj:
       title: Resource-Coupled Evolutionary Games
   -
-    degree: ms
-    first: Stephen
-    last: McDowell
+    degree: meng
+    first: Zhan
+    last: Zhao
     field: Computer Science
     where: cornell
+    proj:
+      title: Optimization with Pre-Emptible VMs
 
 phd:
   -
@@ -466,6 +492,11 @@ committees:
     field: Applied Math
   -
     degree: phd
+    first: Junteng
+    last: Jia
+    field: Chemistry
+  -
+    degree: phd
     last: Joshi
     first: Chaitali
     field: Physics
@@ -473,6 +504,11 @@ committees:
     degree: phd
     last: Lee
     first: Moontae
+    field: Computer Science
+  -
+    degree: ms
+    first: Stephen
+    last: McDowell
     field: Computer Science
   -
     degree: phd
