@@ -1,8 +1,8 @@
 ---
-title: "CUSSW: Cornell University Scientific Software"
+title: Cornell University Scientific SW
 image: bluegene.jpg
 snippet: |
-  Optimizing parallel code is hard -- so automate as much as possible.
+  Building a community of practice for scientific computing at Cornell.
 menu:
   - text: GitHub
     url: https://github.com/dbindel/cornell-ssw
