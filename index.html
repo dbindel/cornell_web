@@ -45,6 +45,11 @@ layout: top
       <a class="btn" href="teaching.html">More classes &raquo;</a>
     </p>
 
+    <h2>CU Scientific Software Club</h2>
+
+    {% assign entry = site.data.blurbs_dict["cussw"] %}
+    {% include blurb_entry.html %}
+
     <h2>Upcoming travels</h2>
 
     {% assign items = site.data.travel | sort: 'date' %}
