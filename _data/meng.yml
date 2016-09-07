@@ -6,10 +6,12 @@
     The [Compact Muon Solenoid (CMS)][cms] experiment is a large particle
     physics detector built on the Large Hadron Collidor at CERN.  At this
     point, so many users are working on this experiment that there is a
-    strong need not only to mine experimental data, but also to mine data
+    strong need not to mine both experimental data and also data
     about users and user activity.  CS MEng students may be interested
     in [some data mining projects out of Cornell physics][cmswiki] related
-    to these projects.  If so, please contact Valentin Kuznetsov or Peter
+    to these projects; these involve some very interesting systems problems
+    as well as potentially exercising ideas in deep learning.
+    If interested, please contact Valentin Kuznetsov or Peter
     Wittich for further details -- but you can likely talk me into being
     your CS field representative.
 
