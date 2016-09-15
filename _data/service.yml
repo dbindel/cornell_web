@@ -5,6 +5,11 @@
   role: Scientific committee co-chair
   type: [external]
 -
+  when: 2017
+  what: IEEE International Parallel and Distributed Processing Symposium
+  role: Program committee member
+  type: [external]
+-
   when: 2016
   until: 2017
   what: CS Faculty Recruiting Committee

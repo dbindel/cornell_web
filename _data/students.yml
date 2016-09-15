@@ -6,28 +6,12 @@ degrees:
 not_yet:
   -
     degree: meng
-    first: Sanjana
-    last: Thirumalai
-    field: Computer Science
-    where: cornell
-    proj:
-      title: Resource-Coupled Evolutionary Games
-  -
-    degree: meng
     first: Joel
     last: Lubitinsky
     field: Computer Science
     where: cornell
     proj:
       title: Resource-Coupled Evolutionary Games
-  -
-    degree: meng
-    first: Zhan
-    last: Zhao
-    field: Computer Science
-    where: cornell
-    proj:
-      title: Optimization with Pre-Emptible VMs
 
 phd:
   -
