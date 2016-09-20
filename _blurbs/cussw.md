@@ -4,10 +4,10 @@ image: bluegene.jpg
 snippet: |
   Building a community of practice for scientific computing at Cornell.
 menu:
+  - text: Home
+    url: https://cornell-ssw.github.io/
   - text: GitHub
-    url: https://github.com/dbindel/cornell-ssw
-  - text: Sign up
-    url: https://goo.gl/forms/DsyadREHowaC04To1
+    url: https://github.com/cornell-ssw
 ---
 
 The purpose of the Cornell Scientific Software Club is to learn about modern tools relevant for developing and deploying scientific codes. Researchers from all areas of computational science and engineering are welcome. The planned meeting time is Mondays at 6 pm (location TBA), starting on 2016-09-12 (the Monday after Labor Day). We have a list of planned topics, but so far no specific schedule.
