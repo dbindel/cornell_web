@@ -8,8 +8,15 @@ menu:
     url: https://cornell-ssw.github.io/
   - text: GitHub
     url: https://github.com/cornell-ssw
+  - text: Cornell Chronicle
+    url: http://www.news.cornell.edu/essentials/2016/09/scientific-software-club-born
 ---
 
-The purpose of the Cornell Scientific Software Club is to learn about modern tools relevant for developing and deploying scientific codes. Researchers from all areas of computational science and engineering are welcome. The planned meeting time is Mondays at 6 pm (location TBA), starting on 2016-09-12 (the Monday after Labor Day). We have a list of planned topics, but so far no specific schedule.
+The purpose of the Cornell Scientific Software Club is to learn about
+modern tools relevant for developing and deploying scientific codes.
+Researchers from all areas of computational science and engineering are
+welcome. The club meets Mondays at 6 pm in Gates 122.
 
-If you are interested in participating, please let me know! This will help in making room requests and planning requests to companies (e.g. for cloud computing resources).
+If you are interested in participating, please sign up!  Official enrollment
+is useful for helping us figure out resources (e.g. pizza and computing cycles),
+but we also welcome anyone who wants to just receive our emails.
