@@ -936,3 +936,10 @@
   tags: [grid]
   where: Lawrence Berkeley Lab
   type: [seminar, external, invited]
+-
+  file: 2016-10-argonne/argonne-oct16.pdf
+  title: "Fast Fingerprints for Power System Events"
+  tags: [grid]
+  where: Argonne National Lab
+  type: [seminar, external, invited]
+

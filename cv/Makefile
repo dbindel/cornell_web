@@ -7,7 +7,7 @@ CV_FILES=\
 	students-phd.tex students-masters.tex students-ugrad.tex \
 	thesis-committee.tex
 
-PDF=cv.pdf cornellcv.pdf selected.pdf research.pdf
+PDF=cv.pdf cornellcv.pdf selected.pdf research.pdf pubs.pdf
 
 .PHONY: all clean distclean
 
@@ -24,6 +24,10 @@ cornellcv.pdf: cornellcv.tex $(CV_FILES)
 selected.pdf: selected.tex $(CV_FILES)
 	pdflatex selected.tex
 	pdflatex selected.tex
+
+pubs.pdf: pubs.tex $(CV_FILES)
+	pdflatex pubs.tex
+	pdflatex pubs.tex
 
 research.pdf: research.tex references.bib
 	pdflatex research.tex
