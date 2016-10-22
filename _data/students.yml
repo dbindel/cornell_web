@@ -514,6 +514,11 @@ committees:
     first: Zhengdi
     field: Applied Math
   -
+    degree: ms
+    last: Su
+    first: Yu
+    field: Chemical Engineering
+  -
     degree: phd
     last: Toscano
     first: Saul
