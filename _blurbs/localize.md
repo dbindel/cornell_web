@@ -5,6 +5,7 @@ snippet:
   Generalizing classic eigenvalue localization results
   (e.g. Gershgorin).
 papers:
+  - 2016-transient-tr
   - 2015-sirev
   - 2013-simax
 talks:
