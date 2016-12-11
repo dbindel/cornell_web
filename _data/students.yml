@@ -480,11 +480,6 @@ committees:
     field: Computer Science
   -
     degree: phd
-    last: Meyer
-    first: Michael
-    field: Computational Biology
-  -
-    degree: phd
     last: Nicholson
     first: William
     field: Statistics
@@ -530,6 +525,14 @@ committees:
     field: Mechanical Engineering
 
 past_committees:
+  -
+    degree: phd
+    last: Meyer
+    first: Michael
+    field: Computational Biology
+    thesis:
+      title: Methods for Functional Inference in the Proteome and Interactome
+      year: 2016
   -
     degree: phd
     last: Wilson
