@@ -48,8 +48,9 @@ phd:
     last: Hood
     field: Applied Math
     where: cornell
-    topic: Nonlinear eigenvalue problems
-    url: https://people.cam.cornell.edu/~ahood/research.html
+    thesis:
+      title: "Localizing the eigenvalues of matrix-valued functions: analysis and applications"
+      year: 2017
   -
     first: Colin
     last: Ponce
@@ -494,11 +495,6 @@ committees:
     first: Enrique
     field: Atmospheric Science
   -
-    degree: phd
-    last: Saroukhani
-    first: Sepehr
-    field: Civil Engineering
-  -
     degree: ms
     last: Savva
     first: Nicholas
@@ -527,12 +523,20 @@ committees:
 past_committees:
   -
     degree: phd
+    last: Saroukhani
+    first: Sepehr
+    field: Civil Engineering
+    thesis:
+      title: Atomistic Modeling of Dislocation Motion at Experimental Time-Scales
+      year: 2017
+  -
+    degree: phd
     last: Meyer
     first: Michael
     field: Computational Biology
     thesis:
       title: Methods for Functional Inference in the Proteome and Interactome
-      year: 2016
+      year: 2017
   -
     degree: phd
     last: Wilson
