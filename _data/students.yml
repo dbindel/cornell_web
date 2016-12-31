@@ -523,6 +523,14 @@ committees:
 past_committees:
   -
     degree: phd
+    first: Amanda
+    last: Hood
+    field: Applied Math
+    thesis:
+      title: "Localizing the eigenvalues of matrix-valued functions: analysis and applications"
+      year: 2017
+  -
+    degree: phd
     last: Saroukhani
     first: Sepehr
     field: Civil Engineering
