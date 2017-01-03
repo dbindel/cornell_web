@@ -456,11 +456,6 @@ committees:
     field: Material Science
   -
     degree: phd
-    last: Hood
-    first: Amanda
-    field: Applied Math
-  -
-    degree: phd
     first: Junteng
     last: Jia
     field: Chemistry
@@ -479,11 +474,6 @@ committees:
     first: Stephen
     last: McDowell
     field: Computer Science
-  -
-    degree: phd
-    last: Nicholson
-    first: William
-    field: Statistics
   -
     degree: phd
     last: Revard
@@ -545,6 +535,15 @@ past_committees:
     thesis:
       title: Methods for Functional Inference in the Proteome and Interactome
       year: 2017
+  -
+    degree: phd
+    last: Nicholson
+    first: William
+    field: Statistics
+    thesis: 
+      title: Tools For Modeling Sparse Vector Autoregressions
+      url: https://ecommons.cornell.edu/handle/1813/45382
+      year: 2016
   -
     degree: phd
     last: Wilson
