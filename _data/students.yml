@@ -421,11 +421,6 @@ committees:
     field: Civil Engineering
   -
     degree: phd
-    last: Clawson
-    first: Zachary
-    field: Applied Math
-  -
-    degree: phd
     last: Dong
     first: Kun
     field: Applied Math
@@ -513,6 +508,14 @@ committees:
 past_committees:
   -
     degree: phd
+    last: Clawson
+    first: Zachary
+    field: Applied Math
+    thesis:
+      title: "Shortest Path Problems: Domain Restriction, Anytime Planning, and Multi-Objective Optimization"
+      year: 2017
+  -
+    degree: phd
     first: Amanda
     last: Hood
     field: Applied Math
@@ -540,7 +543,7 @@ past_committees:
     last: Nicholson
     first: William
     field: Statistics
-    thesis: 
+    thesis:
       title: Tools For Modeling Sparse Vector Autoregressions
       url: https://ecommons.cornell.edu/handle/1813/45382
       year: 2016
