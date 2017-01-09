@@ -480,11 +480,6 @@ committees:
     first: Enrique
     field: Atmospheric Science
   -
-    degree: ms
-    last: Savva
-    first: Nicholas
-    field: Computer Science
-  -
     degree: phd
     last: Shen
     first: Zhengdi
@@ -506,6 +501,14 @@ committees:
     field: Mechanical Engineering
 
 past_committees:
+  -
+    degree: ms
+    last: Savva
+    first: Nicholas
+    field: Computer Science
+    thesis:
+      title: "A Practical Framework for Measuring and Modeling the Appearance of Strongly Anisotropic Materials"
+      year: 2017
   -
     degree: phd
     last: Clawson
