@@ -461,6 +461,11 @@ committees:
     field: Physics
   -
     degree: phd
+    last: Luan
+    first: Fujun
+    field: Computer Science
+  -
+    degree: phd
     last: Lee
     first: Moontae
     field: Computer Science
