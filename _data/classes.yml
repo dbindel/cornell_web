@@ -24,12 +24,12 @@ active:
 # Info for courses appearing on front page
 current:
   -
-    semester: F16
-    course: cs6210
+    semester: S17
+    course: cs4220
     where: cornell
-    url: class/cs6210-f16/
+    url: class/cs4220-s17/
     logistics: |
-      Fall 2016.  MWF 11:15-12:05 PM, Hollister Hall 306.
+      Spring 2017.  MWF 12:30-3:20 PM, Gates G01.
   -
     course: scan
     where: cornell
@@ -49,6 +49,11 @@ current:
 
 # Record of past courses
 previous:
+  -
+    semester: F16
+    course: cs6210
+    where: cornell
+    url: class/cs6210-f16/
   -
     semester: S16
     course: cs4220
