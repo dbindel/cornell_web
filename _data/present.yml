@@ -942,4 +942,15 @@
   tags: [grid]
   where: Argonne National Lab
   type: [seminar, external, invited]
-
+-
+  file: 2016-12-nyu/nyu-dec16.pdf
+  title: "Model Reduction for Edge-Weighted Personalized PageRank"
+  tags: [pagerank]
+  where: NYU Numerical Analysis and Scientific Computing Seminar
+  type: [seminar, external, invited]
+-
+  file: 2017-01-berkeley/berkeley-jan17.pdf
+  title: "Nonlinear Eigenvalue Problems: Theory and Applications"
+  tags: [nep, eigenbounds]
+  where: Berkeley Applied Math Seminar
+  type: [seminar, external, invited]
