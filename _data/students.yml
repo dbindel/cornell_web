@@ -4,14 +4,6 @@ degrees:
   ms: "M.S."
 
 not_yet:
-  -
-    degree: meng
-    first: Joel
-    last: Lubitinsky
-    field: Computer Science
-    where: cornell
-    proj:
-      title: Resource-Coupled Evolutionary Games
 
 phd:
   -
@@ -72,6 +64,46 @@ phd:
       year: 2016
 
 masters:
+  -
+    degree: meng
+    first: Michael
+    last: Ficenic
+    field: Computer Science
+    where: cornell
+    grad: 2017
+    proj:
+      title: Network Classification via Spectral Features
+      when: 2017
+  -
+    degree: meng
+    first: Paul
+    last: West
+    field: Computer Science
+    where: cornell
+    grad: 2017
+    proj:
+      title: Optimization with Pre-Emptible VMs
+      when: 2017
+  -
+    degree: meng
+    first: Joel
+    last: Lubitinsky
+    field: Computer Science
+    where: cornell
+    grad: 2017
+    proj:
+      title: Resource-Coupled Evolutionary Games
+      when: 2017
+  -
+    degree: meng
+    first: Ioana-Maria
+    last: Tamas
+    field: Computer Science
+    where: cornell
+    grad: 2017
+    proj:
+      title: Resource-Coupled Evolutionary Games
+      when: 2017
   -
     degree: meng
     first: Batu
