@@ -10,6 +10,12 @@
   role: Program committee member
   type: [external]
 -
+  when: 2017
+  until: 2017
+  what: Applied Math Graduate Admissions Committee
+  role: Committee Member
+  type: [cornell, cam, local]
+-
   when: 2016
   until: 2017
   what: CS Faculty Recruiting Committee
@@ -37,7 +43,7 @@
   when: 2015
   what: Applied Math Curriculum Review Committee
   role: Committee member
-  type: [cornell, cs, local]
+  type: [cornell, cam, local]
 -
   when: 2015
   what: IEEE International Parallel and Distributed Processing Symposium
