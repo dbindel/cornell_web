@@ -966,3 +966,9 @@
   tags: [rsc]
   where: SIAM CSE 2017
   type: [minisymposium, external, invited]
+-
+  file: 2017-03-scan/scan-mar17.pdf
+  title: "Fast Fingerprints for Power System Events"
+  tags: [grid]
+  where: Cornell SCAN seminar
+  type: [seminar, local]
