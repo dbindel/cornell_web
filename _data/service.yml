@@ -12,6 +12,12 @@
 -
   when: 2017
   until: 2017
+  what: CS Colloquium Committee
+  role: Committee member
+  type: [cornell, cs, local]
+-
+  when: 2017
+  until: 2017
   what: Applied Math Graduate Admissions Committee
   role: Committee Member
   type: [cornell, cam, local]
