@@ -522,6 +522,11 @@ committees:
     first: Zhengdi
     field: Applied Math
   -
+    degree: phd
+    last: Shi
+    first: Qinru
+    field: Applied Math
+  -
     degree: ms
     last: Su
     first: Yu

@@ -144,6 +144,13 @@
   role: Committee member
   type: [cornell, cam, local]
 -
+  when: 2017
+  until: 2020
+  what: Journal of Computational Mathematics
+  url: http://www.global-sci.org/jcm/
+  role: Associate editor
+  type: [external]
+-
   when: 2010
   until: present
   what: Numerical Linear Algebra with Applications
