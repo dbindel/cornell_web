@@ -66,6 +66,16 @@ phd:
 masters:
   -
     degree: meng
+    first: Han Wen
+    last: Chen
+    field: Computer Science
+    where: cornell
+    grad: 2017
+    proj:
+      title: Jupyter Notebooks for Finite Element Analysis
+      when: 2017
+  -
+    degree: meng
     first: Michael
     last: Ficenic
     field: Computer Science
@@ -441,6 +451,11 @@ ugrad:
     proj: "MEMS Web Service"
 
 committees:
+  -
+    degree: phd
+    last: Browne
+    first: Chris
+    field: Applied Math
   -
     degree: phd
     last: Booher
