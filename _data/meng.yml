@@ -57,7 +57,6 @@
 -
   title: Jupyter Notebooks for Finite Element Analysis
   tags: [tools, web]
-  display: true
   blurb: |
     [FEAPpv][feappv] is an educational version of the research finite
     element code FEAP.  Some time ago, I built a
