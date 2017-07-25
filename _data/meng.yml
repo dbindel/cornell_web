@@ -18,9 +18,26 @@
     [cms]: http://cms.web.cern.ch/
     [cmswiki]: https://wiki.classe.cornell.edu/CMS/CMSDataMining
 -
-  title: Notebook Widgets for Simulation Steering and Monitoring
+  title: Web Dashboards for Expensive Optimization
   tags: [tools, web]
   display: true
+  blurb: |
+    For an ongoing project on
+    [software for optimizing expensive functions][rbfopt],
+    I would like to have a web dashboard similar to the
+    [Dask.distributed web interface][daskweb], probably
+    built using the [Bokeh][bokeh] visualization library.
+    
+    To work on this project, it would be helpful to have
+    some exposure to Python.  Some Javascript might also be
+    useful, though not necessary.
+    
+    [rbfopt]: http://www.cs.cornell.edu/~bindel//blurbs/rbfopt.html
+    [daskweb]: http://distributed.readthedocs.io/en/latest/web.html
+    [bokeh]: http://bokeh.pydata.org/en/latest/
+-
+  title: Notebook Widgets for Simulation Steering and Monitoring
+  tags: [tools, web]
   blurb: |
     Python has a long history as a system for steering large-scale
     physical simulations, and remains useful for this purpose today.
@@ -62,7 +79,6 @@
 -
   title: Optimization with Pre-Emptible VMs
   tags: [tools]
-  display: true
   blurb: |
     The [Google Cloud Platform][gcp] offers
     [pre-emptible machine instances][preemptible] that can are
@@ -81,7 +97,6 @@
 -
   title: Resource-Coupled Evolutionary Games
   tags: [eigen, games]
-  display: true
   blurb: |
     In [CS 4220][cs4220] in Spring 2016, I gave a [project][proj3]
     involving a toy model in evolutionary game theory where different
@@ -159,7 +174,6 @@
 -
   title: Network Classification via Spectral Features
   tags: [networks, eigen]
-  display: true
   blurb: |
     What distinguishes a citation network from a road network from a
     social network?  There are many potentially distinguishing
