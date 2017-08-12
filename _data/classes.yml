@@ -22,12 +22,12 @@ active:
 # Info for courses appearing on front page
 current:
   -
-    semester: S17
-    course: cs4220
+    semester: F17
+    course: cs5220
     where: cornell
-    url: http://www.cs.cornell.edu/courses/cs4220/2017sp/
+    url: http://www.cs.cornell.edu/courses/cs5220/2017fa/
     logistics: |
-      Spring 2017.  MWF 12:30-3:20 PM, Gates G01.
+      Fall 2017.  TTh 8:40-9:55 AM, Gates G01.
   -
     course: scan
     where: cornell
@@ -47,6 +47,11 @@ current:
 
 # Record of past courses
 previous:
+  -
+    semester: S17
+    course: cs4220
+    where: cornell
+    url: http://www.cs.cornell.edu/courses/cs4220/2017sp/
   -
     semester: F16
     course: cs6210
