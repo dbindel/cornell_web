@@ -4,6 +4,8 @@ image: metabolic.png
 snippet: |
   Using eigenvalue iterations to grow graph clusters from seeds.
 papers:
+  - 2017-tkdd
+  - 2017-ecml-pkdd
   - 2016-losp-kdd
   - 2015-icdm
   - 2015-www
