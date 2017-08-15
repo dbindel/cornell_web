@@ -972,3 +972,27 @@
   tags: [grid]
   where: Cornell SCAN seminar
   type: [seminar, local]
+-
+  file: 2017-06-householder/poster.pdf
+  title: "Stochastic estimators in Gaussian process kernel learning"
+  tags: [gp, kernel]
+  where: Householder Symposium
+  type: [meeting, external, invited, poster]
+-
+  file: 2017-06-sjtu-summer/visit-jun17.pdf
+  title: "Scientific Computing Sampler"
+  tags: [survey]
+  where: Cornell-SJTU Visit Lightning Talks
+  type: [local]
+-
+  file: 2017-07-focm/focm-jul17.pdf
+  title: "Dynamics via Nonlinear Pseudospectra"
+  tags: [nep, eigenbounds]
+  where: Foundations of Computational Math 2017
+  type: [minisymposium, external, invited]
+-
+  file: 2017-07-shoemaker/shoemaker-jul17.pdf
+  title: "Software for Parallel Global Optimization"
+  tags: [rbf, globalopt]
+  where: Symposium for Christine Shoemaker
+  type: [meeting, local, invited]
