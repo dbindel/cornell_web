@@ -1,3 +1,45 @@
+2017-ecml-pkdd:
+  tags: [networks, communities]
+  abstract:
+    We propose a novel approach called the Local Lanczos Spectral
+    Approximation (LLSA) for identifying all latent members of a local
+    community from very few seed members. To reduce the computation
+    complexity, we first apply a fast heat kernel diffusing to sample a
+    comparatively small subgraph covering almost all possible community
+    members around the seeds. Then starting from a normalized indicator
+    vector of the seeds and by a few steps of Lanczos iteration on the
+    sampled subgraph, a local eigenvector is gained for approximating
+    the eigenvector of the transition matrix with the largest
+    eigenvalue. Elements of this local eigenvector is a relaxed
+    indicator for the affiliation probability of the corresponding nodes
+    to the target community. We conduct extensive experiments on
+    real-world datasets in various domains as well as synthetic
+    datasets. Results show that the proposed method outperforms
+    state-of-the-art local community detection algorithms. To the best
+    of our knowledge, this is the first work to adapt the Lanczos method
+    for local community detection, which is natural and potentially
+    effective. Also, we did the first attempt of using heat kernel as a
+    sampling method instead of detecting communities directly, which is
+    proved empirically to be very efficient and effective.
+  
+2017-tps:
+  tags: [power]
+  abstract:
+    Abstract:
+      In this paper, we present a Fingerprint Linear Estimation Routine
+      (FLiER) to identify topology changes in power networks using
+      readings from sparsely-deployed phasor measurement units
+      (PMUs). When a power line, load, or generator trips in a network, or
+      when a substation is reconfigured, the event leaves a unique
+      “voltage fingerprint” of bus voltage changes that we can identify
+      using only the portion of the network directly observed by the
+      PMUs. The naive brute-force approach to identify a failed line from
+      such voltage fingerprints, though simple and accurate, is slow.We
+      derive an approximate algorithm based on a local linearization and a
+      novel filtering approach that is faster and only slightly less
+      accurate. We present experimental results using the IEEE 57-bus,
+      IEEE 118-bus, and Polish 1999- 2000 winter peak networks.
+  
 2016-rotations:
   tags: [vision]
   abstract: |
