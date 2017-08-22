@@ -27,14 +27,20 @@
     I would like to have a web dashboard similar to the
     [Dask.distributed web interface][daskweb], probably
     built using the [Bokeh][bokeh] visualization library.
+    We want to be able to set up optimization runs, monitor
+    the progress, and analyze results.  Our current user
+    interface is built in [Qt][pysot-gui].
     
     To work on this project, it would be helpful to have
     some exposure to Python.  Some Javascript might also be
-    useful, though not necessary.
+    useful, though not necessary.  You will work on this project
+    with one of my students ([David Eriksson]).
     
     [rbfopt]: http://www.cs.cornell.edu/~bindel//blurbs/rbfopt.html
     [daskweb]: http://distributed.readthedocs.io/en/latest/web.html
     [bokeh]: http://bokeh.pydata.org/en/latest/
+    [pysot-gui]: http://pysot.readthedocs.io/en/latest/gui.html
+    [David Eriksson]: https://people.cam.cornell.edu/~dme65/
 -
   title: Notebook Widgets for Simulation Steering and Monitoring
   tags: [tools, web]
