@@ -996,3 +996,9 @@
   tags: [rbf, globalopt]
   where: Symposium for Christine Shoemaker
   type: [meeting, local, invited]
+-
+  file: 2017-09-scan/scan-sep17.pdf
+  title: "Stochastic LA for Scaling GPs"
+  tags: [gp, kernel]
+  where: Cornell SCAN seminar
+  type: [seminar, local]
