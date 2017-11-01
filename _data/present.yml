@@ -961,7 +961,7 @@
   where: Berkeley CS Colloquium
   type: [colloquium, external, invited]
 -
-  file: 2017-03-cse/cse-mar17.pdf
+  file: 2017-03-siam-cse/cse-mar17.pdf
   title: "An Efficient Solver for Sparse Linear Systems based on Rank-Structured Cholesky Factorization"
   tags: [rsc]
   where: SIAM CSE 2017
