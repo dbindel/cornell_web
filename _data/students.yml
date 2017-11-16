@@ -459,11 +459,6 @@ committees:
     field: Applied Math
   -
     degree: phd
-    last: Booher
-    first: Nicholas
-    field: Computational Biology
-  -
-    degree: phd
     last: Cheng
     first: Yuan
     field: Civil Engineering
@@ -524,11 +519,6 @@ committees:
     field: Computer Science
   -
     degree: phd
-    last: Revard
-    first: Benjamin
-    field: Material Science
-  -
-    degree: phd
     last: Rojas
     first: Enrique
     field: Atmospheric Science
@@ -560,12 +550,21 @@ committees:
 
 past_committees:
   -
+    degree: phd
+    last: Revard
+    first: Benjamin
+    field: Material Science
+    thesis:
+      title: "Development of an Evolutionary Algorithm for the Ab Initio Discovery of Two-Dimensional Materials"
+      year: 2017
+  -
     degree: ms
     last: Savva
     first: Nicholas
     field: Computer Science
     thesis:
       title: "A Practical Framework for Measuring and Modeling the Appearance of Strongly Anisotropic Materials"
+      url: https://ecommons.cornell.edu/handle/1813/47723
       year: 2017
   -
     degree: phd
@@ -574,6 +573,7 @@ past_committees:
     field: Applied Math
     thesis:
       title: "Shortest Path Problems: Domain Restriction, Anytime Planning, and Multi-Objective Optimization"
+      url: https://ecommons.cornell.edu/handle/1813/47687
       year: 2017
   -
     degree: phd
@@ -582,6 +582,7 @@ past_committees:
     field: Applied Math
     thesis:
       title: "Localizing the eigenvalues of matrix-valued functions: analysis and applications"
+      url: https://ecommons.cornell.edu/handle/1813/47868
       year: 2017
   -
     degree: phd
@@ -590,6 +591,7 @@ past_committees:
     field: Civil Engineering
     thesis:
       title: Atomistic Modeling of Dislocation Motion at Experimental Time-Scales
+      url: https://ecommons.cornell.edu/handle/1813/47722
       year: 2017
   -
     degree: phd
@@ -598,6 +600,7 @@ past_committees:
     field: Computational Biology
     thesis:
       title: Methods for Functional Inference in the Proteome and Interactome
+      url: https://ecommons.cornell.edu/handle/1813/47887
       year: 2017
   -
     degree: phd
