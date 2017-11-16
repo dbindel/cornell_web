@@ -1,6 +1,52 @@
+2017-nips:
+  tags: [gp, la-sw]
+  abstract: |
+    For applications as varied as Bayesian neural networks,
+    determinantal point processes, elliptical graphical models, and
+    kernel learning for Gaussian processes (GPs), one must compute a log
+    determinant of an $n \times n$ positive definite matrix, and its
+    derivatives – leading to prohibitive $O(n^3)$ computations. We propose
+    novel $O(n)$ approaches to estimating these quantities from only fast
+    matrix vector multiplications (MVMs). These stochastic
+    approximations are based on Chebyshev, Lanczos, and surrogate
+    models, and converge quickly even for kernel matrices that have
+    challenging spectra. We leverage these approximations to develop a
+    scalable Gaussian process approach to kernel learning. We find that
+    Lanczos is generally superior to Chebyshev for kernel learning, and
+    that a surrogate approach can be highly efficient and accurate with
+    popular kernels.
+
+2017-informs:
+  tags: [topics]
+  abstract: |
+    Topic models were originally applied in text analysis for
+    extracting high-level themes from documents, but they work equally
+    well in any setting where users select items from an
+    inventory. Recent work in spectral topic modeling has provided
+    algorithms that operate only on easily-collected summary statistics,
+    rather than exhaustively iterating over the full dataset. The
+    "anchor word" algorithms learn topics by decomposing the
+    co-occurrence between pairs of words into a matrix of topics over
+    words and a matrix of relations between topics. While these
+    algorithms provide transparent inference and provable guarantees in
+    addition to scalability, there are several known issues: inference
+    can be infeasible for large vocabularies and cannot learn quality
+    topics on noisy real data with high sensitivity to learning
+    parameters. In this paper, we solidify the foundations of
+    anchor-based spectral inference and propose practical algorithms
+    that can efficiently tackle each of these problems within the
+    framework of Joint Stochastic Matrix Factorization. These algorithms
+    preserve the provable guarantees and scalability of earlier
+    algorithms, but are more consistent and more stable in identifying
+    quality topics. In addition, this algorithm can also consider and
+    learn meaningful correlations between topics, enabling correlated
+    and hierarchical models. We demonstrate these methods on two text
+    corpora, a corpus of user movie ratings, and a corpus of song
+    playlists.
+
 2017-ecml-pkdd:
   tags: [networks, communities]
-  abstract:
+  abstract: |
     We propose a novel approach called the Local Lanczos Spectral
     Approximation (LLSA) for identifying all latent members of a local
     community from very few seed members. To reduce the computation
@@ -24,21 +70,20 @@
   
 2017-tps:
   tags: [power]
-  abstract:
-    Abstract:
-      In this paper, we present a Fingerprint Linear Estimation Routine
-      (FLiER) to identify topology changes in power networks using
-      readings from sparsely-deployed phasor measurement units
-      (PMUs). When a power line, load, or generator trips in a network, or
-      when a substation is reconfigured, the event leaves a unique
-      “voltage fingerprint” of bus voltage changes that we can identify
-      using only the portion of the network directly observed by the
-      PMUs. The naive brute-force approach to identify a failed line from
-      such voltage fingerprints, though simple and accurate, is slow.We
-      derive an approximate algorithm based on a local linearization and a
-      novel filtering approach that is faster and only slightly less
-      accurate. We present experimental results using the IEEE 57-bus,
-      IEEE 118-bus, and Polish 1999- 2000 winter peak networks.
+  abstract: |
+    In this paper, we present a Fingerprint Linear Estimation Routine
+    (FLiER) to identify topology changes in power networks using
+    readings from sparsely-deployed phasor measurement units
+    (PMUs). When a power line, load, or generator trips in a network, or
+    when a substation is reconfigured, the event leaves a unique
+    “voltage fingerprint” of bus voltage changes that we can identify
+    using only the portion of the network directly observed by the
+    PMUs. The naive brute-force approach to identify a failed line from
+    such voltage fingerprints, though simple and accurate, is slow.We
+    derive an approximate algorithm based on a local linearization and a
+    novel filtering approach that is faster and only slightly less
+    accurate. We present experimental results using the IEEE 57-bus,
+    IEEE 118-bus, and Polish 1999- 2000 winter peak networks.
   
 2016-rotations:
   tags: [vision]
