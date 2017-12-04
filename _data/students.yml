@@ -518,6 +518,11 @@ committees:
     first: Moontae
     field: Computer Science
   -
+    degree: phd
+    last: Lin
+    first: Hubert
+    field: Computer Science
+  -
     degree: ms
     first: Stephen
     last: McDowell
