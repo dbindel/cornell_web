@@ -15,6 +15,7 @@ active:
   - cs4220
   - cs5220
   - cs6210
+  - cs6241
   - cs3220
   - scan
   - projects
@@ -22,12 +23,11 @@ active:
 # Info for courses appearing on front page
 current:
   -
-    semester: F17
-    course: cs5220
+    semester: S18
+    course: cs6241
     where: cornell
-    url: http://www.cs.cornell.edu/courses/cs5220/2017fa/
     logistics: |
-      Fall 2017.  TTh 8:40-9:55 AM, Gates G01.
+      Spring 2018.  TTh 2:55-4:10 PM, Hollister B14.
   -
     course: scan
     where: cornell
@@ -47,6 +47,11 @@ current:
 
 # Record of past courses
 previous:
+  -
+    semester: F17
+    course: cs5220
+    where: cornell
+    url: http://www.cs.cornell.edu/courses/cs5220/2017fa/
   -
     semester: S17
     course: cs4220
@@ -152,6 +157,18 @@ previous:
 
 # ================================================================
 # Cornell courses
+
+cs6421:
+  class: CS 6241
+  title: Numerical Methods for Data Science
+  image: data-dots.jpg
+  snippet: |
+    Discussion of numerical methods in the context of machine learning
+    and data analysis problems.  We will discuss sparsity, rank
+    structure, and spectral behavior of underlying linear algebra
+    problems; convergence behavior and implicit regularization for
+    standard solvers; and comparisons between numerical methods in
+    data analysis and those used in physical simulations.
 
 cs4220:
   class: CS 4220/5223 / MATH 4260
