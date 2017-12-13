@@ -158,7 +158,7 @@ previous:
 # ================================================================
 # Cornell courses
 
-cs6421:
+cs6241:
   class: CS 6241
   title: Numerical Methods for Data Science
   image: data-dots.jpg
