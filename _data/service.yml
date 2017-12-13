@@ -1,4 +1,22 @@
 -
+  when: 2017
+  until: 2018
+  what: ECE/CAM Faculty Recruiting Committee
+  role: External committee member
+  type: [cornell, cam, local]
+-
+  when: 2017
+  until: 2018
+  what: CS Chair Search Committee
+  role: Committee member
+  type: [cornell, cs, local]
+-
+  when: 2017
+  until: 2018
+  what: CS Graduate Admissions Committee
+  role: Committee chair
+  type: [cornell, cs, local]
+-
   when: 2018
   what: SIAM Applied Linear Algebra Conference
   url: http://www.math.hkbu.edu.hk/siam-ala18/
