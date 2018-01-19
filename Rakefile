@@ -1,7 +1,8 @@
 desc "Manage web site publication"
 
 # Settings
-dest = "/mnt/MyWeb"  # Destination
+#dest = "/mnt/MyWeb"  # Destination
+dest = "cslinux:/people/dsb253"
 
 # === Check hash version
 
