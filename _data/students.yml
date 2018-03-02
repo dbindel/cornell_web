@@ -67,6 +67,66 @@ phd:
 masters:
   -
     degree: meng
+    first: Bingqing
+    last: Ma
+    field: Computer Science
+    where: cornell
+    grad: 2018
+    proj:
+      title: Web Interface to a Finite Element Analysis Program
+      when: 2017
+  -
+    degree: meng
+    first: Alvin
+    last: Zhu
+    field: Computer Science
+    where: cornell
+    grad: 2018
+    proj:
+      title: Fast non-negative projection of low rank matrices
+      when: 2017
+  -
+    degree: meng
+    first: Tommy
+    last: Shum
+    field: Computer Science
+    where: cornell
+    grad: 2018
+    proj:
+      title: PySOT in the Cloud
+      when: 2017
+  -
+    degree: meng
+    first: Peiyu
+    last: Shi
+    field: Computer Science
+    where: cornell
+    grad: 2018
+    proj:
+      title: A web dashboard for PySOT
+      when: 2017
+  -
+    degree: meng
+    first: Israr
+    last: Mahmood
+    field: Computer Science
+    where: cornell
+    grad: 2018
+    proj:
+      title: A web dashboard for PySOT
+      when: 2017
+  -
+    degree: meng
+    first: Daniel
+    last: Liu
+    field: Computer Science
+    where: cornell
+    grad: 2017
+    proj:
+      title: Bayesian optimization in PySOT
+      when: 2017
+  -
+    degree: meng
     first: Han Wen
     last: Chen
     field: Computer Science
