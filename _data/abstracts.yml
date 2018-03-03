@@ -1,3 +1,42 @@
+2018-tkdd:
+  tags: [networks, communities]
+  abstract: |
+    Large graphs arise in a number of contexts and understanding their
+    structure and extracting information from them is an important
+    research area. Early algorithms for mining communities have
+    focused on global graph structure, and often run in time
+    proportional to the size of the entire graph. As we explore
+    networks with millions of vertices and find communities of size in
+    the hundreds, it becomes important to shift our attention from
+    macroscopic structure to microscopic structure in large
+    networks. A growing body of work has been adopting local expansion
+    methods in order to identify communities from a few exemplary seed
+    members.
+
+    In this article, we propose a novel approach for finding
+    overlapping communities called Lemon (Local Expansion via Minimum
+    One Norm). Provided with a few known seeds, the algorithm finds
+    the community by performing a local spectral diffusion. The core
+    idea of Lemon is to use short random walks to approximate an
+    invariant subspace near a seed set, which we refer to as local
+    spectra. Local spectra can be viewed as the low-dimensional
+    embedding that captures the nodes’ closeness in the local network
+    structure. We show that Lemon’s performance in detecting
+    communities is competitive with state-of-the-art
+    methods. Moreover, the running time scales with the size of the
+    community rather than that of the entire graph. The algorithm is
+    easy to implement and is highly parallelizable. We further provide
+    theoretical analysis of the local spectral properties, bounding
+    the measure of tightness of extracted community using the
+    eigenvalues of graph Laplacian.
+
+    We thoroughly evaluate our approach using both synthetic and
+    real-world datasets across different domains, and analyze the
+    empirical variations when applying our method to inherently
+    different networks in practice. In addition, the heuristics on how
+    the seed set quality and quantity would affect the performance are
+    provided.
+
 2017-nips:
   tags: [gp, la-sw]
   abstract: |
