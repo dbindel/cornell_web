@@ -619,6 +619,11 @@ committees:
     field: Mechanical Engineering
   -
     degree: phd
+    last: Wylie
+    first: Calvin
+    field: Operations Research
+  -
+    degree: phd
     last: Xia
     first: Mengqi
     field: Computer Science
