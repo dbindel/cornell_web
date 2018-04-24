@@ -534,11 +534,6 @@ committees:
     field: Material Science
   -
     degree: phd
-    last: Cheng
-    first: Yuan
-    field: Civil Engineering
-  -
-    degree: phd
     last: Dong
     first: Kun
     field: Applied Math
@@ -591,11 +586,6 @@ committees:
     degree: phd
     last: Lin
     first: Hubert
-    field: Computer Science
-  -
-    degree: ms
-    first: Stephen
-    last: McDowell
     field: Computer Science
   -
     degree: phd
