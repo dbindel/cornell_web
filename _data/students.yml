@@ -514,6 +514,11 @@ ugrad:
 committees:
   -
     degree: phd
+    last: Ament
+    first: Sebastian
+    field: Computer Science
+  -
+    degree: phd
     last: Browne
     first: Chris
     field: Applied Math
