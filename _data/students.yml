@@ -519,6 +519,11 @@ committees:
     field: Computer Science
   -
     degree: phd
+    last: Astudillo Marban
+    first: Raul
+    field: Operations Research
+  -
+    degree: phd
     last: Browne
     first: Chris
     field: Applied Math
