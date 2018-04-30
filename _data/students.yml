@@ -549,11 +549,6 @@ committees:
     field: Applied Math
   -
     degree: phd
-    last: Guo
-    first: Jiayi
-    field: Operations Research
-  -
-    degree: phd
     last: Hin
     first: Matthew
     field: Applied Math
@@ -629,6 +624,14 @@ committees:
     field: Computer Science
 
 past_committees:
+  -
+    degree: phd
+    last: Guo
+    first: Jiayi
+    field: Operations Research
+    thesis:
+      title: "Smooth Quasi-Newton Methods for Nonsmooth Optimization"
+      year: 2018
   -
     degree: phd
     last: Revard
