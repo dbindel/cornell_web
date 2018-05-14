@@ -34,8 +34,10 @@ phd:
     field: Computer Science
     where: cornell
     reln: "Co-advised (primary advisor: David Mimno)"
-    topic: Spectral methods for topic models
     url: http://www.cs.cornell.edu/~moontae/
+    thesis:
+      title: "Joint-stochastic spectral inference for robust co-occurrence modeling and latent topic analysis"
+      year: 2018
   -
     first: Amanda
     last: Hood
@@ -574,11 +576,6 @@ committees:
     field: Computer Science
   -
     degree: phd
-    last: Lee
-    first: Moontae
-    field: Computer Science
-  -
-    degree: phd
     last: Lin
     first: Hubert
     field: Computer Science
@@ -624,6 +621,14 @@ committees:
     field: Computer Science
 
 past_committees:
+  -
+    degree: phd
+    last: Lee
+    first: Moontae
+    field: Computer Science
+    thesis:
+      title: "Joint-stochastic spectral inference for robust co-occurrence modeling and latent topic analysis"
+      year: 2018
   -
     degree: phd
     last: Guo
