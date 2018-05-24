@@ -1,3 +1,28 @@
+2018-sisc:
+  tags: [power]
+  abstract: |
+    Multigrid is a highly scalable class of methods most often used
+    for solving large linear systems. In this paper we develop a
+    nonlinear algebraic multigrid framework for the power flow
+    equations, a complex quadratic system of the form
+    ${diag}({v})\overline{Y{v}}={s}$, where $Y$ is approximately a
+    complex scalar rotation of a real graph Laplacian. This is a
+    standard problem that needs to be solved repeatedly during power
+    grid simulations. A key difference between our multigrid framework
+    and typical multigrid approaches is the use of a novel
+    multiplicative coarse-grid correction to enable a dynamic multigrid
+    hierarchy. We also develop a new type of smoother that allows one to
+    coarsen together the different types of nodes that appear in power
+    grid simulations. In developing a specific multigrid method, one
+    must make a number of choices that can significantly affect the
+    method's performance, such as how to construct the restriction and
+    interpolation operators, what smoother to use, and how aggressively
+    to coarsen. In this paper, we make simple but reasonable choices
+    that result in a scalable and robust power flow solver. Experiments
+    demonstrate this scalability and show that it is significantly more
+    robust to poor initial guesses than current state-of-the-art
+    solvers.
+
 2018-tkdd:
   tags: [networks, communities]
   abstract: |

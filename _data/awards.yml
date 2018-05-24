@@ -1,4 +1,11 @@
 -
+  name: Cornell COE Research Excellence Award
+  desc: |
+    Awarded annually to two assistant, two associate, and two full
+    professors in Cornell College of Engineering or College of
+    Computing and Information Science.
+  year: 2017
+-
   name: Middleware Best Student Paper
   paper: 2015-middleware
   year: 2015
