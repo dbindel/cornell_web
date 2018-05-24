@@ -1008,3 +1008,9 @@
   tags: [gp, kernel]
   where: Workshop on Surrogate Models and Coarsening Techniques, UCLA IPAM
   type: [meeting, external, invited]
+-
+  file: 2018-03-cam-visit/visit-mar18.pdf
+  title: "A Scientific Computing Sampler"
+  tags: [survey]
+  where: Cornell CAM PhD visit day
+  type: [local]
