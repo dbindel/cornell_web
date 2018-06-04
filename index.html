@@ -8,6 +8,7 @@ layout: top
 <div class="row">
   <div class="col-xs-12 cols-sm-12 col-md-6 col-lg-6">
 
+    <!--
     <h2>News</h2>
 
     {% assign news = site.data.news | reverse %}
@@ -17,7 +18,8 @@ layout: top
       {% if entry.url %}<a href="{{entry.url}}">{{ entry.desc }}</a>{% else %}{{ entry.desc }}{% endif %}
     </p>
     {% endfor %}
-
+    -->
+    
     <h2>Research highlights</h2>
 
     {% for item in site.data.projects.highlight %}
