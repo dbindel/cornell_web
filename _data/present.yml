@@ -1014,3 +1014,10 @@
   tags: [survey]
   where: Cornell CAM PhD visit day
   type: [local]
+-
+  file: 2018-06-suzhou/suzhou-jun18.pdf
+  title: "Stochastic LA for Scaling GPs"
+  tags: [gp, kernel]
+  where: International Workshop on Computational Math, Suzhou
+  type: [meeting, external, invited]
+
