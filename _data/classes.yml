@@ -167,6 +167,19 @@ previous:
 # ================================================================
 # Cornell courses
 
+sjtu-nmds:
+  class: SJTU Summer 18
+  title: Numerical Methods for Data Science
+  image: data-dots.jpg
+  snippet: |
+    Survey course of numerical methods prominent in modern
+    data analysis and machine learning.  Building on basic methods
+    of optimization and numerical linear algebra, the course will
+    explore the role of numerical methods for treating several
+    classes of data analysis problems, including low rank
+    factorizations and completion of matrix data; function
+    approximation by kernel methods; and analysis of data on graphs.
+
 cs6241:
   class: CS 6241
   title: Numerical Methods for Data Science
