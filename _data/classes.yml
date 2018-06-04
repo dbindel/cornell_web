@@ -19,16 +19,17 @@ active:
   - cs3220
   - scan
   - projects
+  - sjtu-nmds
 
 # Info for courses appearing on front page
 current:
   -
-    semester: S18
-    course: cs6241
-    url: http://www.cs.cornell.edu/courses/cs6241/2018sp/
+    semester: Summer 18
+    course: sjtu-nmds
+    url: http://www.cs.cornell.edu/~bindel/class/sjtu-summer18
     where: cornell
     logistics: |
-      Spring 2018.  TTh 2:55-4:10 PM, Hollister B14.
+      Short course offered June-July 2018 at SJTU.
   -
     course: scan
     where: cornell
@@ -48,6 +49,13 @@ current:
 
 # Record of past courses
 previous:
+  -
+    semester: S18
+    course: cs6241
+    url: http://www.cs.cornell.edu/courses/cs6241/2018sp/
+    where: cornell
+    logistics: |
+      Spring 2018.  TTh 2:55-4:10 PM, Hollister B14.
   -
     semester: F17
     course: cs5220
