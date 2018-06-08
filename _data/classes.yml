@@ -169,7 +169,7 @@ previous:
 # Cornell courses
 
 sjtu-nmds:
-  class: SJTU Summer 18
+  class: SJTU CS 259
   title: Numerical Methods for Data Science
   image: data-dots.jpg
   snippet: |
