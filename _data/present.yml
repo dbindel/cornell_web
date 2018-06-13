@@ -1020,4 +1020,10 @@
   tags: [gp, kernel]
   where: International Workshop on Computational Math, Suzhou
   type: [meeting, external, invited]
+-
+  file: 2018-06-sjtu/sjtu-jun18.pdf
+  title: "Understanding Graphs through Spectral Densities"
+  tags: [spechist]
+  where: ZY-INS Colloquium, Shanghai Jiao Tong University
+  type: [colloquium, external, invited]
 
