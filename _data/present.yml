@@ -1004,7 +1004,7 @@
   type: [seminar, local]
 -
   file: 2017-11-ipam/ipam-nov17.pdf
-  title: "Scalable Algorithms for Kernel-Based Surrogates in Prediction and Optimization"
+  title: "Scalable Algorithms for Kernel-Based Surrogates in Pediction and Optimization"
   tags: [gp, kernel]
   where: Workshop on Surrogate Models and Coarsening Techniques, UCLA IPAM
   type: [meeting, external, invited]
@@ -1033,7 +1033,7 @@
   where: Seminar at Huazhong University of Science and Tech
   type: [seminar, external, invited]
 -
-  file: 2018-07-siam/siam-jul18.pdf
+  file: 2018-07-siam-ns/siam-ns-jul18.pdf
   title: "Understanding Graphs through Spectral Densities"
   tags: [spechist]
   where: SIAM Network Science, Portland
