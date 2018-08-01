@@ -561,9 +561,14 @@ committees:
     field: Material Science
   -
     degree: phd
+    last: Horning
+    first: Andrew
+    field: Applied Math
+  -
+    degree: phd
     first: Junteng
     last: Jia
-    field: Chemistry
+    field: Computer Science
   -
     degree: phd
     last: Joshi
@@ -595,11 +600,6 @@ committees:
     first: Qinru
     field: Applied Math
   -
-    degree: ms
-    last: Su
-    first: Yu
-    field: Chemical Engineering
-  -
     degree: phd
     last: Toscano
     first: Saul
@@ -621,6 +621,14 @@ committees:
     field: Computer Science
 
 past_committees:
+  -
+    degree: phd
+    last: Su
+    first: Yu
+    field: Chemical Engineering
+    thesis:
+      title: "Modeling many-body hydrodynamic interactions in concentrated colloidal suspensions via large-scale dynamic simulations"
+      year: 2018
   -
     degree: phd
     last: Lee

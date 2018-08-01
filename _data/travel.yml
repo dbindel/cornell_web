@@ -81,3 +81,25 @@
   date: 2018-07-08
   text: SIAM Annual Meeting and Network Science Workshop
   url: https://www.siam.org/meetings/an18/
+-
+  date: 2018-09-19
+  text: ACM Tapia Celebration of Diversity in Computing
+  url: http://tapiaconference.org/
+-
+  date: 2018-09-29
+  text: Workshop on Approximation Theory and Machine Learning
+-
+  date: 2019-02-25
+  text: SIAM Computational Science and Engineering (CSE19)
+  url: https://www.siam.org/Conferences/CM/Main/cse19
+-
+  date: 2019-04-15
+  text: Short course on Numerical Methods for Data Science at UMD
+-
+  date: 2019-07-08
+  text: Meeting of the International Linear Algebra Society (ILAS 2019)
+  url: http://ilas2019.org/
+-
+  date: 2019-07-15
+  text: International Conference on Industrial and Applied Math (ICIAM 2019)
+  url: https://iciam2019.org/
