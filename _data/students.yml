@@ -45,6 +45,7 @@ phd:
     where: cornell
     thesis:
       title: "Localizing the eigenvalues of matrix-valued functions: analysis and applications"
+      url: https://ecommons.cornell.edu/handle/1813/47868
       year: 2017
   -
     first: Colin
