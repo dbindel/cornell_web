@@ -1,15 +1,12 @@
 -
   name: Cornell COE Research Excellence Award
   desc: |
-    Awarded annually to two assistant, two associate, and two full
-    professors in Cornell College of Engineering or College of
-    Computing and Information Science.
+    Awarded annually to two Cornell engineering professors at each level.
   year: 2018
 -
   name: ASPLOS Most Influential Paper Award 2018
   desc: |
-    The ASPLOS Most Influential Paper Award recognizes a historical
-    ASPLOS paper that has had major influence on the field.  
+    Recognizes a historical ASPLOS paper that has had major influence on the field.
   paper: 2000-asplos
   year: 2018
 -
