@@ -653,6 +653,7 @@ past_committees:
     field: Material Science
     thesis:
       title: "Development of an Evolutionary Algorithm for the Ab Initio Discovery of Two-Dimensional Materials"
+      url: https://ecommons.cornell.edu/handle/1813/56876
       year: 2017
   -
     degree: ms
