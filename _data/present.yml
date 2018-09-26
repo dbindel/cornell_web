@@ -1038,4 +1038,9 @@
   tags: [spechist]
   where: SIAM Network Science, Portland
   type: [meeting, external, invited, plenary]
-
+-
+  file: 2018-09-argonne/argonne-sep18.pdf
+  title: "Understanding Graphs through Spectral Densities"
+  tags: [spechist]
+  where: LANS Seminar, Argonne National Lab
+  type: [seminar, local]
