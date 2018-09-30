@@ -1044,3 +1044,9 @@
   tags: [spechist]
   where: LANS Seminar, Argonne National Lab
   type: [seminar, local]
+-
+  file: 2018-09-purdue/purdue-sep18.pdf
+  title: "LA Support for Scalable Kernel Methods"
+  tags: [gp, kernel]
+  where: Workshop on Approximation Theory and Machine Learning, Purdue
+  type: [meeting, external, invited]
