@@ -1050,3 +1050,9 @@
   tags: [gp, kernel]
   where: Workshop on Approximation Theory and Machine Learning, Purdue
   type: [meeting, external, invited]
+-
+  file: 2018-10-northwestern/northwestern-oct18.pdf
+  title: "Stochastic Linear Algebra for Scalable Gaussian Processes"
+  tags: [gp, kernel]
+  where: IEMS Seminar, Northwestern University
+  type: [seminar, external, invited]
