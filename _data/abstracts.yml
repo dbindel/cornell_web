@@ -1,3 +1,67 @@
+2018-knosys:
+  tags: [networks, communities]
+  abstract: |
+    We propose a Locally-Biased Spectral Approximation (LBSA) approach
+    for identifying all latent members of a local community from very
+    few seed members. To reduce the computation complexity, we first
+    apply a fast random walk, personalized PageRank and heat kernel
+    diffusion to sample a comparatively small subgraph covering almost
+    all potential community members around the seeds. Then starting
+    from a normalized indicator vector of the seeds and by a few steps
+    of either Lanczos iteration or power iteration on the sampled
+    subgraph, a local eigenvector is gained for approximating the
+    eigenvector of the transition matrix with the largest
+    eigenvalue. Elements of this local eigenvector is a relaxed
+    indicator for the affiliation probability of the corresponding
+    nodes to the target community. We conduct extensive experiments on
+    real-world datasets in various domains as well as synthetic
+    datasets. Results show that the proposed method outperforms
+    state-of-the-art local community detection algorithms. To the best
+    of our knowledge, this is the first work to adapt the Lanczos
+    method for local community detection, which is natural and
+    potentially effective. Also, we did the first attempt of using
+    heat kernel as a sampling method instead of detecting communities
+    directly, which is proved empirically to be very efficient and
+    effective.
+
+2018-nips-a:
+  tags: [gp, la-sw]
+  abstract: |
+    Gaussian processes (GPs) with derivatives are useful in many
+    applications, including Bayesian optimization, implicit surface
+    reconstruction, and terrain reconstruction. Fitting a GP to
+    function values and derivatives at $n$ points in $d$ dimensions
+    requires linear solves and log determinants with an
+    $n(d + 1) × n(d + 1)$ positive definite matrix – leading to
+    prohibitive $O(n^3 d^3)$ computations for standard direct
+    methods. We propose iterative solvers using fast $O(nd)$
+    matrix-vector multiplications (MVMs), together with pivoted
+    Cholesky preconditioning that cuts the iterations to convergence
+    by several orders of magnitude, allowing for fast kernel learning
+    and prediction. Our approaches, together with dimensionality
+    reduction, enables Bayesian optimization with derivatives to scale
+    to high-dimensional problems and large evaluation budgets.
+
+2018-nips-b:
+  tags: [gp, la-sw]
+  abstract: |
+    Despite advances in scalable models, the inference tools used for
+    Gaussian processes (GPs) have yet to fully capitalize on
+    developments in computing hardware. We present an efficient and
+    general approach to GP inference based on Blackbox Matrix-Matrix
+    multiplication (BBMM). BBMM inference uses a modified batched
+    version of the conjugate gradients algorithm to derive all terms for
+    training and inference in a single call. BBMM reduces the asymptotic
+    complexity of exact GP inference from $O(n^3)$ to $O(n^2)$. Adapting this
+    algorithm to scalable approximations and complex GP models simply
+    requires a routine for efficient matrix-matrix multiplication with
+    the kernel and its derivative. In addition, BBMM uses a specialized
+    preconditioner to substantially speed up convergence. In experiments
+    we show that BBMM effectively uses GPU hardware to dramatically
+    accelerate both exact GP inference and scalable
+    approximations. Additionally, we provide GPyTorch, a software
+    platform for scalable GP inference via BBMM, built on PyTorch.
+
 2018-sisc:
   tags: [power]
   abstract: |
@@ -131,7 +195,7 @@
     effective. Also, we did the first attempt of using heat kernel as a
     sampling method instead of detecting communities directly, which is
     proved empirically to be very efficient and effective.
-  
+
 2017-tps:
   tags: [power]
   abstract: |
@@ -148,7 +212,7 @@
     novel filtering approach that is faster and only slightly less
     accurate. We present experimental results using the IEEE 57-bus,
     IEEE 118-bus, and Polish 1999- 2000 winter peak networks.
-  
+
 2016-rotations:
   tags: [vision]
   abstract: |
