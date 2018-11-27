@@ -7,14 +7,6 @@ not_yet:
 
 phd:
   -
-    first: David
-    last: Eriksson
-    field: Applied Math
-    where: cornell
-    topic: Surrogate optimization methods
-    reln: "Co-advised (secondary advisor: Christine Shoemaker)"
-    url: https://people.cam.cornell.edu/~dme65/
-  -
     first: Kun
     last: Dong
     field: Applied Math
@@ -28,6 +20,17 @@ phd:
     where: cornell
     topic: Analysis of power grids
     url: http://www.cs.cornell.edu/~erichanslee/
+  -
+    first: David
+    last: Eriksson
+    field: Applied Math
+    where: cornell
+    topic: Surrogate optimization methods
+    reln: "Co-advised (secondary advisor: Christine Shoemaker)"
+    url: https://people.cam.cornell.edu/~dme65/
+    thesis:
+      title: "Scalable kernel methods and their use in black-box optimization"
+      year: 2018
   -
     first: Moontae
     last: Lee
@@ -542,11 +545,6 @@ committees:
     field: Applied Math
   -
     degree: phd
-    last: Eriksson
-    first: David
-    field: Applied Math
-  -
-    degree: phd
     last: Gilles
     first: Marc
     field: Applied Math
@@ -592,6 +590,11 @@ committees:
     field: Atmospheric Science
   -
     degree: phd
+    last: Ryan
+    first: John
+    field: Computer Science
+  -
+    degree: phd
     last: Shen
     first: Zhengdi
     field: Applied Math
@@ -622,6 +625,14 @@ committees:
     field: Computer Science
 
 past_committees:
+  -
+    degree: phd
+    last: Eriksson
+    first: David
+    field: Applied Math
+    thesis:
+      title: "Scalable kernel methods and their use in black-box optimization"
+      year: 2018
   -
     degree: phd
     last: Su
