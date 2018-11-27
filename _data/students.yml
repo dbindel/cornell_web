@@ -648,6 +648,7 @@ past_committees:
     field: Computer Science
     thesis:
       title: "Joint-stochastic spectral inference for robust co-occurrence modeling and latent topic analysis"
+      url: https://ecommons.cornell.edu/handle/1813/59414
       year: 2018
   -
     degree: phd
@@ -656,6 +657,7 @@ past_committees:
     field: Operations Research
     thesis:
       title: "Smooth Quasi-Newton Methods for Nonsmooth Optimization"
+      url: https://ecommons.cornell.edu/handle/1813/59358
       year: 2018
   -
     degree: phd
