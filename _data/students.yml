@@ -555,11 +555,6 @@ committees:
     field: Applied Math
   -
     degree: phd
-    last: Honrao
-    first: Shreyas
-    field: Material Science
-  -
-    degree: phd
     last: Horning
     first: Andrew
     field: Applied Math
@@ -610,11 +605,6 @@ committees:
     field: Operations Research
   -
     degree: phd
-    last: Wang
-    first: Sheng
-    field: Mechanical Engineering
-  -
-    degree: phd
     last: Wylie
     first: Calvin
     field: Operations Research
@@ -627,11 +617,27 @@ committees:
 past_committees:
   -
     degree: phd
+    last: Honrao
+    first: Shreyas
+    field: Material Science
+    thesis:
+      title: "DFT study of the complex diffusion of oxygen in cobalt and machine learning of ab-initio energy landscapes for crystal structure predictions."
+      year: 2018
+  -
+    degree: phd
     last: Eriksson
     first: David
     field: Applied Math
     thesis:
       title: "Scalable kernel methods and their use in black-box optimization"
+      year: 2018
+  -
+    degree: phd
+    last: Wang
+    first: Sheng
+    field: Mechanical Engineering
+    thesis:
+      title: "Towards large-scale simulations of two-phase flows with moving contact lines in complex geometries"
       year: 2018
   -
     degree: phd
