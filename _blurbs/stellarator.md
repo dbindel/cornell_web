@@ -5,8 +5,12 @@ snippet: |
   Advancing magnetic confinement fusion through optimization and
   hidden symmetries.
 menu:
+  - text: Home page
+    url: https://hiddensymmetries.princeton.edu/
   - text: Announcement
     url: https://www.simonsfoundation.org/2018/07/24/foundation-announces-simons-collaboration-on-hidden-symmetries-and-fusion-energy/
+  - text: *Postdoc ad*
+    url: https://academicjobsonline.org/ajo/jobs/12919
 ---
 
 *Stellarators* are non-axisymmetric magnetic field configurations for
