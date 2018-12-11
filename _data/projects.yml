@@ -1,4 +1,4 @@
-highlight: [stellarator, grid, graphspec, localize, rbfopt]
+highlight: [stellarator, graphspec, localize, rbfopt]
 
 current:
   - stellarator
