@@ -9,7 +9,7 @@ menu:
     url: https://hiddensymmetries.princeton.edu/
   - text: Announcement
     url: https://www.simonsfoundation.org/2018/07/24/foundation-announces-simons-collaboration-on-hidden-symmetries-and-fusion-energy/
-  - text: *Postdoc ad*
+  - text: <em>Postdoc ad</em>
     url: https://academicjobsonline.org/ajo/jobs/12919
 ---
 
