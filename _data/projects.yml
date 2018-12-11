@@ -2,10 +2,10 @@ highlight: [stellarator, graphspec, localize, rbfopt]
 
 current:
   - stellarator
-  - grid
   - graphspec
   - rbfopt
   - localize
+  - grid
   - rotavg
   - jsmf
 
