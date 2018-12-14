@@ -580,6 +580,11 @@ committees:
     field: Computer Science
   -
     degree: phd
+    last: Lipton
+    first: Max
+    field: Mathematics
+  -
+    degree: phd
     last: Rojas
     first: Enrique
     field: Atmospheric Science
