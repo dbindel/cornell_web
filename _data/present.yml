@@ -1056,3 +1056,8 @@
   tags: [gp, kernel]
   where: IEMS Seminar, Northwestern University
   type: [seminar, external, invited]
+-
+  file: 2019-01-chicago/chicago-jan19.pdf
+  title: "Stochastic Linear Algebra for Scalable Gaussian Processes"
+  tags: [gp, kernel]
+  where: CAM Colloquium, University of Chicago
