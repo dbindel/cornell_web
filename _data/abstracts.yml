@@ -1,3 +1,24 @@
+2019-subspace-tr:
+  tags: [tomography]
+  abstract: |
+    Inferring electromagnetic propagation characteristics within the marine
+    atmospheric boundary layer (MABL) from data in real time is crucial for
+    modern maritime navigation and communications. The propagation of
+    electromagnetic waves is well modeled by a partial differential equation
+    (PDE): a Helmholtz equation. A natural way to solve the MABL
+    characterization inverse problem is to minimize what is observed and what
+    is predicted by the PDE. However, this optimization is difficult because it
+    has many local minima. We propose an alternative solution that relies on
+    the properties of the PDE but does not involve solving the full forward
+    model. Ducted environments result in an EM field which can be decomposed
+    into a few propagating, trapped modes. These modes are a subset of the
+    solutions to a Sturm-Liouville eigenvalue problem. We design a new
+    objective function that measures the distance from the observations to a
+    subspace spanned by these eigenvectors. The resulting optimization problem
+    is much easier than the one that arises in the standard approach, and we
+    show how to solve the associated nonlinear eigenvalue problem efficiently,
+    leading to a real-time method.
+
 2018-knosys:
   tags: [networks, communities]
   abstract: |
