@@ -1062,3 +1062,9 @@
   tags: [gp, kernel]
   where: CAM Colloquium, University of Chicago
   type: [colloquium, external, invited]
+-
+  file: 2019-01-iit/iit-jan19.pdf
+  title: "Stochastic Linear Algebra for Scalable Gaussian Processes"
+  tags: [gp, kernel]
+  where: Applied Mathematics Colloquium, Illinois Institute of Technology
+  type: [colloquium, external, invited]
