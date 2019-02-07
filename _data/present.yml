@@ -1068,3 +1068,9 @@
   tags: [gp, kernel]
   where: Applied Mathematics Colloquium, Illinois Institute of Technology
   type: [colloquium, external, invited]
+-
+  file: 2019-02-chicago-amc/ucamc-feb19.pdf
+  title: "The Many Applications of Eigenvalues"
+  tags: [survey]
+  where: University of Chicago Applied Math Club
+  type: [local]
