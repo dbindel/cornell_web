@@ -99,10 +99,19 @@
   url: https://www.siam.org/Conferences/CM/Main/cse19
 -
   date: 2019-03-25
-  text: Simons Collaboration Meeting
+  text: Hidden Symmetries Team Meeting
+  url: https://hiddensymmetries.princeton.edu/events/hidden-symmetries-team-meeting
+-
+  date: 2019-03-28
+  text: Simons Collaboration Annual Meeting
+  url: https://www.simonsfoundation.org/event/simons-collaboration-on-hidden-symmetries-and-fusion-energy-annual-meeting-2019/
 -
   date: 2019-04-15
   text: Short course on Numerical Methods for Data Science at UMD
+  url: http://www.cs.cornell.edu/~bindel//blurbs/nmds-umcp.html
+-
+  date: 2019-05-20
+  text: Teaching Numerical Methods for Data Science at SJTU
 -
   date: 2019-07-08
   text: Meeting of the International Linear Algebra Society (ILAS 2019)
