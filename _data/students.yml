@@ -18,8 +18,22 @@ phd:
     last: Lee
     field: Computer Science
     where: cornell
-    topic: Analysis of power grids
+    topic: Bayesian optimization
     url: http://www.cs.cornell.edu/~erichanslee/
+  -
+    first: Max
+    last: Ruth
+    field: Applied Math
+    where: cornell
+    topic: Nonlinear vibrations in MEMS
+    url: https://www.cam.cornell.edu/research/grad-students/maximilian-ruth
+  -
+    first: Xinran
+    last: Zhu
+    field: Applied Math
+    where: cornell
+    topic: Numerical analysis of kernel methods
+    url: https://www.cam.cornell.edu/research/grad-students/jessie-xinran-zhu
   -
     first: David
     last: Eriksson
