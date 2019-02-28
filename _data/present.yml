@@ -1074,3 +1074,9 @@
   tags: [survey]
   where: University of Chicago Applied Math Club
   type: [seminar, local]
+-
+  file: 2019-02-siam-cse/siam-cse-feb19.pdf
+  title: "Nonlinear Eigenvalue Localization for Damping Bounds"
+  tags: [nep, eigenbounds]
+  where: SIAM Computational Science and Engineering 2019
+  type: [minisymposium, external, invited]
