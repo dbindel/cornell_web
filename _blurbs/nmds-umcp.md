@@ -11,10 +11,12 @@ alma mater!) to give a series of lectures on some topics in numerical
 methods in data science.  Each week will treat a different topic with
 a two-lecture sequence: one to set up the topic and the terminology,
 and one to explore some recent developments.  Titles and abstracts are
-given below.
+given below.  All talks take place at Kirwan Hall 3206.
 
 
-### Week 1: Latent factor models (4/16 and 4/18)
+### Week 1: Latent factor models
+#### Tue, April 16 at 2:00 PM
+#### Thu, April 18 at 3:30 PM
 
 Approximate low-rank factorizations pervade matrix data analysis,
 often interpreted in terms of latent factor models.  After discussing
@@ -34,7 +36,9 @@ can be used to "clean up" the data and improve the quality of the
 resulting topics.
 
 
-### Week 2: Scalable kernel methods (4/23 and 4/25)
+### Week 2: Scalable kernel methods
+#### Tue, Apr 23 at 2:00 PM
+#### Thu, Apr 25 at 3:30 PM
 
 Kernel methods are used throughout statistical modeling, data
 science, and approximation theory.  Depending on the community, they
@@ -56,7 +60,9 @@ on approaches to addressing the constant challenge posed by the
 curse of dimensionality.
 
 
-### Week 3: Spectral methods in network analysis (4/30 and 5/1)
+### Week 3: Spectral methods in network analysis
+#### Tue, April 30 at 2:00 PM
+#### Wed, May 1 at 2:00 PM
 
 Linear algebra methods play a central role in modern methods for
 large-scale network analysis.  The same approach underlies many of
