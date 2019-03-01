@@ -15,8 +15,7 @@ given below.  All talks take place at Kirwan Hall 3206.
 
 
 ### Week 1: Latent factor models
-#### Tue, April 16 at 2:00 PM
-#### Thu, April 18 at 3:30 PM
+#### Tue, April 16 at 2:00 PM and Thu, April 18 at 3:30 PM
 
 Approximate low-rank factorizations pervade matrix data analysis,
 often interpreted in terms of latent factor models.  After discussing
@@ -37,8 +36,7 @@ resulting topics.
 
 
 ### Week 2: Scalable kernel methods
-#### Tue, Apr 23 at 2:00 PM
-#### Thu, Apr 25 at 3:30 PM
+#### Tue, Apr 23 at 2:00 PM and Thu, Apr 25 at 3:30 PM
 
 Kernel methods are used throughout statistical modeling, data
 science, and approximation theory.  Depending on the community, they
@@ -61,8 +59,7 @@ curse of dimensionality.
 
 
 ### Week 3: Spectral methods in network analysis
-#### Tue, April 30 at 2:00 PM
-#### Wed, May 1 at 2:00 PM
+#### Tue, April 30 at 2:00 PM and Wed, May 1 at 2:00 PM
 
 Linear algebra methods play a central role in modern methods for
 large-scale network analysis.  The same approach underlies many of
