@@ -1015,6 +1015,12 @@
   where: Cornell CAM PhD visit day
   type: [local]
 -
+  file: 2018-04-simons/Simons-Bindel.pdf
+  title: "Multi-Objective Stochastic Optimization of Magnetic Fields"
+  tags: [stellarator]
+  where: Simons Foundation Proposal Presentation
+  type: [external, invited]
+-
   file: 2018-06-suzhou/suzhou-jun18.pdf
   title: "Stochastic LA for Scaling GPs"
   tags: [gp, kernel]
