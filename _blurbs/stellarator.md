@@ -9,8 +9,6 @@ menu:
     url: https://hiddensymmetries.princeton.edu/
   - text: Announcement
     url: https://www.simonsfoundation.org/2018/07/24/foundation-announces-simons-collaboration-on-hidden-symmetries-and-fusion-energy/
-  - text: <em>Postdoc ad</em>
-    url: https://academicjobsonline.org/ajo/jobs/12919
 ---
 
 *Stellarators* are non-axisymmetric magnetic field configurations for
