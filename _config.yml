@@ -2,7 +2,7 @@ title: David Bindel
 email: bindel@cornell.edu
 description: Academic home page for David Bindel
 baseurl: "/~bindel/"
-url: "http://www.cs.cornell.edu/"
+url: "https://www.cs.cornell.edu/"
 
 encoding: utf-8
 timezone: America/New_York
