@@ -1086,3 +1086,9 @@
   tags: [nep, eigenbounds]
   where: SIAM Computational Science and Engineering 2019, Spokane
   type: [minisymposium, external, invited]
+-
+  file: 2019-03-simons/simons-mar19.pdf
+  title: "Global, Robust, Multi-Objective Optimization of Stellarators"
+  tags: [stellarator]
+  where: Simons Collaboration on Hidden Symmetries and Fusion Energy Annual Meeting
+  type: [external, invited]
