@@ -31,7 +31,12 @@ module JekyllBindel
         path, slash, tail = talk['file'].partition('/')
         head, dot, ext = talk['file'].partition('.')
         talk['id'] = path
-        talk['url'] = "present/#{path}.#{ext}"
+        if talk.has_key? 'which' then
+          which = talk['which']
+          talk['url'] = "present/#{path}_#{which}.#{ext}"
+        else
+          talk['url'] = "present/#{path}.#{ext}"
+        end
         lookup[path] = talk
       end
       site.data['present_dict'] = lookup
