@@ -33,7 +33,12 @@ def update_present
     file = talk['file']
     path, slash, tail = talk['file'].partition('/')
     head, dot, ext = talk['file'].partition('.')
-    url = "present/#{path}.#{ext}"
+    if talk.has_key? 'which' then
+      which = talk['which']
+      url = "present/#{path}_#{which}.#{ext}"
+    else
+      url = "present/#{path}.#{ext}"
+    end
     sh "ln -s #{Dir.home}/work/present/#{file} _site/#{url}"
   end
 end
