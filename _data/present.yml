@@ -1094,6 +1094,7 @@
   type: [external, invited]
 -
   file: 2019-04-umcp/umcp-latent1.pdf
+  which: latent1
   title: "Numerical Methods for Data Science: Latent Factor Models, Part I"
   tags: [survey, nmds, topics]
   where: Special lecture series at University of Maryland, College Park
