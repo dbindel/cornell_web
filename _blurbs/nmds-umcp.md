@@ -17,8 +17,8 @@ given below.  All talks take place at Kirwan Hall 3206.
 ### Week 1: Latent factor models
 #### [Tue, April 16 at 2:00 PM](http://www.cs.cornell.edu/~bindel/present/2019-04-umcp_latent1.pdf) and Thu, April 18 at 3:30 PM
 
-- [Slides from Tue](http://www.cs.cornell.edu/~bindel/present/2019-04-umcp_latent1.pdf)
-- Slides from Thu
+- [Slides from Tue](http://www.cs.cornell.edu/~bindel/present/2019-04-umcp_latent1.pdf): Matrix data and decompositions
+- Slides from Thu: NMF and topic models
 
 Approximate low-rank factorizations pervade matrix data analysis,
 often interpreted in terms of latent factor models.  After discussing
@@ -40,6 +40,9 @@ resulting topics.
 
 ### Week 2: Scalable kernel methods
 #### Tue, Apr 23 at 2:00 PM and Thu, Apr 25 at 3:30 PM
+
+- Slides from Tue: Structure and interpretation of kernels
+- Slides from Thu: Making kernel methods scale
 
 Kernel methods are used throughout statistical modeling, data
 science, and approximation theory.  Depending on the community, they
@@ -63,6 +66,9 @@ curse of dimensionality.
 
 ### Week 3: Spectral methods in network analysis
 #### Tue, April 30 at 2:00 PM and Wed, May 1 at 2:00 PM
+
+- Slides from Tue: Network spectra, optimization, and dynamics
+- Slides from Wed: Network densities of states
 
 Linear algebra methods play a central role in modern methods for
 large-scale network analysis.  The same approach underlies many of
