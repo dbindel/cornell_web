@@ -15,7 +15,10 @@ given below.  All talks take place at Kirwan Hall 3206.
 
 
 ### Week 1: Latent factor models
-#### Tue, April 16 at 2:00 PM and Thu, April 18 at 3:30 PM
+#### [Tue, April 16 at 2:00 PM](http://www.cs.cornell.edu/~bindel/present/2019-04-umcp_latent1.pdf) and Thu, April 18 at 3:30 PM
+
+- [Slides from Tue](http://www.cs.cornell.edu/~bindel/present/2019-04-umcp_latent1.pdf)
+- Slides from Thu
 
 Approximate low-rank factorizations pervade matrix data analysis,
 often interpreted in terms of latent factor models.  After discussing
