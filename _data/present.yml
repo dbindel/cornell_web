@@ -1092,3 +1092,9 @@
   tags: [stellarator]
   where: Simons Collaboration on Hidden Symmetries and Fusion Energy Annual Meeting
   type: [external, invited]
+-
+  file: 2019-04-umcp/umcp-latent1.pdf
+  title: "Numerical Methods for Data Science: Latent Factor Models, Part I"
+  tags: [survey, nmds, topics]
+  where: Special lecture series at University of Maryland, College Park
+  type: [seminar, external, invited]
