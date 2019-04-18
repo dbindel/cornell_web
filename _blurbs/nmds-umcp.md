@@ -15,10 +15,10 @@ given below.  All talks take place at Kirwan Hall 3206.
 
 
 ### Week 1: Latent factor models
-#### [Tue, April 16 at 2:00 PM](http://www.cs.cornell.edu/~bindel/present/2019-04-umcp_latent1.pdf) and Thu, April 18 at 3:30 PM
+#### [Tue, April 16 at 2:00 PM](http://www.cs.cornell.edu/~bindel/present/2019-04-umcp_latent1.pdf) and [Thu, April 18 at 3:30 PM](http://www.cs.cornell.edu/~bindel/present/2019-04-umcp_latent2.pdf)
 
 - [Slides from Tue](http://www.cs.cornell.edu/~bindel/present/2019-04-umcp_latent1.pdf): Matrix data and decompositions
-- Slides from Thu: NMF and topic models
+- [Slides from Thu](http://www.cs.cornell.edu/~bindel/present/2019-04-umcp_latent2.pdf): NMF and topic models
 
 Approximate low-rank factorizations pervade matrix data analysis,
 often interpreted in terms of latent factor models.  After discussing
