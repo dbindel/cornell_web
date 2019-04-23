@@ -39,9 +39,9 @@ resulting topics.
 
 
 ### Week 2: Scalable kernel methods
-#### Tue, Apr 23 at 2:00 PM and Thu, Apr 25 at 3:30 PM
+#### [Tue, Apr 23 at 2:00 PM](http://www.cs.cornell.edu/~bindel/present/2019-04-umcp_kernel1.pdf) and Thu, Apr 25 at 3:30 PM
 
-- Slides from Tue: Structure and interpretation of kernels
+- [Slides from Tue](http://www.cs.cornell.edu/~bindel/present/2019-04-umcp_kernel1.pdf): Structure and interpretation of kernels
 - Slides from Thu: Making kernel methods scale
 
 Kernel methods are used throughout statistical modeling, data
