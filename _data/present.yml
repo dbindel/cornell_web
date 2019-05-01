@@ -1127,4 +1127,10 @@
   tags: [survey, nmds, topics]
   where: Special lecture series at University of Maryland, College Park
   type: [seminar, external, invited]
-
+-
+  file: 2019-05-umcp/umcp-network2.pdf
+  which: network2
+  title: "Numerical Methods for Data Science: Spectral Network Analysis, Part II"
+  tags: [survey, nmds, topics]
+  where: Special lecture series at University of Maryland, College Park
+  type: [seminar, external, invited]

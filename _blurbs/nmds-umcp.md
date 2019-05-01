@@ -65,10 +65,10 @@ curse of dimensionality.
 
 
 ### Week 3: Spectral methods in network analysis
-#### [Tue, April 30 at 2:00 PM](http://www.cs.cornell.edu/~bindel/present/2019-04-umcp_network1.pdf) and Wed, May 1 at 2:00 PM
+#### [Tue, April 30 at 2:00 PM](http://www.cs.cornell.edu/~bindel/present/2019-04-umcp_network1.pdf) and [Wed, May 1 at 2:00 PM](http://www.cs.cornell.edu/~bindel/present/2019-05-umcp_network2.pdf)
 
 - [Slides from Tue](http://www.cs.cornell.edu/~bindel/present/2019-04-umcp_network1.pdf): Network spectra, optimization, and dynamics
-- Slides from Wed: Network densities of states
+- [Slides from Wed](http://www.cs.cornell.edu/~bindel/present/2019-05-umcp_network2.pdf): Network densities of states
 
 Linear algebra methods play a central role in modern methods for
 large-scale network analysis.  The same approach underlies many of
