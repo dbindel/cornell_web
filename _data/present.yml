@@ -1134,3 +1134,9 @@
   tags: [survey, nmds, topics]
   where: Special lecture series at University of Maryland, College Park
   type: [seminar, external, invited]
+-
+  file: 2019-05-vt/vt-may19.pdf
+  title: "Understanding Graphs through Spectral Densities"
+  tags: [spechist]
+  where: Math Colloquium, Virginia Tech
+  type: [colloquium, external, invited]
