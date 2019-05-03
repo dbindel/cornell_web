@@ -1140,3 +1140,9 @@
   tags: [spechist]
   where: Math Colloquium, Virginia Tech
   type: [colloquium, external, invited]
+-
+  file: 2019-05-vt/vt-may19.pdf
+  title: "Understanding Graphs through Spectral Densities"
+  tags: [spechist]
+  where: CS Colloquium, William and Mary
+  type: [colloquium, external, invited]
