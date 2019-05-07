@@ -44,6 +44,7 @@ phd:
     url: https://people.cam.cornell.edu/~dme65/
     thesis:
       title: "Scalable kernel methods and their use in black-box optimization"
+      url: https://ecommons.cornell.edu/handle/1813/64846
       year: 2018
   -
     first: Moontae
@@ -54,6 +55,7 @@ phd:
     url: http://www.cs.cornell.edu/~moontae/
     thesis:
       title: "Joint-stochastic spectral inference for robust co-occurrence modeling and latent topic analysis"
+      url: https://ecommons.cornell.edu/handle/1813/59414
       year: 2018
   -
     first: Amanda
@@ -559,11 +561,6 @@ committees:
     field: Applied Math
   -
     degree: phd
-    last: Gilles
-    first: Marc
-    field: Applied Math
-  -
-    degree: phd
     last: Hin
     first: Matthew
     field: Applied Math
@@ -641,6 +638,14 @@ committees:
 past_committees:
   -
     degree: phd
+    last: Gilles
+    first: Marc
+    field: Applied Math
+    thesis:
+      title: "At the intersection of differential equations and optimization: inverse problems, path planning and Krylov subspaces"
+      year: 2019
+  -
+    degree: phd
     last: Honrao
     first: Shreyas
     field: Material Science
@@ -654,6 +659,7 @@ past_committees:
     field: Applied Math
     thesis:
       title: "Scalable kernel methods and their use in black-box optimization"
+      url: https://ecommons.cornell.edu/handle/1813/64846
       year: 2018
   -
     degree: phd
@@ -662,6 +668,7 @@ past_committees:
     field: Mechanical Engineering
     thesis:
       title: "Towards large-scale simulations of two-phase flows with moving contact lines in complex geometries"
+      url: https://ecommons.cornell.edu/handle/1813/64896
       year: 2018
   -
     degree: phd
@@ -670,6 +677,7 @@ past_committees:
     field: Chemical Engineering
     thesis:
       title: "Modeling many-body hydrodynamic interactions in concentrated colloidal suspensions via large-scale dynamic simulations"
+      url: https://ecommons.cornell.edu/handle/1813/64861
       year: 2018
   -
     degree: phd
