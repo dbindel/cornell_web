@@ -1,5 +1,10 @@
 -
   when: 2019
+  what: NeurIPS 2019 reviewer
+  role: Reviewer
+  type: [external]
+-
+  when: 2019
   what: ICML 2019 reviewer
   role: Reviewer
   type: [external]
