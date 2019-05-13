@@ -50,7 +50,7 @@ current:
 
 # Record of past courses
 previous:
-  =
+  -
     semester: Summer18
     course: sjtu-nmds
     url: http://www.cs.cornell.edu/~bindel/class/sjtu-summer18
