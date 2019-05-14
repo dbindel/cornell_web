@@ -9,6 +9,7 @@ papers:
   - 2015-sirev
   - 2013-simax
 talks:
+  - 2019-02-siam-cse
   - 2017-07-focm
   - 2016-03-arizona
   - 2016-01-cam

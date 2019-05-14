@@ -9,6 +9,12 @@ menu:
 papers:
   - 2015-siam-ns
 talks:
+  - 2019-05-wm
+  - 2019-05-vt
+  - 2018-09-argonne
+  - 2018-07-siam-ns
+  - 2018-06-hust
+  - 2018-06-sjtu
   - 2016-07-siam
   - 2016-02-scan
   - 2013-11-nycam

@@ -9,6 +9,9 @@ menu:
     url: https://hiddensymmetries.princeton.edu/
   - text: Announcement
     url: https://www.simonsfoundation.org/2018/07/24/foundation-announces-simons-collaboration-on-hidden-symmetries-and-fusion-energy/
+talks:
+  - 2019-03-simons
+  - 2018-04-simons
 ---
 
 *Stellarators* are non-axisymmetric magnetic field configurations for
@@ -20,6 +23,6 @@ dedicated to advancing the mathematical and computational state of the
 art in stellarator design and producing a modern stellarator
 optimization code that can exploit the full power of petascale and
 exascale computers.  With expertise spanning optimization theory,
-plasma physics, dynamical systems, and PDE analysis.  Our
+plasma physics, dynamical systems, and PDE analysis, our
 collaboration model is based on shared postdocs -- if this sounds like
 it might be exciting to you, we are looking!

@@ -1004,7 +1004,7 @@
   type: [seminar, local]
 -
   file: 2017-11-ipam/ipam-nov17.pdf
-  title: "Scalable Algorithms for Kernel-Based Surrogates in Pediction and Optimization"
+  title: "Scalable Algorithms for Kernel-Based Surrogates in Prediction and Optimization"
   tags: [gp, kernel]
   where: Workshop on Surrogate Models and Coarsening Techniques, UCLA IPAM
   type: [meeting, external, invited]
