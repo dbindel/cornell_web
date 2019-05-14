@@ -30,18 +30,18 @@ current:
     where: cornell
     logistics: |
       Short course offered May-June 2019 at SJTU.
- -
-   course: scan
-   where: cornell
-   url: http://www.cse.cornell.edu/scan
-   logistics: |
-     Ongoing.  M 1:25-2:15, Gates 406.
- -
-   course: projects
-   where: cornell
-   url: meng.html
-   logistics: |
-     See my [list of projects](http://www.cs.cornell.edu/~bindel/meng.html)!
+  -
+    course: scan
+    where: cornell
+    url: http://www.cse.cornell.edu/scan
+    logistics: |
+      Ongoing.  M 1:25-2:15, Gates 406.
+  -
+    course: projects
+    where: cornell
+    url: meng.html
+    logistics: |
+      See my [list of projects](http://www.cs.cornell.edu/~bindel/meng.html)!
 
 # F14: Parental relief (Quinn)
 # S13: Teaching relief for junior faculty
