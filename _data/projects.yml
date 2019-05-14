@@ -1,8 +1,9 @@
-highlight: [stellarator, graphspec, localize, rbfopt]
+highlight: [stellarator, graphspec, localize, kernels, rbfopt]
 
 current:
   - stellarator
   - graphspec
+  - kernels
   - rbfopt
   - localize
   - grid

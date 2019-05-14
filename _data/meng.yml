@@ -1,7 +1,151 @@
 -
+  title: Learning to Cluster
+  tags: [networks]
+  display: true
+  blurb: |
+    Algorithms for community detection (aka graph clustering) seek
+    strongly-connected subgraphs inside a larger graph.  While this
+    problem is often posed in terms of a fixed network, possibly with
+    edge weights, we often construct the network (and weights) from
+    much richer relational information.  In this project, we consider
+    a semi-supervised approach in which edge weights can be computed
+    as a parametric function of edge information, and the appropriate
+    parameters chosen based on training data indicating pairs that
+    should (or should not) be clustered together.
+
+    You should have a course in linear algebra to tackle this project.
+    A course in ML or networks may be helpful, but is probably not required.
+-
+  title: "BTG: TNG"
+  tags: [rbf, tools, statistics]
+  display: true
+  blurb: |
+    The Bayesian Transformed Gaussian method is a Bayesian method for
+    prediction in spatio-temporal random fields modeled as an
+    underlying Gaussian process composed with a parametric
+    nonlinearity.  I wrote a fast (for the time) implementation of the
+    BTG method as an undergraduate project in 1997, but our tools
+    (both in terms of algorithms and software) have advanced
+    significantly sinice then.  For this project, we propose to
+    combine the original BTG approach with recent work on fast linear
+    algebra in order to scale the method to larger data sets, with
+    a particular emphasis on one-dimensional data sets (time series analysis).
+
+    You should ideally have a course in numerical computing and some
+    mathematical maturity to take on this project.
+-
+  title: Continuation Methods for Optimization on Surrogates
+  tags: [rbf, tools]
+  display: true
+  blurb: |
+    Surrogate methods for global optimization of expensive functions
+    alternately sample the expensive function, update a model
+    (a *surrogate* to the expensive function), and use the model to
+    determine where to sample next.  This last step frequently
+    involves an inner global optimization problem that may be somewhat
+    expensive in its own right.  In this project, we propose to use a
+    parameter continuation approach to solve this global optimization
+    on the surrogate through a sequence of optimizations on smoother
+    and simpler surrogates.
+
+    You should ideally have a course in numerical computing to take on
+    this project.
+-
+  title: Preconditioning Radial Basis Functions with Clustered Centers
+  tags: [rbf]
+  display: true
+  blurb: |
+    Radial basis function interpolation is a standard method of
+    interpolating data in more than one space dimension.  It has many
+    attractive features, but the problem can become unstable when posed
+    in the normal basis, particularly for very smooth basis functions
+    or when the basis function centers are clustered.  Recently-developed
+    methods address the former case, but the latter is more of a concern
+    when RBF interpolants are used for optimization, as is the case in
+    some of my projects.  I have an idea for a formally equivalent method
+    that gets around this stability issue by a preconditioning strategy,
+    and would like help implementing it.
+
+    You should have a course in numerical computing and some
+    mathematical maturity to take on this project.
+-
+  title: JuliaFEM
+  tags: [physics, tools]
+  display: true
+  blurb: |
+    The Finite Element Method (FEM) is a standard algorithm for the
+    solution of certain partial differential equations, and is
+    particularly popular in mechanical engineering applications.
+    In this project, we will implement a literate finite element code
+    for simple problems in the Julia programming language.
+
+    You should ideally have a course in numerical computing to take
+    on this project.
+-
+  title: Resonances in Quantum Graphs
+  tags: [physics, eigen]
+  display: true
+  blurb: |
+    A quantum graph is a graph with differential equations on the
+    edges and compatibility conditions at the nodes.  I am interested
+    in the case of infinite quantum graphs, where a local irregular
+    region (a scatterer) is surrounded by a regular lattice extending
+    off to infinity.  I want to build a tool that will compute the
+    spectral properties of such an object -- bound states and
+    resonance poles -- given a description of the far-field lattice
+    structure and the local irregular region.
+
+    You should have a course in differential equations and a course
+    in linear algebra to tackle this project, and ideally a course in
+    analysis and a course in numerics.  But if you don't have these
+    courses and think the project sounds fun anyhow, do come talk to me!
+-
+  title: Evans Functions and Nonlinear Eigenvalue Problems
+  tags: [physics, eigen]
+  display: true
+  blurb: |
+    The Evans function is a Wronskian-type construction that plays a
+    role similar to the characteristic polynomial in the
+    unbounded-domain spectral problems that arise in the analysis of
+    1D solitary wave stability.  This construction has been used
+    computationally to good effect for some problems; however, some
+    preliminary results (and analogy to more conventional eigenvalue
+    problems) suggests that this should be less numerically stable
+    than an alternate method based on a nonlinear eigenvalue computation.
+    I have coded variants of this before, and now have some nice theory
+    to back up my favored algorithm.  But I would love to have help in
+    doing a systematic comparison between my favored algorithm and methods
+    based on the Evans function.  Ideally, I would also love to have
+    a numerical error analysis of both methods, too.
+
+    You should have a course in differential equations and a course
+    in linear algebra to tackle this project, and ideally a course in
+    analysis and a course in numerics.
+-
+  title: Model Reduction of Buckling Lattices
+  tags: [physics]
+  display: true
+  blurb: |
+    Three-dimensional printing lets us make elaborately
+    microstructured materials, but our understanding of how to model
+    these microstructures is still young.  The mechanics of microtruss
+    structures can be analyzed by mostly-standard methods when the
+    strains are small and the truss structure is periodic; but the
+    picture becomes more complex even at small strains when the truss
+    is not quite periodic, and it becomes very complicated at large
+    strains when the individual elements can buckle.  I have some ideas
+    about how to use a type of model reduction to simulate the behavior
+    of such structures quickly, and would like to try them out -- but
+    given the background required, and given that I don't have a code
+    to do it at hand, I would be delighted to have some help first putting
+    together a code to do the analysis in the simple case.
+
+    You should have a course in numerical computing to tackle this
+    project.  Prior exposure to finite element analysis or structural
+    analysis will also be helpful.
+-
   title: CMS Experiment
   tags: [physics, web]
-  display: true
   blurb: |
     The [Compact Muon Solenoid (CMS)][cms] experiment is a large particle
     physics detector built on the Large Hadron Collidor at CERN.  At this
@@ -20,7 +164,6 @@
 -
   title: Web Dashboards for Expensive Optimization
   tags: [tools, web]
-  display: true
   blurb: |
     For an ongoing project on
     [software for optimizing expensive functions][rbfopt],
@@ -247,7 +390,6 @@
 -
   title: Fast DNN+LR Projections
   tags: [eigen]
-  display: true
   blurb: |
     For a topic mining application (joint work with David Mimno),
     I am looking for a way to quickly project sparse matrices to the
@@ -261,89 +403,8 @@
     class and prior exposure to gradient-based optimization methods.
     And you'll need to remember your multivariate calculus.
 -
-  title: Preconditioning Radial Basis Functions with Clustered Centers
-  tags: [rbf]
-  display: true
-  blurb: |
-    Radial basis function interpolation is a standard method of
-    interpolating data in more than one space dimension.  It has many
-    attractive features, but the problem can become unstable when posed
-    in the normal basis, particularly for very smooth basis functions
-    or when the basis function centers are clustered.  Recently-developed
-    methods address the former case, but the latter is more of a concern
-    when RBF interpolants are used for optimization, as is the case in
-    some of my projects.  I have an idea for a formally equivalent method
-    that gets around this stability issue by a preconditioning strategy,
-    and would like help implementing it.
-
-    You should have a course in numerical computing and some
-    mathematical maturirity to take on this project.
--
-  title: Resonances in Quantum Graphs
-  tags: [physics, eigen]
-  display: true
-  blurb: |
-    A quantum graph is a graph with differential equations on the
-    edges and compatibility conditions at the nodes.  I am interested
-    in the case of infinite quantum graphs, where a local irregular
-    region (a scatterer) is surrounded by a regular lattice extending
-    off to infinity.  I want to build a tool that will compute the
-    spectral properties of such an object -- bound states and
-    resonance poles -- given a description of the far-field lattice
-    structure and the local irregular region.
-
-    You should have a course in differential equations and a course
-    in linear algebra to tackle this project, and ideally a course in
-    analysis and a course in numerics.  But if you don't have these
-    courses and think the project sounds fun anyhow, do come talk to me!
--
-  title: Evans Functions and Nonlinear Eigenvalue Problems
-  tags: [physics, eigen]
-  display: true
-  blurb: |
-    The Evans function is a Wronskian-type construction that plays a
-    role similar to the characteristic polynomial in the
-    unbounded-domain spectral problems that arise in the analysis of
-    1D solitary wave stability.  This construction has been used
-    computationally to good effect for some problems; however, some
-    preliminary results (and analogy to more conventional eigenvalue
-    problems) suggests that this should be less numerically stable
-    than an alternate method based on a nonlinear eigenvalue computation.
-    I have coded variants of this before, and now have some nice theory
-    to back up my favored algorithm.  But I would love to have help in
-    doing a systematic comparison between my favored algorithm and methods
-    based on the Evans function.  Ideally, I would also love to have
-    a numerical error analysis of both methods, too.
-
-    You should have a course in differential equations and a course
-    in linear algebra to tackle this project, and ideally a course in
-    analysis and a course in numerics.
--
-  title: Model Reduction of Buckling Lattices
-  tags: [physics]
-  display: true
-  blurb: |
-    Three-dimensional printing lets us make elaborately
-    microstructured materials, but our understanding of how to model
-    these microstructures is still young.  The mechanics of microtruss
-    structures can be analyzed by mostly-standard methods when the
-    strains are small and the truss structure is periodic; but the
-    picture becomes more complex even at small strains when the truss
-    is not quite periodic, and it becomes very complicated at large
-    strains when the individual elements can buckle.  I have some ideas
-    about how to use a type of model reduction to simulate the behavior
-    of such structures quickly, and would like to try them out -- but
-    given the background required, and given that I don't have a code
-    to do it at hand, I would be delighted to have some help first putting
-    together a code to do the analysis in the simple case.
-
-    You should have a course in numerical computing to tackle this
-    project.  Prior exposure to finite element analysis or structural
-    analysis will also be helpful.
--
   title: Response Surfaces for Structure Prediction
   tags: [physics, rbf]
-  display: true
   blurb: |
     [GASP](https://github.com/henniggroup/gasp) is a Genetic Algorithm
     for Structure and Phase Prediction that "predicts the structure
