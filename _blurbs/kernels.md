@@ -1,6 +1,6 @@
 ---
 title: Kernel methods
-image: rosenbrock.png
+image: gp_demo2.png
 snippet: |
   Theory and scalable algorithms for kernel-based function
   approximation.

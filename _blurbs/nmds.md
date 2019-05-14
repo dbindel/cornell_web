@@ -1,6 +1,6 @@
 ---
 title: Numerical Methods for Data Science
-image: metabolic.png
+image: data-dots.jpg
 snippet: |
   Revisiting numerical methods teaching for modern data science applications.
 menu:
