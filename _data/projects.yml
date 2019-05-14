@@ -1,8 +1,7 @@
-highlight: [stellarator, nmds, graphspec, localize, kernels, rbfopt]
+highlight: [stellarator, graphspec, localize, kernels, rbfopt]
 
 current:
   - stellarator
-  - nmds
   - graphspec
   - kernels
   - rbfopt
