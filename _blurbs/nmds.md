@@ -5,6 +5,7 @@ snippet: |
   Revisiting numerical methods teaching for modern data science applications.
 menu:
   - text: UChicago (June 2019)
+    url: https://cam.uchicago.edu/events/rtg/index.shtml
   - text: SJTU (May 2019)
     url: http://www.cs.cornell.edu/~bindel/class/sjtu-summer19/
   - text: UMD (April 2019)
