@@ -64,7 +64,7 @@ on approaches to addressing the constant challenge posed by the
 curse of dimensionality.
 
 
-### Week 3: Spectral methods in network analysis
+### Friday, July 21: Spectral methods in network analysis
 
 - 1:30-2:30: Network spectra, optimization, and dynamics
 - 3:00-4:00: Network densities of states
