@@ -1146,3 +1146,17 @@
   tags: [spechist]
   where: CS Colloquium, William and Mary
   type: [colloquium, external, invited]
+-
+  file: 2019-06-uchicago/uchicago-latent1.pdf
+  which: latent1
+  title: "Numerical Methods for Data Science: Latent Factor Models, Part I"
+  tags: [survey, nmds, topics]
+  where: Special lecture series at University of Chicago
+  type: [seminar, external, invited]
+-
+  file: 2019-06-uchicago/uchicago-latent2.pdf
+  which: latent2
+  title: "Numerical Methods for Data Science: Latent Factor Models, Part II"
+  tags: [survey, nmds, topics]
+  where: Special lecture series at University of Chicago
+  type: [seminar, external, invited]
