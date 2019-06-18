@@ -1,3 +1,24 @@
+2019-tkdd:
+  tags: [networks]
+  abstract:
+    Community detection is an important information mining task to uncover
+    modular structures in large networks.  For increasingly common large
+    network data sets, global community detection is prohibitively expensive,
+    and attention has shifted to methods that mine local communities, i.e.
+    identifying all latent members of a particular community from a few
+    labeled seed members.  To address such semi-supervised mining task,
+    we systematically develop a local spectral subspace-based community
+    detection method, called LOSP.  We define a family of local spectral
+    subspaces based on Krylov subspaces, and seek a sparse indicator for the
+    target community via an $\ell_1$ norm minimization over the Krylov subspace.
+    Variants of LOSP depend on type of random walks with different diffusion
+    speeds, type of random walks, dimension of the local spectral subspace,
+    and step of diffusions.  The effectiveness of the proposed LOSP approach
+    is theoretically analyzed based on Rayleigh quotients, and it is
+    experimentally verified on a wide variety of real-world networks across
+    social, production and biological domains, as well as on an extensive set
+    of synthetic LFR benchmark datasets.
+
 2019-kdd:
   tags: [networks]
   abstract: |
@@ -23,7 +44,6 @@
     many common centrality measures, and use spectral densities to estimate
     meaningful information about graph structure that cannot be inferred from
     the extremal eigenpairs alone.
-
 
 2019-subspace-tr:
   tags: [tomography]
