@@ -1,5 +1,5 @@
 2019-tkdd:
-  tags: [networks]
+  tags: [networks, communities]
   abstract:
     Community detection is an important information mining task to uncover
     modular structures in large networks.  For increasingly common large
