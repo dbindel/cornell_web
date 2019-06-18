@@ -45,7 +45,7 @@
     meaningful information about graph structure that cannot be inferred from
     the extremal eigenpairs alone.
 
-2019-subspace-tr:
+2019-subspace:
   tags: [tomography]
   abstract: |
     Inferring electromagnetic propagation characteristics within the marine
