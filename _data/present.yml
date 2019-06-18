@@ -1160,3 +1160,31 @@
   tags: [survey, nmds, topics]
   where: Special lecture series at University of Chicago
   type: [seminar, external, invited]
+-
+  file: 2019-06-uchicago/uchicago-kernel1.pdf
+  which: kernel1
+  title: "Numerical Methods for Data Science: Kernel Methods, Part I"
+  tags: [survey, nmds, topics]
+  where: Special lecture series at University of Chicago
+  type: [seminar, external, invited]
+-
+  file: 2019-06-uchicago/uchicago-kernel2.pdf
+  which: kernel2
+  title: "Numerical Methods for Data Science: Kernel Methods, Part II"
+  tags: [survey, nmds, topics]
+  where: Special lecture series at University of Chicago
+  type: [seminar, external, invited]
+-
+  file: 2019-06-uchicago/uchicago-network1.pdf
+  which: network1
+  title: "Numerical Methods for Data Science: Spectral Network Analysis, Part I"
+  tags: [survey, nmds, topics]
+  where: Special lecture series at University of Chicago
+  type: [seminar, external, invited]
+-
+  file: 2019-06-uchicago/uchicago-network2.pdf
+  which: network2
+  title: "Numerical Methods for Data Science: Spectral Network Analysis, Part II"
+  tags: [survey, nmds, topics]
+  where: Special lecture series at University of Chicago
+  type: [seminar, external, invited]

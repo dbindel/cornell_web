@@ -41,8 +41,8 @@ resulting topics.
 
 ### Wednesday, July 19: Scalable kernel methods
 
-- 1:30-2:30: Structure and interpretation of kernels
-- 3:00-4:00: Making kernel methods scale
+- [1:30-2:30](http://www.cs.cornell.edu/~bindel/present/2019-06-uchicago_kernel1.pdf): Structure and interpretation of kernels
+- [3:00-4:00](http://www.cs.cornell.edu/~bindel/present/2019-06-uchicago_kernel2.pdf): Making kernel methods scale
 
 Kernel methods are used throughout statistical modeling, data
 science, and approximation theory.  Depending on the community, they
@@ -66,8 +66,8 @@ curse of dimensionality.
 
 ### Friday, July 21: Spectral methods in network analysis
 
-- 1:30-2:30: Network spectra, optimization, and dynamics
-- 3:00-4:00: Network densities of states
+- [1:30-2:30](http://www.cs.cornell.edu/~bindel/present/2019-06-uchicago_network1.pdf): Network spectra, optimization, and dynamics
+- [3:00-4:00](http://www.cs.cornell.edu/~bindel/present/2019-06-uchicago_network2.pdf): Network densities of states
 
 Linear algebra methods play a central role in modern methods for
 large-scale network analysis.  The same approach underlies many of
