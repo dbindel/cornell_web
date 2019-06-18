@@ -24,13 +24,6 @@ active:
 # Info for courses appearing on front page
 current:
   -
-    semester: Summer19
-    course: sjtu-nmds
-    url: http://www.cs.cornell.edu/~bindel/class/sjtu-summer19
-    where: cornell
-    logistics: |
-      Short course offered May-June 2019 at SJTU.
-  -
     course: scan
     where: cornell
     url: http://www.cse.cornell.edu/scan
@@ -49,6 +42,11 @@ current:
 
 # Record of past courses
 previous:
+  -
+    semester: Summer19
+    course: sjtu-nmds
+    url: http://www.cs.cornell.edu/~bindel/class/sjtu-summer19
+    where: cornell
   -
     semester: Summer18
     course: sjtu-nmds
