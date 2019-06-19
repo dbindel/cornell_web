@@ -38,7 +38,6 @@ algorithms for topic modeling, and how linear algebraic preprocessing
 can be used to "clean up" the data and improve the quality of the
 resulting topics.
 
-
 ### Wednesday, July 19: Scalable kernel methods
 
 - [1:30-2:30](http://www.cs.cornell.edu/~bindel/present/2019-06-uchicago_kernel1.pdf): Structure and interpretation of kernels
@@ -63,7 +62,6 @@ derivatives.  We also give a perspective on some open problems and
 on approaches to addressing the constant challenge posed by the
 curse of dimensionality.
 
-
 ### Friday, July 21: Spectral methods in network analysis
 
 - [1:30-2:30](http://www.cs.cornell.edu/~bindel/present/2019-06-uchicago_network1.pdf): Network spectra, optimization, and dynamics
@@ -84,3 +82,4 @@ largely depend only on a few eigenvalues and eigenvectors, but we will
 also describe some methods that require a more global perspective,
 including methods that we have developed for local spectral clustering
 and for graph analysis via spectral densities.
+
