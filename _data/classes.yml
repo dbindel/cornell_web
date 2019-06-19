@@ -24,6 +24,12 @@ active:
 # Info for courses appearing on front page
 current:
   -
+    course: cs6210
+    where: cornell
+    url: http://www.cs.cornell.edu/courses/cs6210/2019fa/
+    logistics: |
+      MWF 11:10-12:05, location TBD
+  -
     course: scan
     where: cornell
     url: http://www.cse.cornell.edu/scan
