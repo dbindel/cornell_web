@@ -6,6 +6,8 @@ snippet: |
 menu:
   - text: UChicago (June 2019)
     url: https://cam.uchicago.edu/events/rtg/index.shtml
+  - text: Video recordings
+    url: https://vimeo.com/channels/rtg2019
 ---
 
 The following lectures are given at University of Chicago in
