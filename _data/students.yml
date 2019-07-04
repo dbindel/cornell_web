@@ -21,6 +21,13 @@ phd:
     topic: Bayesian optimization
     url: http://www.cs.cornell.edu/~erichanslee/
   -
+    first: Misha
+    last: Padidar
+    field: Applied Math
+    where: cornell
+    topic: Stellarator optimization
+    url: http://www.mishapadidar.com/
+  -
     first: Max
     last: Ruth
     field: Applied Math
@@ -87,6 +94,13 @@ phd:
       year: 2016
 
 masters:
+  -
+    degree: ms
+    first: Sungjun
+    last: Cho
+    field: Computer Science
+    where: cornell
+    grad: 2020
   -
     degree: meng
     first: Bingqing
