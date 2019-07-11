@@ -1188,3 +1188,9 @@
   tags: [survey, nmds, topics]
   where: Special lecture series at University of Chicago
   type: [seminar, external, invited]
+-
+  file: 2019-07-ilas/ilas-jul19.pdf
+  title: "Understanding Graphs through Spectral Densities"
+  tags: [spechist]
+  where: SIAG-LA lecture at ILAS 2019
+  type: [meeting, external, invited, plenary]
