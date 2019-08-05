@@ -1206,3 +1206,8 @@
   tags: [nep, eigenbounds]
   where: ICIAM 2019
   type: [minisymposium, external, invited]
+-
+  file: 2019-08-simons/simons-aug19.pdf
+  title: "Surrogate Optimization: A Brief Overview"
+  tags: [survey, globalopt, gp, kernel]
+  where: Simons Hidden Symmetries Collaboration call
