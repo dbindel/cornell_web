@@ -1211,3 +1211,4 @@
   title: "Surrogate Optimization: A Brief Overview"
   tags: [survey, globalopt, gp, kernel]
   where: Simons Hidden Symmetries Collaboration call
+  type: [local]
