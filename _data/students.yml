@@ -7,13 +7,6 @@ not_yet:
 
 phd:
   -
-    first: Kun
-    last: Dong
-    field: Applied Math
-    where: cornell
-    topic: Spectral graph analysis
-    url: http://www.cam.cornell.edu/people/graduate-students.cfm?grad=1559&year=2016
-  -
     first: Eric
     last: Lee
     field: Computer Science
@@ -41,6 +34,16 @@ phd:
     where: cornell
     topic: Numerical analysis of kernel methods
     url: https://www.cam.cornell.edu/research/grad-students/jessie-xinran-zhu
+  -
+    first: Kun
+    last: Dong
+    field: Applied Math
+    where: cornell
+    topic: Spectral graph analysis
+    url: http://www.cam.cornell.edu/people/graduate-students.cfm?grad=1559&year=2016
+    thesis:
+      title: Randomized Numerical Linear Algebra for Large-Scale Matrix Data
+      year: 2019
   -
     first: David
     last: Eriksson
@@ -570,11 +573,6 @@ committees:
     field: Material Science
   -
     degree: phd
-    last: Dong
-    first: Kun
-    field: Applied Math
-  -
-    degree: phd
     last: Hin
     first: Matthew
     field: Applied Math
@@ -650,6 +648,14 @@ committees:
     field: Computer Science
 
 past_committees:
+  -
+    degree: phd
+    last: Dong
+    first: Kun
+    field: Applied Math
+    thesis:
+      title: Randomized Numerical Linear Algebra for Large-Scale Matrix Data
+      year: 2019
   -
     degree: phd
     last: Gilles
