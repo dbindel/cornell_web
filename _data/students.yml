@@ -98,6 +98,13 @@ phd:
 
 masters:
   -
+    degree: meng
+    first: Yuanxi
+    last: Shen
+    field: Computer Science
+    where: cornell
+    grad: 2020
+  -
     degree: ms
     first: Sungjun
     last: Cho
@@ -418,6 +425,12 @@ masters:
       when: 2010
 
 ugrad:
+  -
+    first: Cameron
+    last: Ibrahim
+    when: 2019
+    where: cornell
+    proj: Fast Bayesian Transformed Gaussian Prediction
   -
     first: Nathaniel
     last: Rogalskyj
