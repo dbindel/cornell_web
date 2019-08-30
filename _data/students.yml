@@ -104,6 +104,9 @@ masters:
     field: Computer Science
     where: cornell
     grad: 2020
+    proj:
+      title: Fast Bayesian Transformed Gaussian Prediction
+      when: 2019
   -
     degree: ms
     first: Sungjun
