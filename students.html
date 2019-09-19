@@ -11,7 +11,7 @@ layout: main
   <tr>
     <td>
       {% if student.url %}<a href="{{ student.url }}">{{ name }}</a>{% else %}{{ name }}{% endif %}
-      {% if student.phd %}<br/>Ph.D., {{ student.phd.where }}, {{ student.thesis.year }}{% endif %}
+      {% if student.phd %}<br/>Ph.D., {{ student.phd.where }}, {{ student.phd.year }}{% endif %}
     </td>
     <td>
       {{ student.topic }}
