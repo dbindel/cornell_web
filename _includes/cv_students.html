@@ -1,3 +1,20 @@
+<h3>Postdoctoral associates</h3>
+
+<table class="table">
+{% for student in site.data.students.postdoc %}{% capture name %}{{ student.first }} {{ student.last }}{% endcapture %}
+<tr>
+  <td>
+    {% if student.url %}<a href="{{ student.url }}">{{ name }}</a>{% else %}{{ name }}{% endif %}
+    {% if student.phd %}<br/>Ph.D., {{ student.phd.where }}, {{ student.phd.year }}{% endif %}
+  </td>
+  <td>
+    {{ student.topic }}
+    {% if student.reln %}<br/>{{ student.reln }}{% endif %}
+  </td>
+</tr>
+{% endfor %}
+</table>
+
 <h3>PhD students</h3>
 
 <table class="table">

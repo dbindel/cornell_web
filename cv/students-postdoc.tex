@@ -1,0 +1,11 @@
+---
+---
+
+\begin{enumerate}
+{% for student in site.data.students.postdoc %}
+\item
+  {{ student.first }} {{ student.last }}
+  {% if student.phd %}(Ph.D., {{ student.phd.where }}, {{ student.phd.year }}){% endif %} \\
+  {{ student.topic }}
+{% endfor %}
+\end{enumerate}
