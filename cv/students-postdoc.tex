@@ -6,6 +6,6 @@
 \item
   {{ student.first }} {{ student.last }}
   {% if student.phd %}(Ph.D., {{ student.phd.where }}, {{ student.phd.year }}){% endif %} \\
-  {{ student.topic }}
+  Topic: {{ student.topic }}
 {% endfor %}
 \end{enumerate}
