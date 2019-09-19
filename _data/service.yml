@@ -1,17 +1,25 @@
 -
-  when: 2020
+  when: 2019
   until: 2020
   what: Applied Math Graduate Admissions Committee
   role: Committee member
+  type: [cornell, cam, local]
+-
+  when: 2019
+  what: Applied Math Membership Committee
+  role: Committee member
+  type: [cornell, cam, local]
 -
   when: 2019
   until: 2020
   what: CS Graduate Admissions Committee
   role: Committee chair
+  type: [cornell, cs, local]
 -
   when: 2019
-  what: CS Diviersity, Inclusion, and Climate Committee
+  what: CS Diversity, Inclusion, and Climate Committee
   role: Committee member
+  type: [cornell, cs, local]
 -
   when: 2019
   what: NeurIPS 2019 reviewer
