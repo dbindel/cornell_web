@@ -11,6 +11,7 @@ postdoc:
     last: Glas
     topic: Optimization of stellarators
     where: cornell
+    current: true
     phd:
       year: 2018
       where: Ulm University
@@ -23,6 +24,7 @@ phd:
     last: Lee
     field: Computer Science
     where: cornell
+    current: true
     topic: Bayesian optimization
     url: http://www.cs.cornell.edu/~erichanslee/
   -
@@ -30,12 +32,14 @@ phd:
     last: Nwankwo
     field: Computer Science
     where: cornell
+    current: true
     topic: Transformed kernel methods for prediction and optimization
   -
     first: Misha
     last: Padidar
     field: Applied Math
     where: cornell
+    current: true
     topic: Stellarator optimization
     url: http://www.mishapadidar.com/
   -
@@ -43,6 +47,7 @@ phd:
     last: Ruth
     field: Applied Math
     where: cornell
+    current: true
     topic: Nonlinear vibrations in MEMS
     url: https://www.cam.cornell.edu/research/grad-students/maximilian-ruth
   -
@@ -50,6 +55,7 @@ phd:
     last: Zhu
     field: Applied Math
     where: cornell
+    current: true
     topic: Numerical analysis of kernel methods
     url: https://www.cam.cornell.edu/research/grad-students/jessie-xinran-zhu
   -
@@ -121,6 +127,7 @@ masters:
     last: Shen
     field: Computer Science
     where: cornell
+    current: true
     grad: 2020
     proj:
       title: Fast Bayesian Transformed Gaussian Prediction
@@ -131,6 +138,7 @@ masters:
     last: Cho
     field: Computer Science
     where: cornell
+    current: true
     grad: 2020
   -
     degree: meng
@@ -451,12 +459,14 @@ ugrad:
     last: Huang
     when: 2019
     where: cornell
+    current: true
     proj: Fast Bayesian Transformed Gaussian Prediction
   -
     first: Cameron
     last: Ibrahim
     when: 2019
     where: cornell
+    current: true
     proj: Fast Bayesian Transformed Gaussian Prediction
   -
     first: Nathaniel

@@ -3,6 +3,28 @@ title: Students
 layout: main
 ---
 
+<h2>Current group</h2>
+
+<table class="table table-striped">
+{% for group in (postdoc, phd, masters, ugrad) %}
+{% capture col %}site.data.students.{{group}}{% endcapture %}  
+{% for student in col %}
+{% if student.current %}
+{% capture name %}{{ student.first }} {{ student.last }}{% endcapture %}
+  <tr>
+    <td>
+      {% if student.url %}<a href="{{ student.url }}">{{ name }}</a>{% else %}{{ name }}{% endif %}
+    </td>
+    <td>
+      {{ student.topic }}{{ student.proj }}
+      {% if student.reln %}<br/>{{ student.reln }}{% endif %}
+    </td>
+  </tr>
+{% endif %}
+{% endfor %}
+{% endfor %}  
+</table>
+
 <h2>Postdoctoral associates</h2>
 
 <table class="table table-striped">
