@@ -3,6 +3,24 @@ title: Students
 layout: main
 ---
 
+<h2>Postdoctoral associates</h2>
+
+<table class="table table-striped">
+{% for student in site.data.students.postdoc %}
+{% capture name %}{{ student.first }} {{ student.last }}{% endcapture %}
+  <tr>
+    <td>
+      {% if student.url %}<a href="{{ student.url }}">{{ name }}</a>{% else %}{{ name }}{% endif %}
+      {% if student.phd %}<br/>Ph.D., {{ student.phd.where }}, {{ student.thesis.year }}{% endif %}
+    </td>
+    <td>
+      {{ student.topic }}
+      {% if student.reln %}<br/>{{ student.reln }}{% endif %}
+    </td>
+  </tr>
+{% endfor %}
+</table>
+
 <h2>PhD students</h2>
 
 <table class="table table-striped">

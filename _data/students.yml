@@ -5,6 +5,18 @@ degrees:
 
 not_yet:
 
+postdoc:
+  -
+    first: Silke
+    last: Glas
+    topic: Optimization of stellarators
+    where: cornell
+    phd:
+      year: 2018
+      where: Ulm University
+    when:
+      start: 2019-08-12
+
 phd:
   -
     first: Eric
@@ -13,6 +25,12 @@ phd:
     where: cornell
     topic: Bayesian optimization
     url: http://www.cs.cornell.edu/~erichanslee/
+  -
+    first: Darian
+    last: Nwankwo
+    field: Computer Science
+    where: cornell
+    topic: Transformed kernel methods for prediction and optimization
   -
     first: Misha
     last: Padidar
@@ -428,6 +446,12 @@ masters:
       when: 2010
 
 ugrad:
+  -
+    first: Leo
+    last: Huang
+    when: 2019
+    where: cornell
+    proj: Fast Bayesian Transformed Gaussian Prediction
   -
     first: Cameron
     last: Ibrahim
