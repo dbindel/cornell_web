@@ -8,7 +8,7 @@ layout: main
 <table class="table table-striped">
 {% for group in (postdoc, phd, masters, ugrad) %}
 {% capture col %}site.data.students.{{group}}{% endcapture %}  
-{% for student in col %}
+{% for student in {{ col }} %}
 {% if student.current %}
 {% capture name %}{{ student.first }} {{ student.last }}{% endcapture %}
   <tr>
