@@ -4,6 +4,7 @@ image: diskdie2.png
 snippet: |
   Computational tools for analyzing micro-electro-mechanical systems (MEMS)
 blurbs:
+  - mems-nl
   - mrig
   - hiqlab
   - sugar
@@ -16,7 +17,7 @@ resonators, your iPhone would not know when to switch from landscape
 to portrait mode!  I work on simulation tools to help engineers design
 these types of devices.
 
-Broadly speaking, my MEMS work has involved three different types of
+Broadly speaking, my MEMS work has involved four different types of
 devices.  Early in my Ph.D., I worked on SUGAR, a simulator
 inspired in name and style by the SPICE family of circuit simulators.
 SUGAR is useful for understanding *system-level* models involving
@@ -34,6 +35,8 @@ Erdal Yilmaz (Applied Physics Ph.D., 2016) on finite element simulations
 of micro-scale solid-wave gyroscopes; here, too, our work yielded both
 novel eigenvalue analysis methods and some fundamental, practical
 insights about types of fabrication issues most likely to cause
-issues with sensor drift.
+issues with sensor drift.  Most recently, I have begun working on
+simulations of nonlinear waves in MEMS resonators; this is still in the
+early stages, but I'm very excited about it!
 
 [fea]: {{ site.baseurl }}/blurbs/fea.html

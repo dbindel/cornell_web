@@ -1,16 +1,17 @@
-highlight: [stellarator, graphspec, localize, kernels, rbfopt]
+highlight: [stellarator, mems-nl, kernels, rbfopt, graphspec, localize]
 
 current:
   - stellarator
-  - graphspec
+  - mems-nl
   - kernels
   - rbfopt
+  - graphspec
   - localize
-  - grid
-  - rotavg
   - jsmf
 
 old:
+  - grid
+  - rotavg
   - resonance
   - fastnd
   - mrig
