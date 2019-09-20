@@ -1,4 +1,4 @@
-highlight: [stellarator, mems-nl, kernels, rbfopt, graphspec, localize]
+highlight: [stellarator, mems-nl, kernels, rbfopt, graphspec]
 
 current:
   - stellarator
