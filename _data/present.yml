@@ -1212,3 +1212,9 @@
   tags: [survey, globalopt, gp, kernel]
   where: Simons Hidden Symmetries Collaboration call
   type: [local]
+-
+  file: 2019-09-weill/weill-sep19.pdf
+  title: "Toward Optimal Optimizatoin in the Cloud"
+  tags: [survey, globalopt]
+  where: Research in the Cloud Symposium, Weill Cornell
+  type: [meeting, local, invited]
