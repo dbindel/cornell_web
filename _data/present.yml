@@ -1218,3 +1218,9 @@
   tags: [survey, globalopt]
   where: Research in the Cloud Symposium, Weill Cornell
   type: [meeting, local, invited]
+-
+  file: 2019-10-lunch/lunch-oct19.pdf
+  title: "Network Spectral Densities"
+  tags: [spechist]
+  where: CS faculty lunch lightning talk
+  type: [local]
