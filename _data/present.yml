@@ -1196,14 +1196,14 @@
   type: [meeting, external, invited, plenary]
 -
   file: 2019-07-iciam-a/iciam-jul19.pdf
-  title: "Understanding Graphs through Spectral Densities"
-  tags: [spechist]
+  title: "Dynamics via Nonlinear Pseudospectra"
+  tags: [nep, eigenbounds]
   where: ICIAM 2019
   type: [minisymposium, external, invited]
 -
   file: 2019-07-iciam-b/iciam-jul19.pdf
-  title: "Dynamics via Nonlinear Pseudospectra"
-  tags: [nep, eigenbounds]
+  title: "Understanding Graphs through Spectral Densities"
+  tags: [spechist]
   where: ICIAM 2019
   type: [minisymposium, external, invited]
 -
