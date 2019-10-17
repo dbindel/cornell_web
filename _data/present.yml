@@ -1224,3 +1224,9 @@
   tags: [spechist]
   where: CS faculty lunch lightning talk
   type: [local]
+-
+  file: 2019-10-group/group-oct19.pdf
+  title: "Software for Parallel Global Optimization"
+  tags: [globalopt]
+  where: Bindel group meeting
+  type: [local]
