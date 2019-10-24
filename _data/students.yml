@@ -34,6 +34,7 @@ phd:
     where: cornell
     current: true
     topic: Transformed kernel methods for prediction and optimization
+    url: http://www.cs.cornell.edu/~don/
   -
     first: Misha
     last: Padidar
