@@ -1236,3 +1236,9 @@
   tags: [spechist]
   where: WMU math colloquium
   type: [colloquium, external, invited]
+-
+  file: 2019-10-wmu-b/pme-oct19.pdf
+  title: "From Bells of Frost to Opinion's Cost: The Many Applications of Eigenvalues"
+  tags: [survey]
+  where: WMU Fall Math Public Lecture
+  type: [external, invited]
