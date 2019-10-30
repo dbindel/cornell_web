@@ -614,6 +614,11 @@ committees:
     field: Operations Research
   -
     degree: phd
+    last: Bonneville
+    first: Christophe
+    field: Civil Engineering
+  -
+    degree: phd
     last: Browne
     first: Chris
     field: Applied Math
@@ -622,11 +627,6 @@ committees:
     last: Calinao Correa
     first: Gabriela
     field: Material Science
-  -
-    degree: phd
-    last: Hin
-    first: Matthew
-    field: Applied Math
   -
     degree: phd
     last: Horning
@@ -649,6 +649,11 @@ committees:
     field: Computer Science
   -
     degree: phd
+    last: Li
+    first: Yandong
+    field: Computer Science
+  -
+    degree: phd
     last: Lin
     first: Hubert
     field: Computer Science
@@ -659,9 +664,29 @@ committees:
     field: Mathematics
   -
     degree: phd
+    last: Nwankwo
+    first: Darian
+    field: Computer Science
+  -
+    degree: phd
+    last: Padidar
+    first: Misha
+    field: Applied Math
+  -
+    degree: phd
+    last: Reeves
+    first: Thomas
+    field: Applied Math
+  -
+    degree: phd
     last: Rojas
     first: Enrique
     field: Atmospheric Science
+  -
+    degree: phd
+    last: Ruth
+    first: Max
+    field: Applied Math
   -
     degree: phd
     last: Ryan
@@ -702,6 +727,11 @@ committees:
     last: Xia
     first: Mengqi
     field: Computer Science
+  -
+    degree: phd
+    last: Zhu
+    first: Xinran
+    field: Applied Math
 
 past_committees:
   -
