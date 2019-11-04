@@ -1,3 +1,47 @@
+2019-emnlp:
+  tags: [topics]
+  abstract:
+    Despite great scalability on large data and their ability to
+    understand correlations between topics, spectral topic models have
+    not been widely used due to the absence of reliability in real
+    data and lack of practical implementations. This paper aims to
+    solidify the foundations of spectral topic inference and provide a
+    practical implementation for anchor-based topic
+    modeling. Beginning with vocabulary curation, we scrutinize every
+    single inference step with other viable options. We also evaluate
+    our matrix-based approach against popular alternatives including a
+    tensor-based spectral method as well as probabilistic
+    algorithms. Our quantitative and qualitative experiments
+    demonstrate the power of Rectified Anchor Word algorithm in
+    various real datasets, providing a complete guide to practical
+    correlated topic modeling.
+  
+2019-pysot:
+  tags: [gp, opt, la-sw]
+  abstract:
+    This paper describes Plumbing for Optimization with Asynchronous
+    Parallelism (POAP) and the Python Surrogate Optimization Toolbox
+    (pySOT). POAP is an event-driven framework for building and
+    combining asynchronous optimization strategies, designed for
+    global optimization of expensive functions where concurrent
+    function evaluations are useful. POAP consists of three
+    components: a worker pool capable of function evaluations,
+    strategies to propose evaluations or other actions, and a
+    controller that mediates the interaction between the workers and
+    strategies. pySOT is a collection of synchronous and asynchronous
+    surrogate optimization strategies, implemented in the POAP
+    framework. We support the stochastic RBF method by Regis and
+    Shoemaker along with various extensions of this method, and a
+    general surrogate optimization strategy that covers most Bayesian
+    optimization methods. We have implemented many different surrogate
+    models, experimental designs, acquisition functions, and a large
+    set of test problems. We make an extensive comparison between
+    synchronous and asynchronous parallelism and find that the
+    advantage of asynchronous computation increases as the variance of
+    the evaluation time or number of processors increases. We observe
+    a close to linear speed-up with 4, 8, and 16 processors in both
+    the synchronous and asynchronous setting.
+
 2019-tkdd:
   tags: [networks, communities]
   abstract:
