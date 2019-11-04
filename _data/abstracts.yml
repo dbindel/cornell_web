@@ -1,6 +1,6 @@
 2019-emnlp:
   tags: [topics]
-  abstract:
+  abstract: |
     Despite great scalability on large data and their ability to
     understand correlations between topics, spectral topic models have
     not been widely used due to the absence of reliability in real
@@ -18,7 +18,7 @@
   
 2019-pysot:
   tags: [gp, opt, la-sw]
-  abstract:
+  abstract: |
     This paper describes Plumbing for Optimization with Asynchronous
     Parallelism (POAP) and the Python Surrogate Optimization Toolbox
     (pySOT). POAP is an event-driven framework for building and
@@ -44,7 +44,7 @@
 
 2019-tkdd:
   tags: [networks, communities]
-  abstract:
+  abstract: |
     Community detection is an important information mining task to uncover
     modular structures in large networks.  For increasingly common large
     network data sets, global community detection is prohibitively expensive,
