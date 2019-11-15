@@ -470,6 +470,12 @@ ugrad:
     current: true
     proj: Fast Bayesian Transformed Gaussian Prediction
   -
+    first: Sungjun
+    last: Cho
+    when: 2017
+    where: cornell
+    proj: Spectral Topic Modeling
+  -
     first: Nathaniel
     last: Rogalskyj
     when: 2016
