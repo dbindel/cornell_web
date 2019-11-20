@@ -745,6 +745,16 @@ committees:
     field: Computer Science
   -
     degree: phd
+    last: Xu
+    first: Yuchen
+    field: Statistics
+  -
+    degree: phd
+    last: Zhang
+    first: Yunxiang
+    field: Operations Research
+  -
+    degree: phd
     last: Zhu
     first: Xinran
     field: Applied Math
