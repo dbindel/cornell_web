@@ -720,11 +720,6 @@ committees:
     field: Applied Math
   -
     degree: phd
-    last: Toscano
-    first: Saul
-    field: Operations Research
-  -
-    degree: phd
     last: Qi
     first: Dongping
     field: Applied Math
@@ -732,11 +727,6 @@ committees:
     degree: phd
     last: Wan
     first: Jiayue
-    field: Operations Research
-  -
-    degree: phd
-    last: Wylie
-    first: Calvin
     field: Operations Research
   -
     degree: phd
@@ -760,6 +750,22 @@ committees:
     field: Applied Math
 
 past_committees:
+  -
+    degree: phd
+    last: Toscano
+    first: Saul
+    field: Operations Research
+    thesis:
+      title: "Grey-Box Bayesian Optimizattion: Improving Performance by Looking Inside the Black-Box"
+      year: 2019
+  -
+    degree: phd
+    last: Wylie
+    first: Calvin
+    field: Operations Research
+    thesis:
+      title: Partly Smooth Models and Algorithms
+      year: 2019
   -
     degree: phd
     last: Dong
