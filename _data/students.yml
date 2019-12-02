@@ -774,6 +774,7 @@ past_committees:
     thesis:
       title: Randomized Numerical Linear Algebra for Large-Scale Matrix Data
       year: 2019
+      url: https://ecommons.cornell.edu/handle/1813/67813
   -
     degree: phd
     last: Gilles
@@ -782,6 +783,7 @@ past_committees:
     thesis:
       title: "At the intersection of differential equations and optimization: inverse problems, path planning and Krylov subspaces"
       year: 2019
+      url: https://ecommons.cornell.edu/handle/1813/67264
   -
     degree: phd
     last: Honrao
