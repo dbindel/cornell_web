@@ -741,6 +741,11 @@ committees:
     field: Statistics
   -
     degree: phd
+    last: You
+    first: Yurong
+    field: Computer Science
+  -
+    degree: phd
     last: Zhang
     first: Yunxiang
     field: Operations Research
