@@ -636,6 +636,11 @@ committees:
     field: Material Science
   -
     degree: phd
+    last: Chen
+    first: Chiatai
+    field: Applied Physics
+  -
+    degree: phd
     last: Horning
     first: Andrew
     field: Applied Math
