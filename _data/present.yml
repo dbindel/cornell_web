@@ -1242,3 +1242,9 @@
   tags: [survey]
   where: WMU Fall Math Public Lecture
   type: [external, invited]
+-
+  file: 2019-12-siam-apde/apde-dec19.pdf
+  title: Surrogate Methods for Optimizing Fusion Device Dessigns
+  tags: [stellarator, globalopt, gp, kernel]
+  where: SIAM Analysis of PDEs 2019, La Quinta
+  type: [minisymposium, external, invited]
