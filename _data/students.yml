@@ -124,6 +124,14 @@ phd:
 
 masters:
   -
+    degree: ms
+    first: Ariel
+    last: Kellison
+    field: Computer Science
+    where: cornell
+    current: true
+    grad: 2022
+  -
     degree: meng
     first: Yuanxi
     last: Shen
@@ -456,6 +464,20 @@ masters:
       when: 2010
 
 ugrad:
+  -
+    first: Andrew
+    last: Yates
+    when: 2020
+    where: cornell
+    current: true
+    proj: Nonlinear Eigenvalue Problems and Traveling Wave Stability
+  -
+    first: Ziwei
+    last: Gu
+    when: 2020
+    where: cornell
+    current: true
+    proj: Learning to Cluster
   -
     first: Leo
     last: Huang
