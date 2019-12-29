@@ -1,5 +1,17 @@
 -
   when: 2019
+  until: 2021
+  what: Cornell English Language Support Office Advisory Board
+  role: Committee member
+  type: [cornell, local]
+-
+  when: 2019
+  until: 2020
+  what: CIS Dean Search Committee
+  role: Committee member
+  type: [cornell, local]
+-
+  when: 2019
   until: 2020
   what: Applied Math Graduate Admissions Committee
   role: Committee member
@@ -20,6 +32,11 @@
   what: CS Diversity, Inclusion, and Climate Committee
   role: Committee member
   type: [cornell, cs, local]
+-
+  when: 2019
+  what: Program committee for SIAM CSC
+  role: Committee member
+  type: [external]
 -
   when: 2019
   what: NeurIPS 2019 reviewer
