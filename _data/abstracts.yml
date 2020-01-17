@@ -1,3 +1,18 @@
+2020-aistats:
+  tags: [topics]
+  abstract: |
+    Spectral algorithms operate on matrices or tensors of word co-occurrence to
+    learn latent topics. These approaches remove the dependence on the original
+    documents and produce substantial gains in efficiency with provable
+    inference, but at a cost: the models can no longer infer any information about
+    individual documents. Thresholded Linear Inverse is developed to learn
+    document-specific topic compositions, but its linear characteristics limit the
+    inference quality without considering any prior information on topic
+    distributions. We propose two novel estimation methods that respect previously
+    unclear prior structures of spectral topic models. Experiments on a variety of
+    synthetic to real collections demonstrate that our Prior-Aware Dual
+    Decomposition outperforms the baseline method, whereas our Prior-Aware Manifold
+    Iteration performs even better on short realistic data.
 2019-emnlp:
   tags: [topics]
   abstract: |
