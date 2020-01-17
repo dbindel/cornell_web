@@ -24,11 +24,11 @@ active:
 # Info for courses appearing on front page
 current:
   -
-    course: cs6210
+    course: cs4220
     where: cornell
-    url: http://www.cs.cornell.edu/courses/cs6210/2019fa/
+    url: http://www.cs.cornell.edu/cs4220/2020sp/
     logistics: |
-      MWF 11:10-12:05, Hollister 306
+      MWF 2:30-3:20, Gates G01.
   -
     course: scan
     where: cornell
@@ -48,6 +48,11 @@ current:
 
 # Record of past courses
 previous:
+  -
+    semester: F19
+    course: cs6210
+    where: cornell
+    url: http://www.cs.cornell.edu/courses/cs6210/2019fa/
   -
     semester: Summer19
     course: sjtu-nmds
