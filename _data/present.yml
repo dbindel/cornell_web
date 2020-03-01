@@ -1254,3 +1254,9 @@
   where: Cornell Brownbag Seminar
   tags: [survey]
   type: [local]
+-
+  file: 2020-03-buffalo/buffalo-mar20.pdf
+  title: "Understanding Graphs through Spectral Densities"
+  tags: [spechist]
+  where: University of Buffalo Applied Math Seminar
+  type: [seminar, external, invited]
