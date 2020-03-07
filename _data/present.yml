@@ -1260,3 +1260,10 @@
   tags: [spechist]
   where: University of Buffalo Applied Math Seminar
   type: [seminar, external, invited]
+-
+  file: 2020-03-cam/cam-mar20.pdf
+  title: "Understanding Graphs through Spectral Densities"
+  tags: [spechist]
+  where: Cornell Applied Math Colloquium
+  type: [colloquium, local]
+
