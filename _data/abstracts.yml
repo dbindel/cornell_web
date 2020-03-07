@@ -33,7 +33,7 @@
 
     In this paper, we study the spatial distribution of local
     minima. First, we do a novel empirical study to demonstrate
-    sharp transitions in qualitative behavior: as problems
+    sharp transitions in qualitative behavior; as problems
     become noisier, they transition from a single (easy-to-find)
     dominant minimum to a cost surface filled with minima. In
     the second part of this paper we derive a theoretical bound
