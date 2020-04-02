@@ -31,6 +31,7 @@ layout: top
       <a class="btn" href="research.html">More projects &raquo;</a>
     </p>
 
+    <!---
     <h2>Upcoming travels</h2>
 
     {% assign items = site.data.travel | sort: 'date' %}
@@ -44,6 +45,7 @@ layout: top
     </p>
     {%   endif %}
     {% endfor %}
+    --->
 
   </div>
 
@@ -51,9 +53,6 @@ layout: top
     <h2>Teaching highlights</h2>
 
     {% assign entry = site.data.blurbs_dict["nmds"] %}
-    {% include blurb_entry.html %}
-
-    {% assign entry = site.data.blurbs_dict["cussw"] %}
     {% include blurb_entry.html %}
 
     <h2>Currently teaching</h2>
