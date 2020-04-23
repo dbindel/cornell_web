@@ -133,11 +133,20 @@ masters:
     grad: 2022
   -
     degree: meng
+    first: Kevin
+    last: Chaudhuri
+    field: Computer Science
+    shere: cornell
+    grad: 2020
+    current: true
+    proj:
+      title: Matrix exponentials in modeling electron spin resonance spectra
+  -
+    degree: meng
     first: Yuanxi
     last: Shen
     field: Computer Science
     where: cornell
-    current: true
     grad: 2020
     proj:
       title: Fast Bayesian Transformed Gaussian Prediction
