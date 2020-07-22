@@ -21,6 +21,13 @@ postdoc:
 
 phd:
   -
+    degree: phd
+    first: Ariel
+    last: Kellison
+    field: Computer Science
+    where: cornell
+    current: true
+  -
     first: Eric
     last: Lee
     field: Computer Science
@@ -124,14 +131,6 @@ phd:
       year: 2016
 
 masters:
-  -
-    degree: ms
-    first: Ariel
-    last: Kellison
-    field: Computer Science
-    where: cornell
-    current: true
-    grad: 2022
   -
     degree: meng
     first: Kevin
@@ -683,9 +682,9 @@ committees:
     field: Computer Science
   -
     degree: phd
-    last: Joshi
-    first: Chaitali
-    field: Physics
+    last: Kellison
+    first: Ariel
+    field: Computer Science
   -
     degree: phd
     last: Luan
@@ -723,16 +722,6 @@ committees:
     field: Applied Math
   -
     degree: phd
-    last: Reeves
-    first: Thomas
-    field: Applied Math
-  -
-    degree: phd
-    last: Rojas
-    first: Enrique
-    field: Atmospheric Science
-  -
-    degree: phd
     last: Ruth
     first: Max
     field: Applied Math
@@ -767,6 +756,11 @@ committees:
     first: Jiayue
     field: Operations Research
   -
+    degree: ms
+    last: Wani
+    first: Aasim Ayaz
+    field: Chemical Engineering
+  -
     degree: phd
     last: Xia
     first: Mengqi
@@ -795,11 +789,27 @@ committees:
 past_committees:
   -
     degree: phd
+    last: Joshi
+    first: Chaitali
+    field: Physics
+    thesis:
+      title: Frequency Domain Quantum Processing via Four-Wave Mixing
+      year: 2020
+  -
+    degree: phd
+    last: Rojas
+    first: Enrique
+    field: Atmospheric Science
+    thesis:
+      title: "Farley-Buneman instabilities in the auroral region: Continuous hybrid simulations and empirical modeling."
+      tear: 2020
+  -
+    degree: phd
     last: Toscano
     first: Saul
     field: Operations Research
     thesis:
-      title: "Grey-Box Bayesian Optimizattion: Improving Performance by Looking Inside the Black-Box"
+      title: "Grey-Box Bayesian Optimization: Improving Performance by Looking Inside the Black-Box"
       year: 2019
   -
     degree: phd
