@@ -159,6 +159,9 @@ masters:
     where: cornell
     current: true
     grad: 2020
+    proj:
+      title: Robust and Scalable Spectral Topic Modeling for Large Vocabularies
+      when: 2020
   -
     degree: meng
     first: Bingqing
