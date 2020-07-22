@@ -1,4 +1,20 @@
 -
+  when: 2020
+  until: 2025
+  role: Director
+  what: Center for Applied Mathematics
+  type: [cornell, cam, local]
+-
+  when: 2020
+  what: NeurIPS 2020 reviewer
+  role: Reviewer
+  type: [external]
+-
+  when: 2020
+  what: ICML 2020 reviewer
+  role: Reviewer
+  type: [external]
+-
   when: 2019
   until: 2021
   what: Cornell English Language Support Office Advisory Board
@@ -18,6 +34,7 @@
   type: [cornell, cam, local]
 -
   when: 2019
+  until: present
   what: Applied Math Membership Committee
   role: Committee member
   type: [cornell, cam, local]
@@ -29,6 +46,7 @@
   type: [cornell, cs, local]
 -
   when: 2019
+  until: present
   what: CS Diversity, Inclusion, and Climate Committee
   role: Committee member
   type: [cornell, cs, local]
