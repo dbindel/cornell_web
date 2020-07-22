@@ -805,7 +805,7 @@ past_committees:
     field: Atmospheric Science
     thesis:
       title: "Farley-Buneman instabilities in the auroral region: Continuous hybrid simulations and empirical modeling."
-      tear: 2020
+      year: 2020
   -
     degree: phd
     last: Toscano
