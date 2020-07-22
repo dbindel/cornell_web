@@ -15,6 +15,11 @@
   role: Reviewer
   type: [external]
 -
+  when: 2020
+  what: CIDA RIF reviewer
+  role: Reviewer
+  type: [cornell, local]
+-
   when: 2019
   until: 2021
   what: Cornell English Language Support Office Advisory Board
@@ -44,6 +49,10 @@
   what: CS Graduate Admissions Committee
   role: Committee chair
   type: [cornell, cs, local]
+-
+  when: 2019
+  until: present
+  what: CS Graduate Distinction Committee
 -
   when: 2019
   until: present
