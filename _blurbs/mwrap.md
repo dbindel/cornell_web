@@ -8,8 +8,6 @@ menu:
   - text: Manual
     url: http://www.cs.cornell.edu/~bindel/sw/mwrap/mwrap.pdf
 links:
-  - text: GitHub
-    url: https://github.com/dbindel/mwrap
   - text: GitHub (Zydrunas Gimbutas)
     url: https://github.com/zgimbutas/mwrap
   - text: Minimally complete example from Alex Barnett
