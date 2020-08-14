@@ -16,6 +16,11 @@
   type: [external]
 -
   when: 2020
+  what: CIDA Website Dev Committee
+  role: Committee member
+  type: [cornell, local]
+-
+  when: 2020
   what: CIDA RIF reviewer
   role: Reviewer
   type: [cornell, local]
