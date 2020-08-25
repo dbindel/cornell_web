@@ -26,6 +26,9 @@ current:
   -
     course: cs5220
     where: cornell
+    url: https://www.cs.cornell.edu/courses/cs5220/2020fa/
+    logistics: |
+      Online.  TR 8:00-9:15.
   -
     course: scan
     where: cornell
