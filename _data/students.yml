@@ -28,14 +28,6 @@ phd:
     where: cornell
     current: true
   -
-    first: Eric
-    last: Lee
-    field: Computer Science
-    where: cornell
-    current: true
-    topic: Bayesian optimization
-    url: http://www.cs.cornell.edu/~erichanslee/
-  -
     first: Darian
     last: Nwankwo
     field: Computer Science
@@ -67,6 +59,16 @@ phd:
     current: true
     topic: Numerical analysis of kernel methods
     url: https://www.cam.cornell.edu/research/grad-students/jessie-xinran-zhu
+  -
+    first: Eric
+    last: Lee
+    field: Computer Science
+    where: cornell
+    topic: Bayesian optimization
+    url: http://www.cs.cornell.edu/~erichanslee/
+    thesis:
+      title: Budget-Constrained Bayesian Optimization
+      year: 2020
   -
     first: Kun
     last: Dong
@@ -790,6 +792,14 @@ committees:
     field: Applied Math
 
 past_committees:
+  -
+    degree: phd
+    last: Lee
+    first: Eric
+    field: Computer Science
+    thesis:
+      title: Budget-Constrained Bayesian Optimization
+      year: 2020
   -
     degree: phd
     last: Joshi
