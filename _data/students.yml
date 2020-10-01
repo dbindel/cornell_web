@@ -135,14 +135,37 @@ phd:
 masters:
   -
     degree: meng
+    first: Junyoung
+    last: Lim
+    field: Computer Science
+    where: cornell
+    grad: 2021
+    current: true
+    proj:
+      title: Learning to Cluster
+      when: 2020
+  -
+    degree: meng
+    first: Erik
+    last: Louie
+    field: Computer Science
+    where: cornell
+    grad: 2021
+    current: true
+    proj:
+      title: Learning to Cluster
+      when: 2020
+  -
+    degree: meng
     first: Kevin
     last: Chaudhuri
     field: Computer Science
-    shere: cornell
+    where: cornell
     grad: 2020
-    current: true
+    current: false
     proj:
       title: Matrix exponentials in modeling electron spin resonance spectra
+      when: 2020
   -
     degree: meng
     first: Yuanxi
@@ -479,18 +502,39 @@ masters:
 
 ugrad:
   -
+    first: Paco
+    last: Rilloraza
+    when: 2020
+    where: cornell
+    current: true
+    proj: Stellarator Optimization
+  -
+    first: Catherine
+    last: Horng
+    when: 2020
+    where: cornell
+    current: true
+    proj: Learning to Cluster
+  -
+    first: Shengye
+    last: Zang
+    when: 2020
+    where: cornell
+    current: true
+    proj: Learning to Cluster
+  -
     first: Andrew
     last: Yates
     when: 2020
     where: cornell
-    current: true
+    current: false
     proj: Nonlinear Eigenvalue Problems and Traveling Wave Stability
   -
     first: Ziwei
     last: Gu
     when: 2020
     where: cornell
-    current: true
+    current: false
     proj: Learning to Cluster
   -
     first: Leo
@@ -504,7 +548,7 @@ ugrad:
     last: Ibrahim
     when: 2019
     where: cornell
-    current: true
+    current: false
     proj: Fast Bayesian Transformed Gaussian Prediction
   -
     first: Sungjun
