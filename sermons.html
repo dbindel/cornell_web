@@ -14,7 +14,8 @@ layout: main
 
 <hr/>
 
-{% for entry in site.sermons %}
+{% assign sermons = site.sermons | reverse %}
+{% for entry in sermons %}
 {%   include sermon_entry.html %}
 {% endfor %}
 
