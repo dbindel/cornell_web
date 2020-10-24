@@ -17,9 +17,16 @@ defaults:
       type: "blurbs"
     values:
       layout: blurb
+  -
+    scope:
+      type: "sermons"
+    values:
+      layout: sermon
 
 collections:
   blurbs:
+    output: true
+  sermons:
     output: true
 
 markdown: kramdown

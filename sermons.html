@@ -1,0 +1,20 @@
+---
+title:  CAM Sermons
+layout: main
+---
+
+<p>
+  I took over as director of Cornell's Center for Applied Mathematics (CAM)
+  on July 1, 2020. With a lot going on at Cornell and in the world, I got
+  into the habit of sending out regular emails. Sometimes, I include a
+  <q>sermon</q> at the end of the message.  It's an idea that I happily borrowed
+  from Prof Sandy Mack, who ran the Honors Program at UMD when I was an
+  undergrad, and also <a href="https://web.archive.org/web/20060515153721/http://www.cs.berkeley.edu/~dbindel/sermons.html">sent out such sermons</a>.
+</p>
+
+<hr/>
+
+{% for entry in site.sermons %}
+{%   include sermon_entry.html %}
+{% endfor %}
+
