@@ -701,6 +701,11 @@ committees:
     field: Operations Research
   -
     degree: phd
+    last: Berlstein
+    first: Griffin
+    field: Computer Science
+  -
+    degree: phd
     last: Bonneville
     first: Christophe
     field: Civil Engineering
