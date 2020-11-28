@@ -1,4 +1,9 @@
 -
+  name: James and Mary Tien Excellence in Teaching Award
+  desc: |
+    Highest award for teaching in Cornell's College of Engineering.
+  year: 2020
+-
   name: KDD Best Research Paper Award
   paper: 2019-kdd
   year: 2019
