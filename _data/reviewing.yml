@@ -3,7 +3,7 @@
   when: [2014]
 -
   what: ACM Transactions on Mathematical Software
-  when: [2013, 2014, 2015, 2016, 2017]
+  when: [2013, 2014, 2015, 2016, 2017, 2020]
 -
   what: American Mathematical Monthly
   when: [2015]
@@ -72,7 +72,7 @@
   when: [2007]
 -
   what: Linear Algebra and its Applications
-  when: [2003, 2009, 2010, 2013, 2014, 2015, 2017, 2018]
+  when: [2003, 2009, 2010, 2013, 2014, 2015, 2017, 2018, 2020]
 -
   what: Mathematics of Computation
   when: [2007]
