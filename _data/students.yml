@@ -726,6 +726,11 @@ committees:
     field: Applied Physics
   -
     degree: phd
+    last: Frangella
+    first: Zachary
+    field: Applied Math
+  -
+    degree: phd
     last: Horning
     first: Andrew
     field: Applied Math

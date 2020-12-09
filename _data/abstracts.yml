@@ -1,3 +1,30 @@
+2020-tog:
+  tags: [graphics]
+  abstract: |
+    Existing fiber scattering models in rendering are all based on
+    tracing rays through fiber geometry, but for small fibers
+    diffraction and interference are non-negligible, so relying on ray
+    optics can result in appearance errors. This paper presents the
+    first wave optics based fiber scattering model, introducing an
+    azimuthal scattering function that comes from a full wave
+    simulation.  Solving Maxwell's equations for a straight fiber of
+    constant cross section illuminated by a plane wave reduces to
+    solving for a 3D electromagnetic field in a 2D domain, and our
+    fiber scattering simulator solves this 2.5D problem efficiently
+    using the boundary element method (BEM). From the resulting fields
+    we compute extinction, absorption, and far-field scattering
+    distributions, which we use to simulate shadowing and scattering
+    by fibers in a path tracer.  We validate our path tracer against
+    the wave simulation and the simulation against a measurement of
+    diffraction from a single textile fiber. Our results show that our
+    approach can reproduce a wide range of fibers with different
+    sizes, cross sections, and material properties, including textile
+    fibers, animal fur, and human hair. The renderings include color
+    effects, softening of sharp features, and strong forward
+    scattering that are not predicted by traditional ray-based models,
+    though the two approaches produce similar appearance for complex
+    fiber assemblies under many conditions.
+
 2020-icml:
   tags: [gp]
   abstract: |
