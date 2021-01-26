@@ -22,7 +22,7 @@
 -
   when: 2021
   until: 2023
-  role: Associate Dean for Diversity and Inclusion
+  role: Associate Dean for DEI
   what: College of Computing and Information Science
   type: [cornell, local]
 -
