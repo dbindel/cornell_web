@@ -24,11 +24,11 @@ active:
 # Info for courses appearing on front page
 current:
   -
-    course: cs5220
+    course: cs6241
+    url: http://www.cs.cornell.edu/courses/cs6241/2021sp/
     where: cornell
-    url: https://www.cs.cornell.edu/courses/cs5220/2020fa/
     logistics: |
-      Online.  TR 8:00-9:15.
+      TR 2:45-4:00.
   -
     course: scan
     where: cornell
@@ -50,6 +50,11 @@ current:
 
 # Record of past courses
 previous:
+  -
+    semester: F20
+    course: cs5220
+    where: cornell
+    url: https://www.cs.cornell.edu/courses/cs5220/2020fa/
   -
     semester: S20
     course: cs4220
