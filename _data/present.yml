@@ -1272,3 +1272,9 @@
   where: Cornell Brownbag Seminar
   tags: [survey]
   type: [local]
+-
+  file: 2021-03-siam-cse/siam-cse-mar21.pdf
+  title: Surrogate-Based Optimization of Stellarators
+  tags: [stellarator, globalopt, gp, kernel]
+  where: SIAM Computational Science ang Engineering 2021, online
+  type: [minisymposium, external, invited]
