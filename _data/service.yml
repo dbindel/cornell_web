@@ -93,7 +93,7 @@
   type: [cornell, cs, local]
 -
   when: 2019
-  until: present
+  until: 2020
   what: CS Graduate Distinction Committee
 -
   when: 2019
