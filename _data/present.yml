@@ -1277,4 +1277,10 @@
   title: Surrogate-Based Optimization of Stellarators
   tags: [stellarator, globalopt, gp, kernel]
   where: SIAM Computational Science ang Engineering 2021, online
-  type: [minisymposium, external, invited]
+  type: [meeting, minisymposium, external, invited]
+-
+  file: 2021-05-ala/siam-ala-may21.pdf
+  title: Structured Numerical Linear Algebra for Gaussian Process Modeling
+  tags: [gp, kernel]
+  where: SIAM Applied Linear Algebra 2021, online
+  type: [meeting, plenary, external, invited]
