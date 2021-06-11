@@ -815,11 +815,6 @@ committees:
     first: Jiayue
     field: Operations Research
   -
-    degree: ms
-    last: Wani
-    first: Aasim Ayaz
-    field: Chemical Engineering
-  -
     degree: phd
     last: Xia
     first: Mengqi
@@ -847,6 +842,14 @@ committees:
 
 past_committees:
   -
+    degree: ms
+    last: Wani
+    first: Aasim Ayaz
+    field: Chemical Engineering
+    thesis:
+      title: Computer Aided Retrosynthesis for Metabolic Pathways
+      year: 2020
+  -
     degree: phd
     last: Lee
     first: Eric
@@ -854,6 +857,7 @@ past_committees:
     thesis:
       title: Budget-Constrained Bayesian Optimization
       year: 2020
+      url: https://ecommons.cornell.edu/handle/1813/103236
   -
     degree: phd
     last: Joshi
@@ -862,6 +866,7 @@ past_committees:
     thesis:
       title: Frequency Domain Quantum Processing via Four-Wave Mixing
       year: 2020
+      url: https://ecommons.cornell.edu/handle/1813/103082
   -
     degree: phd
     last: Rojas
@@ -870,6 +875,7 @@ past_committees:
     thesis:
       title: "Farley-Buneman instabilities in the auroral region: Continuous hybrid simulations and empirical modeling."
       year: 2020
+      url: https://ecommons.cornell.edu/handle/1813/70454
   -
     degree: phd
     last: Toscano
@@ -878,6 +884,7 @@ past_committees:
     thesis:
       title: "Grey-Box Bayesian Optimization: Improving Performance by Looking Inside the Black-Box"
       year: 2019
+      url: https://ecommons.cornell.edu/handle/1813/70478
   -
     degree: phd
     last: Wylie
