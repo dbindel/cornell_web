@@ -57,7 +57,7 @@
   when: [2007]
 -
   what: Journal of Computational Physics
-  when: [2011, 2012, 2015, 2016]
+  when: [2011, 2012, 2015, 2016, 2021]
 -
   what: Journal of Experimental Algorithms
   when: [2019]
@@ -72,7 +72,7 @@
   when: [2007]
 -
   what: Linear Algebra and its Applications
-  when: [2003, 2009, 2010, 2013, 2014, 2015, 2017, 2018, 2020]
+  when: [2003, 2009, 2010, 2013, 2014, 2015, 2017, 2018, 2020, 2021]
 -
   what: Mathematics of Computation
   when: [2007]
