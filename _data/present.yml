@@ -1276,7 +1276,7 @@
   file: 2021-03-siam-cse/siam-cse-mar21.pdf
   title: Surrogate-Based Optimization of Stellarators
   tags: [stellarator, globalopt, gp, kernel]
-  where: SIAM Computational Science ang Engineering 2021, online
+  where: SIAM Computational Science and Engineering 2021, online
   type: [meeting, minisymposium, external, invited]
 -
   file: 2021-05-ala/siam-ala-may21.pdf
@@ -1284,3 +1284,9 @@
   tags: [gp, kernel]
   where: SIAM Applied Linear Algebra 2021, online
   type: [meeting, plenary, external, invited]
+-
+  file: 2021-07-curie/curie-jul21.pdf
+  title: A Taste of Computer Science
+  where: CURIE Academy, online
+  tags: [survey]
+  type: [local]
