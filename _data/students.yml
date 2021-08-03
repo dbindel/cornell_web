@@ -737,18 +737,8 @@ committees:
     field: Applied Math
   -
     degree: phd
-    first: Junteng
-    last: Jia
-    field: Computer Science
-  -
-    degree: phd
     last: Kellison
     first: Ariel
-    field: Computer Science
-  -
-    degree: phd
-    last: Luan
-    first: Fujun
     field: Computer Science
   -
     degree: phd
@@ -765,11 +755,6 @@ committees:
     last: Lipton
     first: Max
     field: Mathematics
-  -
-    degreee: phd
-    last: Mukhtyar
-    first: Ankita
-    field: Chemical Engineering
   -
     degree: phd
     last: Nwankwo
@@ -842,6 +827,30 @@ committees:
     field: Applied Math
 
 past_committees:
+  -
+    degree: phd
+    last: Luan
+    first: Fujun
+    field: Computer Science
+    thesis:
+      title: Forward and Inverse Rendering with Gradient-Based Optimization
+      year: 2021
+  -
+    degreee: phd
+    last: Mukhtyar
+    first: Ankita
+    field: Chemical Engineering
+    thesis:
+      title: Towards Understanding the Disorder to Order Transitions in Soft Materials
+      year: 2021
+  -
+    degree: phd
+    first: Junteng
+    last: Jia
+    field: Computer Science
+    thesis:
+      title: Modeling and Learning Attributed Graphs
+      year: 2021
   -
     degree: ms
     last: Wani
