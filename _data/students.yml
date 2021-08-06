@@ -732,11 +732,6 @@ committees:
     field: Applied Math
   -
     degree: phd
-    last: Horning
-    first: Andrew
-    field: Applied Math
-  -
-    degree: phd
     last: Kellison
     first: Ariel
     field: Computer Science
@@ -829,6 +824,14 @@ committees:
 past_committees:
   -
     degree: phd
+    last: Horning
+    first: Andrew
+    field: Applied Math
+    thesis:
+      title: Computing Spectral Properties of Infinite-Dimensional Operators
+      year: 2021
+  -
+    degree: phd
     last: Luan
     first: Fujun
     field: Computer Science
@@ -836,7 +839,7 @@ past_committees:
       title: Forward and Inverse Rendering with Gradient-Based Optimization
       year: 2021
   -
-    degreee: phd
+    degree: phd
     last: Mukhtyar
     first: Ankita
     field: Chemical Engineering
