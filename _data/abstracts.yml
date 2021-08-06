@@ -1,3 +1,44 @@
+2021-icml:
+  tags: [topics]
+  abstract: |
+    Across many data domains, co-occurrence statistics about the joint
+    appearance of objects are powerfully informative. By transforming
+    unsupervised learning problems into decompositions of
+    co-occurrence statistics, spectral algorithms provide transparent
+    and efficient algorithms for posterior inference such as latent
+    topic analysis and community detection. As object vocabularies
+    grow, however, it becomes rapidly more expensive to store and run
+    inference algorithms on co-occurrence statistics. Rectifying
+    co-occurrence, the key process to uphold model assumptions,
+    becomes increasingly more vital in the presence of rare terms, but
+    current techniques cannot scale to large vocabularies. We propose
+    novel methods that simultaneously compress and rectify
+    co-occurrence statistics, scaling gracefully with the size of
+    vocabulary and the dimension of latent space. We also present new
+    algorithms learning latent variables from the compressed
+    statistics, and verify that our methods perform comparably to
+    previous approaches on both textual and non-textual data.
+
+2021-sdm:
+  tags: [networks]
+  abstract: |
+    A fundamental problem on graph-structured data is that of
+    quantifying similarity between graphs. Graph kernels are an
+    established technique for such tasks; in particular, those based on
+    random walks and return probabilities have proven to be effective in
+    wide-ranging applications, from bioinformatics to social networks to
+    computer vision. However, random walk kernels generally suffer from
+    slowness and tottering, an effect which causes walks to
+    overemphasize local graph topology, undercutting the importance of
+    global structure. To correct for these issues, we recast return
+    probability graph kernels under the more general framework of
+    density of states — a framework which uses the lens of spectral
+    analysis to uncover graph motifs and properties hidden within the
+    interior of the spectrum — and use our interpretation to construct
+    scalable, composite density of states based graph kernels which
+    balance local and global information, leading to higher
+    classification accuracies on benchmark datasets.
+
 2020-tog:
   tags: [graphics]
   abstract: |
