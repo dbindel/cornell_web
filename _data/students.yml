@@ -732,6 +732,11 @@ committees:
     field: Applied Math
   -
     degree: phd
+    last: Gaspard
+    first: Mallory
+    field: Applied Math
+  -
+    degree: phd
     last: Kellison
     first: Ariel
     field: Computer Science
