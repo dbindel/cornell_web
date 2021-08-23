@@ -24,12 +24,6 @@ active:
 # Info for courses appearing on front page
 current:
   -
-    course: cs6241
-    url: http://www.cs.cornell.edu/courses/cs6241/2021sp/
-    where: cornell
-    logistics: |
-      TR 2:45-4:00.
-  -
     course: scan
     where: cornell
     url: http://www.cse.cornell.edu/scan
@@ -42,6 +36,7 @@ current:
     logistics: |
       See my [list of projects](http://www.cs.cornell.edu/~bindel/meng.html)!
 
+# F21: Admin teaching relief
 # S19: Sabbatic (UChicago)
 # F18: Sabbatic (Argonne)
 # F14: Parental relief (Quinn)
@@ -50,6 +45,11 @@ current:
 
 # Record of past courses
 previous:
+  -
+    semester: S21
+    course: cs6241
+    url: http://www.cs.cornell.edu/courses/cs6241/2021sp/
+    where: cornell
   -
     semester: F20
     course: cs5220
