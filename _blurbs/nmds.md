@@ -4,6 +4,8 @@ image: data-dots.jpg
 snippet: |
   Revisiting numerical methods teaching for modern data science applications.
 menu:
+  - text: Cornell (Spring 2021)
+    url: http://www.cs.cornell.edu/courses/cs6241/2021sp/
   - text: UChicago (June 2019)
     url: http://www.cs.cornell.edu/~bindel/blurbs/nmds-uchicago.html
   - text: SJTU (May 2019)
