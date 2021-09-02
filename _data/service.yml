@@ -1,6 +1,11 @@
 -
   when: 2021
   role: Committee member
+  what: COE Research Excellence Awards Committee
+  type: [cornell, local]
+-
+  when: 2021
+  role: Committee member
   what: Grad Student Advisor Feedback Task Force
   type: [cornell, local]
 -
