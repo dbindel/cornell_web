@@ -1290,3 +1290,9 @@
   where: CURIE Academy, online
   tags: [survey]
   type: [local]
+-
+  file: 2021-09-chelluri/chelluri-sep21.pdf
+  title: "New Approaches to Computing with Kernels"
+  tags: [kernel]
+  type: [colloquium, invited]
+  where: Chelluri lecture, Cornell math colloquium series
