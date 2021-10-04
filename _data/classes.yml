@@ -26,9 +26,9 @@ current:
   -
     course: scan
     where: cornell
-    url: http://www.cse.cornell.edu/scan
+    url: https://cornnell-scan.github.io/
     logistics: |
-      Ongoing.  M 1:25-2:15.
+      Ongoing.  M 1:30-2:20.
   -
     course: projects
     where: cornell
