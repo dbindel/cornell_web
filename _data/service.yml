@@ -1,4 +1,9 @@
 -
+  when: 2022
+  role: Committee member
+  what: Organizing Committee, SIAM Mathematics of Data Science 2022
+  type: [external]
+-
   when: 2021
   role: Committee member
   what: COE Research Excellence Awards Committee

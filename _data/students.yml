@@ -757,6 +757,11 @@ committees:
     field: Mathematics
   -
     degree: phd
+    last: Meng
+    first: Si Yi
+    field: Computer Science
+  -
+    degree: phd
     last: Nwankwo
     first: Darian
     field: Computer Science
