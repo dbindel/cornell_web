@@ -1,3 +1,144 @@
+2022-siam-pp:
+  tags: [gp, opt]
+  abstract: |
+    This work proposes a novel multi-task and multi-fidelity
+    autotuning framework, GPTuneBand, for tuning large-scale expensive
+    high performance computing (HPC) applications.  GPTuneBand
+    combines a multi-task Bayesian optimization algorithm with a
+    multi-armed bandit strategy, well-suited for tuning expensive HPC
+    applications such as numerical libraries, scientific simulation
+    codes and machine learning (ML) models, particularly with a very
+    limited tuning budget.  Our numerical results show that compared
+    to other stateof-the-art autotuners, which only allows single-task
+    or single-fidelity tuning, GPTuneBand obtains significantly better
+    performance for numerical libraries and simulation codes, and
+    competitive validation accuracy for training ML models. When
+    tuning the Hypre library with 12 parameters, GPTuneBand wins over
+    its single-fidelity predecessor GPTune on 62.5% tasks, with a
+    maximum speedup of 1.2x, and wins over a single-task,
+    multi-fidelity tuner BOHB on 72.5% tasks.  When tuning the MFEM
+    library on large numbers of CPU cores, GPTuneBand obtains a 1.7x
+    speedup when compared with the default code parameters.
+
+2022-ems:
+  tags: [opt]
+  abstract: |
+    Automatic calibration is widely used to estimate parameters in
+    hydrological models. The main idea is to use optimization algorithms
+    to minimize the discrepancy between field data and simulation
+    prediction. This process involves iterative exchanges of a parameter
+    set chosen by the optimization and simulation. However, for
+    computationally expensive models, such as groundwater flow and
+    transport models, the calibration process may be extremely
+    computationally demanding. In this study, we introduce and
+    demonstrate a new asynchronous parallel surrogate-assisted
+    optimization algorithm with an early truncation feature and
+    different knowledge extraction strategies (SO-AET-k). Results show
+    that our asynchronous algorithm performs significantly better than
+    the synchronous analogue (SO-SP), requiring only 40%–70% of the
+    computation time to achieve the same averaged results. In addition,
+    various knowledge extraction strategies of the asynchronous SO-AET-k
+    are tested. In comparisons with two other algorithms, SCE-UA and
+    APPSPACK, asynchronous SO-AET-k shows significantly better
+    performance in terms of both efficiency and robustness.
+  
+2021-neurips:
+  tags: [gp]
+  abstract: |
+    Gaussian processes with derivative information are useful in many
+    settings where derivative information is available, including
+    numerous Bayesian optimization and regression tasks that arise in
+    the natural sciences. Incorporating derivative observations,
+    however, comes with a dominating $O(N^3 D^3)$ computational cost when
+    training on $N$ points in $D$ input dimensions. This is intractable
+    for even moderately sized problems. While recent work has
+    addressed this intractability in the low-$D$ setting, the high-$N$,
+    high-$D$ setting is still unexplored and of great value,
+    particularly as machine learning problems increasingly become high
+    dimensional.  In this paper, we introduce methods to achieve fully
+    scalable Gaussian process regression with derivatives using
+    variational inference. Analogous to the use of inducing values to
+    sparsify the labels of a training set, we introduce the concept of
+    inducing directional derivatives to sparsify the partial
+    derivative information of a training set. This enables us to
+    construct a variational posterior that incorporates derivative
+    information but whose size depends neither on the full dataset
+    size $N$ nor the full dimensionality $D$. We demonstrate the full
+    scalability of our approach on a variety of tasks, ranging from a
+    high dimensional stellarator fusion regression task to training
+    graph convolutional neural networks on Pubmed using Bayesian
+    optimization. Surprisingly, we find that our approach can improve
+    regression performance even in settings where only label data is
+    available.
+
+2021-streaming:
+  tags: [networks, communities]
+  abstract: |
+    Community is a universal structure in various complex networks,
+    and community detection is a fundamental task for network
+    analysis. With the rapid growth of network scale, networks are
+    massive, changing rapidly and could naturally be modeled as graph
+    streams. Due to the limited memory and access constraint in graph
+    streams, existing non-streaming community detection methods are no
+    longer applicable. This raises an emerging need for online
+    approaches. In this work, we consider the problem of uncovering the
+    local community containing a few query nodes in graph streams,
+    termed streaming local community detection. This is a new problem
+    raised recently that is more challenging for community detection and
+    only a few works address this online setting. Correspondingly, we
+    design an online single-pass streaming local community detection
+    approach. Inspired by the "local" property of communities, our
+    method samples the local structure around the query nodes in graph
+    streams, and extracts the target community on the sampled subgraph
+    using our proposed metric called the approximate
+    conductance. Comprehensive experiments show that our method
+    remarkably outperforms the streaming baseline on both effectiveness
+    and efficiency, and even achieves similar accuracy comparing to the
+    state-of-the-art non-streaming local community detection methods
+    that use static and complete graphs.
+  
+2021-stellarator:
+  tags: [plasma, stellarator, opt]
+  abstract: |
+    In the construction of a stellarator, the manufacturing and
+    assembling of the coil system is a dominant cost. These coils need
+    to satisfy strict engineering tolerances, and if those are not met
+    the project could be canceled as in the case of the National
+    Compact Stellarator Experiment (NCSX) project. Therefore, our goal
+    is to find coil configurations that increase construction
+    tolerances without compromising the performance of the magnetic
+    field.
+
+    In this paper, we develop a gradient-based stochastic optimization
+    model which seeks robust stellarator coil configurations in high
+    dimensions. In particular, we design a two-step method: first, we
+    perform an approximate global search by a sample efficient
+    trust-region Bayesian optimization; second, we refine the minima
+    found in step one with a stochastic local optimizer. To this end,
+    we introduce two stochastic local optimizers: BFGS applied to the
+    Sample Average Approximation and Adam, equipped with a control
+    variate for variance reduction. Numerical experiments performed on
+    a W7-X-like coil configuration demonstrate that our global
+    optimization approach finds a variety of promising local solutions
+    at less than 0.1% of the cost of previous work, which considered
+    solely local stochastic optimization.
+    
+
+2021-surveillance:
+  tags: [gp]
+  abstract: |
+    We consider a 2D continuous path planning problem with a
+    completely unknown intensity of random termination: an Evader is
+    trying to escape a domain while minimizing the cumulative risk of
+    detection (termination) by adversarial Observers. Those Observers’
+    surveillance intensity is a priori unknown and has to be learned
+    through repetitive path planning. We propose a new algorithm that
+    utilizes Gaussian process regression to model the unknown
+    surveillance intensity and relies on a confidence bound technique
+    to promote strategic exploration. We illustrate our method through
+    several examples and confirm the convergence of averaged regret
+    experimentally.
+
 2021-icml:
   tags: [topics]
   abstract: |
@@ -114,7 +255,7 @@
 
 2020-cvpr:
   tags: [vision]
-  abstract:
+  abstract: |
     Rotation Averaging is a non-convex optimization problem that
     determines orientations of a collection of cameras from their
     images of a 3D scene. The problem has been studied using a variety
