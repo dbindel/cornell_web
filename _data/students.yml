@@ -136,12 +136,23 @@ phd:
 masters:
   -
     degree: meng
+    first: Sahil
+    last: Dev
+    field: Computer Science
+    where: cornell
+    grad: 2022
+    current: false
+    proj:
+      title: Streamlining Spark Cluster Setup with Flintrock
+      when: 2021
+  -
+    degree: meng
     first: Junyoung
     last: Lim
     field: Computer Science
     where: cornell
     grad: 2021
-    current: true
+    current: false
     proj:
       title: Learning to Cluster
       when: 2020
@@ -152,7 +163,7 @@ masters:
     field: Computer Science
     where: cornell
     grad: 2021
-    current: true
+    current: false
     proj:
       title: Learning to Cluster
       when: 2020
