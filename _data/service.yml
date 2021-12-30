@@ -4,6 +4,21 @@
   what: Organizing Committee, SIAM Mathematics of Data Science 2022
   type: [external]
 -
+  when: 2022
+  role: Senior PC member
+  what: ACM KDD
+  type: [external]
+-
+  when: 2022
+  role: Reviewer
+  what: ICML 2022
+  type: [external]
+-
+  when: 2022
+  role: Reviewer
+  what: AISTATS 2022
+  type: [external]
+-
   when: 2021
   role: Committee member
   what: COE Research Excellence Awards Committee
@@ -28,6 +43,11 @@
   until: 2023
   what: SIAM Journal of Scientific Computing
   role: Associate editor
+  type: [external]
+-
+  when: 2021
+  role: Reviewer
+  what: ICLR 2022
   type: [external]
 -
   when: 2021
