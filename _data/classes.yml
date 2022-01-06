@@ -24,9 +24,15 @@ active:
 # Info for courses appearing on front page
 current:
   -
+    course: cs4220
+    where: cornell
+    url: https://www.cs.cornell.edu/courses/cs4220/2022sp/
+    logistics: |
+      Olin 255.  MWF 11:20-12:10.
+  -
     course: scan
     where: cornell
-    url: https://cornnell-scan.github.io/
+    url: https://cornell-scan.github.io/
     logistics: |
       Ongoing.  M 1:30-2:20.
   -
