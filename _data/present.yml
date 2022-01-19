@@ -1296,3 +1296,9 @@
   tags: [kernel]
   type: [colloquium, invited]
   where: Chelluri lecture, Cornell math colloquium series
+-
+  file: 2022-01-enla/enla-jan22.pdf
+  title: "Inducing Point Approximations of Kernel Matrices"
+  tags: [kernel]
+  type: [seminar, invited]
+  where: eNLA seminar, online
