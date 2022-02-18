@@ -1300,5 +1300,10 @@
   file: 2022-01-enla/enla-jan22.pdf
   title: "Inducing Point Approximations of Kernel Matrices"
   tags: [kernel]
-  type: [seminar, invited]
+  type: [seminar, external, invited]
   where: eNLA seminar, online
+-
+  file: 2022-02-umd/umd-feb22.pdf
+  title: "Spectral Network Analysis: Beyond the Spectrum's Edge"
+  tags: [network]
+  type: [meeting, external, invited]
