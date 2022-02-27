@@ -861,6 +861,11 @@ committees:
     last: Zhu
     first: Xinran
     field: Applied Math
+  -
+    degree: phd
+    last: Zvonek
+    first: Jennifer
+    field: Applied Math
 
 past_committees:
   -
