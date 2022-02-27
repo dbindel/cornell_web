@@ -1,6 +1,11 @@
 -
   when: 2022
   role: Committee member
+  what: Implementation committee, Cornell undergrad educational requirements on race and equity
+  type: [cornell, local]
+-
+  when: 2022
+  role: Committee member
   what: Organizing Committee, SIAM Mathematics of Data Science 2022
   type: [external]
 -
