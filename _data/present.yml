@@ -1308,3 +1308,10 @@
   tags: [network]
   type: [meeting, external, invited]
   where: "Workshop on Complex Networks: Analysis, Numerics, and Applications at UMD"
+-
+  file: 2022-04-michigan/michigan-apr22.pdf
+  title: "The Structure and Interpretation of Graph Spectral Densities"
+  tags: [network]
+  type: [seminar, external, invited]
+  where: Michigan Applied Interdisciplinary Mathematics (AIM) seminar
+
