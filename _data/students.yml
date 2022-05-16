@@ -723,11 +723,6 @@ committees:
     field: Civil Engineering
   -
     degree: phd
-    last: Browne
-    first: Chris
-    field: Applied Math
-  -
-    degree: phd
     last: Calinao Correa
     first: Gabriela
     field: Material Science
@@ -738,14 +733,14 @@ committees:
     field: Applied Physics
   -
     degree: phd
-    last: Frangella
-    first: Zachary
-    field: Applied Math
-  -
-    degree: phd
     last: Gaspard
     first: Mallory
     field: Applied Math
+  -
+    degree: phd
+    last: Gupta
+    first: Arnav
+    field: Theoretical and Applied Mechanics
   -
     degree: phd
     last: Kellison
@@ -803,11 +798,6 @@ committees:
     field: Applied Math
   -
     degree: phd
-    last: Shi
-    first: Tianyi
-    field: Applied Math
-  -
-    degree: phd
     last: Qi
     first: Dongping
     field: Applied Math
@@ -816,6 +806,11 @@ committees:
     last: Wan
     first: Jiayue
     field: Operations Research
+  -
+    degree: phd
+    last: Wang
+    first: Jikun
+    field: Mechanical Engineering
   -
     degree: phd
     last: Wang
@@ -870,6 +865,14 @@ committees:
 past_committees:
   -
     degree: phd
+    last: Shi
+    first: Tianyi
+    field: Applied Math
+    thesis:
+      title: Tensor Computations with Dimensionality Manipulations
+      year: 2022
+  -
+    degree: phd
     last: Horning
     first: Andrew
     field: Applied Math
@@ -884,6 +887,7 @@ past_committees:
     thesis:
       title: Forward and Inverse Rendering with Gradient-Based Optimization
       year: 2021
+      url: https://ecommons.cornell.edu/handle/1813/110606
   -
     degree: phd
     last: Mukhtyar
@@ -892,6 +896,7 @@ past_committees:
     thesis:
       title: Towards Understanding the Disorder to Order Transitions in Soft Materials
       year: 2021
+      url: https://ecommons.cornell.edu/handle/1813/59613
   -
     degree: phd
     first: Junteng
@@ -900,6 +905,7 @@ past_committees:
     thesis:
       title: Modeling and Learning Attributed Graphs
       year: 2021
+      url: https://ecommons.cornell.edu/handle/1813/109752
   -
     degree: ms
     last: Wani
