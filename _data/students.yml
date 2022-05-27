@@ -783,11 +783,6 @@ committees:
     field: Applied Math
   -
     degree: phd
-    last: Ryan
-    first: John
-    field: Computer Science
-  -
-    degree: phd
     last: Shen
     first: Zhengdi
     field: Applied Math
@@ -863,6 +858,14 @@ committees:
     field: Applied Math
 
 past_committees:
+  -
+    degree: phd
+    last: Ryan
+    first: John
+    field: Computer Science
+    thesis:
+      title: Fast Kernel Matrix Approximations by Series Expansions
+      year: 2022
   -
     degree: phd
     last: Shi
