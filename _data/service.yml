@@ -1,4 +1,19 @@
 -
+  when: 2025
+  role: Committee member
+  what: Local organizing committee, Householder XXII Meeting
+  type: [external]
+-
+  when: 2025
+  role: Co-chair
+  what: Program committee, SIAM Computational Science and Engineering 2025
+  type: [external]
+-
+  when: 2022
+  role: Committee member
+  what: 2023 SIAG/CSE Early Career Prize Selection Committee
+  type: [external]
+-
   when: 2022
   role: Committee member
   what: Implementation committee, Cornell undergrad educational requirements on race and equity
