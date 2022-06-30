@@ -1314,4 +1314,16 @@
   tags: [network]
   type: [seminar, external, invited]
   where: Michigan Applied Interdisciplinary Mathematics (AIM) seminar
-
+-
+  file: 2022-06-householder/householder-jun22.pdf
+  title: "Chebyshev Featurization"
+  tags: [kernel]
+  type: [poster, meeting, external, invited]
+  where: "Householder Symposium XXI, Selva di Fasano"
+-
+  file: 2022-06-greifswald/greifswald-apr22.pdf
+  title: "Constrained, Multi-Objective, and Parameterized Optimization"
+  tags: [stellarator]
+  type: [meeting, external, invited]
+  where: "Simons Collaboration Meeting, Institute for Plasma Physics, Greifswald, Germany"
+  where: Michigan Applied Interdisciplinary Mathematics (AIM) seminar
