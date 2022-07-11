@@ -1327,3 +1327,9 @@
   type: [meeting, external, invited]
   where: "Simons Collaboration Meeting, Institute for Plasma Physics, Greifswald, Germany"
   where: Michigan Applied Interdisciplinary Mathematics (AIM) seminar
+-
+  file: 2022-07-siam/siam-jul22.pdf
+  title: "Inducing Point Approximations of Kernel Matrices"
+  tags: [kernel]
+  type: [meeting, minisymposium, external, invited]
+  where: SIAM Annual Meeting 2022, Pittsburgh (hybrid)
