@@ -703,16 +703,6 @@ ugrad:
 committees:
   -
     degree: phd
-    last: Ament
-    first: Sebastian
-    field: Computer Science
-  -
-    degree: phd
-    last: Astudillo Marban
-    first: Raul
-    field: Operations Research
-  -
-    degree: phd
     last: Berlstein
     first: Griffin
     field: Computer Science
@@ -723,9 +713,14 @@ committees:
     field: Civil Engineering
   -
     degree: phd
-    last: Calinao Correa
-    first: Gabriela
-    field: Material Science
+    last: Botvinivk-Greenhouse
+    first: Jonah
+    field: Applied Math
+  -
+    degree: phd
+    last: Brown
+    first: Jacob
+    field: Applied Math
   -
     degree: phd
     last: Chen
@@ -750,11 +745,6 @@ committees:
     degree: phd
     last: Li
     first: Yandong
-    field: Computer Science
-  -
-    degree: phd
-    last: Lin
-    first: Hubert
     field: Computer Science
   -
     degree: phd
@@ -788,11 +778,6 @@ committees:
     field: Applied Math
   -
     degree: phd
-    last: Shi
-    first: Qinru
-    field: Applied Math
-  -
-    degree: phd
     last: Qi
     first: Dongping
     field: Applied Math
@@ -816,11 +801,6 @@ committees:
     last: Wheeler
     first: Aaron
     field: Chemical Engineering
-  -
-    degree: phd
-    last: Xia
-    first: Mengqi
-    field: Computer Science
   -
     degree: phd
     last: Xu
@@ -860,11 +840,51 @@ committees:
 past_committees:
   -
     degree: phd
+    last: Astudillo Marban
+    first: Raul
+    field: Operations Research
+    thesis:
+      title: Exploting Composite Functions in Bayesian Optimization
+      year: 2022
+  -
+    degree: phd
+    last: Xia
+    first: Mengqi
+    field: Computer Science
+    thesis:
+      title: Physically Realistic Rendering of Complex Materials Using Wave Optics
+      year: 2022
+  -
+    degree: phd
+    last: Shi
+    first: Qinru
+    field: Applied Math
+    thesis:
+      title: Combinatorial Optimization and Decision-Making with Applications in Computational Sustainability
+      year: 2022
+  -
+    degree: phd
+    last: Ament
+    first: Sebastian
+    field: Computer Science
+    thesis:
+      title: Advances in Bayesian and Sparse Optimization for Autonomous Scientific Discovery
+      year: 2022
+  -
+    degree: phd
     last: Ryan
     first: John
     field: Computer Science
     thesis:
       title: Fast Kernel Matrix Approximations by Series Expansions
+      year: 2022
+  -
+    degree: phd
+    last: Lin
+    first: Hubert
+    field: Computer Science
+    thesis:
+      title: Towards Robust Visual Perception Systems in Real-World Environments
       year: 2022
   -
     degree: phd
@@ -909,6 +929,14 @@ past_committees:
       title: Modeling and Learning Attributed Graphs
       year: 2021
       url: https://ecommons.cornell.edu/handle/1813/109752
+  -
+    degree: ms
+    last: Calinao Correa
+    first: Gabriela
+    field: Material Science
+    thesis:
+      title: "Direct electron detectors: architecture and algorithms"
+      year: 2020
   -
     degree: ms
     last: Wani

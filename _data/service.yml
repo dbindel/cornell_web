@@ -9,6 +9,21 @@
   what: Program committee, SIAM Computational Science and Engineering 2025
   type: [external]
 -
+  when: 2023
+  role: Reviewer
+  what: ICLR 2023
+  type: [external]
+-
+  when: 2023
+  role: Committee member
+  what: Program committee, MLSys 2023
+  type: [external]
+-
+  when: 2022
+  role: Committee member
+  what: Program committee, SIAM Network Science 2022
+  type: [external]
+-
   when: 2022
   role: Committee member
   what: 2023 SIAG/CSE Early Career Prize Selection Committee
