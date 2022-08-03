@@ -24,11 +24,10 @@ active:
 # Info for courses appearing on front page
 current:
   -
-    course: cs4220
+    course: cs6210
     where: cornell
-    url: https://www.cs.cornell.edu/courses/cs4220/2022sp/
     logistics: |
-      Olin 255.  MWF 11:20-12:10.
+      Bard 140.  TR 1:00-2:15.
   -
     course: scan
     where: cornell
@@ -51,6 +50,11 @@ current:
 
 # Record of past courses
 previous:
+  -
+    semester: S22
+    course: cs4220
+    where: cornell
+    url: https://www.cs.cornell.edu/courses/cs4220/2022sp/
   -
     semester: S21
     course: cs6241
