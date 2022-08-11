@@ -783,6 +783,11 @@ committees:
     field: Applied Math
   -
     degree: phd
+    last: Sun
+    first: Jiatian
+    field: Computer Science
+  -
+    degree: phd
     last: Qi
     first: Dongping
     field: Applied Math
