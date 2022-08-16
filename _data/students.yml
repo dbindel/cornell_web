@@ -767,6 +767,11 @@ committees:
     first: Darian
     field: Computer Science
   -
+    degree:
+    last: Ong
+    first: Shawn
+    field: Applied Math
+  -
     degree: phd
     last: Padidar
     first: Misha
