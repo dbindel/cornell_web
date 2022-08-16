@@ -21,6 +21,11 @@
 -
   when: 2022
   role: Committee member
+  what: Cornell Engineering Teaching Award Committee
+  type: [cornell, local]
+-
+  when: 2022
+  role: Committee member
   what: Program committee, SIAM Network Science 2022
   type: [external]
 -
