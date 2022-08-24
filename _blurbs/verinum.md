@@ -1,6 +1,6 @@
 ---
 title: Verified numerics
-image:
+image: verinum-logo.png
 snippet: |
   Formally correctness proofs for floating point codes.
 menu:
