@@ -161,3 +161,35 @@
   text: Foundations of Computational Mathematics
   url: http://focm-society.org/2020/
   cancel: true
+-
+  date: 2021-12-01
+  text: Computing for Teaching and Learning
+  url: https://engineerscode.github.io/facultydev1/participants
+-
+  date: 2022-06-12
+  text: Householder Symposium on Numerical Linear Algebra
+  url: https://users.ba.cnr.it/iac/irmanm21/HHXXI/index.html
+-
+  date: 2022-06-27
+  text: Simons Collaboration Greifswald Retreat
+  url: https://hiddensymmetries.princeton.edu/meetings/2022-greifswald-retreat
+-
+  date: 2022-07-17
+  text: DOE CSGF Program Review
+  url: https://www.krellinst.org/csgf/conf/2022/agenda
+-
+  date: 2022-09-07
+  text: ACM Tapia Conference
+  url: https://tapiaconference.cmd-it.org/
+-
+  date: 2022-09-26
+  text: SIAM MDS
+  url: https://www.siam.org/conferences/cm/conference/mds22
+-
+  date: 2022-02-26
+  text: SIAM CSE
+  url: https://www.siam.org/conferences/cm/conference/cse23
+-
+  date: 2023-03-05
+  text: "BIFS Workshop: Perspectives on Matrix Computations"
+  url: https://www.birs.ca/events/2023/5-day-workshops/23w5108
