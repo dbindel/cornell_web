@@ -3,23 +3,14 @@ title:  Office hours
 layout: main
 ---
 
-<!--
 <p>
   My office is 425 Gates Hall.  Except during unusual circumstances, I
   will be there and available for drop-in consultation at least during
   these hours:
 </p>
--->
-
-<p>
-  Except during unusual circumstances, I will be available for 
-  drop-in consultation 
-  (on <a href="https://cornell.zoom.us/j/98649265716?pwd=MEpWMWYzWmx3eTJoeWQzbmFJd1BNUT09">Zoom</a>)
-  at least during these hours:
-</p>
 
 <ul>
-{% for hour in site.data.hours %}<li>{{ hour }}</li>{% endfor %}
+{% for hour in site.data.hours.general %}<li>{{ hour }}</li>{% endfor %}
 </ul>
 
 <p>

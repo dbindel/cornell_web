@@ -1,4 +1,14 @@
+general:
 - Mon 3-4
 - Tue 2:30-3:30
 - Wed 3-4
 - and by appointment
+
+group:
+- Mon 4-5
+- Wed 9-11 and 4-5
+- Fri 10-12
+
+group_meeting:
+- Fri 9-10 in Gates 405 (full group)
+- Wed 9-10 in Gates 425 (MHD)
