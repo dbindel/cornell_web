@@ -10,6 +10,11 @@
   type: [external]
 -
   when: 2023
+  until: 2024
+  what: Committee member, SIAM Nominating Committee
+  type: [external]
+-
+  when: 2023
   role: Reviewer
   what: ICLR 2023
   type: [external]
@@ -18,6 +23,11 @@
   role: Committee member
   what: Program committee, MLSys 2023
   type: [external]
+-
+  when: 2022
+  role: Committee member
+  what: Grad Student Advisor Feedback Task Force phase 2
+  type: [cornell, local]
 -
   when: 2022
   role: Committee member
