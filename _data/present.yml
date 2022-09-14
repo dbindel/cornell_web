@@ -1332,3 +1332,9 @@
   tags: [kernel]
   type: [meeting, minisymposium, external, invited]
   where: SIAM Annual Meeting 2022, Pittsburgh (hybrid)
+-
+  file: 2022-09-scan/scan-sep22.pdf
+  title: Optimizing Magnetic Confinement Devices for Fusion Plasmas
+  where: Cornell SCAN Seminar
+  tags: [stellarator]
+  type: [seminar, local]
