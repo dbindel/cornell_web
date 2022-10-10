@@ -1,3 +1,29 @@
+2022-stellarator:
+  tags: [plasma, stellarator, opt]
+  abstract: |
+    In the construction of a stellarator, the manufacturing and
+    assembling of the coil system is a dominant cost. These coils need
+    to satisfy strict engineering tolerances, and if those are not met
+    the project could be canceled as in the case of the National
+    Compact Stellarator Experiment (NCSX) project. Therefore, our goal
+    is to find coil configurations that increase construction
+    tolerances without compromising the performance of the magnetic
+    field.
+
+    In this paper, we develop a gradient-based stochastic optimization
+    model which seeks robust stellarator coil configurations in high
+    dimensions. In particular, we design a two-step method: first, we
+    perform an approximate global search by a sample efficient
+    trust-region Bayesian optimization; second, we refine the minima
+    found in step one with a stochastic local optimizer. To this end,
+    we introduce two stochastic local optimizers: BFGS applied to the
+    Sample Average Approximation and Adam, equipped with a control
+    variate for variance reduction. Numerical experiments performed on
+    a W7-X-like coil configuration demonstrate that our global
+    optimization approach finds a variety of promising local solutions
+    at less than 0.1% of the cost of previous work, which considered
+    solely local stochastic optimization.
+
 2022-siam-pp:
   tags: [gp, opt]
   abstract: |
@@ -97,33 +123,6 @@
     state-of-the-art non-streaming local community detection methods
     that use static and complete graphs.
   
-2021-stellarator:
-  tags: [plasma, stellarator, opt]
-  abstract: |
-    In the construction of a stellarator, the manufacturing and
-    assembling of the coil system is a dominant cost. These coils need
-    to satisfy strict engineering tolerances, and if those are not met
-    the project could be canceled as in the case of the National
-    Compact Stellarator Experiment (NCSX) project. Therefore, our goal
-    is to find coil configurations that increase construction
-    tolerances without compromising the performance of the magnetic
-    field.
-
-    In this paper, we develop a gradient-based stochastic optimization
-    model which seeks robust stellarator coil configurations in high
-    dimensions. In particular, we design a two-step method: first, we
-    perform an approximate global search by a sample efficient
-    trust-region Bayesian optimization; second, we refine the minima
-    found in step one with a stochastic local optimizer. To this end,
-    we introduce two stochastic local optimizers: BFGS applied to the
-    Sample Average Approximation and Adam, equipped with a control
-    variate for variance reduction. Numerical experiments performed on
-    a W7-X-like coil configuration demonstrate that our global
-    optimization approach finds a variety of promising local solutions
-    at less than 0.1% of the cost of previous work, which considered
-    solely local stochastic optimization.
-    
-
 2021-surveillance:
   tags: [gp]
   abstract: |

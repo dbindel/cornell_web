@@ -14,7 +14,8 @@ END {
 
 /^citeh/ {
   print(bibitems["\\bibitem{" $2 "}"])
-  print("\\deptrev{Representative paper for tenure review.}")
+  #print("\\deptrev{Representative paper for tenure review.}")
+  print("\\deptrev{Representative paper for promotion review.}")
 }
 
 /^cite / {

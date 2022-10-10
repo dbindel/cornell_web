@@ -1,5 +1,5 @@
 ---
 ---
-{% for paper in site.data.tenure.highlight %}
+{% for paper in site.data.full.highlight %}
 {% refformat {{ paper }} -T bibnocite %}
 {% endfor %}
