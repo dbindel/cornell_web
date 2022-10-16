@@ -11,17 +11,23 @@
 -
   when: 2023
   until: 2024
-  what: Committee member, SIAM Nominating Committee
+  role: Committee member
+  what: SIAM Nominating Committee
   type: [external]
 -
-  when: 2023
+  when: 2022
+  role: Judge
+  what: BigRedHacks
+  type: [local]
+-
+  when: 2022
   role: Reviewer
   what: ICLR 2023
   type: [external]
 -
-  when: 2023
-  role: Committee member
-  what: Program committee, MLSys 2023
+  when: 2022
+  role: Program committee member
+  what: MLSys 2023
   type: [external]
 -
   when: 2022
