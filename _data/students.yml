@@ -733,6 +733,11 @@ committees:
     field: Applied Physics
   -
     degree: phd
+    last: Fahmy
+    first: Youssef
+    field: Statistics
+  -
+    degree: phd
     last: Gaspard
     first: Mallory
     field: Applied Math
