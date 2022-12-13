@@ -788,6 +788,11 @@ committees:
     field: Applied Math
   -
     degree: phd
+    last: Qi
+    first: Dongping
+    field: Applied Math
+  -
+    degree: phd
     last: Ruth
     first: Max
     field: Applied Math
@@ -803,8 +808,8 @@ committees:
     field: Computer Science
   -
     degree: phd
-    last: Qi
-    first: Dongping
+    last: Tang
+    first: Katerina
     field: Applied Math
   -
     degree: phd
