@@ -1,3 +1,15 @@
+2022-neurips:
+  tags: [gp]
+  abstract: |
+    Stochastic variational Gaussian processes (SVGP) scale Gaussian process
+    inference to large datasets through inducing points and stochastic
+    training.  However, the training process involves hard multimodal optimization,
+    and often suffers from slow and suboptimal convergence when initializing
+    inducing points directly from training data. We provide a better initialization
+    of inducing points from kernelbased least squares fitting. We show empirically
+    that our approach consistently reaches better prediction performance. The total
+    time cost of our method, including initialization, is comparable to the
+    standard SVGP training.
 2022-stellarator:
   tags: [plasma, stellarator, opt]
   abstract: |
