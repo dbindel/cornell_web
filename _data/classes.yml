@@ -24,11 +24,11 @@ active:
 # Info for courses appearing on front page
 current:
   -
-    course: cs6210
+    course: cs4220
     where: cornell
-    url: https://www.cs.cornell.edu/courses/cs6210/2022fa/
+    url: https://www.cs.cornell.edu/courses/cs4220/2023sp/
     logistics: |
-      Bard 140.  TR 1:00-2:15.
+      Gates G01.  MWF 11:20-12:10.
   -
     course: scan
     where: cornell
