@@ -5,7 +5,7 @@ layout: main
 
 <p>
   Visitors are welcome at the weekly group meeting, which will take place
-  {% site.data.group_meeting %}.
+  {% for t in site.data.group_meeting %}{{ t }}{% endfor %}.
 </p>
 
 <p>
