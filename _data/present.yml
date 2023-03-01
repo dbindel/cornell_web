@@ -1338,3 +1338,9 @@
   where: Cornell SCAN Seminar
   tags: [stellarator]
   type: [seminar, local]
+-
+  file: 2023-03-cse/siam-cse-mar23.pdf
+  title: Global Stochastic Optimization of Stellarator Coils
+  where: SIAM Computational Science and Engineering 2023, Amsterdam
+  tags: [stellarator]
+  type: [meeting, minisymposium, external, invited]
