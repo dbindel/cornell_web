@@ -819,11 +819,6 @@ committees:
   -
     degree: phd
     last: Wang
-    first: Jikun
-    field: Mechanical Engineering
-  -
-    degree: phd
-    last: Wang
     first: Junxiong
     field: Computer Science
   -
@@ -870,12 +865,21 @@ committees:
 past_committees:
   -
     degree: phd
+    last: Wang
+    first: Jikun
+    field: Mechanical Engineering
+    thesis:
+      title: Nonlinear Viscoelasticity and Damage for Soft Materials
+      year: 2023
+  -
+    degree: phd
     last: Astudillo Marban
     first: Raul
     field: Operations Research
     thesis:
       title: Exploting Composite Functions in Bayesian Optimization
       year: 2022
+      url: https://ecommons.cornell.edu/handle/1813/111914
   -
     degree: phd
     last: Xia
@@ -884,6 +888,7 @@ past_committees:
     thesis:
       title: Physically Realistic Rendering of Complex Materials Using Wave Optics
       year: 2022
+      url: https://ecommons.cornell.edu/handle/1813/112093
   -
     degree: phd
     last: Shi
@@ -892,6 +897,7 @@ past_committees:
     thesis:
       title: Combinatorial Optimization and Decision-Making with Applications in Computational Sustainability
       year: 2022
+      url: https://ecommons.cornell.edu/handle/1813/112054
   -
     degree: phd
     last: Ament
@@ -900,6 +906,7 @@ past_committees:
     thesis:
       title: Advances in Bayesian and Sparse Optimization for Autonomous Scientific Discovery
       year: 2022
+      url: https://ecommons.cornell.edu/handle/1813/112894
   -
     degree: phd
     last: Ryan
@@ -908,6 +915,7 @@ past_committees:
     thesis:
       title: Fast Kernel Matrix Approximations by Series Expansions
       year: 2022
+      url: https://ecommons.cornell.edu/handle/1813/112044
   -
     degree: phd
     last: Lin
@@ -916,6 +924,7 @@ past_committees:
     thesis:
       title: Towards Robust Visual Perception Systems in Real-World Environments
       year: 2022
+      url: https://ecommons.cornell.edu/handle/1813/111743
   -
     degree: phd
     last: Shi
@@ -924,6 +933,7 @@ past_committees:
     thesis:
       title: Tensor Computations with Dimensionality Manipulations
       year: 2022
+      url: https://ecommons.cornell.edu/handle/1813/111787
   -
     degree: phd
     last: Horning
@@ -932,6 +942,7 @@ past_committees:
     thesis:
       title: Computing Spectral Properties of Infinite-Dimensional Operators
       year: 2021
+      url: https://ecommons.cornell.edu/handle/1813/110907
   -
     degree: phd
     last: Luan
@@ -967,6 +978,7 @@ past_committees:
     thesis:
       title: "Direct electron detectors: architecture and algorithms"
       year: 2020
+      url: https://ecommons.cornell.edu/handle/1813/70260
   -
     degree: ms
     last: Wani
