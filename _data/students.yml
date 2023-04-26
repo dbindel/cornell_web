@@ -708,11 +708,6 @@ committees:
     field: Computer Science
   -
     degree: phd
-    last: Bonneville
-    first: Christophe
-    field: Civil Engineering
-  -
-    degree: phd
     last: Botvinivk-Greenhouse
     first: Jonah
     field: Applied Math
@@ -753,14 +748,14 @@ committees:
     field: Computer Science
   -
     degree: phd
+    last: Khanal
+    first: Kapil
+    field: Systems Engineering
+  -
+    degree: phd
     last: Li
     first: Yandong
     field: Computer Science
-  -
-    degree: phd
-    last: Lipton
-    first: Max
-    field: Mathematics
   -
     degree: phd
     last: Meng
@@ -798,9 +793,9 @@ committees:
     field: Applied Math
   -
     degree: phd
-    last: Shen
-    first: Zhengdi
-    field: Applied Math
+    last: Sbrocco
+    first: Cade
+    field: Physics
   -
     degree: phd
     last: Sun
@@ -863,6 +858,22 @@ committees:
     field: Applied Math
 
 past_committees:
+  -
+    degree: phd
+    last: Bonneville
+    first: Christophe
+    field: Civil Engineering
+    thesis:
+      title: "Bayesian Machine Learning Algortihms for Uncertainty Quantification, Optimization, and Equation Discoveries in Engineering Physics"
+      year: 2023
+  -
+    degree: phd
+    last: Lipton
+    first: Max
+    field: Mathematics
+    thesis:
+      title: Dynamical Systems in Pure Mathematics
+      year: 2023
   -
     degree: phd
     last: Wang
