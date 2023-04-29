@@ -1,3 +1,83 @@
+2023-jpp:
+  tags: [stellarator]
+  abstract: |
+    In designing stellarators, any design decision ultimately comes
+    with a trade-off. Improvements in particle confinement, for
+    instance, may increase the burden on engineers to build more complex
+    coils, and the tightening of financial constraints may simplify the
+    design and worsen some aspects of transport. Understanding
+    trade-offs in stellarator designs is critical in designing high
+    performance devices that satisfy the multitude of physical,
+    engineering, and financial criteria. In this study we show how
+    multi-objective optimization (MOO) can be used to investigate
+    trade-offs and develop insight into the role of design
+    parameters. We discuss the basics of MOO, as well as practical
+    solution methods for solving MOO problems. We apply these methods to
+    bring insight into the selection of two common design parameters:
+    the aspect ratio of an ideal magnetohydrodynamic equilibrium, and
+    the total length of the electromagnetic coils.
+2023-ppcf:
+  tags: [stellarator]
+  abstract: |
+    Confining energetic ions such as alpha particles is a prime
+    concern in the design of stellarators. However, directly measuring
+    alpha confinement through numerical simulation of guiding-center
+    trajectories has been considered to be too computationally expensive
+    and noisy to include in the design loop, and instead has been most
+    often used only as a tool to assess stellarator designs post hoc. In
+    its place, proxy metrics, simplified measures of confinement, have
+    often been used to design configurations because they are
+    computationally more tractable and have been shown to be
+    effective. Despite the success of proxies, it is unclear what is
+    being sacrificed by using them to design the device rather than
+    relying on direct trajectory calculations. In this study, we
+    optimize stellarator designs for improved alpha particle confinement
+    without the use of proxy metrics. In particular, we numerically
+    optimize an objective function that measures alpha particle losses
+    by simulating alpha particle trajectories. While this method is
+    computationally expensive, we find that it can be used successfully
+    to generate configurations with low losses.
+2023-tmlr:
+  tags: [gp]
+  abstract: |
+    The Bayesian transformed Gaussian (BTG) model, proposed by Kedem
+    and Oliviera in 1997, was developed as a Bayesian approach to
+    trans-Kriging in the spatial statistics community. In this paper, we
+    revisit BTG in the context of modern Gaussian process literature by
+    framing it as a fully Bayesian counterpart to the Warped Gaussian
+    process that marginalizes out a joint prior over input warping and
+    kernel hyperparameters.  As with any other fully Bayesian approach,
+    this treatment introduces prohibitively expensive computational
+    overhead; unsurprisingly, the BTG posterior predictive distribution,
+    itself estimated through high-dimensional integration, must be
+    inverted in order to perform model prediction.  To address these
+    challenges, we introduce principled numerical techniques for
+    computing with BTG efficiently using a combination of doubly sparse
+    quadrature rules, tight quantile bounds, and rank-one matrix algebra
+    to enable both fast model prediction and model selection. These
+    efficient methods allow us to compute with higher-dimensional
+    datasets and apply BTG with layered transformations that greatly
+    improve its expressibility. We demonstrate that BTG achieves
+    superior empirical performance over MLE-based models in the low-data
+    regime ---situations in which MLE tends to overfit.
+2023-aistats:
+  tags: [gp]
+  abstract: |
+    We consider a task of surveillance-evading path-planning in a
+    continuous setting. An Evader strives to escape from a 2D domain
+    while minimizing the risk of detection (and immediate capture). The
+    probability of detection is path-dependent and determined by the
+    spatially inhomogeneous surveillance intensity, which is fixed but a
+    priori unknown and gradually learned in the multi-episodic
+    setting. We introduce a Bayesian reinforcement learning algorithm
+    that relies on a Gaussian Process regression (to model the
+    surveillance intensity function based on the information from prior
+    episodes), numerical methods for Hamilton-Jacobi PDEs (to plan the
+    best continuous trajectories based on the current model), and
+    Confidence Bounds (to balance the exploration vs exploitation). We
+    use numerical experiments and regret metrics to highlight the
+    significant advantages of our approach compared to traditional
+    graph-based algorithms of reinforcement learning.
 2022-neurips:
   tags: [gp]
   abstract: |
