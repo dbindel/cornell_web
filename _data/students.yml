@@ -136,6 +136,17 @@ phd:
 masters:
   -
     degree: meng
+    first: Felix
+    last: Hohne
+    field: Computer Science
+    where: cornell
+    grad: 2023
+    current: true
+    proj:
+      title: Interfacing DESC with Julia
+      when: 2023
+  -
+    degree: meng
     first: Sahil
     last: Dev
     field: Computer Science
@@ -514,25 +525,53 @@ masters:
 
 ugrad:
   -
+    first: Tejal
+    last: Nair
+    when: 2023
+    where: cornell
+    current: true
+    proj: Variational Gaussian Processes
+  -
+    first: Tony
+    last: Xu
+    when: 2023
+    where: cornell
+    current: true
+    proj: Stability-Constrained Optimization for Stellarators
+  -
+    first: Sean
+    last: Yang
+    when: 2023
+    where: cornell
+    current: true
+    proj: Near-Axis Expansion of Stellarators in Julia
+  -
+    first: Stella
+    last: Dang
+    when: 2022
+    where: cornell
+    current: false
+    proj: Soliton Stability
+  -
     first: Paco
     last: Rilloraza
     when: 2020
     where: cornell
-    current: true
+    current: false
     proj: Stellarator Optimization
   -
     first: Catherine
     last: Horng
     when: 2020
     where: cornell
-    current: true
+    current: false
     proj: Learning to Cluster
   -
     first: Shengye
     last: Zang
     when: 2020
     where: cornell
-    current: true
+    current: false
     proj: Learning to Cluster
   -
     first: Andrew
