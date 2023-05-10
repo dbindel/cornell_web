@@ -36,14 +36,6 @@ phd:
     topic: Transformed kernel methods for prediction and optimization
     url: http://www.cs.cornell.edu/~don/
   -
-    first: Misha
-    last: Padidar
-    field: Applied Math
-    where: cornell
-    current: true
-    topic: Stellarator optimization
-    url: http://www.mishapadidar.com/
-  -
     first: Max
     last: Ruth
     field: Applied Math
@@ -59,6 +51,16 @@ phd:
     current: true
     topic: Numerical analysis of kernel methods
     url: https://www.cam.cornell.edu/research/grad-students/jessie-xinran-zhu
+  -
+    first: Misha
+    last: Padidar
+    field: Applied Math
+    where: cornell
+    topic: Stellarator optimization
+    url: http://www.mishapadidar.com/
+    thesis:
+      title: Challenges in the optimization-aided design of magnetic confinement systems
+      year: 2023
   -
     first: Eric
     last: Lee
@@ -817,11 +819,6 @@ committees:
     field: Applied Math
   -
     degree: phd
-    last: Padidar
-    first: Misha
-    field: Applied Math
-  -
-    degree: phd
     last: Qi
     first: Dongping
     field: Applied Math
@@ -897,6 +894,14 @@ committees:
     field: Applied Math
 
 past_committees:
+  -
+    degree: phd
+    last: Padidar
+    first: Misha
+    field: Applied Math
+    thesis:
+      title: "Challenges in the optimization-aided design of magnetic confinement systems"
+      year: 2023
   -
     degree: phd
     last: Bonneville
