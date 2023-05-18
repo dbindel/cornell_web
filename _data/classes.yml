@@ -52,6 +52,16 @@ current:
 # Record of past courses
 previous:
   -
+    semester: S23
+    course: cs4220
+    where: cornell
+    url: https://www.cs.cornell.edu/courses/cs4220/2023sp/
+  -
+    semester: F22
+    course: cs6210
+    where: cornell
+    url: https://www.cs.cornell.edu/courses/cs6210/2022fa/
+  -
     semester: S22
     course: cs4220
     where: cornell
