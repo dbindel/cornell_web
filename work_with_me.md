@@ -41,7 +41,7 @@ sometimes I end up as an effective co-advisor.
 I am generally willing to serve as a member of a special committee for Cornell
 PhD students if there is some reason why my expertise would be particularly
 useful. At Cornell, I can represent the graduate fields of computer science,
-math, applied math, civil engineering, data science, and computational science
+math, applied math, statistics, civil engineering, data science, and computational science
 and engineering.  I *am* on a lot of committees, so if there is someone else
 who would be an equally good committee member, do consider asking them instead.
 
