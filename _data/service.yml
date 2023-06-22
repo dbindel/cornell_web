@@ -1,4 +1,10 @@
 -
+  when: 2023
+  until: 2024
+  role: Committee chair
+  what: "2024 SIAG/DATA Career and Early Career Prize committee"
+  type: [external]
+-
   when: 2025
   role: Committee member
   what: Local organizing committee, Householder XXII Meeting
