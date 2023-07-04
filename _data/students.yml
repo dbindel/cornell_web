@@ -869,11 +869,6 @@ committees:
     field: Statistics
   -
     degree: phd
-    last: You
-    first: Yurong
-    field: Computer Science
-  -
-    degree: phd
     last: Zhang
     first: Yujia
     field: Applied Math
@@ -894,6 +889,14 @@ committees:
     field: Applied Math
 
 past_committees:
+  -
+    degree: phd
+    last: You
+    first: Yurong
+    field: Computer Science
+    thesis:
+      title: "Enhancing 3D Perception with Unlabeled Repeated Historical Data for Autonomous Vehicles"
+      year: 2023
   -
     degree: phd
     last: Padidar
