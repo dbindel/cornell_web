@@ -22,11 +22,30 @@ postdoc:
 phd:
   -
     degree: phd
+    first: Caira
+    last: Anderson
+    field: Applied Math
+    where: cornell
+    current: true
+    topic: MHD stability in stellarators
+  -
+    degree: phd
+    first: Michael
+    last: Czekanski
+    field: Statistics
+    where: cornell
+    current: true
+    topic: Monte Carlo transport calculations for stellarators
+    url: https://mczek.github.io/
+  -
+    degree: phd
     first: Ariel
     last: Kellison
     field: Computer Science
     where: cornell
     current: true
+    topic: Formal verification of numerical methods
+    url: https://ak-2485.github.io/
   -
     first: Darian
     last: Nwankwo
@@ -41,7 +60,7 @@ phd:
     field: Applied Math
     where: cornell
     current: true
-    topic: Nonlinear vibrations in MEMS
+    topic: Nonlinear dynamics and stellarators
     url: https://www.cam.cornell.edu/research/grad-students/maximilian-ruth
   -
     first: Xinran
@@ -769,6 +788,11 @@ committees:
     field: Applied Physics
   -
     degree: phd
+    last: Czeskanski
+    first: Michael
+    field: Statistics
+  -
+    degree: phd
     last: Fahmy
     first: Youssef
     field: Statistics
@@ -819,11 +843,6 @@ committees:
     field: Applied Math
   -
     degree: phd
-    last: Qi
-    first: Dongping
-    field: Applied Math
-  -
-    degree: phd
     last: Ruth
     first: Max
     field: Applied Math
@@ -864,11 +883,6 @@ committees:
     field: Applied Math
   -
     degree: phd
-    last: Xu
-    first: Yuchen
-    field: Statistics
-  -
-    degree: phd
     last: Zhang
     first: Yujia
     field: Applied Math
@@ -889,6 +903,22 @@ committees:
     field: Applied Math
 
 past_committees:
+  -
+    degree: phd
+    last: Xu
+    first: Yuchen
+    field: Statistics
+    thesis:
+      title: "Statistical Advances in Simultaneous Diagonalization and Joint Object Detection"
+      year: 2023
+  -
+    degree: phd
+    last: Qi
+    first: Dongping
+    field: Applied Math
+    thesis:
+      title: "Challenges in Continuous Path Planning: Rarefactions, Uncertainty, and Reinforcement Learning"
+      year: 2023
   -
     degree: phd
     last: You

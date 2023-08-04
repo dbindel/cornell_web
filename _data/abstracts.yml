@@ -1,3 +1,41 @@
+2023-arith:
+  tags: [formal, la-sw]
+  abstract: |
+    The LAProof library provides formal machine-checked proofs of the
+    accuracy of basic linear algebra operations: inner product using
+    conventional multiply and add, inner product using fused
+    multiply-add, scaled matrix-vector and matrix-matrix
+    multiplications, and scaled vector and matrix addition.  These
+    proofs can connect to concrete implementations of low-level basic
+    linear algebra subprograms; as a proof of concept we present a
+    machine-checked correctness proof of a C function implementing
+    compressed-row-storage (CRS) sparse matrix-vector multiplication.
+    Our accuracy proofs are backward error bounds and mixed
+    backward-forward error bounds that account for underflow, proved
+    subject to no assumptions except a low-level formal model of
+    IEEE-754 arithmetic.  We treat low-order error terms concretely, not
+    approximating as $O(u^2)$.
+2023-cicm:
+  tags: [formal, la-sw]
+  abstract: |
+    Solving a sparse linear system of the form $Ax=b$ is a common
+    engineering task, e.g., as a step in approximating solutions of
+    differential equations.  Inverting a large matrix $A$ is often too
+    expensive, and instead engineers rely on iterative methods, which
+    progressively approximate the solution $x$ of the linear system in
+    several iterations, where each iteration is a much less expensive
+    (sparse) matrix-vector multiplication. We present a formal proof
+    in the Coq proof assistant of the correctness, accuracy and
+    convergence of one prominent iterative method, the Jacobi
+    iteration.  The accuracy and convergence properties of Jacobi
+    iteration are well-studied, but most past analyses were performed
+    in real arithmetic; instead, we study those properties, and prove
+    our results, in floating point arithmetic.  We then show that our
+    results are properly reflected in a concrete implementation in the
+    C language.  Finally, we show that the iteration will not
+    overflow, under assumptions that we make explicit. Notably, our
+    proofs are faithful to the details of the implementation,
+    including C program semantics and floating-point arithmetic.
 2023-jpp:
   tags: [stellarator]
   abstract: |
