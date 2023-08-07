@@ -799,6 +799,11 @@ committees:
     field: Statistics
   -
     degree: phd
+    last: Fernandes Nuñez
+    first: Tayler
+    field: Applied Math
+  -
+    degree: phd
     last: Gaspard
     first: Mallory
     field: Applied Math
@@ -817,6 +822,11 @@ committees:
     last: Khanal
     first: Kapil
     field: Systems Engineering
+  -
+    degree: phd
+    last: Lee
+    first: David
+    field: Computer Science
   -
     degree: phd
     last: Li
