@@ -24,11 +24,11 @@ active:
 # Info for courses appearing on front page
 current:
   -
-    course: cs4220
+    course: cs6241
     where: cornell
-    url: https://www.cs.cornell.edu/courses/cs4220/2023sp/
+    url: https://www.cs.cornell.edu/courses/cs6241/2023fa/
     logistics: |
-      Gates G01.  MWF 11:20-12:10.
+      Hollister 320.  TR 2:55-4:10.
   -
     course: scan
     where: cornell
