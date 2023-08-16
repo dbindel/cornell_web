@@ -193,3 +193,15 @@
   date: 2023-03-05
   text: "BIRS Workshop: Perspectives on Matrix Computations"
   url: https://www.birs.ca/events/2023/5-day-workshops/23w5108
+-
+  date: 2023-08-28
+  text: "BIRS Workshop: New Directions in Applied Linear Algebra"
+  url: https://www.birs.ca/events/2023/5-day-workshops/23w5004
+-
+  date: 2023-09-18
+  text: "Simons-CIEMAT Joint Meeting on Stellarator Turbulence Optimization"
+  url: http://fusionsites.ciemat.es/stellarator-optimization-madrid-2023/programme/
+- 
+  date: 2023-12-04
+  text: "Simons Hidden Symmetries and Fusion Energy Collaboration Australian Retreat"
+  url: https://maths.anu.edu.au/news-events/events/simons-hidden-symmetries-and-fusion-energy-collaboration-australian-retreat
