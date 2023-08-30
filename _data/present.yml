@@ -1344,3 +1344,10 @@
   where: SIAM Computational Science and Engineering 2023, Amsterdam
   tags: [stellarator]
   type: [meeting, minisymposium, external, invited]
+-
+  file: 2023-08-birs/birs-aug23.pdf
+  title: "Linear Algebra, Invariant Circles, and Fusion Plasmas"
+  where: BIRS Workshop on New Directions in Applied Linear Algebra
+  tags: [stellarator]
+  type: [meeting, external, invited]
+
