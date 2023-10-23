@@ -1350,4 +1350,9 @@
   where: BIRS Workshop on New Directions in Applied Linear Algebra
   tags: [stellarator]
   type: [meeting, external, invited]
-
+-
+  file: 2023-10-brownbag/brownbag-oct23.pdf
+  title: How to give a talk
+  where: Cornell First-Year Seminar
+  tags: [survey]
+  type: [local]
