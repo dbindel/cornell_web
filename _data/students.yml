@@ -834,11 +834,6 @@ committees:
     field: Computer Science
   -
     degree: phd
-    last: Li
-    first: Yandong
-    field: Computer Science
-  -
-    degree: phd
     last: Meng
     first: Si Yi
     field: Computer Science
@@ -894,6 +889,11 @@ committees:
     field: Chemical Engineering
   -
     degree: phd
+    last: Xie
+    first: Qian
+    field: Operations Research
+  -
+    degree: phd
     last: Xu
     first: Xinchen
     field: Applied Math
@@ -919,6 +919,14 @@ committees:
     field: Applied Math
 
 past_committees:
+  -
+    degree: phd
+    last: Li
+    first: Yandong
+    field: Applied Physics
+    thesis:
+      title: "Towards Robust Photonic Information Processing -- Fundamentals, Designs, Limitations, and Improvements"
+      year: 2023
   -
     degree: phd
     last: Xu
