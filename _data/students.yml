@@ -874,6 +874,11 @@ committees:
     field: Applied Math
   -
     degree: phd
+    last: Tseng
+    first: Albert
+    field: Computer Science
+  -
+    degree: phd
     last: Wan
     first: Jiayue
     field: Operations Research
