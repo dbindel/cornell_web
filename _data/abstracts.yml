@@ -1,3 +1,20 @@
+2023-siads:
+  tags: [stellarator]
+  abstract: |
+    Many important qualities of plasma confinement devices can be
+    determined via the Poincaré plot of a symplectic return map. These
+    qualities include the locations of periodic orbits, magnetic
+    islands, and chaotic regions of phase space. However, every
+    evaluation of the magnetic return map requires solving an ODE,
+    meaning a detailed Poincaré plot can be expensive to create. Here,
+    we propose a kernel-based method of learning a single labeling
+    function that is approximately invariant under the symplectic
+    map. From the labeling function, we can recover the locations of
+    invariant circles, islands, and chaos with few evaluations of the
+    underlying symplectic map. Additionally, the labeling function
+    comes with a residual, which serves as a measure of how invariant
+    the label function is, and therefore as an indirect measure of
+    chaos and map complexity.
 2023-arith:
   tags: [formal, la-sw]
   abstract: |
