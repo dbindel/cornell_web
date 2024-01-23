@@ -31,6 +31,9 @@ layout: top
       <a class="btn" href="research.html">More projects &raquo;</a>
     </p>
 
+  </div>
+
+  <div class="col-xs-12 cols-sm-12 col-md-6 col-lg-6">
     <h2>Upcoming travels</h2>
 
     {% assign items = site.data.travel | sort: 'date' %}
@@ -45,9 +48,6 @@ layout: top
     {%   endif %}
     {% endfor %}
 
-  </div>
-
-  <div class="col-xs-12 cols-sm-12 col-md-6 col-lg-6">
     <h2>Currently teaching</h2>
 
     {% assign items = site.data.classes.current %}
