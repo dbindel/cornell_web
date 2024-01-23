@@ -19,7 +19,7 @@ postdoc:
     when:
       start: 2019-08-12
       end: 2021-12-31
-
+      
 phd:
   -
     degree: phd
@@ -799,6 +799,11 @@ committees:
     field: Statistics
   -
     degree: phd
+    lastt: Du
+    first: Yuanqi
+    field: Computer Science
+  -
+    degree: phd
     last: Fahmy
     first: Youssef
     field: Statistics
@@ -812,6 +817,11 @@ committees:
     last: Gaspard
     first: Mallory
     field: Applied Math
+  -
+    degree: ms
+    last: Gangavarapu
+    first: Tushaar
+    field: Computer Science
   -
     degree: phd
     last: Gupta

@@ -5,11 +5,17 @@ snippet: |
   Advancing magnetic confinement fusion through optimization and
   hidden symmetries.
 menu:
-  - text: Home page
+  - text: Simons Collaboration
     url: https://hiddensymmetries.princeton.edu/
-  - text: Announcement
-    url: https://www.simonsfoundation.org/2018/07/24/foundation-announces-simons-collaboration-on-hidden-symmetries-and-fusion-energy/
+  - text: HiFiStell SciDAC
+    url: https://hifistell.plasma.princeton.edu/
 talks:
+  - 2023-08-birs
+  - 2023-03-cse
+  - 2022-09-scan
+  - 2022-06-greifswald
+  - 2021-03-siam-cse
+  - 2019-12-siam-apde
   - 2019-03-simons
   - 2018-04-simons
 ---

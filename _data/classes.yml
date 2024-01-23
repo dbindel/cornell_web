@@ -22,19 +22,13 @@ active:
   - sjtu-nmds
 
 # Info for courses appearing on front page
+  # -
+  #   course: scan
+  #   where: cornell
+  #   url: https://cornell-scan.github.io/
+  #   logistics: |
+  #     Ongoing.  M 1:30-2:20.
 current:
-  -
-    course: cs6241
-    where: cornell
-    url: https://www.cs.cornell.edu/courses/cs6241/2023fa/
-    logistics: |
-      Hollister 320.  TR 2:55-4:10.
-  -
-    course: scan
-    where: cornell
-    url: https://cornell-scan.github.io/
-    logistics: |
-      Ongoing.  M 1:30-2:20.
   -
     course: projects
     where: cornell
@@ -42,15 +36,21 @@ current:
     logistics: |
       See my [list of projects](http://www.cs.cornell.edu/~bindel/meng.html)!
 
+# S24: Sabbatic (Cape Town)
 # F21: Admin teaching relief
 # S19: Sabbatic (UChicago)
 # F18: Sabbatic (Argonne)
-# F14: Parental relief (Quinn)
+# F14: Parental relief
 # S13: Teaching relief for junior faculty
-# F10: Parental relief (Giulia)
+# F10: Parental relief
 
 # Record of past courses
 previous:
+  -
+    semester: F23
+    course: cs6241
+    where: cornell
+    url: https://www.cs.cornell.edu/courses/cs6241/2023fa/
   -
     semester: S23
     course: cs4220
