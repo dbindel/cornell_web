@@ -7,6 +7,7 @@ snippet: |
 blurbs:
   - rbfopt
 papers:
+  - 2023-neurips
   - 2023-tmlr
   - 2022-neurips
   - 2022-siam-pp
