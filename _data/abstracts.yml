@@ -1,3 +1,28 @@
+2024-ieee-big-data:
+  tags: [community]
+  abstract: |
+    Community is a universal structure in various complex networks,
+    and community detection is a fundamental task for network
+    analysis. With the rapid growth of network scale, networks are
+    massive, changing rapidly and could naturally be modeled as graph
+    streams. Due to the limited memory and access constraint in graph
+    streams, existing non-streaming community detection methods are no
+    longer applicable. This raises an emerging need for online
+    approaches. In this work, we consider the problem of uncovering the
+    local community containing a few query nodes in graph streams,
+    termed streaming local community detection. This is a new problem
+    raised recently that is more challenging for community detection and
+    only a few works address this online setting. Correspondingly, we
+    design an online single-pass streaming local community detection
+    approach. Inspired by the "local" property of communities, our
+    method samples the local structure around the query nodes in graph
+    streams, and extracts the target community on the sampled subgraph
+    using our proposed metric called the approximate
+    conductance. Comprehensive experiments show that our method
+    remarkably outperforms the streaming baseline on both effectiveness
+    and efficiency, and even achieves similar accuracy comparing to the
+    state-of-the-art non-streaming local community detection methods
+    that use static and complete graphs.
 2023-siads:
   tags: [stellarator]
   abstract: |
