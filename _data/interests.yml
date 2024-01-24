@@ -4,13 +4,13 @@
   blurb: scicomp
 - desc: High-performance computing
   blurb: cloudhpc
-- desc: Spectral network analysis methods
-  blurb: graphspec
+- desc: Stellarator optimization
+  blurb: stellator
+- desc: Verified numerics and floating point
+  blurb: verinum
+- desc: Scalable kernel methods
+  blurb: kernels
 - desc: Optimization via surrogate models
   blurb: rbfopt
 - desc: Finite element analysis
   blurb: fea
-- desc: Computational tools for electrical power grids
-  blurb: grid
-- desc: Simulation tools for micro-electro-mechanical systems (MEMS)
-  blurb: mems
