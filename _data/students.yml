@@ -73,7 +73,7 @@ phd:
     url: https://xinranzhu.com/
     thesis:
       title: Scalable Gaussian processes and Bayesian optimization with application to hyperparameter tuning
-      year: 2023
+      year: 2024
   -
     first: Misha
     last: Padidar
@@ -939,7 +939,7 @@ past_committees:
     field: Applied Math
     thesis:
       title: Scalable Gaussian processes and Bayesian optimization with application to hyperparameter tuning
-      year: 2023
+      year: 2024
   -
     degree: phd
     last: Li
