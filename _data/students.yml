@@ -70,7 +70,10 @@ phd:
     where: cornell
     current: true
     topic: Numerical analysis of kernel methods
-    url: https://www.cam.cornell.edu/research/grad-students/jessie-xinran-zhu
+    url: https://xinranzhu.com/
+    thesis:
+      title: Scalable Gaussian processes and Bayesian optimization with application to hyperparameter tuning
+      year: 2023
   -
     first: Misha
     last: Padidar
@@ -924,16 +927,19 @@ committees:
     field: Operations Research
   -
     degree: phd
-    last: Zhu
-    first: Xinran
-    field: Applied Math
-  -
-    degree: phd
     last: Zvonek
     first: Jennifer
     field: Applied Math
 
 past_committees:
+  -
+    degree: phd
+    last: Zhu
+    first: Xinran
+    field: Applied Math
+    thesis:
+      title: Scalable Gaussian processes and Bayesian optimization with application to hyperparameter tuning
+      year: 2023
   -
     degree: phd
     last: Li
@@ -990,14 +996,16 @@ past_committees:
     thesis:
       title: Dynamical Systems in Pure Mathematics
       year: 2023
+      url: https://www.proquest.com/dissertations-theses/dynamical-systems-pure-mathematics/docview/2825660966/se-2?accountid=10267
   -
     degree: phd
     last: Wang
     first: Jikun
     field: Mechanical Engineering
     thesis:
-      title: Nonlinear Viscoelasticity and Damage for Soft Materials
+      title: "Time-dependent Damage of Soft Materials with Bond Breaking and Healing Kinetics"
       year: 2023
+      url: https://www.proquest.com/openview/548b2bd8aac642fdfc14e4786c703442/1?pq-origsite=gscholar&cbl=18750&diss=y
   -
     degree: phd
     last: Astudillo Marban
