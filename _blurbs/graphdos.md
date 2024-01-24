@@ -7,8 +7,15 @@ menu:
   - text: GitHub
     url: https://github.com/dbindel/graph-dos
 papers:
+  - 2021-sdm
+  - 2019-kdd
   - 2015-siam-ns
 talks:
+  - 2020-03-cam
+  - 2020-03-buffalo
+  - 2019-10-wmu-a
+  - 2019-07-iciam-b
+  - 2019-07-ilas
   - 2019-05-wm
   - 2019-05-vt
   - 2018-09-argonne

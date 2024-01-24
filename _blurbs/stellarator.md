@@ -9,6 +9,11 @@ menu:
     url: https://hiddensymmetries.princeton.edu/
   - text: HiFiStell SciDAC
     url: https://hifistell.plasma.princeton.edu/
+papers:
+  - 2023-siads
+  - 2023-jpp
+  - 2023-ppcf
+  - 2022-stellator
 talks:
   - 2023-08-birs
   - 2023-03-cse

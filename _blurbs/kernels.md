@@ -7,10 +7,20 @@ snippet: |
 blurbs:
   - rbfopt
 papers:
+  - 2023-tmlr
+  - 2022-neurips
+  - 2022-siam-pp
+  - 2021-neurips
+  - 2020-icml
   - 2018-nips-a
   - 2018-nips-b
   - 2017-nips
 talks:
+  - 2022-07-siam
+  - 2022-06-householder
+  - 2022-01-enla
+  - 2021-09-chelluri
+  - 2021-05-ala
   - 2019-01-iit
   - 2019-01-chicago
   - 2018-10-northwestern
