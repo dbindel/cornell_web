@@ -60,7 +60,7 @@
   when: [2007]
 -
   what: Journal of Computational Physics
-  when: [2011, 2012, 2015, 2016, 2021, 2022]
+  when: [2011, 2012, 2015, 2016, 2021, 2022, 2023]
 -
   what: Journal of Experimental Algorithms
   when: [2019]
@@ -84,7 +84,7 @@
   when: [2013]
 -
   what: Numerical Linear Algebra with Applications
-  when: [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022]
+  when: [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023]
 -
   what: Numerische Mathematik
   when: [2009, 2011]
@@ -114,7 +114,7 @@
   when: [2022, 2009, 2015]
 -
   what: Proposal referee for NSF
-  when: [2012, 2016, 2017, 2018, 2019, 2021]
+  when: [2012, 2016, 2017, 2018, 2019, 2021, 2023]
 -
   what: Proposal referee for NASA
   when: [2017]

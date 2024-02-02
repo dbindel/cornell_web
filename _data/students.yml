@@ -550,6 +550,34 @@ masters:
 
 ugrad:
   -
+    first: Ethan
+    last: Hersch
+    when: 2024
+    where: cornell
+    current: true
+    proj: Multifidelity Bayesian Optimization
+  -
+    first: Alkis
+    last: Bouklas
+    when: 2023
+    where: cornell
+    current: true
+    proj: Nonlinear Eignvalues for Periodic Potential Eigenvalue Problems
+  -
+    first: Chad
+    last: Yu
+    when: 2023
+    where: cornell
+    current: true
+    proj: Walk on Spheres
+  -
+    first: Yeuk Yin (Roy)
+    last: Lam
+    when: 2023
+    where: cornell
+    current: true
+    proj: Varying GP Length Scales with Height Fields
+  -
     first: Tejal
     last: Nair
     when: 2023
