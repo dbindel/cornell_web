@@ -1356,3 +1356,15 @@
   where: Cornell First-Year Seminar
   tags: [survey]
   type: [local]
+-
+  file:2023-12-anu/anu-dec23.pdf
+  title: "Linear Stability: Some Thoughts"
+  where: Simons Collaboration Retreat, Australian National University
+  tags: [stellarator]
+  type: [meeting, external]
+-
+  file: 2023-12-anu-msi/anu-msi-dec23.pdf
+  title: Optimizing Magnetic Confinement Devices for Fusion Plasmas
+  where: Mathematical Sciences Institute Colloquium, Australian National University
+  tags: [stellarator]
+  type: [colloquium, external]
