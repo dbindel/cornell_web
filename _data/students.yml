@@ -578,6 +578,13 @@ ugrad:
     current: true
     proj: Varying GP Length Scales with Height Fields
   -
+    first: Austin
+    last: Zhao
+    when: 2023
+    where: cornell
+    current: false
+    proj: Stellarator Computations
+  -
     first: Tejal
     last: Nair
     when: 2023
