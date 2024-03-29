@@ -1,3 +1,27 @@
+2024-chaos:
+  tags: [stellarator]
+  abstract: |
+    In many applications, one is interested in classifying
+    trajectories of Hamiltonian systems as invariant tori, islands, or
+    chaos. The convergence rate of ergodic Birkhoff averages can be used
+    to categorize these regions, but many iterations of the return map
+    are needed to implement this directly. Recently, it has been shown
+    that a weighted Birkhoff average can be used to accelerate the
+    convergence, resulting in a useful method for categorizing
+    trajectories.
+    
+    In this paper, we show how a modified version the reduced rank
+    extrapolation method (named Birkhoff RRE) can also be used to find
+    optimal weights for the weighted average with a single linear
+    least-squares solve.  Using these, we classify trajectories with
+    fewer iterations of the map than the standard weighted Birkhoff
+    average. Furthermore, for the islands and invariant circles, a
+    subsequent eigenvalue problem gives the number of islands and the
+    rotation number. Using these numbers, we find Fourier
+    parameterizations of invariant circles and islands. We show
+    examples of Birkhoff RRE on the standard map and on magnetic field
+    line dynamics.
+
 2024-ieee-big-data:
   tags: [community]
   abstract: |
