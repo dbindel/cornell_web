@@ -1,4 +1,10 @@
 -
+  name: SIAM Fellow
+  desc: |
+    Recognition "For contributions in numerical linear algebra and its
+    innovative use in broad areas of computational science and engineering."
+  year: 2024
+-
   name: James and Mary Tien Excellence in Teaching Award
   desc: |
     Highest award for teaching in Cornell's College of Engineering.
