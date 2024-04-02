@@ -1368,3 +1368,9 @@
   where: Mathematical Sciences Institute Colloquium, Australian National University
   tags: [stellarator]
   type: [colloquium, external]
+-
+  file: 2024-04-sanum/sanum-apr24.pdf
+  title: Optimizing Magnetic Confinement Devices for Fusion Plasmas
+  where: SANUM, Stellenbosch University
+  tags: [stellarator]
+  type: [meeting, external, invited, plenary]
