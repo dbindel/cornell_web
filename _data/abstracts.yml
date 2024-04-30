@@ -1,3 +1,19 @@
+2024-jcp:
+  tags: [graphics, stellarator]
+  abstract: |
+    Walk on Spheres algorithms leverage properties of Brownian Motion
+    to create Monte Carlo estimates of solutions to a class of
+    elliptic partial differential equations. Until recently, estimates
+    were constructed pointwise and did not utilize the relationship
+    between solutions at nearby points within a domain. We propose a
+    new caching strategy which leverages the continuity of paths of
+    Brownian Motion. In the case of Laplace's equation with Dirichlet
+    boundary conditions, our novel algorithm has improved asymptotic
+    runtime compared to previous approaches. This is achieved by
+    passing information from a cache of constant size. We also provide
+    bounds on the performance of our algorithm and demonstrate its
+    performance on an example problem.
+
 2024-chaos:
   tags: [stellarator]
   abstract: |
