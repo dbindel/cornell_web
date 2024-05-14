@@ -1374,3 +1374,10 @@
   where: SANUM, Stellenbosch University
   tags: [stellarator]
   type: [meeting, external, invited, plenary]
+-
+  file: 2024-05-ala/ala-may24.pdf
+  title: Linear Algebra Perspectives on Inducing Point Selection
+  where: SIAM Applied Linear Algebra Meeting 2024, Paris
+  tags: [gp]
+  type: [minisymposium, external, invited]
+
