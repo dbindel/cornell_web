@@ -63,6 +63,9 @@ phd:
     current: true
     topic: Nonlinear dynamics and stellarators
     url: https://www.cam.cornell.edu/research/grad-students/maximilian-ruth
+    thesis:
+      title: Numerical Methods for Identifying Integrability with Applications in Plasma Confinement
+      year: 2024
   -
     first: Xinran
     last: Zhu
@@ -902,11 +905,6 @@ committees:
     field: Applied Math
   -
     degree: phd
-    last: Ruth
-    first: Max
-    field: Applied Math
-  -
-    degree: phd
     last: Sbrocco
     first: Cade
     field: Physics
@@ -948,11 +946,6 @@ committees:
   -
     degree: phd
     last: Zhang
-    first: Yujia
-    field: Applied Math
-  -
-    degree: phd
-    last: Zhang
     first: Yunxiang
     field: Operations Research
   -
@@ -964,11 +957,27 @@ committees:
 past_committees:
   -
     degree: phd
+    last: Ruth
+    first: Max
+    field: Applied Math
+    thesis:
+      title: Numerical Methods for Identifying Integrability with Applications in Plasma Confinement
+      year: 2024
+  -
+    degree: phd
     last: Zhu
     first: Xinran
     field: Applied Math
     thesis:
       title: Scalable Gaussian processes and Bayesian optimization with application to hyperparameter tuning
+      year: 2024
+  -
+    degree: phd
+    last: Zhang
+    first: Yujia
+    field: Applied Math
+    thesis:
+      title: "Save University Instruction During COVID-19: Simulation, Statistics, and Uncertainty Quantification"
       year: 2024
   -
     degree: phd
