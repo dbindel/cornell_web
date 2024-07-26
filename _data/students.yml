@@ -825,11 +825,6 @@ committees:
     field: Applied Math
   -
     degree: phd
-    last: Chen
-    first: Chiatai
-    field: Applied Physics
-  -
-    degree: phd
     last: Chetan
     first: Aditya
     field: Computer Science
@@ -880,19 +875,9 @@ committees:
     field: Systems Engineering
   -
     degree: phd
-    last: Lee
-    first: David
-    field: Computer Science
-  -
-    degree: phd
     last: Meng
     first: Si Yi
     field: Computer Science
-  - 
-    degree: phd
-    last: Nagpal
-    first: Shriya
-    field: Applied Math
   -
     degree: phd
     last: Nwankwo
@@ -930,11 +915,6 @@ committees:
     field: Computer Science
   -
     degree: phd
-    last: Wheeler
-    first: Aaron
-    field: Chemical Engineering
-  -
-    degree: phd
     last: Xie
     first: Qian
     field: Operations Research
@@ -955,6 +935,30 @@ committees:
     field: Applied Math
 
 past_committees:
+  -
+    degree: phd
+    last: Wheeler
+    first: Aaron
+    field: Chemical Engineering
+    thesis:
+      title: Generative Models for Financial Market Simulation
+      year: 2024
+  - 
+    degree: phd
+    last: Nagpal
+    first: Shriya
+    field: Applied Math
+    thesis:
+      title: "Synchronization in Networks of Coupled Phase Oscillators: From Designing for Robustness to Exploring Emergent Patterns"
+      year: 2024
+  -
+    degree: phd
+    last: Chen
+    first: Chiatai
+    field: Applied Physics
+    thesis:
+      title: "Effects of Pulsed Magnetic Mirror on Wire Array Z-Pinch Precursor Dynamics and X-Ray Generation"
+      year: 2024
   -
     degree: phd
     last: Ruth

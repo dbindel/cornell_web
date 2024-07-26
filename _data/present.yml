@@ -1380,4 +1380,10 @@
   where: SIAM Applied Linear Algebra Meeting 2024, Paris
   tags: [gp]
   type: [minisymposium, external, invited]
+-
+  file: 2024-06-meta/meta-jun24.pdf
+  title: Bayesian Optimization Under Uncertainty with Local Refinement
+  where: Workshop on Adaptive Experimentation, Meta NYC
+  tags: [stellarator, globalopt]
+  type: [meeting, external, invited]
 
