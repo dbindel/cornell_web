@@ -236,3 +236,26 @@
   date: 2024-07-31
   text: "PPPL/Simons Hidden Symmetries Graduate Summer School"
   url: https://gss.pppl.gov/2024/
+-
+  date: 2024-10-18
+  text: Simons MPS Annual Meeting
+  url: https://www.simonsfoundation.org/event/mps-annual-meeting-2024/
+-
+  date: 2024-11-14
+  text: CODES seminar at Emory
+  url: https://www.math.emory.edu/site/codes/schedule/
+-
+  date: 2025-03-03
+  text: SIAM CSE 2025
+  url: https://www.siam.org/conferences-events/siam-conferences/cse25/
+-
+  date: 2025-03-17
+  text: Hidden Symmetries Team Meeting
+-
+  date: 2025-03-20
+  text: Hidden Symmetries Annual Meeting
+-
+  date: 2025-06-08
+  text: Householder Symposium
+  url: https://householder-symposium.github.io/
+
