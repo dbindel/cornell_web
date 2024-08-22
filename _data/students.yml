@@ -805,11 +805,6 @@ ugrad:
 committees:
   -
     degree: phd
-    last: Berlstein
-    first: Griffin
-    field: Computer Science
-  -
-    degree: phd
     last: Botvinivk-Greenhouse
     first: Jonah
     field: Applied Math
