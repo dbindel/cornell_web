@@ -1,5 +1,16 @@
 -
   when: 2024
+  until: 2025
+  what: CS Graduate Admissions Committee
+  role: Committee member
+  type: [cornell, cs, local]
+-
+  when: 2024
+  role: Faculty lead
+  what: ACSU Research Night
+  type: [cornell, cs, local]
+-
+  when: 2024
   role: Area Chair
   what: NeurIPS 2024
   type: [external]
