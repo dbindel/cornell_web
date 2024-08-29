@@ -1,4 +1,16 @@
 -
+  when: 2024
+  role: Area Chair
+  what: NeurIPS 2024
+  type: [external]
+-
+  when: 2024
+  until: present
+  role: Editor
+  what: NA Digest
+  url: https://na-digest.coecis.cornell.edu/
+  type: [external]
+-
   when: 2023
   until: 2024
   role: Committee chair
