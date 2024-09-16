@@ -47,11 +47,10 @@ who would be an equally good committee member, do consider asking them instead.
 
 ## Prospective PhD students
 
-If you are applying to Cornell and think you might want to work with me,
-feel free to drop me a line -- but please don't get put off if I don't
-respond quickly, as my email sometimes gets out of hand!  I am most likely
-to respond to direct questions and to queries directly about my research
-area.
+If you are applying to Cornell and think you might want to work with
+me, please read my [applicant FAQ](applicant-faq.html) first.  I am
+most likely to respond to direct questions and to queries directly
+about my research area.
 
 ## Outside students
 
