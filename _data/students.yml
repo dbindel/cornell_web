@@ -578,14 +578,12 @@ ugrad:
     last: Lam
     when: 2023
     where: cornell
-    current: true
     proj: Varying GP Length Scales with Height Fields
   -
     first: Austin
     last: Zhao
     when: 2023
     where: cornell
-    current: false
     proj: Stellarator Computations
   -
     first: Tejal
@@ -599,14 +597,12 @@ ugrad:
     last: Xu
     when: 2023
     where: cornell
-    current: true
     proj: Stability-Constrained Optimization for Stellarators
   -
     first: Sean
     last: Yang
     when: 2023
     where: cornell
-    current: true
     proj: Near-Axis Expansion of Stellarators in Julia
   -
     first: Stella
