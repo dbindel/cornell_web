@@ -19,7 +19,7 @@ postdoc:
     when:
       start: 2019-08-12
       end: 2021-12-31
-      
+
 phd:
   -
     degree: phd
@@ -164,12 +164,48 @@ phd:
 masters:
   -
     degree: meng
+    first: Cyrus
+    last: Rohani
+    field: Computer Science
+    current: true
+    project:
+      title: Federated Health Data Training Platform
+      when: 2024
+  -
+    degree: meng
+    first: Ankit
+    last: Lakkapragada
+    field: Computer Science
+    current: true
+    project:
+      title: Federated Health Data Training Platform
+      when: 2024
+  -
+    degree: meng
+    first: Rohan
+    last: Shah
+    field: Computer Science
+    current: true
+    project:
+      title: Federated Health Data Training Platform
+      when: 2024
+  -
+    degree: meng
+    first: Rohit
+    last: Valiveti
+    field: Computer Science
+    current: true
+    project:
+      title: Federated Health Data Training Platform
+      when: 2024
+  -
+    degree: meng
     first: Felix
     last: Hohne
     field: Computer Science
     where: cornell
     grad: 2023
-    current: true
+    current: false
     proj:
       title: Interfacing DESC with Julia
       when: 2023
@@ -871,6 +907,11 @@ committees:
     field: Computer Science
   -
     degree: phd
+    last: Mousavi
+    first: Mohammad
+    field: Mechanical Engineering
+  -
+    degree: phd
     last: Nwankwo
     first: Darian
     field: Computer Science
@@ -934,7 +975,7 @@ past_committees:
     thesis:
       title: Generative Models for Financial Market Simulation
       year: 2024
-  - 
+  -
     degree: phd
     last: Nagpal
     first: Shriya
@@ -1534,4 +1575,3 @@ past_committees:
       title: Efficient Content Distribution With Managed Swarms
       url: https://ecommons.cornell.edu/handle/1813/29173
       year: 2012
-
