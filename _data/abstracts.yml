@@ -1,3 +1,26 @@
+2024-jpp:
+  tags: [stellarator]
+  abstract:
+    When analyzing stellarator configurations, it is common to perform
+    an asymptotic expansion about the magnetic axis. This so-called
+    near-axis expansion is convenient for the same reason asymptotic
+    expansions often are, namely, it reduces the dimension of the
+    problem. This leads to convenient and quickly computed expressions
+    of physical quantities, such as quasisymmetry and stability
+    criteria, which can be used to gain further insight. However, it
+    has been repeatedly found that the expansion diverges at high
+    orders, limiting the physics the expansion can describe. In this
+    paper, we show that the near-axis expansion diverges in vacuum due
+    to ill-posedness and that it can be regularized to improve its
+    convergence. Then, using realistic stellarator coil sets, we show
+    that the near-axis expansion can converge to ninth order in the
+    magnetic field, giving accurate high-order corrections to the
+    computation of flux surfaces. We numerically find that the
+    regularization improves the solutions of the near-axis expansion
+    under perturbation, and we demonstrate that the radius of
+    convergence of the vacuum near-axis expansion is correlated with
+    the distance from the axis to the coils.
+
 2024-jcp:
   tags: [graphics, stellarator]
   abstract: |
