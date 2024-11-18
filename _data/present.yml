@@ -1392,4 +1392,10 @@
   where: Clemson University
   tags: [gp]
   type: [colloquium, external]
+-
+  file: 2024-11-emory/emory-nov24.pdf
+  title: Optimizing Magnetic Confinement Devices for Fusion Plasmas
+  where: Emory University CODES seminar
+  tags: [stellarator]
+  type: [seminar, external]
 
