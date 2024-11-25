@@ -39,15 +39,6 @@ phd:
     topic: Monte Carlo transport calculations for stellarators
     url: https://mczek.github.io/
   -
-    degree: phd
-    first: Ariel
-    last: Kellison
-    field: Computer Science
-    where: cornell
-    current: true
-    topic: Formal verification of numerical methods
-    url: https://ak-2485.github.io/
-  -
     first: Darian
     last: Nwankwo
     field: Computer Science
@@ -56,11 +47,22 @@ phd:
     topic: Transformed kernel methods for prediction and optimization
     url: http://www.cs.cornell.edu/~don/
   -
+    degree: phd
+    first: Ariel
+    last: Kellison
+    field: Computer Science
+    where: cornell
+    topic: Formal verification of numerical methods
+    url: https://ak-2485.github.io/
+    reln: "Co-advised (secondary advisor: Andrew Appel)"    
+    thesis:
+      title: Typed-Based Approaches to Rounding Error Analysis
+      year: 2024
+  -
     first: Max
     last: Ruth
     field: Applied Math
     where: cornell
-    current: true
     topic: Nonlinear dynamics and stellarators
     url: https://www.cam.cornell.edu/research/grad-students/maximilian-ruth
     thesis:
@@ -892,11 +894,6 @@ committees:
     field: Theoretical and Applied Mechanics
   -
     degree: phd
-    last: Kellison
-    first: Ariel
-    field: Computer Science
-  -
-    degree: phd
     last: Khanal
     first: Kapil
     field: Systems Engineering
@@ -904,6 +901,11 @@ committees:
     degree: phd
     last: Meng
     first: Si Yi
+    field: Computer Science
+  -
+    degree: phd
+    last: Mehta
+    first: Vaibhav
     field: Computer Science
   -
     degree: phd
@@ -942,19 +944,14 @@ committees:
     field: Computer Science
   -
     degree: phd
-    last: Wang
-    first: Junxiong
-    field: Computer Science
-  -
-    degree: phd
     last: Xie
     first: Qian
     field: Operations Research
   -
     degree: phd
     last: Xu
-    first: Xinchen
-    field: Applied Math
+    first: Yi
+    field: Computer Science
   -
     degree: phd
     last: Zhang
@@ -969,12 +966,37 @@ committees:
 past_committees:
   -
     degree: phd
+    last: Kellison
+    first: Ariel
+    field: Computer Science
+    thesis:
+      title: Typed-Based Approaches to Rounding Error Analysis
+      year: 2024
+  -
+    degree: phd
+    last: Wang
+    first: Junxiong
+    field: Computer Science
+    thesis:
+      title: Tuning Data System using Reinforcement Learning
+      year: 2024
+  -
+    degree: phd
+    last: Xu
+    first: Xinchen
+    field: Applied Math
+    thesis:
+      title: Interaction Patterns and Collective Outcomes in Network Systems
+      year: 2024
+  -
+    degree: phd
     last: Wheeler
     first: Aaron
     field: Chemical Engineering
     thesis:
       title: Generative Models for Financial Market Simulation
       year: 2024
+      url: https://www.proquest.com/pqdtglobal1/dissertations-theses/generative-models-financial-market-simulation/docview/3100484276/sem-2?accountid=10267
   -
     degree: phd
     last: Nagpal
@@ -983,6 +1005,7 @@ past_committees:
     thesis:
       title: "Synchronization in Networks of Coupled Phase Oscillators: From Designing for Robustness to Exploring Emergent Patterns"
       year: 2024
+      url: https://www.proquest.com/pqdtglobal1/dissertations-theses/synchronization-networks-coupled-phase/docview/3100658331/sem-2?accountid=10267
   -
     degree: phd
     last: Chen
@@ -991,6 +1014,7 @@ past_committees:
     thesis:
       title: "Effects of Pulsed Magnetic Mirror on Wire Array Z-Pinch Precursor Dynamics and X-Ray Generation"
       year: 2024
+      url: https://www.proquest.com/pqdtglobal1/dissertations-theses/effect-pulsed-magnetic-mirror-on-wire-array-z/docview/3100418665/sem-2?accountid=10267
   -
     degree: phd
     last: Ruth
@@ -999,6 +1023,7 @@ past_committees:
     thesis:
       title: Numerical Methods for Identifying Integrability with Applications in Plasma Confinement
       year: 2024
+      url: https://www.proquest.com/pqdtglobal1/dissertations-theses/numerical-methods-identifying-integrability-with/docview/3100427142/sem-2?accountid=10267
   -
     degree: phd
     last: Zhu
@@ -1007,14 +1032,16 @@ past_committees:
     thesis:
       title: Scalable Gaussian processes and Bayesian optimization with application to hyperparameter tuning
       year: 2024
+      url: https://www.proquest.com/pqdtglobal1/dissertations-theses/scalable-gaussian-processes-bayesian-optimization/docview/3069117507/sem-2?accountid=10267
   -
     degree: phd
     last: Zhang
     first: Yujia
     field: Applied Math
     thesis:
-      title: "Save University Instruction During COVID-19: Simulation, Statistics, and Uncertainty Quantification"
+      title: "Safe University Instruction During COVID-19: Simulation, Statistics, and Uncertainty Quantification"
       year: 2024
+      url: https://www.proquest.com/pqdtglobal1/dissertations-theses/safe-university-instruction-during-covid-19/docview/3069045407/sem-2?accountid=10267
   -
     degree: phd
     last: Li
@@ -1023,6 +1050,7 @@ past_committees:
     thesis:
       title: "Towards Robust Photonic Information Processing -- Fundamentals, Designs, Limitations, and Improvements"
       year: 2023
+      url: https://www.proquest.com/pqdtglobal1/dissertations-theses/towards-robust-photonic-information-processing/docview/2917104373/sem-2?accountid=10267
   -
     degree: phd
     last: Xu
@@ -1031,6 +1059,7 @@ past_committees:
     thesis:
       title: "Statistical Advances in Simultaneous Diagonalization and Joint Object Detection"
       year: 2023
+      url: https://www.proquest.com/pqdtglobal1/dissertations-theses/statistical-advances-simultaneous-diagonalization/docview/2863665359/sem-2?accountid=10267
   -
     degree: phd
     last: Qi
@@ -1039,6 +1068,7 @@ past_committees:
     thesis:
       title: "Challenges in Continuous Path Planning: Rarefactions, Uncertainty, and Reinforcement Learning"
       year: 2023
+      url: https://www.proquest.com/pqdtglobal1/dissertations-theses/challenges-continuous-path-planning-rarefactions/docview/2863188783/sem-2?accountid=10267
   -
     degree: phd
     last: You
@@ -1047,6 +1077,7 @@ past_committees:
     thesis:
       title: "Enhancing 3D Perception with Unlabeled Repeated Historical Data for Autonomous Vehicles"
       year: 2023
+      url: https://www.proquest.com/pqdtglobal1/dissertations-theses/towards-generalized-3d-object-detection/docview/3100485375/sem-2?accountid=10267
   -
     degree: phd
     last: Padidar
@@ -1055,6 +1086,7 @@ past_committees:
     thesis:
       title: "Challenges in the optimization-aided design of magnetic confinement systems"
       year: 2023
+      url: https://doi.org/10.7298/mmyg-sc39
   -
     degree: phd
     last: Bonneville
@@ -1063,6 +1095,7 @@ past_committees:
     thesis:
       title: "Bayesian Machine Learning Algortihms for Uncertainty Quantification, Optimization, and Equation Discoveries in Engineering Physics"
       year: 2023
+      url: https://www.proquest.com/pqdtglobal1/dissertations-theses/bayesian-machine-learning-algorithms-uncertainty/docview/2825712480/sem-2?accountid=10267
   -
     degree: phd
     last: Lipton
