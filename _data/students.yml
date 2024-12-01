@@ -883,11 +883,6 @@ committees:
     first: Mallory
     field: Applied Math
   -
-    degree: ms
-    last: Gangavarapu
-    first: Tushaar
-    field: Computer Science
-  -
     degree: phd
     last: Gupta
     first: Arnav
@@ -964,6 +959,14 @@ committees:
     field: Applied Math
 
 past_committees:
+  -
+    degree: ms
+    last: Gangavarapu
+    first: Tushaar
+    field: Computer Science
+    thesis:
+      title: Linear recurrent models for robust and interpretable long-context modeling
+      year: 2024
   -
     degree: phd
     last: Kellison
