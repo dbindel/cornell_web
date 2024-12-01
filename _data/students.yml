@@ -609,7 +609,6 @@ ugrad:
     last: Yu
     when: 2023
     where: cornell
-    current: true
     proj: Walk on Spheres
   -
     first: Yeuk Yin (Roy)
@@ -647,56 +646,48 @@ ugrad:
     last: Dang
     when: 2022
     where: cornell
-    current: false
     proj: Soliton Stability
   -
     first: Paco
     last: Rilloraza
     when: 2020
     where: cornell
-    current: false
     proj: Stellarator Optimization
   -
     first: Catherine
     last: Horng
     when: 2020
     where: cornell
-    current: false
     proj: Learning to Cluster
   -
     first: Shengye
     last: Zang
     when: 2020
     where: cornell
-    current: false
     proj: Learning to Cluster
   -
     first: Andrew
     last: Yates
     when: 2020
     where: cornell
-    current: false
     proj: Nonlinear Eigenvalue Problems and Traveling Wave Stability
   -
     first: Ziwei
     last: Gu
     when: 2020
     where: cornell
-    current: false
     proj: Learning to Cluster
   -
     first: Leo
     last: Huang
     when: 2019
     where: cornell
-    current: true
     proj: Fast Bayesian Transformed Gaussian Prediction
   -
     first: Cameron
     last: Ibrahim
     when: 2019
     where: cornell
-    current: false
     proj: Fast Bayesian Transformed Gaussian Prediction
   -
     first: Sungjun
