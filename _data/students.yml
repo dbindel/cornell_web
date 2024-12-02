@@ -47,6 +47,14 @@ phd:
     topic: Transformed kernel methods for prediction and optimization
     url: http://www.cs.cornell.edu/~don/
   -
+    first: Calvin
+    last: Tolbert
+    field: ORIE
+    where: cornell
+    current: true
+    topic: Bayesian optimization
+    url: https://www.orie.cornell.edu/research/grad-students/calvin-tolbert
+  -
     degree: phd
     first: Ariel
     last: Kellison
@@ -880,6 +888,11 @@ committees:
     field: Theoretical and Applied Mechanics
   -
     degree: phd
+    last: Jacobson
+    first: Alon
+    field: ORIE
+  -
+    degree: phd
     last: Khanal
     first: Kapil
     field: Systems Engineering
@@ -923,6 +936,11 @@ committees:
     last: Tang
     first: Katerina
     field: Applied Math
+  -
+    degree: phd
+    first: Calvin
+    last: Tolbert
+    field: ORIE
   -
     degree: phd
     last: Tseng
