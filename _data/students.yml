@@ -838,6 +838,11 @@ ugrad:
 committees:
   -
     degree: phd
+    last: Bellavita
+    first: Julian
+    field: Computer Science
+  -
+    degree: phd
     last: Botvinivk-Greenhouse
     first: Jonah
     field: Applied Math
