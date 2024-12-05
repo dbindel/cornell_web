@@ -933,6 +933,11 @@ committees:
     field: Physics
   -
     degree: phd
+    last: Qu
+    first: Zhongdi
+    field: Computer Science
+  -
+    degree: phd
     last: Sun
     first: Jiatian
     field: Computer Science
