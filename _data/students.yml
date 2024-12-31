@@ -64,7 +64,7 @@ phd:
     url: https://ak-2485.github.io/
     reln: "Co-advised (secondary advisor: Andrew Appel)"    
     thesis:
-      title: Typed-Based Approaches to Rounding Error Analysis
+      title: Type-Based Approaches to Rounding Error Analysis
       year: 2024
   -
     first: Max
@@ -992,7 +992,7 @@ past_committees:
     first: Ariel
     field: Computer Science
     thesis:
-      title: Typed-Based Approaches to Rounding Error Analysis
+      title: Type-Based Approaches to Rounding Error Analysis
       year: 2024
   -
     degree: phd
