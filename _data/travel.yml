@@ -251,6 +251,9 @@
   text: CODES seminar at Emory
   url: https://www.math.emory.edu/site/codes/schedule/
 -
+  date: 2025-02-03
+  text: Plasma physics seminar at UW Madison
+-
   date: 2025-03-03
   text: SIAM CSE 2025
   url: https://www.siam.org/conferences-events/siam-conferences/cse25/
@@ -261,6 +264,12 @@
   date: 2025-03-20
   text: Hidden Symmetries Annual Meeting
 -
+  date: 2025-03-22
+  text: HiFiStell Team Meeting
+-
   date: 2025-06-08
   text: Householder Symposium
   url: https://householder-symposium.github.io/
+-
+  date: 2025-07-14
+  text: Hidden Symmetries Retreat at UW Madison
