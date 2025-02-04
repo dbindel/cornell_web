@@ -1398,4 +1398,10 @@
   where: Emory University CODES seminar
   tags: [stellarator]
   type: [seminar, external]
+-
+  file: 2025-02-madison/madison-feb25.pdf
+  title: Learning Magnetic Field Structure from Trajectories
+  where: UW Madison Plasma Physics Seminar
+  tags: [stellarator]
+  type: [seminar, external]
 
