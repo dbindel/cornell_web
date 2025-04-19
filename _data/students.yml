@@ -883,11 +883,6 @@ committees:
     field: Applied Math
   -
     degree: phd
-    last: Gaspard
-    first: Mallory
-    field: Applied Math
-  -
-    degree: phd
     last: Gupta
     first: Arnav
     field: Theoretical and Applied Mechanics
@@ -901,6 +896,11 @@ committees:
     last: Khanal
     first: Kapil
     field: Systems Engineering
+  -
+    degree: phd
+    last: La Rosa
+    first: Brian Umberto
+    field: Atmospheric Science
   -
     degree: phd
     last: Meng
@@ -921,11 +921,6 @@ committees:
     last: Nwankwo
     first: Darian
     field: Computer Science
-  -
-    degree:
-    last: Ong
-    first: Shawn
-    field: Applied Math
   -
     degree: phd
     last: Sbrocco
@@ -978,6 +973,22 @@ committees:
     field: Applied Math
 
 past_committees:
+  -
+    degree: phd
+    last: Gaspard
+    first: Mallory
+    field: Applied Math
+    thesis:
+      title: Approaches to Optimal Control Under Uncertainty With Applications in Transportation and Biology
+      year: 2025
+  -
+    degree:
+    last: Ong
+    first: Shawn
+    field: Applied Math
+    thesis:
+      title: A Kleene Theorem and Decision Problems for Probability and Angelic Nondeterminism
+      year: 2025
   -
     degree: ms
     last: Gangavarapu
