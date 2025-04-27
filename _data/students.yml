@@ -962,6 +962,11 @@ committees:
     first: Yi
     field: Computer Science
   -
+    degree: ms
+    last: Zhang
+    first: Ann
+    field: Computer Science
+  -
     degree: phd
     last: Zhang
     first: Yunxiang
