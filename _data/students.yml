@@ -39,6 +39,13 @@ phd:
     topic: Monte Carlo transport calculations for stellarators
     url: https://mczek.github.io/
   -
+    degree: phd
+    first: Dennis
+    last: Corraliza
+    field: Applied Math
+    current: true
+    topic: Formal verification of numerical methods
+  -
     first: Darian
     last: Nwankwo
     field: Computer Science
@@ -863,6 +870,11 @@ committees:
     field: Computer Science
   -
     degree: phd
+    first: Dennis
+    last: Corraliza
+    field: Applied Math
+  -
+    degree: phd
     last: Czeskanski
     first: Michael
     field: Statistics
@@ -931,6 +943,11 @@ committees:
     last: Sbrocco
     first: Cade
     field: Physics
+  -
+    degree: phd
+    last: Speas
+    first: Samuel
+    field: Applied Math
   -
     degree: phd
     last: Qu
