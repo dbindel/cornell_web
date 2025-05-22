@@ -1409,7 +1409,7 @@
   title: Transport at Cornell
   where: HiFiStell team meeting
   tags: [stellarator]
-  types: [meeting, external]
+  type: [meeting, external]
 -
   file: 2025-05-flatiron/flatiron-may25.pdf
   title: Learning Magnetic Field Structure from Trajectories
