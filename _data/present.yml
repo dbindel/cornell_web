@@ -1404,4 +1404,10 @@
   where: UW Madison Plasma Physics Seminar
   tags: [stellarator]
   type: [seminar, external]
+-
+  file: 2025-05-flatiron/flatiron-may25.pdf
+  title: Learning Magnetic Field Structure from Trajectories
+  where: Flatiron Center for Computational Math colloquium
+  tags: [stellarator]
+  type: [seminar, external]
 
