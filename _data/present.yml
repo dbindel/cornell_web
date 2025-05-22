@@ -1391,23 +1391,29 @@
   title: New Approaches to Computing with Kernels
   where: Clemson University
   tags: [gp]
-  type: [colloquium, external]
+  type: [colloquium, external, invited]
 -
   file: 2024-11-emory/emory-nov24.pdf
   title: Optimizing Magnetic Confinement Devices for Fusion Plasmas
   where: Emory University CODES seminar
   tags: [stellarator]
-  type: [seminar, external]
+  type: [seminar, external, invited]
 -
   file: 2025-02-madison/madison-feb25.pdf
   title: Learning Magnetic Field Structure from Trajectories
   where: UW Madison Plasma Physics Seminar
   tags: [stellarator]
-  type: [seminar, external]
+  type: [seminar, external, invited]
+-
+  file: 2025-03-hifistell/hifistell-mar25.pdf
+  title: Transport at Cornell
+  where: HiFiStell team meeting
+  tags: [stellarator]
+  types: [meeting, external]
 -
   file: 2025-05-flatiron/flatiron-may25.pdf
   title: Learning Magnetic Field Structure from Trajectories
   where: Flatiron Center for Computational Math colloquium
   tags: [stellarator]
-  type: [seminar, external]
+  type: [seminar, external, invited]
 
