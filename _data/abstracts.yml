@@ -1,6 +1,6 @@
-2024-jpp:
+2025-jpp:
   tags: [stellarator]
-  abstract:
+  abstract: |
     When analyzing stellarator configurations, it is common to perform
     an asymptotic expansion about the magnetic axis. This so-called
     near-axis expansion is convenient for the same reason asymptotic
@@ -20,6 +20,53 @@
     under perturbation, and we demonstrate that the radius of
     convergence of the vacuum near-axis expansion is correlated with
     the distance from the axis to the coils.
+
+2025-pldi:
+  tags: [formal]
+  abstract: |
+    Backward error analysis offers a method for assessing the quality
+    of numerical programs in the presence of floating-point rounding
+    errors. However, techniques from the numerical analysis literature
+    for quantifying backward error require substantial human effort,
+    and there are currently no tools or automated methods for
+    statically deriving sound backward error bounds. To address this
+    gap, we propose Bean, a typed first-order programming language
+    designed to express quantitative bounds on backward error. Bean's
+    type system combines a graded coeffect system with strict
+    linearity to soundly track the flow of backward error through
+    programs. We prove the soundness of our system using a novel
+    categorical semantics, where every Bean program denotes a triple
+    of related transformations that together satisfy a backward error
+    guarantee.
+    
+    To illustrate Bean's potential as a practical tool for automated
+    backward error analysis, we implement a variety of standard
+    algorithms from numerical linear algebra in Bean, establishing
+    fine-grained backward error bounds via typing in a compositional
+    style. We also develop a prototype implementation of Bean that
+    infers backward error bounds automatically. Our evaluation shows
+    that these inferred bounds match worst-case theoretical relative
+    backward error bounds from the literature, underscoring Bean's
+    utility in validating a key property of numerical programs:
+    numerical stability.
+
+2025-siads:
+  tags: [stellarator]
+  abstract: |
+    Many important qualities of plasma confinement devices can be
+    determined via the Poincaré plot of a symplectic return map. These
+    qualities include the locations of periodic orbits, magnetic
+    islands, and chaotic regions of phase space. However, every
+    evaluation of the magnetic return map requires solving an ODE,
+    meaning a detailed Poincaré plot can be expensive to create. Here,
+    we propose a kernel-based method of learning a single labeling
+    function that is approximately invariant under the symplectic
+    map. From the labeling function, we can recover the locations of
+    invariant circles, islands, and chaos with few evaluations of the
+    underlying symplectic map. Additionally, the labeling function
+    comes with a residual, which serves as a measure of how invariant
+    the label function is, and therefore as an indirect measure of
+    chaos and map complexity.
 
 2024-jcp:
   tags: [graphics, stellarator]
