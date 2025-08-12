@@ -30,12 +30,12 @@ active:
   #     Ongoing.  M 1:30-2:20.
 current:
   -
-    semester: S25
-    course: cs6241
+    semester: F25
+    course: cs6210
     where: cornell
-    url: https://www.cs.cornell.edu/courses/cs6241/2025sp/
+    url: https://www.cs.cornell.edu/courses/cs6210/2025fa/
     logistics: |
-      TR 2:55-4:20 in Snee 1120.
+      MW 10:10-11:25 in Gates 114 (or Zoom).
   -
     course: projects
     where: cornell
@@ -53,6 +53,11 @@ current:
 
 # Record of past courses
 previous:
+  -
+    semester: S25
+    course: cs6241
+    where: cornell
+    url: https://www.cs.cornell.edu/courses/cs6241/2025sp/
   -
     semester: F24
     course: cs5220
