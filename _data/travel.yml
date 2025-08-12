@@ -280,9 +280,15 @@
 -
   date: 2025-10-17
   text: Simons MPS Annual Meeting
+  url: https://www.simonsfoundation.org/event/mps-annual-meeting-2025/
 -
   date: 2025-1031
   text: SIAM NNP Annual Meeting
+  url: https://www.siam.org/conferences-events/section-meetings/new-york-new-jersey-pennsylvania-section-of-siam-annual-meeting-2025/
 -
   date: 2026-02-15
-  text: Reduced and Mixed Precision Computing for Science and Engineering Applications
+  text: Dagstuhl on Reduced and Mixed Precision Computing
+  url: https://www.dagstuhl.de/seminars/seminar-calendar/seminar-details/26081
+-
+  date: 2026-03-19
+  text: Hidden Symmetries Annual Meeting
