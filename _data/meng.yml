@@ -34,6 +34,28 @@
     You should have a course in numerical computing and some
     mathematical maturity to take on this project.
 -
+  title: Pre-corrected FFT Kernel Evaluations
+  tags: [rbf, tools]
+  display: true
+  blurb: |
+    In low-dimensional spaces, matrix-vector multiplications can be
+    efficiently carried out with the aid of a grid of inducing points
+    and some fast Fourier transforms.  In the Gaussian process
+    literature, the structured kernel interpolation approach (SKI)
+    uses a simple interpolation mapping to go back and forth between a
+    regular grid of inducing points and a scattered set of data
+    points.  However, in the older integral equations literature there
+    is a more accurate method called the pre-corrected FFT approach
+    that combines something like SKI with a sparse correction matrix.
+    In this project, we would implement the pre-corrected FFT method
+    and compare it to SKI for data problems.  If time permits, we
+    might try an extension to higher-dimensional spaces that I have
+    been thinking about!
+
+    You should ideally have a course in numerical computing (a machine
+    learning course is probably fine) and some mathematical maturity
+    to take on this project.
+-
   title: Evans Functions and Nonlinear Eigenvalue Problems
   tags: [physics, eigen]
   display: true
@@ -55,6 +77,51 @@
     You should have a course in differential equations and a course
     in linear algebra to tackle this project, and ideally a course in
     analysis and a course in numerics.
+-
+  title: Mesh-free Solvers for Anisotropic Diffusion
+  tags: [phyics, tools]
+  display: true
+  blurb: |
+    Transport of charged particles that constitute a plasma is
+    sometimes modeled using a simple diffusion equation (a
+    Laplace-Poisson problem) with highly variable and anisotropic
+    coefficients.  The strong anisotropy provides some unique
+    challenges for numerical solvers.  In this project, we will
+    explore so-called mesh-free solvers for diffusion problems,
+    and try out an idea that we have been playing with for adapting
+    the methods to the highly anisotropic case.
+
+    For this project, you should probably have seen a diffusion
+    equation somewhere (in a PDEs course, a physics course, an
+    engineering course, etc).  You should ideally also have a course
+    in numerical methods or computational physics.
+-
+  title: Julia Metaprogramming for Small Sparse Matrix
+  tags: [tools]
+  display: true
+  blurb: |
+    I have worked on several little tools for optimizing the
+    evaluation of matrix expressions using a simple MATLAB-like
+    language.  These include a source-to-source translator called
+    [Matexpr](http://www.cs.cornell.edu/~bindel/cims/matexpr/) that
+    compiles C/C++ programs augmented with simple fixed-size
+    expressions into ordinary C++, and a system embedded in one of my
+    finite element code that applies common transformations
+    appropriate for sparse matrices and identifies common
+    subexpressions that can be memoized.  These days, I program in
+    Julia more than in C++; but I still have some of the same
+    challenges!  I would like to write Julia macro versions of these
+    tools and extend them with annotations of structural features that
+    can be used for optimized code generation.
+
+    To work on this project, you should have some knowledge of
+    compilers or of metaprogramming (in Julia or in a Lisp-family
+    language) and some familiarity with linear algebra.
+#
+#
+### --- Older stuff ---
+#
+#
 -
   title: JuliaFEM
   tags: [physics, tools]
@@ -168,12 +235,12 @@
     We want to be able to set up optimization runs, monitor
     the progress, and analyze results.  Our current user
     interface is built in [Qt][pysot-gui].
-    
+
     To work on this project, it would be helpful to have
     some exposure to Python.  Some Javascript might also be
     useful, though not necessary.  You will work on this project
     with one of my students ([David Eriksson]).
-    
+
     [rbfopt]: http://www.cs.cornell.edu/~bindel//blurbs/rbfopt.html
     [daskweb]: http://distributed.readthedocs.io/en/latest/web.html
     [bokeh]: http://bokeh.pydata.org/en/latest/
