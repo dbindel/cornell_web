@@ -1416,4 +1416,15 @@
   where: Flatiron Center for Computational Math colloquium
   tags: [stellarator]
   type: [seminar, external, invited]
-
+-
+  file: 2025-06-householder/poster.pdf
+  title: "Birkhoff Averages, Invariant Sets, and Adaptive Filtering"
+  where: Householder Symposium on Numerical Linear Algebra
+  tags: [stellarator]
+  type: [poster, external]
+-
+  file: 2025-07-madison/madison-cornell-jul25.pdf
+  title: Cornell Simons Retrospective
+  where: UW Madison Simons Retreat
+  tags: [stellarator]
+  type: [workshop, external]

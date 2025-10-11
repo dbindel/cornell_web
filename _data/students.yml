@@ -54,6 +54,14 @@ phd:
     topic: Transformed kernel methods for prediction and optimization
     url: http://www.cs.cornell.edu/~don/
   -
+    degree: phd
+    first: Park
+    last: Sihwa
+    field: Computer Science
+    where: Cornell
+    current: true
+    topic: Bayesian optimization
+  -
     first: Calvin
     last: Tolbert
     field: ORIE
@@ -181,10 +189,50 @@ phd:
 masters:
   -
     degree: meng
+    first: Daniel
+    last: Cau
+    field: Computer Science
+    current: true
+    project:
+      title: Precorrected FFTs for Kernels
+      when: 2025
+  -
+    degree: meng
+    first: Aryaman Sharma
+    field: Computer Science
+    current: true
+    project:
+      title: Preconditioned RBFs with clustered centers
+      when: 2025
+  -
+    degree: meng
+    first: Tyler Petrillo
+    field: Computer Science
+    current: true
+    project:
+      title: Preconditioned RBFs with clustered centers
+      when: 2025
+  -
+    degree: meng
+    first: Ishita Sinha
+    field: Computer Science
+    current: true
+    project:
+      title: Preconditioned RBFs with clustered centers
+      when: 2025
+  -
+    degree: meng
+    first: Kelly Leiby
+    field: Computer Science
+    current: true
+    project:
+      title: Mesh-free methods for anisotropic diffusion
+      when: 2025
+  -
+    degree: meng
     first: Cyrus
     last: Rohani
     field: Computer Science
-    current: true
     project:
       title: Federated Health Data Training Platform
       when: 2024
@@ -193,7 +241,6 @@ masters:
     first: Ankit
     last: Lakkapragada
     field: Computer Science
-    current: true
     project:
       title: Federated Health Data Training Platform
       when: 2024
@@ -202,7 +249,6 @@ masters:
     first: Rohan
     last: Shah
     field: Computer Science
-    current: true
     project:
       title: Federated Health Data Training Platform
       when: 2024
@@ -211,7 +257,6 @@ masters:
     first: Rohit
     last: Valiveti
     field: Computer Science
-    current: true
     project:
       title: Federated Health Data Training Platform
       when: 2024
@@ -606,6 +651,13 @@ masters:
 
 ugrad:
   -
+    first: Julian
+    last: Menke
+    when: 2025
+    where: cornell
+    current: true
+    proj: Bayesian Optimization with Trends
+  -
     first: Ethan
     last: Hersch
     when: 2024
@@ -937,6 +989,11 @@ committees:
     degree: phd
     last: Nwankwo
     first: Darian
+    field: Computer Science
+  -
+    degree: phd
+    first: Park
+    last: Sihwa
     field: Computer Science
   -
     degree: phd

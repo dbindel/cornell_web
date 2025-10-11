@@ -96,7 +96,7 @@
     engineering course, etc).  You should ideally also have a course
     in numerical methods or computational physics.
 -
-  title: Julia Metaprogramming for Small Sparse Matrix
+  title: Julia Metaprogramming for Small Sparse Matrix Operations
   tags: [tools]
   display: true
   blurb: |

@@ -21,7 +21,10 @@
   when: [2012]
 -
   what: SIAM Journal on Scientific Computing
-  when: [2008, 2009, 2014, 2015, 2016, 2017, 2019]
+  when: [2008, 2009, 2014, 2015, 2016, 2017, 2019, 2025]
+-
+  what: SIAM Journal on Mathematics of Data Science
+  when: [2025]
 -
   what: IEEE Sensors
   when: [2014]
@@ -47,6 +50,9 @@
   what: Data Mining and Knowledge Discovery
   when: [2018, 2019]
 -
+  what: IMA Journal of Numerical Analysis
+  when: [2025]
+-
   what: International Journal of Computer Mathematics
   when: [2012]
 -
@@ -65,17 +71,27 @@
   what: Journal of Experimental Algorithms
   when: [2019]
 -
+  what: Journal of Fusion Energy
+  when: [2025]
+-
   what: Journal of Micromechanics and Microengineering
   when: [2007, 2008, 2009, 2011, 2014, 2015, 2016, 2017]
 -
   what: Journal of Machine Learning Research
   when: [2016]
 -
+  what: Journal of Plasma Physics
+  when: [2024,2025]
+-
   what: "Journal of Physics A: Mathematical and Theoretical"
   when: [2007]
 -
   what: Linear Algebra and its Applications
-  when: [2003, 2009, 2010, 2013, 2014, 2015, 2017, 2018, 2020, 2021, 2022]
+  when: [2003, 2009, 2010, 2013, 2014, 2015, 2017, 2018, 2020, 2021,
+         2022, 2025]
+-
+  what: Linear and Multilinear Algebra
+  when: [2025]
 -
   what: Mathematics of Computation
   when: [2007]
@@ -83,8 +99,12 @@
   what: Multiscale Modeling and Simulation
   when: [2013]
 -
+  what: Nuclear Fusion
+  when: [2025]
+-
   what: Numerical Linear Algebra with Applications
-  when: [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023]
+  when: [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019,
+         2021, 2022, 2023, 2024, 2025]
 -
   what: Numerische Mathematik
   when: [2009, 2011]
@@ -98,6 +118,12 @@
   what: PARA04 conference proceedings
   when: [2004]
 -
+  what: Physics of Plasmas
+  when: [2024,2025]
+-
+  what: PRX Energy
+  when: [2024]
+-
   what: IEEE ARITH conference
   when: [2004]
 -
@@ -108,13 +134,13 @@
   when: [2009, 2011]
 -
   what: Proposal referee for the Netherlands science foundation (NWO)
-  when: [2003]
+  when: [2003, 2024]
 -
   what: Proposal referee for DOE
   when: [2022, 2009, 2015]
 -
   what: Proposal referee for NSF
-  when: [2012, 2016, 2017, 2018, 2019, 2021, 2023]
+  when: [2012, 2016, 2017, 2018, 2019, 2021, 2023, 2025]
 -
   what: Proposal referee for NASA
   when: [2017]

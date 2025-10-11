@@ -1,4 +1,40 @@
 -
+  when: 2028
+  role: Chair
+  what: Scientific committee, Householder XXIII Meeting
+  type: [external]
+-
+  when: 2025
+  role: Co-organizer
+  what: Workshop on Development of Modern Methods for Linear Algebra (DMML)
+  type: [external]
+-
+  when: 2025
+  role: Area Chair
+  what: AISTATS 2026
+  type: [external]
+-
+  when: 2025
+  role: Area Chair
+  what: NeurIPS 2025
+  type: [external]
+-
+  when: 2025
+  role: Reviewer
+  what: ICML 2025
+  type: [external]
+-
+  when: 2025
+  role: Reviewer
+  what: AISTATS 2025
+  type: [external]
+-
+  when: 2025
+  until: 2028
+  what: SIAM Journal on Matrix Analysis and Applications
+  role: Associate editor
+  type: [external]
+-
   when: 2024
   until: 2025
   what: CS Graduate Admissions Committee
