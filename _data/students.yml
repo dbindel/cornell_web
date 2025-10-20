@@ -897,6 +897,11 @@ ugrad:
 committees:
   -
     degree: phd
+    last: Bao
+    first: Jiajun
+    field: Applied Math
+  -
+    degree: phd
     last: Bellavita
     first: Julian
     field: Computer Science
