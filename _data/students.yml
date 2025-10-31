@@ -55,12 +55,13 @@ phd:
     url: http://www.cs.cornell.edu/~don/
   -
     degree: phd
-    first: Park
-    last: Sihwa
+    last: Park
+    first: Sihwa
     field: Computer Science
     where: Cornell
     current: true
     topic: Bayesian optimization
+    url: https://sihwa-park.github.io/
   -
     first: Calvin
     last: Tolbert
