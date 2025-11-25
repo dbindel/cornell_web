@@ -982,6 +982,16 @@ committees:
     field: Theoretical and Applied Mechanics
   -
     degree: phd
+    last: Gupta
+    first: Tanmaey
+    field: Computer Science
+  -
+    degree: ms
+    last: Hu
+    first: Becky
+    field: Computer Science
+  -
+    degree: phd
     last: Jacobson
     first: Alon
     field: ORIE
