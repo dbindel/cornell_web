@@ -913,11 +913,6 @@ committees:
     field: Applied Math
   -
     degree: phd
-    last: Brown
-    first: Jacob
-    field: Applied Math
-  -
-    degree: phd
     last: Buathong
     first: Poompol
     field: Applied Math
@@ -968,14 +963,14 @@ committees:
     field: ORIE
   -
     degree: phd
-    last: Khanal
-    first: Kapil
-    field: Systems Engineering
-  -
-    degree: phd
     last: La Rosa
     first: Brian Umberto
     field: Atmospheric Science
+  -
+    degree: phd
+    last: Liu
+    first: Yulong
+    field: Geological Sciences
   -
     degree: phd
     last: Meng
@@ -993,14 +988,29 @@ committees:
     field: Mechanical Engineering
   -
     degree: phd
+    last: Nosirov
+    first: Ibrohim
+    field: Applied Math
+  -
+    degree: phd
     last: Nwankwo
     first: Darian
     field: Computer Science
   -
     degree: phd
+    last: Oprea
+    first: Tereza
+    field: Applied Math
+  -
+    degree: phd
     first: Park
     last: Sihwa
     field: Computer Science
+  -
+    degree: phd
+    first: Dory
+    last: Peters
+    field: Applied Math
   -
     degree: phd
     last: Sbrocco
@@ -1063,6 +1073,22 @@ committees:
     field: Applied Math
 
 past_committees:
+  -
+    degree: phd
+    last: Khanal
+    first: Kapil
+    field: Systems Engineering
+    thesis:
+      title: "Multidisciplinary Design Optimization of Novel Offshore Systems: from Conventional to Differentiable Design Methodologies"
+      year: 2025
+  -
+    degree: phd
+    last: Brown
+    first: Jacob
+    field: Applied Math
+    thesis:
+      title: "Theory and Applications of Manifold Interpolation for Learning Empirical Green's Functions"
+      year: 2025
   -
     degree: phd
     last: Gaspard
