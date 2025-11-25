@@ -1037,11 +1037,6 @@ committees:
     field: Applied Math
   -
     degree: phd
-    last: Sbrocco
-    first: Cade
-    field: Physics
-  -
-    degree: phd
     last: Speas
     first: Samuel
     field: Applied Math
@@ -1118,6 +1113,7 @@ past_committees:
     thesis:
       title: "Theory and Applications of Manifold Interpolation for Learning Empirical Green's Functions"
       year: 2025
+      url: https://www.proquest.com/pqdtglobal1/dissertations-theses/theory-applications-manifold-interpolation/docview/3248397278/sem-2?accountid=10267
   -
     degree: phd
     last: Gaspard
@@ -1126,14 +1122,16 @@ past_committees:
     thesis:
       title: Approaches to Optimal Control Under Uncertainty With Applications in Transportation and Biology
       year: 2025
+      url: https://www.proquest.com/pqdtglobal1/dissertations-theses/approaches-optimal-control-under-uncertainty/docview/3248398695/sem-2?accountid=10267
   -
-    degree:
+    degree: phd
     last: Ong
     first: Shawn
     field: Applied Math
     thesis:
       title: A Kleene Theorem and Decision Problems for Probability and Angelic Nondeterminism
       year: 2025
+      url: https://ecommons.cornell.edu/items/c18f15a6-0d92-4b1c-b4c1-722678b97435
   -
     degree: ms
     last: Gangavarapu
