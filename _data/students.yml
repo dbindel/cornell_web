@@ -947,6 +947,11 @@ committees:
     field: Computer Science
   -
     degree: phd
+    last: Choi
+    first: Sun Mook
+    field: Applied Math
+  -
+    degree: phd
     first: Dennis
     last: Corraliza
     field: Applied Math
