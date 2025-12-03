@@ -1086,6 +1086,11 @@ committees:
     first: Yi
     field: Computer Science
   -
+    degree: phd
+    last: Yao
+    first: Elaine
+    field: Computer Science
+  -
     degree: ms
     last: Zhang
     first: Ann
@@ -1095,6 +1100,11 @@ committees:
     last: Zhang
     first: Yunxiang
     field: Operations Research
+  -
+    degree: phd
+    last: Zhu
+    first: Jinseng
+    field: Computer Science
   -
     degree: phd
     last: Zielinski
