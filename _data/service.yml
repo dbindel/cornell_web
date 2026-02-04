@@ -4,6 +4,21 @@
   what: Scientific committee, Householder XXIII Meeting
   type: [external]
 -
+  when: 2026
+  what: DOE CSGF selection committee
+  role: Panelist
+  type: [external]
+-
+  when: 2026
+  until: present
+  what: SIAM Book Series on Data Science
+  role: Editorial board member
+-
+  when: 2026
+  role: Area Chair
+  what: ICML 2026
+  type: [external]
+-
   when: 2025
   role: Co-organizer
   what: Workshop on Development of Modern Methods for Linear Algebra (DMML)
