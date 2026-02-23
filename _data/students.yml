@@ -1110,13 +1110,16 @@ committees:
     last: Zielinski
     first: Laura
     field: Computer Science
+
+past_committees:
   -
     degree: phd
     last: Zvonek
     first: Jennifer
     field: Applied Math
-
-past_committees:
+    thesis:
+      title: "Numerical Linear Algebra for Scientific Machine Learning: Neural Network Compression and Continuous Trace Estimation"
+      year: 2026
   -
     degree: phd
     last: Khanal
