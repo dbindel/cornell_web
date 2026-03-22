@@ -1428,3 +1428,15 @@
   where: UW Madison Simons Retreat
   tags: [stellarator]
   type: [workshop, external]
+=
+  file: 2026-03-simons/simons-mar26.pdf
+  title: Cornell current directions and next steps
+  where: Simons and HiFiStell team meeting
+  tags: [stellarator]
+  type: [workshop, external]
+-
+  file: 2026-03-mines/mines-mar26.pdf
+  title: Inducing Point Approximations of Kernel Matrices
+  where: Colorado School of Mines AMS Colloquium
+  tags: [kernel, gp]
+  type: [colloquium, external, invited]

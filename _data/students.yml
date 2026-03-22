@@ -962,11 +962,6 @@ committees:
     field: Statistics
   -
     degree: phd
-    last: Du
-    first: Yuanqi
-    field: Computer Science
-  -
-    degree: phd
     last: Fahmy
     first: Youssef
     field: Statistics
@@ -1072,11 +1067,6 @@ committees:
     field: ORIE
   -
     degree: phd
-    last: Tseng
-    first: Albert
-    field: Computer Science
-  -
-    degree: phd
     last: Xie
     first: Qian
     field: Operations Research
@@ -1112,6 +1102,22 @@ committees:
     field: Computer Science
 
 past_committees:
+  -
+    degree: phd
+    last: Tseng
+    first: Albert
+    field: Computer Science
+    thesis:
+      title: Scaling the Efficiency of Large-Scale Learning with Structured Representations
+      year: 2026
+  -
+    degree: phd
+    last: Du
+    first: Yuanqi
+    field: Computer Science
+    thesis:
+      title: AI-Driven Scientific Discovery
+      year: 2026
   -
     degree: phd
     last: Zvonek
