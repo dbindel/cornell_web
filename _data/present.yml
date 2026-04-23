@@ -1428,7 +1428,7 @@
   where: UW Madison Simons Retreat
   tags: [stellarator]
   type: [workshop, external]
-=
+-
   file: 2026-03-simons/simons-mar26.pdf
   title: Cornell current directions and next steps
   where: Simons and HiFiStell team meeting
@@ -1440,3 +1440,4 @@
   where: Colorado School of Mines AMS Colloquium
   tags: [kernel, gp]
   type: [colloquium, external, invited]
+
