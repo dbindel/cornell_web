@@ -1017,6 +1017,11 @@ committees:
     field: Mechanical Engineering
   -
     degree: phd
+    last: Nguyen
+    first: Hung
+    field: Applied Math
+  -
+    degree: phd
     last: Nosirov
     first: Ibrohim
     field: Applied Math
@@ -1059,6 +1064,11 @@ committees:
     degree: phd
     last: Tang
     first: Katerina
+    field: Applied Math
+  -
+    degree: phd
+    last: Tang
+    first: Maosen
     field: Applied Math
   -
     degree: phd
