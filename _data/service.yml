@@ -5,6 +5,16 @@
   type: [external]
 -
   when: 2026
+  what: CS AI and the Future of Education committee
+  role: Committee member
+  type: [cornell, cs, local]
+-
+  when: 2026
+  what: NeurIPS 2026
+  role: Area Chair
+  type: [external]
+-
+  when: 2026
   what: DOE CSGF selection committee
   role: Panelist
   type: [external]

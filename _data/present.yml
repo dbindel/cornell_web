@@ -1440,4 +1440,15 @@
   where: Colorado School of Mines AMS Colloquium
   tags: [kernel, gp]
   type: [colloquium, external, invited]
-
+-
+  file: 2026-05-lias/ilas-may26.pdf
+  title: Learning Magnetic Field Structures from Trajectories
+  where: ILAS Meeting
+  tags: [stellarator]
+  type: [workshop, external, invited]
+-
+  file: 2026-08-fptalks/fptalks-aug26.pdf
+  title: Adjoints for Roundoff Sensitivity Analysis
+  where: FPTalks Online Meeting
+  tags: [fp]
+  type: [workshop, external, invited]

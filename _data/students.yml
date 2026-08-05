@@ -46,14 +46,6 @@ phd:
     current: true
     topic: Formal verification of numerical methods
   -
-    first: Darian
-    last: Nwankwo
-    field: Computer Science
-    where: cornell
-    current: true
-    topic: Transformed kernel methods for prediction and optimization
-    url: http://www.cs.cornell.edu/~don/
-  -
     degree: phd
     last: Park
     first: Sihwa
@@ -70,6 +62,16 @@ phd:
     current: true
     topic: Bayesian optimization
     url: https://www.orie.cornell.edu/research/grad-students/calvin-tolbert
+  -
+    first: Darian
+    last: Nwankwo
+    field: Computer Science
+    where: cornell
+    topic: Lookahead kernel methods for prediction and optimization
+    url: https://www.dariannwankwo.com/
+    thesis:
+      title: Practical Algorithms for Multi-Step Lookahead Bayesian Optimization
+      year: 2026
   -
     degree: phd
     first: Ariel
@@ -193,8 +195,8 @@ masters:
     first: Daniel
     last: Cao
     field: Computer Science
-    current: true
     where: cornell
+    current: false
     proj:
       title: Precorrected FFTs for Kernels
       when: 2025
@@ -203,7 +205,7 @@ masters:
     first: Aryaman Sharma
     field: Computer Science
     where: cornell
-    current: true
+    current: false
     proj:
       title: Preconditioned RBFs with clustered centers
       when: 2025
@@ -212,7 +214,7 @@ masters:
     first: Ishita Sinha
     field: Computer Science
     where: cornell
-    current: true
+    current: false
     proj:
       title: Preconditioned RBFs with clustered centers
       when: 2025
@@ -220,9 +222,8 @@ masters:
     degree: meng
     first: Kelly Leiby
     field: Computer Science
-    current: true
     where: cornell
-    current: true
+    current: false
     proj:
       title: Mesh-free methods for anisotropic diffusion
       when: 2025
@@ -231,7 +232,7 @@ masters:
     first: Tyler Petrillo
     field: Computer Science
     where: cornell
-    current: true
+    current: false
     grad: 2025
     proj:
       title: Preconditioned RBFs with clustered centers
@@ -962,11 +963,6 @@ committees:
     field: Statistics
   -
     degree: phd
-    last: Fahmy
-    first: Youssef
-    field: Statistics
-  -
-    degree: phd
     last: Fernandes Nuñez
     first: Tayler
     field: Applied Math
@@ -975,11 +971,6 @@ committees:
     last: Gong
     first: Xiaoyun
     field: Applied Math
-  -
-    degree: phd
-    last: Gupta
-    first: Arnav
-    field: Theoretical and Applied Mechanics
   -
     degree: phd
     last: Gupta
@@ -1027,11 +1018,6 @@ committees:
     field: Applied Math
   -
     degree: phd
-    last: Nwankwo
-    first: Darian
-    field: Computer Science
-  -
-    degree: phd
     last: Oprea
     first: Tereza
     field: Applied Math
@@ -1057,11 +1043,6 @@ committees:
     field: Computer Science
   -
     degree: phd
-    last: Sun
-    first: Jiatian
-    field: Computer Science
-  -
-    degree: phd
     last: Tang
     first: Katerina
     field: Applied Math
@@ -1075,11 +1056,6 @@ committees:
     first: Calvin
     last: Tolbert
     field: ORIE
-  -
-    degree: phd
-    last: Xie
-    first: Qian
-    field: Operations Research
   -
     degree: phd
     last: Xu
@@ -1112,6 +1088,46 @@ committees:
     field: Computer Science
 
 past_committees:
+  -
+    degree: phd
+    last: Nwankwo
+    first: Darian
+    field: Computer Science
+    thesis:
+      title: Practical Algorithms for Multi-Step Lookahead Bayesian Optimization
+      year: 2026
+  -
+    degree: phd
+    last: Fahmy
+    first: Youssef
+    field: Statistics
+    thesis:
+      title: Estimating Velocity Fields from Random Passive Scalars
+      year: 2026
+  -
+    degree: phd
+    last: Gupta
+    first: Arnav
+    field: Theoretical and Applied Mechanics
+    thesis:
+      title: Brittle Fracture Using the Inverse-Deformation Approach
+      year: 2026
+  -
+    degree: phd
+    last: Xie
+    first: Qian
+    field: Operations Research
+    thesis:
+      title: The Gittins Index Design Principle for Cost-Aware Bayesian Decision-Making Under Uncertainty
+      year: 2026
+  -
+    degree: phd
+    last: Sun
+    first: Jiatian
+    field: Computer Science
+    thesis:
+      title: Inferring Dynamics and Mechanical Properties from Visual Observations
+      year: 2026
   -
     degree: phd
     last: Tseng
