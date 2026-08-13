@@ -258,7 +258,7 @@ cs4414:
   title: Systems Programming
   image: rustacean-orig-noshadow.svg
   snippet: |
-    Systems programming the Rust programming language.  Students will
+    Systems programming in the Rust programming language.  Students will
     learn to program in Rust; model and profile program performance;
     use standard Unix system abstractions; and write efficient and
     correct concurrent and asynchronous programs.  Students in 5416
