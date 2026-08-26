@@ -1,4 +1,162 @@
 -
+  title: Rust Plumbing for Asynchronous Optimization
+  tags: [tools]
+  display: true
+  blurb: |
+    <a href="https://github.com/dbindel/POAP">POAP</a> is a package of
+    Plumbing for Optimization with Asynchronous Parallelism that I wrote
+    in Python seven years ago.  I would like to make a version in Rust,
+    which I think may be particularly well-suited to the task.  This
+    project would involve writing a Rust version of the functionality in
+    this package, building both on the abstractions in POAP and the
+    asynchronous programming abstractions present in Rust.
+
+    This project would be a natural accompaniment to CS 4414/5416.
+-
+  title: Quarto PPTX Filters
+  tags: [tools]
+  display: true
+  blurb: |
+    Quarto can produce PowerPoint slide decks from Markdown inputs.
+    Compared to the Reveal.js deck functionality, though, the
+    PowerPoint functionality is a bit lacking.  It's hard to change
+    fonts or font sizes, for example.  This can be done by directly
+    inserting OpenOffice XML directives, but this is rather a pain to
+    do by hand.  What I would like to do is to write a Lua filter so
+    that I can do some simple formatting operations in the Markdown
+    for PowerPoint that allow me to do things like change font sizes,
+    add horizontal lines, etc into a generated PPTX deck.
+-
+  title: Nonsmooth High-Order Quadrature
+  tags: [numerics]
+  display: true
+  blurb: |
+    Gaussian quadrature rules provide very rapidly convergent
+    estimates of the integral of a function (or a function times a
+    weight) when the function in question is highly smooth.  These
+    rules tend to slow down dramatically when the function is not
+    smooth.  For a particular application in Bayesian optimization,
+    we are looking at integrands that are non-smooth and expensive to
+    evaluate, but the non-smoothness is of a particular type that
+    should be easy to deal with.
+
+    This project will probably be easiest if you have had a numerical
+    analysis course covering quadrature (e.g. at the level of CS
+    4210).
+-
+  title: Optimization Under Stability Constraints
+  tags: [numerics, optimization]
+  display: true
+  blurb: |
+    We are interested in optimizing an objective function depending on
+    some parameters, with the constraint that a certain dynamical
+    system remains stable under those parameters.  The motivating
+    application comes from plasma physics, but this type of structure
+    arises in other settings as well.  The goal of this project will
+    be to do a literature review of related work in the area,
+    comparing a few methods (and implementing them for a simple
+    problem).
+
+    This project will probably be easiest if you have had a numerical
+    analysis course covering optimization and a little bit about
+    eigenvalue problems (e.g. at the level of CS 4220).
+-
+  title: Button Buzzer
+  tags: [physics]
+  display: true
+  blurb: |
+    A button buzzer (aka a button whirlygig) is a traditional toy,
+    made from a loop of thread passing through two opposite holes in
+    a button.  After "winding it up" so that the string is twisted on
+    each side, you can pull on the spring ends to make the button spin
+    rapidly (with a characteristic buzzing sound); it usually spins
+    fast enough to re-wind itself in the other direction in this
+    process.  This is a great deal of fun to play with, and I think it
+    would also be a lot of fun to simulate.
+
+    I expect this to be a hard project!  It will probably be most
+    tractable if you have some experience with mechanics (though
+    computer graphics may be enough) and maybe a numerical analysis course.
+-
+  title: Three.js and Stellarators
+  tags: [tools, physics, stellarators]
+  blurb: |
+    A *stellarator* is a class of magnetic confinement systems for
+    plasmas (particularly, though not exclusively, for fusion-relevant
+    plasmas).  Three.js is a Javascript-based system for rendering 3D
+    graphics.  I have some examples of putting these things together,
+    using Three.js for rendering images of stellarators.  I would like
+    to extend that system, and I would like to use the extended system
+    to make movies for when I give talks about these devices!
+
+    This project does not require knowing anything about stellarators
+    or fusion.  But some experience with computer graphics would
+    probably be helpful.
+-
+  title: Divertor Leg Optimization
+  tags: [numerics, optimization, physics, stellarators]
+  blurb: |
+    Charged exhaust particles in fusion devices are guided out of the
+    plasma by a structure called a *divertor*.  This can be modeled
+    (without really understanding any plasma physics) as a type of
+    invariant manifold in a class of nonlinear dynamical systems.  The
+    goal of this project would be to (robustly) optimize geometric
+    properties of such invariant manifolds.
+
+    The project does not require knowing anything about plasmas.  It
+    does, however, require both some numerical analysis background
+    (something like CS 4210 or CS 4220) and a good grounding in
+    differential equations (at least at the level of Math 2940).
+-
+  title: Adjoints and Roundoff Sensitivity
+  tags: [numerics, tools]
+  blurb: |
+    The idea of reverse-mode differentiation (aka backward mode or
+    adjoint mode) has been re-invented many times.  However, one of
+    the earliest modern inventions was a paper by Seppo Linnainmaa in
+    1976 (based on his 1970 MS thesis), in which he introduced the
+    reverse mode of automatic differentiation as a method of rounding
+    error analysis.  I have several things I would like to do that
+    build on this idea, and would like a clean implementation in Julia
+    of this automatic differentiation rounding error analysis
+    framework.
+
+    This project requires an understanding of multivariable calculus
+    and linear algebra, and well as a basic understanding of how
+    computer languages are parsed and interpreted (at the level of CS 3110).
+-
+  title: Rocq and Interpolation Bounds
+  tags: [numerics, tools]
+  display: true
+  blurb: |
+    As part of a project with Andrew Appel, we were looking for a
+    proof in Rocq using the Mathcomp Analysis library of the standard
+    error bound used in polynomial interpolation.  It was suggested to
+    us that this would make a fine master's project, and so I am now
+    passing on this suggestion.  This would be a project that I would
+    help administer, but would be done in concert with Appel or with
+    another colleague working in formal methods.
+
+    This project probably makes the most sense for a student who
+    already knows a little about formal methods and Rocq.
+-
+  title: Optimizing Matrix Computation DAGs
+  tags: [numerics, tools]
+  display: true
+  blurb: |
+    One of the standard examples of dynamic programming is figuring
+    out the order of associativity to use in evaluating a chain of
+    matrix multiplications so as to minimize the overall cost.  But in
+    many interesting matrix computations, there is not a simple chain
+    of multiplications, but a graph of multiplications for multiple
+    outputs with shhared intermediates.  I believe that this can be
+    tackled with equality saturation graphs; I would like to try this
+    out, and ideally embed it in a small language.
+
+    This project requires some understanding of algorithms, and
+    probably makes the most sense for students who also have some
+    experience with compilers.
+-
   title: Continuation Methods for Optimization on Surrogates
   tags: [rbf, tools]
   display: true
@@ -15,46 +173,6 @@
 
     You should ideally have a course in numerical computing to take on
     this project.
--
-  title: Preconditioning Radial Basis Functions with Clustered Centers
-  tags: [rbf]
-  display: true
-  blurb: |
-    Radial basis function interpolation is a standard method of
-    interpolating data in more than one space dimension.  It has many
-    attractive features, but the problem can become unstable when posed
-    in the normal basis, particularly for very smooth basis functions
-    or when the basis function centers are clustered.  Recently-developed
-    methods address the former case, but the latter is more of a concern
-    when RBF interpolants are used for optimization, as is the case in
-    some of my projects.  I have an idea for a formally equivalent method
-    that gets around this stability issue by a preconditioning strategy,
-    and would like help implementing it.
-
-    You should have a course in numerical computing and some
-    mathematical maturity to take on this project.
--
-  title: Pre-corrected FFT Kernel Evaluations
-  tags: [rbf, tools]
-  display: true
-  blurb: |
-    In low-dimensional spaces, matrix-vector multiplications can be
-    efficiently carried out with the aid of a grid of inducing points
-    and some fast Fourier transforms.  In the Gaussian process
-    literature, the structured kernel interpolation approach (SKI)
-    uses a simple interpolation mapping to go back and forth between a
-    regular grid of inducing points and a scattered set of data
-    points.  However, in the older integral equations literature there
-    is a more accurate method called the pre-corrected FFT approach
-    that combines something like SKI with a sparse correction matrix.
-    In this project, we would implement the pre-corrected FFT method
-    and compare it to SKI for data problems.  If time permits, we
-    might try an extension to higher-dimensional spaces that I have
-    been thinking about!
-
-    You should ideally have a course in numerical computing (a machine
-    learning course is probably fine) and some mathematical maturity
-    to take on this project.
 -
   title: Evans Functions and Nonlinear Eigenvalue Problems
   tags: [physics, eigen]
@@ -77,10 +195,52 @@
     You should have a course in differential equations and a course
     in linear algebra to tackle this project, and ideally a course in
     analysis and a course in numerics.
+#
+#
+### --- Older stuff ---
+#
+#
+-
+  title: Preconditioning Radial Basis Functions with Clustered Centers
+  tags: [rbf]
+  blurb: |
+    Radial basis function interpolation is a standard method of
+    interpolating data in more than one space dimension.  It has many
+    attractive features, but the problem can become unstable when posed
+    in the normal basis, particularly for very smooth basis functions
+    or when the basis function centers are clustered.  Recently-developed
+    methods address the former case, but the latter is more of a concern
+    when RBF interpolants are used for optimization, as is the case in
+    some of my projects.  I have an idea for a formally equivalent method
+    that gets around this stability issue by a preconditioning strategy,
+    and would like help implementing it.
+
+    You should have a course in numerical computing and some
+    mathematical maturity to take on this project.
+-
+  title: Pre-corrected FFT Kernel Evaluations
+  tags: [rbf, tools]
+  blurb: |
+    In low-dimensional spaces, matrix-vector multiplications can be
+    efficiently carried out with the aid of a grid of inducing points
+    and some fast Fourier transforms.  In the Gaussian process
+    literature, the structured kernel interpolation approach (SKI)
+    uses a simple interpolation mapping to go back and forth between a
+    regular grid of inducing points and a scattered set of data
+    points.  However, in the older integral equations literature there
+    is a more accurate method called the pre-corrected FFT approach
+    that combines something like SKI with a sparse correction matrix.
+    In this project, we would implement the pre-corrected FFT method
+    and compare it to SKI for data problems.  If time permits, we
+    might try an extension to higher-dimensional spaces that I have
+    been thinking about!
+
+    You should ideally have a course in numerical computing (a machine
+    learning course is probably fine) and some mathematical maturity
+    to take on this project.
 -
   title: Mesh-free Solvers for Anisotropic Diffusion
   tags: [phyics, tools]
-  display: true
   blurb: |
     Transport of charged particles that constitute a plasma is
     sometimes modeled using a simple diffusion equation (a
@@ -98,7 +258,6 @@
 -
   title: Julia Metaprogramming for Small Sparse Matrix Operations
   tags: [tools]
-  display: true
   blurb: |
     I have worked on several little tools for optimizing the
     evaluation of matrix expressions using a simple MATLAB-like
@@ -117,11 +276,6 @@
     To work on this project, you should have some knowledge of
     compilers or of metaprogramming (in Julia or in a Lisp-family
     language) and some familiarity with linear algebra.
-#
-#
-### --- Older stuff ---
-#
-#
 -
   title: JuliaFEM
   tags: [physics, tools]
