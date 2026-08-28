@@ -80,6 +80,7 @@
 -
   title: Three.js and Stellarators
   tags: [tools, physics, stellarators]
+  display: true
   blurb: |
     A *stellarator* is a class of magnetic confinement systems for
     plasmas (particularly, though not exclusively, for fusion-relevant
@@ -95,6 +96,7 @@
 -
   title: Divertor Leg Optimization
   tags: [numerics, optimization, physics, stellarators]
+  display: true
   blurb: |
     Charged exhaust particles in fusion devices are guided out of the
     plasma by a structure called a *divertor*.  This can be modeled
@@ -110,6 +112,7 @@
 -
   title: Adjoints and Roundoff Sensitivity
   tags: [numerics, tools]
+  display: true
   blurb: |
     The idea of reverse-mode differentiation (aka backward mode or
     adjoint mode) has been re-invented many times.  However, one of
@@ -149,8 +152,8 @@
     matrix multiplications so as to minimize the overall cost.  But in
     many interesting matrix computations, there is not a simple chain
     of multiplications, but a graph of multiplications for multiple
-    outputs with shhared intermediates.  I believe that this can be
-    tackled with equality saturation graphs; I would like to try this
+    outputs with shared intermediates.  I believe that this can be
+    tackled with equality saturation; I would like to try this
     out, and ideally embed it in a small language.
 
     This project requires some understanding of algorithms, and
