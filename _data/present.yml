@@ -1452,3 +1452,9 @@
   where: FPTalks Online Meeting
   tags: [fp]
   type: [workshop, external, invited]
+-
+  file: 2026-09-princeton/princeton-sep26.pdf
+  title: Learning Magnetic Field Structure from Trajectories
+  where: Princeton PACM Colloquium
+  tags: [stellarator]
+  type: [colloquium, external, invited]
